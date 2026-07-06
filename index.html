@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberQuest - Simulatore Cyber Security</title>
+    <!-- Google Fonts: Nunito (body) & Quicksand (headings) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Quicksand:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for modern icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <!-- App Container -->
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="app-sidebar">
+            <div class="sidebar-brand">
+                <div class="brand-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <div class="brand-text">
+                    <h1>CyberQuest</h1>
+                    <span>Simulator</span>
+                </div>
+            </div>
+            
+            <nav class="sidebar-menu">
+                <a href="#" class="menu-item active" data-target="dashboard">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="#" class="menu-item" data-target="study">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span>Modalità Studio</span>
+                </a>
+                <a href="#" class="menu-item" data-target="exam">
+                    <i class="fa-solid fa-file-signature"></i>
+                    <span>Simulazione Esame</span>
+                </a>
+                <a href="#" class="menu-item" data-target="archive">
+                    <i class="fa-solid fa-box-archive"></i>
+                    <span>Archivio Domande</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="exam-info">
+                    <p>Corso: <strong>Cyber Security</strong></p>
+                    <span>Appello: 4 Luglio 2025</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="app-main">
+            <!-- Top Navbar -->
+            <header class="app-header">
+                <div class="header-title">
+                    <h2 id="section-title">Dashboard Statistiche</h2>
+                    <p id="section-subtitle">Panoramica dei tuoi progressi e dello stato di studio.</p>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-secondary" id="reset-progress-btn">
+                        <i class="fa-solid fa-rotate-left"></i> Reset Progressi
+                    </button>
+                </div>
+            </header>
+
+            <!-- Dashboard Section -->
+            <section id="dashboard" class="content-section active">
+                <!-- Stats Overview Grid -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon icon-blue">
+                            <i class="fa-solid fa-book"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-label">Domande Totali</span>
+                            <h3 class="stat-value" id="total-questions-val">487</h3>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon icon-orange">
+                            <i class="fa-solid fa-hourglass-half"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-label">Da Studiare</span>
+                            <h3 class="stat-value" id="not-started-val">487</h3>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon icon-yellow">
+                            <i class="fa-solid fa-spinner"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-label">In Corso</span>
+                            <h3 class="stat-value" id="in-progress-val">0</h3>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon icon-green">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-label">Padroneggiate</span>
+                            <h3 class="stat-value" id="mastered-val">0</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Dashboard Panels -->
+                <div class="dashboard-panels">
+                    <!-- Progress by Categories -->
+                    <div class="panel-card categories-panel">
+                        <div class="panel-header">
+                            <h3>Avanzamento per Categoria</h3>
+                            <span class="badge" id="overall-progress-badge">0% Completato</span>
+                        </div>
+                        <div class="panel-body">
+                            <div class="category-progress-list">
+                                <!-- Categories dynamically loaded -->
+                                <div class="cat-progress-item">
+                                    <div class="cat-progress-header">
+                                        <span class="cat-title">Reti, Internet e Cyber Security (M1)</span>
+                                        <span class="cat-percentage" id="cat-pct-m1">0%</span>
+                                    </div>
+                                    <div class="progress-bar-wrapper">
+                                        <div class="progress-bar-fill fill-m1" style="width: 0%"></div>
+                                    </div>
+                                    <span class="cat-count" id="cat-count-m1">0 / 171 domande</span>
+                                </div>
+                                <div class="cat-progress-item">
+                                    <div class="cat-progress-header">
+                                        <span class="cat-title">Organizzazione e Gestione Aziendale (M2)</span>
+                                        <span class="cat-percentage" id="cat-pct-m2">0%</span>
+                                    </div>
+                                    <div class="progress-bar-wrapper">
+                                        <div class="progress-bar-fill fill-m2" style="width: 0%"></div>
+                                    </div>
+                                    <span class="cat-count" id="cat-count-m2">0 / 58 domande</span>
+                                </div>
+                                <div class="cat-progress-item">
+                                    <div class="cat-progress-header">
+                                        <span class="cat-title">Crittografia e Sicurezza dei Dati (M3)</span>
+                                        <span class="cat-percentage" id="cat-pct-m3">0%</span>
+                                    </div>
+                                    <div class="progress-bar-wrapper">
+                                        <div class="progress-bar-fill fill-m3" style="width: 0%"></div>
+                                    </div>
+                                    <span class="cat-count" id="cat-count-m3">0 / 193 domande</span>
+                                </div>
+                                <div class="cat-progress-item">
+                                    <div class="cat-progress-header">
+                                        <span class="cat-title">Risk Management, Legal & Compliance (M4)</span>
+                                        <span class="cat-percentage" id="cat-pct-m4">0%</span>
+                                    </div>
+                                    <div class="progress-bar-wrapper">
+                                        <div class="progress-bar-fill fill-m4" style="width: 0%"></div>
+                                    </div>
+                                    <span class="cat-count" id="cat-count-m4">0 / 65 domande</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Exam Statistics -->
+                    <div class="panel-card exam-stats-panel">
+                        <div class="panel-header">
+                            <h3>Statistiche Simulazioni Esame</h3>
+                        </div>
+                        <div class="panel-body flex-center">
+                            <div class="exam-stats-content">
+                                <div class="circular-progress-container">
+                                    <svg viewBox="0 0 100 100" class="circular-progress">
+                                        <circle cx="50" cy="50" r="45" class="bg-circle"></circle>
+                                        <circle cx="50" cy="50" r="45" class="fg-circle" id="exam-avg-circle" style="stroke-dashoffset: 283;"></circle>
+                                    </svg>
+                                    <div class="progress-text-container">
+                                        <span id="exam-avg-val">-</span>
+                                        <span>Media Voto</span>
+                                    </div>
+                                </div>
+                                <div class="exam-stats-info">
+                                    <div class="info-row">
+                                        <span>Esami Simulati:</span>
+                                        <strong id="exams-taken-val">0</strong>
+                                    </div>
+                                    <div class="info-row">
+                                        <span>Ultimo Esito:</span>
+                                        <strong id="last-exam-result">-</strong>
+                                    </div>
+                                    <div class="info-row">
+                                        <span>Percentuale Successo:</span>
+                                        <strong id="exam-success-rate">0%</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Start practice -->
+                <div class="quick-start-panel">
+                    <h3>Pronto per iniziare?</h3>
+                    <p>Scegli una modalità e comincia a preparare il tuo esame di Cyber Security.</p>
+                    <div class="quick-start-buttons">
+                        <button class="btn btn-primary" onclick="app.navTo('study')">
+                            <i class="fa-solid fa-graduation-cap"></i> Esercitati Ora
+                        </button>
+                        <button class="btn btn-secondary-outline" onclick="app.navTo('exam')">
+                            <i class="fa-solid fa-file-signature"></i> Simula Esame completo
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Study Section -->
+            <section id="study" class="content-section">
+                <div class="study-setup" id="study-setup-view">
+                    <div class="setup-card">
+                        <h3>Configura la sessione di Studio</h3>
+                        <p>Seleziona una categoria o studia tutte le domande in modalità casuale.</p>
+                        
+                        <div class="form-group">
+                            <label for="study-category-select">Seleziona Categoria:</label>
+                            <select id="study-category-select" class="form-control">
+                                <option value="all">Tutte le Categorie (487 domande)</option>
+                                <option value="m1">Reti, Internet e Cyber Security (M1)</option>
+                                <option value="m2">Organizzazione e Gestione Aziendale (M2)</option>
+                                <option value="m3">Crittografia e Sicurezza dei Dati (M3)</option>
+                                <option value="m4">Risk Management, Legal & Compliance (M4)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Filtra per stato di studio:</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="filter-not-started" checked>
+                                    <span class="checkmark"></span>
+                                    Nuove domande
+                                </label>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="filter-in-progress" checked>
+                                    <span class="checkmark"></span>
+                                    In corso / Da rivedere
+                                </label>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="filter-mastered">
+                                    <span class="checkmark"></span>
+                                    Già padroneggiate
+                                </label>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary btn-block" id="start-study-btn">
+                            <i class="fa-solid fa-play"></i> Inizia Studio
+                        </button>
+                    </div>
+                </div>
+
+                <div class="study-active hidden" id="study-active-view">
+                    <!-- Practice Card -->
+                    <div class="practice-card">
+                        <div class="card-header">
+                            <span class="category-badge badge-m1" id="study-cat-badge">Reti (M1)</span>
+                            <span class="question-code" id="study-q-code">M1.1.2.11</span>
+                            <span class="progress-indicator" id="study-progress-idx">Domanda 1 di 150</span>
+                        </div>
+                        
+                        <div class="card-body">
+                            <h3 class="question-title" id="study-q-title">Le reti telefoniche cellulari:</h3>
+                            
+                            <div class="options-list" id="study-options-container">
+                                <!-- Options will be loaded dynamically here -->
+                            </div>
+                        </div>
+
+                        <div class="card-footer">
+                            <button class="btn btn-secondary-outline" id="study-prev-btn">
+                                <i class="fa-solid fa-chevron-left"></i> Precedente
+                            </button>
+                            <button class="btn btn-primary" id="study-verify-btn">
+                                <i class="fa-solid fa-circle-check"></i> Verifica Risposte
+                            </button>
+                            <button class="btn btn-secondary" id="study-next-btn">
+                                Successiva <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Spaced Repetition Self Assessment -->
+                    <div class="self-assessment-box hidden" id="study-rating-container">
+                        <h4>Come valuti questa domanda?</h4>
+                        <p>Questo determinerà la frequenza con cui ti verrà riproposta.</p>
+                        <div class="rating-buttons">
+                            <button class="btn btn-danger" data-rate="hard">
+                                <i class="fa-solid fa-triangle-exclamation"></i> Rivedi (Difficile)
+                            </button>
+                            <button class="btn btn-warning" data-rate="medium">
+                                <i class="fa-solid fa-spinner"></i> Capito (Medio)
+                            </button>
+                            <button class="btn btn-success" data-rate="easy">
+                                <i class="fa-solid fa-face-laugh-beam"></i> Memorizzato (Facile)
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Exam Section -->
+            <section id="exam" class="content-section">
+                <!-- Exam Setup -->
+                <div class="exam-setup" id="exam-setup-view">
+                    <div class="setup-card">
+                        <h3>Simulazione Esame di Stato</h3>
+                        <p>L'esame consiste in una serie di domande a risposta vero/falso estratte dal database ufficiale. Le penalità riflettono le condizioni degli esami universitari reali.</p>
+                        
+                        <div class="form-group">
+                            <label for="exam-q-count">Numero di domande:</label>
+                            <select id="exam-q-count" class="form-control">
+                                <option value="10">Mini-Test (10 Domande)</option>
+                                <option value="20">Test Standard (20 Domande)</option>
+                                <option value="30" selected>Esame Completo (30 Domande)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exam-penalty-select">Politica Punteggio & Penalità:</label>
+                            <select id="exam-penalty-select" class="form-control">
+                                <option value="standard" selected>Standard (+1.0 Corretto, -0.5 Errato, 0.0 Bianco)</option>
+                                <option value="light">+1.0 Corretto, -0.25 Errato, 0.0 Bianco</option>
+                                <option value="nopenalty">+1.0 Corretto, 0.0 Errato, 0.0 Bianco</option>
+                                <option value="allornothing">All-or-Nothing (Intera domanda corretta = 1pt, altrimenti 0pt)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Seleziona moduli da includere:</label>
+                            <div class="checkbox-group grid-2">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="exam-inc-m1" checked>
+                                    <span class="checkmark"></span>
+                                    Modulo M1 (Reti)
+                                </label>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="exam-inc-m2" checked>
+                                    <span class="checkmark"></span>
+                                    Modulo M2 (Gestione)
+                                </label>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="exam-inc-m3" checked>
+                                    <span class="checkmark"></span>
+                                    Modulo M3 (Crittografia)
+                                </label>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="exam-inc-m4" checked>
+                                    <span class="checkmark"></span>
+                                    Modulo M4 (Risk & Laws)
+                                </label>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary btn-block" id="start-exam-btn">
+                            <i class="fa-solid fa-graduation-cap"></i> Avvia Simulazione d'Esame
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Exam Active -->
+                <div class="exam-active hidden" id="exam-active-view">
+                    <div class="exam-layout">
+                        <!-- Left Panel: Sidebar Grid Navigation -->
+                        <div class="exam-nav-sidebar">
+                            <div class="timer-card">
+                                <div class="timer-icon">
+                                    <i class="fa-regular fa-clock"></i>
+                                </div>
+                                <div class="timer-text">
+                                    <span class="timer-label">Tempo Rimanente</span>
+                                    <h4 class="timer-countdown" id="exam-timer-val">45:00</h4>
+                                </div>
+                            </div>
+                            
+                            <div class="nav-grid-card">
+                                <h4>Navigazione</h4>
+                                <div class="nav-grid" id="exam-nav-grid">
+                                    <!-- Buttons dynamically loaded -->
+                                </div>
+                                <div class="nav-legend">
+                                    <span class="legend-item"><span class="legend-dot dot-unanswered"></span> Da Rispondere</span>
+                                    <span class="legend-item"><span class="legend-dot dot-answered"></span> Risposta</span>
+                                    <span class="legend-item"><span class="legend-dot dot-current"></span> Corrente</span>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-danger btn-block" id="exam-submit-early-btn">
+                                <i class="fa-solid fa-upload"></i> Consegna Esame
+                            </button>
+                        </div>
+
+                        <!-- Right Panel: Current Question -->
+                        <div class="exam-question-area">
+                            <div class="practice-card">
+                                <div class="card-header">
+                                    <span class="category-badge badge-m2" id="exam-q-cat-badge">Gestione (M2)</span>
+                                    <span class="question-code" id="exam-q-code">M2.2.1.10</span>
+                                    <span class="progress-indicator" id="exam-progress-idx">Domanda 1 di 30</span>
+                                </div>
+                                
+                                <div class="card-body">
+                                    <h3 class="question-title" id="exam-q-title">Caricamento domanda...</h3>
+                                    
+                                    <div class="options-list" id="exam-options-container">
+                                        <!-- Options with user selected V / F checkboxes or buttons -->
+                                    </div>
+                                </div>
+
+                                <div class="card-footer">
+                                    <button class="btn btn-secondary-outline" id="exam-prev-btn">
+                                        <i class="fa-solid fa-chevron-left"></i> Precedente
+                                    </button>
+                                    <button class="btn btn-secondary" id="exam-next-btn">
+                                        Successiva <i class="fa-solid fa-chevron-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Exam Results / Review -->
+                <div class="exam-results hidden" id="exam-results-view">
+                    <div class="results-header-card">
+                        <div class="grade-badge" id="exam-grade-badge">30L</div>
+                        <div class="grade-info">
+                            <h2 id="exam-results-title">Congratulazioni, Esame Superato!</h2>
+                            <p id="exam-results-summary">Hai totalizzato 28.5 punti rispondendo correttamente al 92% delle domande.</p>
+                        </div>
+                    </div>
+
+                    <div class="results-details-grid">
+                        <div class="detail-card">
+                            <span class="detail-label">Punteggio Totale</span>
+                            <span class="detail-value" id="res-score-val">28.5 / 30</span>
+                        </div>
+                        <div class="detail-card">
+                            <span class="detail-label">Opzioni Corrette</span>
+                            <span class="detail-value" id="res-correct-options-val">145</span>
+                        </div>
+                        <div class="detail-card">
+                            <span class="detail-label">Opzioni Errate</span>
+                            <span class="detail-value" id="res-wrong-options-val">5</span>
+                        </div>
+                        <div class="detail-card">
+                            <span class="detail-label">Opzioni Lasciate In Bianco</span>
+                            <span class="detail-value" id="res-blank-options-val">0</span>
+                        </div>
+                    </div>
+
+                    <div class="results-actions">
+                        <button class="btn btn-primary" id="exam-back-setup-btn">
+                            <i class="fa-solid fa-rotate-left"></i> Nuova Simulazione
+                        </button>
+                        <button class="btn btn-secondary" id="exam-review-toggle-btn">
+                            <i class="fa-solid fa-magnifying-glass"></i> Revisiona Risposte Errate
+                        </button>
+                    </div>
+
+                    <!-- Exam Review List (Hidden until clicked) -->
+                    <div class="exam-review-container hidden" id="exam-review-container">
+                        <h3>Revisione Dettagliata Risposte</h3>
+                        <div class="review-list" id="exam-review-list">
+                            <!-- Review items dynamically loaded here -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Archive Section -->
+            <section id="archive" class="content-section">
+                <!-- Search and Filters bar -->
+                <div class="archive-filters-bar">
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input type="text" id="archive-search-input" placeholder="Cerca parole chiave, codici o domande...">
+                    </div>
+                    
+                    <div class="filter-controls">
+                        <select id="archive-cat-select" class="form-control">
+                            <option value="all">Tutte le Categorie</option>
+                            <option value="m1">Reti (M1)</option>
+                            <option value="m2">Gestione (M2)</option>
+                            <option value="m3">Crittografia (M3)</option>
+                            <option value="m4">Risk & Law (M4)</option>
+                        </select>
+
+                        <select id="archive-status-select" class="form-control">
+                            <option value="all">Tutti gli stati</option>
+                            <option value="notstarted">Non studiate</option>
+                            <option value="inprogress">In corso</option>
+                            <option value="mastered">Padroneggiate</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Archive Stats Bar -->
+                <div class="archive-stats-bar">
+                    <span id="archive-results-count">Trovate 487 domande</span>
+                </div>
+
+                <!-- Archive List -->
+                <div class="archive-list" id="archive-list-container">
+                    <!-- Questions will be dynamically loaded as accordion items -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Confirmation Modal for Submitting Exam -->
+    <div class="modal-overlay hidden" id="confirm-submit-modal">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3>Conferma Consegna Esame</h3>
+            </div>
+            <div class="modal-body">
+                <p>Sei sicuro di voler consegnare l'esame? Non potrai più modificare le tue risposte.</p>
+                <div class="modal-info-box" id="unanswered-count-box">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <span>Hai ancora <strong>0</strong> risposte in sospeso.</span>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary-outline" id="modal-cancel-btn">Annulla</button>
+                <button class="btn btn-primary" id="modal-confirm-btn">Consegna</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Questions JS -->
+    <script src="questions.js"></script>
+    <!-- App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
