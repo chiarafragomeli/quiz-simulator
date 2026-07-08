@@ -748,7 +748,6 @@ class CyberQuestApp {
             });
             
             // Points math depending on penalty
-            let optCount = q.options.length;
             if (this.exam.penalty === 'allornothing') {
                 totalMaxPoints += 1.0;
                 if (questionCorrectOpts === optCount) {
