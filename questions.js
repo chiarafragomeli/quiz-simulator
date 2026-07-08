@@ -1,7 +1,6 @@
 // Cyber Security Exam Simulator - Database
 const QUIZ_QUESTIONS = [
   {
-    "id": 1,
     "code": "M1.1.2.11",
     "question": "Le reti telefoniche cellulari:",
     "options": [
@@ -30,10 +29,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 1
   },
   {
-    "id": 2,
     "code": "M1.1.2.6",
     "question": "Quali sono le ragioni che hanno decretato il successo della fibra ottica?",
     "options": [
@@ -62,10 +61,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 2
   },
   {
-    "id": 3,
     "code": "M1.1.2.7",
     "question": "Perché si utilizza la fibra ottica anche su breve distanza e con poca banda?",
     "options": [
@@ -94,10 +93,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 3
   },
   {
-    "id": 4,
     "code": "M1.1.3.7",
     "question": "Il Longest Prefix Matching",
     "options": [
@@ -126,10 +125,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 4
   },
   {
-    "id": 5,
     "code": "M1.1.4.6",
     "question": "Il World Wide Web (WWW)",
     "options": [
@@ -158,10 +157,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 5
   },
   {
-    "id": 6,
     "code": "M1.1.5.3",
     "question": "“Morris Worm”",
     "options": [
@@ -190,10 +189,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 6
   },
   {
-    "id": 7,
     "code": "M1.2.4.12",
     "question": "Una vittima di Pretexting",
     "options": [
@@ -222,10 +221,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 7
   },
   {
-    "id": 8,
     "code": "M1.3.1.3",
     "question": "Il livello 2 del Modello ISO/OSI",
     "options": [
@@ -254,10 +253,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 8
   },
   {
-    "id": 9,
     "code": "M1.3.2_2.11",
     "question": "La subnet 128.22.15.134/17:",
     "options": [
@@ -286,10 +285,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 9
   },
   {
-    "id": 10,
     "code": "M1.3.2_2.1",
     "question": "I modelli di comunicazione su rete Ethernet possono essere:",
     "options": [
@@ -318,10 +317,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 10
   },
   {
-    "id": 11,
     "code": "M1.3.2_2.12",
     "question": "La subnet 145.13.24.64/15:",
     "options": [
@@ -330,7 +329,7 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Ha come  indirizzo di broadcast 145.13.255.255",
+        "option_text": "Ha come indirizzo di broadcast 145.13.255.255",
         "answer": true
       },
       {
@@ -350,66 +349,42 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 11
   },
   {
-    "id": 12,
     "code": "M1.3.3.7.1",
-    "question": "Il Gateway",
+    "question": "Il Gateway:",
     "options": [
       {
-        "option_text": "1. È un dispositivo hardware che funge da raccordo tra due reti, solitamente una rete remota e quella che la ospita 2. È un convertitore di protocolli di rete, capace di unire due reti in modo che i dispositivi presenti su un dato network possano",
+        "option_text": "È un dispositivo hardware che funge da raccordo tra due reti, solitamente una rete remota e quella che la ospita",
         "answer": true
       },
       {
-        "option_text": "comunicare con quelli presenti in un altro",
+        "option_text": "È un convertitore di protocolli di rete, capace di unire due reti in modo che i dispositivi presenti su un dato network possano comunicare con quelli presenti in un altro",
         "answer": true
       },
       {
-        "option_text": "3. Può essere realizzato da: Un router, un server, un firewall, ecc.",
+        "option_text": "Può essere realizzato da: Un router, un server, un firewall, ecc.",
         "answer": true
       },
       {
-        "option_text": "4. Di solito non converte mai protocolli di rete",
+        "option_text": "Di solito non converte mai protocolli di rete",
         "answer": false
       },
       {
-        "option_text": "5. Può realizzare la funzionalità NAT (Network Address Translation) 6. Differentemente dal router ha il compito di gestire un traffico simile e connettere dispositivi che condividono un’interfaccia",
+        "option_text": "Può realizzare la funzionalità NAT (Network Address Translation)",
         "answer": true
       },
       {
-        "option_text": "comune 15- (M1.3.4.6.1*) Quanti sono i rami di una topologia di rete a Maglia Completa?",
+        "option_text": "Differentemente dal router ha il compito di gestire un traffico simile e connettere dispositivi che condividono un’interfaccia comune",
         "answer": false
-      },
-      {
-        "option_text": "1. (N-1)/2",
-        "answer": false
-      },
-      {
-        "option_text": "2. N*(N-1)/2",
-        "answer": true
-      },
-      {
-        "option_text": "3. (N-1)2",
-        "answer": false
-      },
-      {
-        "option_text": "4. N-1",
-        "answer": false
-      },
-      {
-        "option_text": "5. (N-1)!",
-        "answer": false
-      },
-      {
-        "option_text": "6. N/2*(N-1)",
-        "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 12
   },
   {
-    "id": 13,
     "code": "M1.3.4.10",
     "question": "Che differenze esistono tra architetture logiche di rete peer to peer e client server?",
     "options": [
@@ -438,10 +413,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 13
   },
   {
-    "id": 14,
     "code": "M1.3.4.11",
     "question": "La Tipologia di Rete",
     "options": [
@@ -470,10 +445,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 14
   },
   {
-    "id": 15,
     "code": "M2.1.2.11",
     "question": "La Società S.a.S.",
     "options": [
@@ -502,10 +477,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 15
   },
   {
-    "id": 16,
     "code": "M2.1.2.3",
     "question": "Il Soggetto Economico",
     "options": [
@@ -534,10 +509,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 16
   },
   {
-    "id": 17,
     "code": "M2.1.3.2",
     "question": "Le aziende industriali",
     "options": [
@@ -566,10 +541,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 17
   },
   {
-    "id": 18,
     "code": "M2.2.1.10",
     "question": "Una linea di assemblaggio produce 1.000 pezzi ora per 8h al giorno, 5 giorni a settimana, ogni pezzo vale 100€.",
     "options": [
@@ -598,10 +573,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 18
   },
   {
-    "id": 19,
     "code": "M2.3.2.1",
     "question": "Un Processo Aziendale",
     "options": [
@@ -630,10 +605,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 19
   },
   {
-    "id": 20,
     "code": "M2.3.2.7",
     "question": "L'organigramma in un'organizzazione",
     "options": [
@@ -662,10 +637,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 20
   },
   {
-    "id": 21,
     "code": "M3.1.1.3",
     "question": "Quali delle segueti fasi possono costituire l’Incident Response Plan (Piano di risposta agli incidenti):",
     "options": [
@@ -694,10 +669,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 21
   },
   {
-    "id": 22,
     "code": "M3.1.3.6",
     "question": "I Sistemi di Gestione Standardizzati",
     "options": [
@@ -726,10 +701,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 22
   },
   {
-    "id": 23,
     "code": "M3.2.1.19",
     "question": "I requisiti di un ISMS secondo ISO/IEC 27001",
     "options": [
@@ -742,8 +717,8 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Sono indipendenti dai controlli (ovvero le contromisure) presenti nell'Allegato A dello stesso documento",
-        "answer": false
+        "option_text": "Sono indipendenti dai controlli (ov",
+        "answer": true
       },
       {
         "option_text": "Sono necessari per certificare la conformità di un sistema informativo a questo standard",
@@ -758,13 +733,17 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 23
   },
   {
-    "id": 24,
     "code": "M3.2.1_2.11",
-    "question": "Il controllo ISO/IEC 27001: 2022 \"Information security during disruption\" ovvero che l'organizzazione deve mantenere la sicurezza delle informazioni a un livello appropriato durante un'interruzione",
+    "question": "",
     "options": [
+      {
+        "option_text": "Il controllo ISO/IEC 27001: 2022 \"Information security during disruption\" ov",
+        "answer": true
+      },
       {
         "option_text": "E' un controllo solo Preventivo",
         "answer": false
@@ -790,10 +769,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 24
   },
   {
-    "id": 25,
     "code": "M3.2.1_2.19",
     "question": "Il controllo ISO/IEC 27001: 2022 \"Remote working\" per l'implementazione di misure di sicurezza quando si lavora da remoto",
     "options": [
@@ -810,7 +789,7 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "È un  requisito Preventivo e Investigativo",
+        "option_text": "È un requisito Preventivo e Investigativo",
         "answer": false
       },
       {
@@ -822,10 +801,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 25
   },
   {
-    "id": 26,
     "code": "M3.2.6.12",
     "question": "Lo SCADA",
     "options": [
@@ -854,10 +833,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 26
   },
   {
-    "id": 27,
     "code": "M3.2.6.16",
     "question": "Il DCS (Distributed Control System)",
     "options": [
@@ -886,10 +865,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 27
   },
   {
-    "id": 28,
     "code": "M3.3.1.5",
     "question": "Perché è importante il Regolamento GDPR per l'Information Technology?",
     "options": [
@@ -918,10 +897,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 28
   },
   {
-    "id": 29,
     "code": "M3.3.5.9",
     "question": "Quale delle seguenti normative europee ha, tra gli obiettivi primari, la business continuity delle organizzazioni",
     "options": [
@@ -950,10 +929,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 29
   },
   {
-    "id": 30,
     "code": "M3.4.5.6",
     "question": "Quali sono le funzioni di un SIEM (Security Information and Event Management)?",
     "options": [
@@ -978,14 +957,14 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Definire il percorso più sicuro per la comunicazione tra due nodi in rete Esercizio 1 Attraverso il canale di trasmissione criptato con cifratura a traslazione 4 (A=E) che utilizza codifica binaria a 5 bit (00000=A), con alfabeto inglese, viene trasmessa la parola \"HELLO\". Per una distorsione il canale di comunicazione introduce un errore di trasmissione ad ogni bit meno significativo (LSB) di ciascuna lettera trasmessa. Avendo X(t) = H E L L O Definire: X'(t) =  L I P P S X2(t) =  01011 01000 01111 01111 10010 Y2(t) = 01010 01001 01110 01110 10011 Y'(t) = K J O O T Y(t) = O N S S X Nel tentativo di migliorare la rilevazione dell'errore si inerisce prima della trasmissione un bit di parità pari, indicare quale dei messaggi è quello corretto sia per la cifratura che per il bit di parità: X2e(t) = 01011 01000 01111 01111 10010 0  Esercizio 2 Attraverso il Router in figura è necessario partizionare la rete 160.201.126.0 in 4 sottoreti così costituite: •        Sottorete A: 125 Host •        Sottorete B: 61 Host •        Sottorete C: 12 Host •        Sottorete D: 12 Host Compilare la tabella seguente con tutti i dati richiesti:",
+        "option_text": "Definire il percorso più sicuro per la comunicazione tra due nodi in rete",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 30
   },
   {
-    "id": 31,
     "code": "M1.1.2.5",
     "question": "Quali dei seguenti elementi costituiscono un cavo in fibra ottica?",
     "options": [
@@ -1014,10 +993,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 31
   },
   {
-    "id": 32,
     "code": "M1.1.7.2",
     "question": "Quali dei seguenti sono crimini informatici o cyber crimini secondo l’ordinamento italiano",
     "options": [
@@ -1046,10 +1025,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 32
   },
   {
-    "id": 33,
     "code": "M1.2.4.3.2",
     "question": "Il Furto di Identità Digitale È punito dal Codice Penale Italiano come “Sostituzione della propria all'altrui persona” e “Frode",
     "options": [
@@ -1078,10 +1057,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 33
   },
   {
-    "id": 34,
     "code": "M1.3.1.7",
     "question": "Il livello 6 del Modello ISO/OSI",
     "options": [
@@ -1110,20 +1089,16 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 34
   },
   {
-    "id": 35,
     "code": "M1.3.1.16",
     "question": "La comunicazione logica tra due Host nello stack ISO/OSI",
     "options": [
       {
-        "option_text": "Può avvenire tra livelli ISO/OSI differenti di mittente e destinatario",
+        "option_text": "Può avvenire tra livelli ISO/OSI differenti di mittente e destinatario Avviene tra livelli omologhi dello stack ad eccezione del livello",
         "answer": false
-      },
-      {
-        "option_text": "Avviene tra livelli omologhi dello stack ad eccezione del livello 1.",
-        "answer": true
       },
       {
         "option_text": "Utilizza sempre fisicamente il livello 1",
@@ -1134,14 +1109,14 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Si realizza mediante l'interazione di ciascun livello solamente con i livelli superiori dello stack Semplifica la comunicazione tra due Host VEROAppello Aspetti Organizzativi e Gestionali della CS - 5 Settembre 2025",
+        "option_text": "Si realizza mediante l'interazione di ciascun livello solamente con i livelli superiori dello stack",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 35
   },
   {
-    "id": 36,
     "code": "M1.3.1.15",
     "question": "Il Protocollo TCP/IP",
     "options": [
@@ -1170,10 +1145,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 36
   },
   {
-    "id": 37,
     "code": "M1.3.2.9",
     "question": "Nella comunicazione con il protocollo Ethernet in caso di avvenuta collisione:",
     "options": [
@@ -1202,10 +1177,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 37
   },
   {
-    "id": 38,
     "code": "M1.3.2_2.14",
     "question": "La subnet 132.234.110.173/12:",
     "options": [
@@ -1214,7 +1189,7 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "Ha come  indirizzo di broadcast 132.239.255.255",
+        "option_text": "Ha come indirizzo di broadcast 132.239.255.255",
         "answer": true
       },
       {
@@ -1234,42 +1209,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 38
   },
   {
-    "id": 39,
-    "code": "M1.3.4.6.1",
-    "question": "Quanti sono i rami di una topologia di rete a Maglia Completa?",
-    "options": [
-      {
-        "option_text": "(N-1)/2",
-        "answer": false
-      },
-      {
-        "option_text": "N*(N-1)/2",
-        "answer": true
-      },
-      {
-        "option_text": "(N-1)2",
-        "answer": false
-      },
-      {
-        "option_text": "N-1",
-        "answer": false
-      },
-      {
-        "option_text": "N/2*(N-1)",
-        "answer": true
-      },
-      {
-        "option_text": "(N-1)!",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 40,
     "code": "M2.1.2.4",
     "question": "Le aziende di produzione",
     "options": [
@@ -1298,10 +1241,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 39
   },
   {
-    "id": 41,
     "code": "M3.1.1.2",
     "question": "L’Incident Response Plan (Piano di risposta agli incidenti)",
     "options": [
@@ -1330,10 +1273,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 40
   },
   {
-    "id": 42,
     "code": "M3.1.1.4",
     "question": "Quali dei seguenti sono Processi di Cyber Security",
     "options": [
@@ -1362,10 +1305,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 41
   },
   {
-    "id": 43,
     "code": "M3.2.1_1.4",
     "question": "L'area tematica dei requisiti ISO/IEC 27001 \"Supporto\" definisce che: L'organizzazione abbia le persone, le competenze, le infrastrutture e l'ambiente di lavoro necessari",
     "options": [
@@ -1394,16 +1337,16 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 42
   },
   {
-    "id": 44,
     "code": "M3.2.3.11",
     "question": "I Riferimenti Informativi nel Framework Core del NIST CSF",
     "options": [
       {
-        "option_text": "Sono esaustivi, ovvero rappresentano regole precise da applicare. Sono collegamenti a fonti esterne che forniscono ulteriori dettagli e orientamenti su come",
-        "answer": false
+        "option_text": "Sono esaustivi, ov Sono collegamenti a fonti esterne che forniscono ulteriori dettagli e orientamenti su come",
+        "answer": true
       },
       {
         "option_text": "implementare le attività di sicurezza descritte nelle sottocategorie",
@@ -1426,10 +1369,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 43
   },
   {
-    "id": 45,
     "code": "M3.2.6.25",
     "question": "Zone e conduit secondo ISA/IEC 62443 Sono elementi chiave per la segmentazione della rete e la gestione della sicurezza negli ambienti di",
     "options": [
@@ -1458,10 +1401,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 44
   },
   {
-    "id": 46,
     "code": "M3.2.6.26",
     "question": "Per cosa differiscono i sistemi di controllo e automazione industriale (IACS) rispetto ai sistemi IT? I sistemi IACS mirano a controllare e automatizzare processi fisici, i sistemi IT, invece, si",
     "options": [
@@ -1490,19 +1433,23 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 45
   },
   {
-    "id": 47,
     "code": "M3.3.1.4",
     "question": "Il Diritto alla Privacy",
     "options": [
       {
-        "option_text": "Nasce negli Stati Uniti nel 1890 come «diritto a essere lasciato solo» (right to be let alone) Ovvero l'originario “Diritto all'essere lasciati soli” che significava libertà “nel fare quello che si vuole",
+        "option_text": "Nasce negli Stati Uniti nel 1890 come «diritto a essere lasciato solo» (right to be let alone)",
         "answer": true
       },
       {
-        "option_text": "con i propri affari privati   anche se coinvolgono gli altri\" Viene elaborato in Italia dagli anni ‘60-’70 (del 1900) come generico diritto alla libera",
+        "option_text": "Ov",
+        "answer": true
+      },
+      {
+        "option_text": "con i propri affari privati anche se coinvolgono gli altri\" Viene elaborato in Italia dagli anni ‘60-’70 (del 1900) come generico diritto alla libera",
         "answer": false
       },
       {
@@ -1522,19 +1469,19 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 46
   },
   {
-    "id": 48,
     "code": "M3.3.4.2",
-    "question": "Le fasi dell'Informatica Forense Nella fase Identificazione  si identificano i dati digitali rilevanti, operando sui dispositivi di",
+    "question": "Le fasi dell'Informatica Forense Nella fase Identificazione si identificano i dati digitali rilevanti, operando sui dispositivi di",
     "options": [
       {
         "option_text": "memorizzazione dei dati digitali Nella fase di Raccolta si acquisicono i sistemi che contengono i dati e si procede alla messa in",
         "answer": true
       },
       {
-        "option_text": "sicurezza dei supporti di memorizzazione. Nella fase di Acquisizione  si realizza una copia di tutti i dati, tramite appositi strumenti è possibile",
+        "option_text": "sicurezza dei supporti di memorizzazione. Nella fase di Acquisizione si realizza una copia di tutti i dati, tramite appositi strumenti è possibile",
         "answer": true
       },
       {
@@ -1542,11 +1489,11 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "valutando le strategie a sostegno di un’ipotesi accusatoria o di una strategia difensiva Nella fase di Elaborazione  si estraggono le informazioni dai dati \"grezzi\" come completamento",
+        "option_text": "valutando le strategie a sostegno di un’ipotesi accusatoria o di una strategia difensiva Nella fase di Elaborazione si estraggono le informazioni dai dati \"grezzi\" come completamento",
         "answer": true
       },
       {
-        "option_text": "della fase di analisi Nella fase di Presentazione  si produce una relazione tecnica per presentare ciò che è emerso nel",
+        "option_text": "della fase di analisi Nella fase di Presentazione si produce una relazione tecnica per presentare ciò che è emerso nel",
         "answer": false
       },
       {
@@ -1554,15 +1501,19 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 47
   },
   {
-    "id": 49,
     "code": "M3.3.6.10",
     "question": "Quali tipologie di Dati sono previsti dal Regolamento Europeo 2016/679 GDPR?",
     "options": [
       {
-        "option_text": "Dati personali, ovvero le informazioni relative a persona fisica identificata o identificabile Dati personali, ovvero le informazioni relative a persona fisica identificabile anche indirettamente",
+        "option_text": "Dati personali, ov",
+        "answer": true
+      },
+      {
+        "option_text": "Dati personali, ov",
         "answer": true
       },
       {
@@ -1586,10 +1537,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 48
   },
   {
-    "id": 50,
     "code": "M3.3.6.11",
     "question": "Le Figure di Riferimento per il trattamento dei dati, ai sensi del “Codice della Privacy”, sono le seguenti:",
     "options": [
@@ -1618,10 +1569,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 49
   },
   {
-    "id": 51,
     "code": "M3.3.6.12",
     "question": "Il \"Titolare del Trattamento\" secondo il Regolamento Europeo 2016/679 GDPR:",
     "options": [
@@ -1650,10 +1601,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 50
   },
   {
-    "id": 52,
     "code": "M3.4.3.9",
     "question": "La valutazione del Rischio",
     "options": [
@@ -1682,10 +1633,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 51
   },
   {
-    "id": 53,
     "code": "M3.4.4.3",
     "question": "I sistemi IT e OT differiscono (dal punto di vista dei fattori critici per la Cybesecurity) Per i fattori di rischio: perdita o manomissione di dati e informazioni per IT e business continuity e",
     "options": [
@@ -1714,10 +1665,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 52
   },
   {
-    "id": 54,
     "code": "M3.4.4.5",
     "question": "Si parla di Convergenza IT-OT",
     "options": [
@@ -1746,10 +1697,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 53
   },
   {
-    "id": 55,
     "code": "M3.4.5.4",
     "question": "L’Endpoint Protection",
     "options": [
@@ -1778,42 +1729,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 54
   },
   {
-    "id": 56,
-    "code": "M4.1.1.12",
-    "question": "La Struttura Organizzativa Funzionale È la soluzione organizzativa dove le attività sono divise per “specialità”, ovvero le operazioni della",
-    "options": [
-      {
-        "option_text": "medesima natura sono raggruppate tra loro È la soluzione organizzativa dove le attività sono divise per “specialità”, ovvero le operazioni della",
-        "answer": true
-      },
-      {
-        "option_text": "medesima natura sono raggruppate per area geografica Ha come vantaggio l’incremento dell’efficienza della direzione poiché i manager possono",
-        "answer": false
-      },
-      {
-        "option_text": "concentrare la loro attività in un solo settore di attività Ha come svantaggio il minore coordinamento all’interno della funzione a causa dell’assegnazione",
-        "answer": true
-      },
-      {
-        "option_text": "del potere decisionale ad un solo general manager per tutte le funzioni Ha come vantaggio la moltiplicazione dei livelli gerarchici, rendendo più semplice il coordinamento",
-        "answer": false
-      },
-      {
-        "option_text": "tra le funzioni Ha come rischio l’eccessiva focalizzazione da parte del manager sulla propria funzione, dandole",
-        "answer": false
-      },
-      {
-        "option_text": "eccessiva rilevanza rispetto alle altre attività aziendali",
-        "answer": true
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 57,
     "code": "M4.1.2.2",
     "question": "Perché è necessario mantenere allineati gli obiettivi IT e il business aziendale?",
     "options": [
@@ -1842,10 +1761,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 55
   },
   {
-    "id": 58,
     "code": "M4.3.3.2",
     "question": "La Gestione del Rischio di cybersecurity nelle organizzazioni",
     "options": [
@@ -1874,10 +1793,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 56
   },
   {
-    "id": 59,
     "code": "M4.2.2.3",
     "question": "Perché è importante formare i dipendenti di un'azienda sul rischio di cybersecurity? Perché renderli consapevoli dei rischi degli incidenti e attacchi informatici è la principale arma di",
     "options": [
@@ -1906,10 +1825,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 57
   },
   {
-    "id": 60,
     "code": "M4.2.3.10",
     "question": "Per ridurre i dati archiviati in cloud un'azienda riduce la frequenza di archiviazione di 10.000 registri (da 32 byte) da 1 sec a 1 minuto quanto spazio di archiviazione risparmia in un mese (30 gg)?",
     "options": [
@@ -1934,14 +1853,14 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "Una quantità economicamente non rilevante Esercizio 1 Definire le tabelle di routing considerando i costi di trasmissione per ogni singola connessione: Esercizio 2 Router1 Router2 Router3 Router4 Router5 Router6  Nell'immagine sovrastante è rappresentata la topologia per la realizzazione di una DMZ (Demilitarized Zone) ovvero una sottorete che contiene ed espone i servizi Internet, mantenendoli segregati, per proteggere la rete locale (LAN) interna. Associare al numero indicato nel box rappresentato la lettera del corretto dispositivo tra quelli presenti. Che differenza esiste tra il concetto di Zona secondo IEC 62443 e una Demilitarized Zone (DMZ)? R: La Zona IEC 62443 è un concetto più ampio della DMZ Quali sono i criteri per differenziare due Zone secondo IEC 62443? R: Le zone vengono differenziate in base alle funzioni e ai requisiti di sicurezza, in relazione al rischio, che devono soddisfare  Soluzioni Appello Aspetti Organizzativi e Gestionali della C.S. del19 Settembre 2025",
+        "option_text": "Una quantità economicamente non rilevante",
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 58
   },
   {
-    "id": 61,
     "code": "M1.1.1.3.1",
     "question": "Cos’è la crittografia?",
     "options": [
@@ -1970,10 +1889,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 59
   },
   {
-    "id": 62,
     "code": "M1.1.2.10",
     "question": "La quantità di informazioni che è possibile trasmettere nell’unità di tempo in un canale",
     "options": [
@@ -2002,10 +1921,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 60
   },
   {
-    "id": 63,
     "code": "M1.1.2.8",
     "question": "Perché si utilizza la fibra ottica?",
     "options": [
@@ -2034,42 +1953,42 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 61
   },
   {
-    "id": 64,
-    "code": "M1.1.3.2.1",
+    "code": "M1.1.3.2",
     "question": "Il Routing",
     "options": [
       {
-        "option_text": "Statico, prevede che le rotte debbano essere configurate manualmente e non si aggiornino automaticamente in caso di guasto",
+        "option_text": "Il Routing è l'instradamento effettuato tra reti differenti con l’ausilio delle tabelle di instradamento configurate a livello dei router",
         "answer": true
       },
       {
-        "option_text": "Dinamico, prevede che le rotte apprese da un protocollo non possano mai essere inserite manualmente",
+        "option_text": "Il Routing è l'instradamento effettuato all’interno della stessa rete con l’ausilio delle tabelle di instradamento configurate a livello dei router",
         "answer": false
       },
       {
-        "option_text": "Definisce le decisioni di instradamento basandosi solo sugli indirizzi MAC",
-        "answer": false
-      },
-      {
-        "option_text": "Statico prevede che le rotte si aggiornino automaticamente quando cambia la topologia della rete",
-        "answer": false
-      },
-      {
-        "option_text": "Dinamico prevede che i router si scambino informazioni per adattarsi a variazioni della rete",
+        "option_text": "Per il suo funzionamento considera che i router siano a conoscenza degli indirizzi solo delle reti a cui sono direttamente collegati",
         "answer": true
       },
       {
-        "option_text": "Determina il percorso che i pacchetti devono seguire per raggiungere la loro destinazione attraverso reti diverse",
+        "option_text": "Per il suo funzionamento considera che i router siano a conoscenza degli indirizzi delle reti a cui sono direttamente o indirettamente collegati",
+        "answer": false
+      },
+      {
+        "option_text": "Nella tabella di instradamento ogni riga corrisponde a una regola e le regole vengono esaminate dalla prima all’ultima, se ci sono più regole che corrispondono all'indirizzo fornito, viene scelta la regola che ha più bit in comune con l'indirizzo fornito",
         "answer": true
+      },
+      {
+        "option_text": "Nella tabella di instradamento ogni riga corrisponde a una regola e le regole vengono esaminate dalla prima all’ultima, se ci sono più regole che corrispondono all'indirizzo fornito, viene scelta la prima regola che viene esaminata",
+        "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 62
   },
   {
-    "id": 65,
     "code": "M1.1.3.8",
     "question": "L'indirizzamento IPv4",
     "options": [
@@ -2098,10 +2017,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 63
   },
   {
-    "id": 66,
     "code": "M1.2.3.5.1",
     "question": "Verificare quale delle seguenti affermazioni sulla Cyber Security nella Supply Chain sono vere o false:",
     "options": [
@@ -2130,10 +2049,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 64
   },
   {
-    "id": 67,
     "code": "M1.3.1.8",
     "question": "Il livello 7 del Modello ISO/OSI",
     "options": [
@@ -2162,10 +2081,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 65
   },
   {
-    "id": 68,
     "code": "M1.3.2.23",
     "question": "Una trasmissione non-deterministica",
     "options": [
@@ -2194,42 +2113,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 66
   },
   {
-    "id": 69,
-    "code": "M1.3.2_2.9",
-    "question": "L’indirizzo di Broadcast della sottorete 243.123.23.45/29 è:",
-    "options": [
-      {
-        "option_text": "243.123.23.40",
-        "answer": false
-      },
-      {
-        "option_text": "243.123.23.47",
-        "answer": true
-      },
-      {
-        "option_text": "243.123.23.45",
-        "answer": false
-      },
-      {
-        "option_text": "243.123.23.41",
-        "answer": false
-      },
-      {
-        "option_text": "243.123.23.46",
-        "answer": false
-      },
-      {
-        "option_text": "255.255.255.248",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 70,
     "code": "M1.3.3.9",
     "question": "Il Firewall:",
     "options": [
@@ -2258,10 +2145,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 67
   },
   {
-    "id": 71,
     "code": "M2.1.1.5",
     "question": "Quali dei seguenti elementi (o funzioni aziendali) sono di solito interni ad un’azienda:",
     "options": [
@@ -2290,10 +2177,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 68
   },
   {
-    "id": 72,
     "code": "M2.1.3.3",
     "question": "Le aziende nel settore terziario avanzato",
     "options": [
@@ -2322,10 +2209,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 69
   },
   {
-    "id": 73,
     "code": "M2.1.3.6",
     "question": "Quale dei seguenti servizi può erogare un’azienda di tipo Utility",
     "options": [
@@ -2354,10 +2241,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 70
   },
   {
-    "id": 74,
     "code": "M2.2.2.4.1",
     "question": "Il Sistema Informativo aziendale l’ERP (Enterprise Resource Planning)",
     "options": [
@@ -2386,10 +2273,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 71
   },
   {
-    "id": 75,
     "code": "M2.3.2.6",
     "question": "L’Organizzazione Aziendale",
     "options": [
@@ -2418,10 +2305,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 72
   },
   {
-    "id": 76,
     "code": "M3.2.1.20",
     "question": "Quali delle seguenti sono aree tematiche dei requisiti di un ISMS secondo ISO/IEC 27001:2022?",
     "options": [
@@ -2450,10 +2337,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 73
   },
   {
-    "id": 77,
     "code": "M3.2.1.23",
     "question": "Un Sistema di Gestione della Cybersecurity",
     "options": [
@@ -2482,10 +2369,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 74
   },
   {
-    "id": 78,
     "code": "M3.2.1_2.20",
     "question": "Il controllo ISO/IEC 27001: 2022 \"Data Masking\" per l'implementazione del mascheramento dei dati",
     "options": [
@@ -2502,7 +2389,7 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "È un  requisito Preventivo e Investigativo",
+        "option_text": "È un requisito Preventivo e Investigativo",
         "answer": false
       },
       {
@@ -2514,10 +2401,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 75
   },
   {
-    "id": 79,
     "code": "M3.2.3.10",
     "question": "Il NIST Cyber Security Framework",
     "options": [
@@ -2546,10 +2433,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 76
   },
   {
-    "id": 80,
     "code": "M3.2.3.2.2",
     "question": "Il Framework Core del NIST CSF",
     "options": [
@@ -2578,10 +2465,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 77
   },
   {
-    "id": 81,
     "code": "M3.2.3.7.1",
     "question": "Nel NIST CSF il Supply Chain Risk Management (SCRM)",
     "options": [
@@ -2610,10 +2497,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 78
   },
   {
-    "id": 82,
     "code": "M3.2.4.3.1",
     "question": "Il documento NIST Special Publication SP 800-82 Rev. 2",
     "options": [
@@ -2626,26 +2513,18 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "Fa parte della serie 800, pubblicazioni speciali relative alla computer security",
+        "option_text": "Fa parte della serie di pubblicazioni speciali relative alla computer security",
         "answer": true
       },
       {
-        "option_text": "Fa parte della serie 800, pubblicazioni speciali che propongono guide pratiche e usabili di soluzioni per la cybersecurity",
-        "answer": false
-      },
-      {
-        "option_text": "Fa parte della serie 800, pubblicazioni speciali che sono documenti rilevanti di Information Technology",
-        "answer": false
-      },
-      {
-        "option_text": "Come tutti i documenti NIST può essere solamente acquistato nell’apposito sito",
+        "option_text": "Fa parte della serie di pubblicazioni speciali che propongono guide pratiche e usabili di",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 79
   },
   {
-    "id": 83,
     "code": "M3.2.6.4",
     "question": "Le zone secondo ISA/IEC 62443",
     "options": [
@@ -2674,10 +2553,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 80
   },
   {
-    "id": 84,
     "code": "M3.3.3.4",
     "question": "Il Data Breach",
     "options": [
@@ -2706,10 +2585,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 81
   },
   {
-    "id": 85,
     "code": "M3.3.5_1.7",
     "question": "La nuova direttiva NIS 2",
     "options": [
@@ -2738,10 +2617,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 82
   },
   {
-    "id": 86,
     "code": "M3.3.6.7",
     "question": "Il regolamento GDPR (General Data Protection Regulation)",
     "options": [
@@ -2770,42 +2649,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 83
   },
   {
-    "id": 87,
-    "code": "M3.3.7.3",
-    "question": "Il Titolo II del Regolamento Europeo 2019/881 (Cybersecurity Act) definisce il ruolo di ENISA ovvero:",
-    "options": [
-      {
-        "option_text": "Di conseguire un elevato livello comune di cibersicurezza in tutta l’Unione, sostenendo attivamente gli Stati membri, le istituzioni, gli organi e gli organismi dell’Unione nel miglioramento della cibersicurezza.",
-        "answer": true
-      },
-      {
-        "option_text": "Di conseguire un elevato livello comune di cibersicurezza in tutta l’Unione, sostituendo gli organismi degli Stati membri, le istituzioni dell’Unione nei processi di gestione della cibersicurezza",
-        "answer": false
-      },
-      {
-        "option_text": "Stabilire le misure per il ravvicinamento delle disposizioni legislative, regolamentari e amministrative degli Stati membri relative alla cibersicurezza",
-        "answer": true
-      },
-      {
-        "option_text": "Agire in maniera indipendente, evitando nel contempo la duplicazione delle attività degli Stati membri e tenendo conto delle competenze esistenti degli Stati membri",
-        "answer": true
-      },
-      {
-        "option_text": "Sviluppare le proprie risorse, incluse le capacità e abilità tecniche e umane, necessarie al fine di svolgere i compiti attribuitile ai sensi del presente regolamento",
-        "answer": true
-      },
-      {
-        "option_text": "Contribuire a rafforzare le capacità di cibersicurezza a livello di Unione solo nel caso di incidenti transfrontalieri",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 88,
     "code": "M3.4.3.2.1",
     "question": "Il Rischio Informatico può essere valutato",
     "options": [
@@ -2834,10 +2681,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 84
   },
   {
-    "id": 89,
     "code": "M4.1.1.18",
     "question": "La Struttura Organizzativa permette di",
     "options": [
@@ -2862,14 +2709,14 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Progettare il modello, ovvero la configurazione, dell’assetto organizzativo che è rappresentato dall’organigramma dell’impresa",
+        "option_text": "Progettare il modello, ov",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 85
   },
   {
-    "id": 90,
     "code": "M4.1.5.5",
     "question": "La figura del CISO",
     "options": [
@@ -2888,20 +2735,12 @@ const QUIZ_QUESTIONS = [
       {
         "option_text": "Ha responsabilità aziendale sui Sistemi Informativi",
         "answer": false
-      },
-      {
-        "option_text": "Necessita di buone doti di comunicazione per comunicare le scelte per la gestione del rischio e spiegare le soluzioni tecnologiche adottate",
-        "answer": true
-      },
-      {
-        "option_text": "E' di solito un professionista esterno all'organizzazione  Esercizio 1 1. Identificare correttamente, nello schema topologico in figura, i dispositivi rappresentati con le lettere: 2. Qual è il nome dei segmenti di rete con collegamenti colorati in rosso, verde, azzurro e giallo?  VLAN Esercizio 2 Il controllo ISO/IEC 27001: 2022  \"Secure authentication\". Indica che le devono essere implementate tecnologie e procedure di autenticazione sicure in base alle restrizioni di accesso alle informazioni e alla politica di controllo degli accessi generale dell'azienda. Tale controllo si concentra su: S: La verifica dell'identità di un utente o di un processo Come si riesce a migliorare l'efficacia del controllo?: S: Utilizzando l'autenticazione multifattore (MFA) Tale Controllo è di tipo: S: Preventivo Considerando il paradigma CIA (o RID) quali delle proprietà elencate possono essere implementare con il controllo? S: Confidentiality, Integrity e Availability Quali Concetti del NIST Cyber Security Framework possono essere associati al controllo? S: Protect Il Controllo è stato concepito primariamente per: S: Creare una politica di sicurezza delle informazioni che includa la gestione degli accessi e le tecnologie di autenticazione Quali delle seguenti procedure possono essere implementate per realizzare correttamente il Controllo? S: Realizzare una Policy di gestione degli accessi alle informazioni in base allo specifico ruolo del personale A.Router con FirewallH. Switch B.Router con FirewallI. Firewall C. Switch L. Router D. Switch M.Router con Firewall E.Anomaly DetectionN. VPN F. Switch O.Anomaly Detection G. Firewall P. Switch  Appello di Aspetti Organizzativi e Gestionali della CS 10 Ottobre 2025",
-        "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 86
   },
   {
-    "id": 91,
     "code": "M1.1.2.13",
     "question": "La trasmissione telefonica su rete cablata",
     "options": [
@@ -2930,10 +2769,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 87
   },
   {
-    "id": 92,
     "code": "M1.1.2.14",
     "question": "La banda di trasmissione VHF",
     "options": [
@@ -2962,10 +2801,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 88
   },
   {
-    "id": 93,
     "code": "M1.1.3.6",
     "question": "Il Subnetting",
     "options": [
@@ -2990,14 +2829,14 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "Si realizza utilizzando una parte dei bit del prefisso di rete dell’indirizzo in maschera di sottorete",
+        "option_text": "Si realizza utilizzando una parte dei bit del prefisso di rete dell’indirizzo in maschera di",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 89
   },
   {
-    "id": 94,
     "code": "M1.1.4.1",
     "question": "L’HyperText Transfer Protocol (HTTP)",
     "options": [
@@ -3026,10 +2865,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 90
   },
   {
-    "id": 95,
     "code": "M1.1.6.2",
     "question": "Le vulnerabilità informatiche",
     "options": [
@@ -3058,10 +2897,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 91
   },
   {
-    "id": 96,
     "code": "M1.2.3.4",
     "question": "La Supply Chain o catena di fornitura",
     "options": [
@@ -3090,10 +2929,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 92
   },
   {
-    "id": 97,
     "code": "M1.2.4.5.1",
     "question": "Cryptojacking",
     "options": [
@@ -3122,10 +2961,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 93
   },
   {
-    "id": 98,
     "code": "M1.3.1.4",
     "question": "Il livello 3 del Modello ISO/OSI",
     "options": [
@@ -3154,10 +2993,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 94
   },
   {
-    "id": 99,
     "code": "M1.3.1.13",
     "question": "A cosa serve il modello ISO/OSI?",
     "options": [
@@ -3166,7 +3005,7 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Per risolvere il problema delle reti di computer single “brand”, ovvero in grado di comunicare solo con apparati dello stesso produttore",
+        "option_text": "Per risolvere il problema delle reti di computer single “brand”, ov",
         "answer": true
       },
       {
@@ -3186,10 +3025,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 95
   },
   {
-    "id": 100,
     "code": "M1.3.2.24",
     "question": "Lo standard USB",
     "options": [
@@ -3218,10 +3057,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 96
   },
   {
-    "id": 101,
     "code": "M1.3.2.8",
     "question": "Un cavo in fibra ottica monomodale",
     "options": [
@@ -3250,42 +3089,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 97
   },
   {
-    "id": 102,
-    "code": "M1.3.2_2.3",
-    "question": "La Maschera di sottorete in una rete TCP/IP",
-    "options": [
-      {
-        "option_text": "È un parametro di configurazione che definisce l’intervallo di indirizzi di una sottorete IP a cui appartiene un host",
-        "answer": true
-      },
-      {
-        "option_text": "È utilizzata per ridurre il traffico di rete e facilitare la ricerca e il raggiungimento di un determinato host",
-        "answer": true
-      },
-      {
-        "option_text": "Permette con un solo indirizzo IP «pubblico» e la maschera stessa di identificare e indirizzare una famiglia di indirizzi «privati» (quindi invisibili dalla rete pubblica)",
-        "answer": true
-      },
-      {
-        "option_text": "Permette di mantenere la capacità di indirizzamento aumentando il numero di indirizzi “pubblici”",
-        "answer": false
-      },
-      {
-        "option_text": "È un numero che denota quale parte di un indirizzo IP identifica la sottorete e quale l'host",
-        "answer": true
-      },
-      {
-        "option_text": "Di fatto non è più utilizzata dopo l’arrivo dell’IPV6 e la conseguente obsolescenza dell’IPV4",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 103,
     "code": "M1.3.2_2.15",
     "question": "La subnet di rete",
     "options": [
@@ -3314,10 +3121,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 98
   },
   {
-    "id": 104,
     "code": "M1.3.2_2.16",
     "question": "L'indirizzo di Broadcast",
     "options": [
@@ -3346,74 +3153,42 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 99
   },
   {
-    "id": 105,
-    "code": "M1.3.3.6.2",
-    "question": "Lo Switch di rete:",
+    "code": "M1.3.3.3.1",
+    "question": "Lo switch di rete",
     "options": [
       {
-        "option_text": "È un dispositivo elettronico intelligente, dotato di porte di interfaccia di varie tipologie",
+        "option_text": "Può essere virtualizzato",
         "answer": true
       },
       {
-        "option_text": "Può essere un dispositivo elettrico non dotato di CPU e, se “Unmanaged”, configurabile",
+        "option_text": "Se di tipo “cut -through” viene calcolato il CRC per il controllo degli errori",
         "answer": false
       },
       {
-        "option_text": "Può segmentare il dominio di broadcast attraverso le VPN",
+        "option_text": "Può avere una latenza non sempre trascurabile (compatibilmente con le applicazioni)",
+        "answer": true
+      },
+      {
+        "option_text": "Se di tipo “unmanaged” permette la configurazione delle porte",
         "answer": false
       },
       {
-        "option_text": "Può avere una gestione “Unmanaged” o “Managed”",
+        "option_text": "Può gestire funzioni dei livelli 3,4 e 7 dello stack ISO/OSI",
         "answer": true
       },
       {
-        "option_text": "Può avere un instradamento di tipo “store-and-forward”",
-        "answer": true
-      },
-      {
-        "option_text": "Se “Unmanaged” non permette la configurazione delle VLAN",
+        "option_text": "Se di tipo “managed” permette di duplicare le trasmissioni su canali differenti (mirroring)",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 100
   },
   {
-    "id": 106,
-    "code": "M1.3.4.5",
-    "question": "In una topologia di rete ad Anello",
-    "options": [
-      {
-        "option_text": "L'informazione trasmessa può viaggiare in entrambi i versi/sensi dell'anello per raggiungere una certa destinazione",
-        "answer": true
-      },
-      {
-        "option_text": "È necessario un nodo centrale per gestire la connessione tra i computer",
-        "answer": false
-      },
-      {
-        "option_text": "È possibile ottimizzare l'utilizzo della banda disponibile inviando alcuni pacchetti in un verso e altri pacchetti nel verso opposto",
-        "answer": true
-      },
-      {
-        "option_text": "Le caratteristiche di scalabilità sono scarse dato che l'aggiunta o la rimozione di un nodo presuppone una variazione della velocità della rete",
-        "answer": true
-      },
-      {
-        "option_text": "Sono presenti caratteristiche intrinseche di ridondanza e quindi di affidabilità e robustezza",
-        "answer": true
-      },
-      {
-        "option_text": "Sono presenti un numero di rami pari al numero dei nodi meno uno",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 107,
     "code": "M2.1.2.12",
     "question": "La Socierà S.p.A.",
     "options": [
@@ -3442,10 +3217,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 101
   },
   {
-    "id": 108,
     "code": "M2.1.3.4",
     "question": "Le Aziende di Erogazione",
     "options": [
@@ -3474,10 +3249,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 102
   },
   {
-    "id": 109,
     "code": "M2.2.1.5",
     "question": "Come posso identificare il valore (da proteggere) all'interno un azienda o un organizzazione?",
     "options": [
@@ -3506,10 +3281,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 103
   },
   {
-    "id": 110,
     "code": "M2.2.2.2",
     "question": "Un incidente informatico interno all’organizzazione",
     "options": [
@@ -3538,10 +3313,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 104
   },
   {
-    "id": 111,
     "code": "M3.1.1.8",
     "question": "Quali sono le possibili cause di un Incidente Informatico",
     "options": [
@@ -3570,10 +3345,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 105
   },
   {
-    "id": 112,
     "code": "M3.1.2.2",
     "question": "Perché è necessario modellizzare i processi aziendali?",
     "options": [
@@ -3602,10 +3377,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 106
   },
   {
-    "id": 113,
     "code": "M3.2.1_1.5",
     "question": "L'area tematica dei requisiti ISO/IEC 27001 \"Pianificazione\" :",
     "options": [
@@ -3634,42 +3409,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 107
   },
   {
-    "id": 114,
-    "code": "M3.2.1_2.14",
-    "question": "Il controllo ISO/IEC 27001: 2022 “Data leakage prevention” ovvero orientato alla prevenzione della divulgazione deliberata di informazioni riservate",
-    "options": [
-      {
-        "option_text": "Indica che le misure di prevenzione della fuga di dati si devono applicare ai sistemi, alle reti e a qualsiasi altro dispositivo che tratta, memorizza o trasmette informazioni sensibili",
-        "answer": true
-      },
-      {
-        "option_text": "Indica che le misure di prevenzione della fuga di dati si applicano ai soli sistemi abilitati al trattamento dei dati di terzi",
-        "answer": false
-      },
-      {
-        "option_text": "È stato pensato, insieme ad altri nuovi controlli, in funzione della normativa europea GDPR",
-        "answer": true
-      },
-      {
-        "option_text": "È un controllo solo di tipo “Preventivo",
-        "answer": false
-      },
-      {
-        "option_text": "È un controllo di tipo “Preventivo” e “Investigativo”",
-        "answer": true
-      },
-      {
-        "option_text": "È un controllo solo di tipo “Correttivo”",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 115,
     "code": "M3.2.4.1",
     "question": "I Documenti NIST Special Publications sono raggruppati nelle serie",
     "options": [
@@ -3698,10 +3441,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 108
   },
   {
-    "id": 116,
     "code": "M3.2.6.28",
     "question": "Il Requisito Fondazionale Restrict Data Flow (RDF) di ISA/IEC 62443",
     "options": [
@@ -3730,10 +3473,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 109
   },
   {
-    "id": 117,
     "code": "M3.2.6.27",
     "question": "La struttura di ISA/IEC 62443",
     "options": [
@@ -3754,18 +3497,18 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Prevede un livello Sistema ovvero approcci di valutazione, livelli di requisiti di sicurezza e tecnologie dei prodotti utilizzati",
-        "answer": false
+        "option_text": "Prevede un livello Sistema ov",
+        "answer": true
       },
       {
         "option_text": "E' immutabile sia nelle famiglie che nel numero dei documenti presenti in ciascuna famiglia",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 110
   },
   {
-    "id": 118,
     "code": "M3.3.5_1.8",
     "question": "I Soggetti Essenziali e Importanti secondo la direttiva NIS 2",
     "options": [
@@ -3790,14 +3533,14 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "Sono tutti i soggetti che superano i massimali di fatturato per le medie imprese ovvero i 50 milioni Euro",
-        "answer": false
+        "option_text": "Sono tutti i soggetti che superano i massimali di fatturato per le medie imprese ov",
+        "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 111
   },
   {
-    "id": 119,
     "code": "M3.3.5_1.9",
     "question": "Perché i reparti IT e OT dovranno collaborare maggiornente per effetto della Direttiva NIS 2?",
     "options": [
@@ -3826,10 +3569,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 112
   },
   {
-    "id": 120,
     "code": "M4.3.1.2",
     "question": "Una grande Azienda Multiutility",
     "options": [
@@ -3854,3258 +3597,3858 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "E' sempre un'azienda privata senza alcuna partecipazione pubblica  Esercizio 1 Considerando la rappresentazione dei seguenti Incidenti di Cybersecurity: Configurare la seguente tabella del rischio (Probabilità-Impatto) posizionando gli incidenti in base alla valutazione effettuata mediante la loro descrizione, utilizzando le scala di valori indicata nella tabella (La probabilità di verificarsi dell'incidente e la gravità dell'impatto sono espressi in una scala da 1-5, 1 basso, 5 alto). Configurare tutte le 25 celle inserendo --- nelle celle vuote (quelle non utilizzate per inserire l'incidente). Esercizio 2 Data la seguente rete LAN con 254 hosts 1. Qual è l'indirizzo di rete con notazione dei bit di maschera 15.128.21.0/24 2. Qual è l'indirizzo di Broadcast 15.128.21.255 3. Qual è l'indirizzo di Maschera di Rete 255.255.255.0 4. Qual è l'indirizzo Subnet 1 15.128.21.0/26 5. Qual è l'indizizzo Subnet 2 15.128.21.65/26 6. Qual è l'indirizzo Subnet 3 15.128.21.129/27 7. Qual è l'indirizzo Subnet 4 15.128.21.160/27 8. Attraverso quale dispositivo riesco a configurare la comunicazione dalla Subnet 1 alla 3? A  Mario Testino                                               Corso Aspetti Gestionale e Organizzativi della Cyber Security 1 Test di verifica",
-        "answer": false
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 121,
-    "code": "M1.3.1.10.1",
-    "question": "L’incapsulamento ISO/OSI 1. È un principio per cui in corrispondenza di ogni livello della struttura che il pacchetto dell'Host mittente attraversa, si",
-    "options": [
-      {
-        "option_text": "incorporano le informazioni che sono proprie e uniche del livello attraversato 2. È un prin cipio per cui in corrispondenza di ogni livello della struttura che il pacchetto dell'Host mittente e destinatario",
-        "answer": true
-      },
-      {
-        "option_text": "attraversa, si incorporano le informazioni che sono proprie e uniche del livello attraversato 3. È un principio per cui in corrispondenza di ogni livello della struttura che il pacchetto dell'Host Mittente attraversa si incorporano le informazioni che poi vengono eliminate man mano che si risalgono i livelli dell’Host Destinatario sino ad",
-        "answer": false
-      },
-      {
-        "option_text": "estrarre il messaggio originario",
-        "answer": true
-      },
-      {
-        "option_text": "4. È un principio per cui ad ogni livello ISO/OSI viene effettuato un controllo di congruenze  attraverso  un CRC 5. Per funzionare necessità che ogni livello ISO/OSI offra il proprio \"servizio\" solamente al livello sottostante in maniera",
-        "answer": false
-      },
-      {
-        "option_text": "corretta",
-        "answer": false
-      },
-      {
-        "option_text": "6. Conferisce robustez za e sicurezza delle trasmissioni al modello ISO/OSI 2 -",
-        "answer": true
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 122,
-    "code": "M1.3.2.11.1",
-    "question": "L’astrazione Socket TCP è: 1. Un’istruzione software standardizzata progettata per essere utilizzabile nei programmi applicativi che permette la",
-    "options": [
-      {
-        "option_text": "trasmissione e la ricezione di dati attraverso una rete 2. La principale responsabile nello stabilire la connessione tra due host e mantenere la sessione per poi rigenerare la",
-        "answer": true
-      },
-      {
-        "option_text": "connessione all'invio di ulteriori pacchetti",
-        "answer": true
-      },
-      {
-        "option_text": "3. Indirettamente responsabile dello hand shake a tre livelli del TCP/IP",
-        "answer": false
-      },
-      {
-        "option_text": "4. Configurata diversamente sul client e sul server",
-        "answer": true
-      },
-      {
-        "option_text": "5. Configurata in modo che lato client e lato server abbia no identiche funzionalità 6. Parametrizzata con due parametri Seq (Numero Sequenza) e Ack (Riconoscimento) in tre passaggi stabilisce una",
-        "answer": false
-      },
-      {
-        "option_text": "connessione 4 -",
-        "answer": true
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 123,
-    "code": "M3.2.1.1.1",
-    "question": "Lo standard ISO/IEC 27000 -series 1. È una serie di norme internazionali fuse in un unico documento che costituiscono uno standard relativo alla sicurezza delle",
-    "options": [
-      {
-        "option_text": "informazioni",
-        "answer": false
-      },
-      {
-        "option_text": "2. È una serie di norme internazionali che costituiscono uno standard relativo alla sicurezza informatica 3. È denominato \"Information Security Management Systems (ISMS) Family of Standards\" e si prefigge di proteggere le",
-        "answer": true
-      },
-      {
-        "option_text": "informazioni che vengono mantenute ed elaborate da un’organizzazione 4. Permette alle organizzazioni di sviluppare ed implementare un proprio sistema per la gestione d ella sicurezza delle",
-        "answer": true
-      },
-      {
-        "option_text": "informazioni (SGSI)",
-        "answer": true
-      },
-      {
-        "option_text": "5. È stato generato dagli standard British Standard BS 7799 -1 e -2",
-        "answer": true
-      },
-      {
-        "option_text": "6. Si focalizza sulla protezione dei dati esclusivamente attraverso il consolidamento della tecnologia di rete 6 - (M3.2.1. 5.1) ISO/IEC 27002 permette di strutturare in controlli secondo uno schema che prevede i seguenti livelli (indicare solo quelli effettivamente presenti)",
-        "answer": false
-      },
-      {
-        "option_text": "1. Aree di Controllo",
-        "answer": true
-      },
-      {
-        "option_text": "2. Aree di Rischio",
-        "answer": false
-      },
-      {
-        "option_text": "3. Zone Locali e Remote",
-        "answer": false
-      },
-      {
-        "option_text": "4. Categorie di Controllo",
-        "answer": true
-      },
-      {
-        "option_text": "5. Contromisure (Controlli)",
-        "answer": true
-      },
-      {
-        "option_text": "6. Categorie di Allarme 7 -",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 124,
-    "code": "M3.2.6.2.1",
-    "question": "La struttura di ISA/IEC 62443 1. È rappresentabile in quattro gruppi di standard che possono rappresentare: “Modelli”, “Gestione”, “Sistema” e",
-    "options": [
-      {
-        "option_text": "“Componente”",
-        "answer": true
-      },
-      {
-        "option_text": "2. È costituita da tre famiglie di standard con vari livelli di approfondimento più uno non ancora pubblicato",
-        "answer": false
-      },
-      {
-        "option_text": "3. È composta dalle famiglie: “Modelli”, “Gestione”, “Organizzazione” e “Componente”",
-        "answer": false
-      },
-      {
-        "option_text": "4. È composta dalle famiglie: “General”,  “Policy & Procedures”, “System” e “Component”",
-        "answer": true
-      },
-      {
-        "option_text": "5. È costituita da famiglie di standard con documenti ancora in fase di sviluppo",
-        "answer": true
-      },
-      {
-        "option_text": "6. È costituita da famiglie di standard con analogo numero di documenti in ogni famiglia 8 -",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 125,
-    "code": "M3.2.6.5.1",
-    "question": "I conduits secondo ISA/IEC 62443",
-    "options": [
-      {
-        "option_text": "1. Raggruppano gli elementi che consentono la comunicazione peer to peer tra due zone 2. Forniscono funzioni di sicurezza che consentono una comunicazione sicura e permettono la coesistenza di zone con livelli",
-        "answer": false
-      },
-      {
-        "option_text": "differenti",
-        "answer": true
-      },
-      {
-        "option_text": "3. Possono essere usati per fare comunicare due o più zone fra di loro 4. Consistono nel raggruppamento di cyber asset dedicati esclusivamente alle comunicazioni, e che condividono gli stessi",
-        "answer": true
-      },
-      {
-        "option_text": "requisiti di cybersecurity",
-        "answer": true
-      },
-      {
-        "option_text": "5. Possono a ttraversare più di una zona in siti con differenti locazioni geografiche",
-        "answer": false
-      },
-      {
-        "option_text": "6. Possono avere sotto -conduits per una difesa in profondità 9 -",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 126,
-    "code": "M3.3.5.1.1",
-    "question": "La Direttiva NIS (Network and Information Security)",
-    "options": [
-      {
-        "option_text": "1. È il primo atto legislativo sulla sicurezza informatica approvato dall’Unione Europea",
-        "answer": true
-      },
-      {
-        "option_text": "2. È entrata in vigore in Italia 24 giugno 2018 mediante il D.L. n. 65 del 24 18 maggio 2018",
-        "answer": true
-      },
-      {
-        "option_text": "3. Impone la notifica obbligatoria degli incidenti all'Autorità nazionale istituita allo scopo",
-        "answer": true
-      },
-      {
-        "option_text": "4. Impone la nascita di CSIRT (Computer Security Incident Response Team) nazionali, sulla base del CERT -UE 5. Stabilisce l’obiettivo dell’adozione di una serie di misure di sicurezza comuni che potranno essere adottate",
-        "answer": true
-      },
-      {
-        "option_text": "discrezional mente dai singoli paesi",
-        "answer": false
-      },
-      {
-        "option_text": "6. Impone di realizzare un network nei singoli paesi che si occupi della sicurezza delle reti critiche 10 -",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 127,
-    "code": "M3.4.5.2",
-    "question": "Un sistema di Anomaly Detection  F V V V V F V F F V V F V F F V V F F V V V F F V V V V F F  3 T1 – 8 Luglio 2022  1. Permette di trovare e correggere gli incidenti non appena iniziano a verificarsi e prima che possano causare danno per",
-    "options": [
-      {
-        "option_text": "l’organizzazione 2. Permette di trovare e correggere gli incidenti dopo che si sono verificati in modo da minimizzare i danni all’organizzazione Falso 3. Utilizza un approccio di Machine Learning per monitorare l’insieme dei dati, apprendere il comportamento di ogni",
-        "answer": true
-      },
-      {
-        "option_text": "dispositivo e fornire avvisi puntuali sugli errori critici",
-        "answer": true
-      },
-      {
-        "option_text": "4. Utilizza un approccio con logiche algoritmiche tradizi onali basate su modelli predefiniti",
-        "answer": false
-      },
-      {
-        "option_text": "5. Realizza il “deep packed inspection”",
-        "answer": true
-      },
-      {
-        "option_text": "6. Definisce la “Baseline” ovvero la “conoscenza o linea di base” di quella specifica architettura di rete 11 -",
-        "answer": true
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 128,
-    "code": "M4.1.1.1",
-    "question": "Quali tra le seguenti caratteristiche rientrano nel modello di Burocrazia secondo Max Weber",
-    "options": [
-      {
-        "option_text": "1. Fedeltà al marchio",
-        "answer": false
-      },
-      {
-        "option_text": "2. Competenza disciplinata",
-        "answer": true
-      },
-      {
-        "option_text": "3. Diritto di licenziare",
-        "answer": false
-      },
-      {
-        "option_text": "4. Gerarchia degli uffici",
-        "answer": true
-      },
-      {
-        "option_text": "5. Preparazione specializzata",
-        "answer": true
-      },
-      {
-        "option_text": "6. Concorsi pubblici per l’assunzione 13 -",
-        "answer": true
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 129,
-    "code": "M4.1.1.3",
-    "question": "Chi tra questi personaggi ha posto le basi degli attuali modelli organizzativi",
-    "options": [
-      {
-        "option_text": "1. Karl Marx",
-        "answer": false
-      },
-      {
-        "option_text": "2. Alessandro Volta",
-        "answer": false
-      },
-      {
-        "option_text": "3. Karl Emil Maximilian Weber",
-        "answer": true
-      },
-      {
-        "option_text": "4. Enrico Fermi",
-        "answer": false
-      },
-      {
-        "option_text": "5. Thomas Robert Malthus",
-        "answer": false
-      },
-      {
-        "option_text": "6. Adam Smith 14 -",
-        "answer": false
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 130,
-    "code": "M4.1.1.5",
-    "question": "Quali di questi sono principi fondamentali di organizzazione aziendale (indicare vero)",
-    "options": [
-      {
-        "option_text": "1. Dividere l’azienda per raggruppamenti funzionali omogenei (dipartimenti, divisioni, ecc.)",
-        "answer": true
-      },
-      {
-        "option_text": "2. Dividere l’azienda per raggruppamenti verticali o orizzontali",
-        "answer": false
-      },
-      {
-        "option_text": "3. Definire ruoli e mansioni nei singoli raggruppamenti",
-        "answer": true
-      },
-      {
-        "option_text": "4. Accentrare la responsabilità in poche figure che evitano massimamente la delega",
-        "answer": false
-      },
-      {
-        "option_text": "5. Modellizzare i processi aziendali in una prospettiva di miglioramento continuo",
-        "answer": true
-      },
-      {
-        "option_text": "6. Standardizzare i processi 15 -",
-        "answer": true
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 131,
-    "code": "M4.1.1.9",
-    "question": "Cosa significa Costruire una Struttura Organizzativa? 1. Scegliere l’assetto legale che si ritiene più appropriato rispetto al numero e le capacità dei dipendenti (impresa individual e",
-    "options": [
-      {
-        "option_text": "o impresa di capitali o altro) 2. Scegliere l’assetto legale  che si ritiene più appropriato rispetto allo scopo aziendale (impresa individuale o impresa di",
-        "answer": false
-      },
-      {
-        "option_text": "capitali o altro)",
-        "answer": true
-      },
-      {
-        "option_text": "3. Dare «ordine» alle parti e ai loro compiti; creando un assetto organizzativo stabile, ancorché modificabile",
-        "answer": true
-      },
-      {
-        "option_text": "4. Definire «regole» e «pro cedure» di comportamento delle parti e dei partecipanti",
-        "answer": true
-      },
-      {
-        "option_text": "5. Definire «regole» e «procedure» di comportamento dei fornitori e dei “competitors” 6. Progettare il modello, ovvero la configurazione, dell’assetto organizzativo che è rappresentato dall’organigramma",
-        "answer": false
-      },
-      {
-        "option_text": "dell’impresa 17 -",
-        "answer": true
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 132,
-    "code": "M4.1.1.11",
-    "question": "L’Organigramma 1. Rappresenta i dipendenti e le posizioni attraverso caselle o altre forme su vari livelli, linee dritte o a gomito collegano",
-    "options": [
-      {
-        "option_text": "insieme tali livelli",
-        "answer": true
-      },
-      {
-        "option_text": "2. Riproduce parzialmente la struttura interna di un'organizzazione o un’azienda 3. È una rappresentazione visiva della gerarchia e dei ranghi delle persone, delle aree funzionali o dei raggruppamenti che",
-        "answer": false
-      },
-      {
-        "option_text": "compongono l'organizzazione",
-        "answer": true
-      },
-      {
-        "option_text": "4. Può rappresentare strutture organizzative Iper-dimensionali",
-        "answer": false
-      },
-      {
-        "option_text": "5. Può rappresentare strutture organizzative per Area Geografica",
-        "answer": true
-      },
-      {
-        "option_text": "6. Può rappresentare strutture organizzative Divisionali 18 -",
-        "answer": true
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 133,
-    "code": "M4.1.1.13",
-    "question": "La Struttura Organizzativa Divisionale 1. È la soluzione organizzativa dove tutte le attività (produzione, marketing, finanza, ecc.) vengono raggruppate in una unica",
-    "options": [
-      {
-        "option_text": "divisione aziendale 2. È la soluzione organizzativa dove tutte le attività (p roduzione, marketing, finanza, ecc.) inerenti a un prodotto o servizio",
-        "answer": false
-      },
-      {
-        "option_text": "vengono raggruppate in una divisione",
-        "answer": true
-      },
-      {
-        "option_text": "3. È la soluzione organizzativa dove ogni divisione corrisponde ad una unità organizzativa",
-        "answer": true
-      },
-      {
-        "option_text": "4. Facilita la realizzazione della strategia di diver sificazione produttiva 5. Permette la concentrazione delle attività relative ad uno specifico prodotto o servizio permettendo una maggiore flessibilità",
-        "answer": true
-      },
-      {
-        "option_text": "delle operazioni 6. Permette un migliore coordinamento delle attività della divisione ma rende più c omplessa la misurazione delle",
-        "answer": true
-      },
-      {
-        "option_text": "performance di ciascuna divisione rispetto alle altre 19 -",
-        "answer": false
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "code": "M4.1.1.19",
-    "question": "La Struttura organizzativa Divisionale per Area Geografica",
-    "options": [
-      {
-        "option_text": "Definisce ogni divisione corrispondente ad una unità organizzativa (facente parte di un gruppo) con responsabilità su uno specifico territorio.",
-        "answer": true
-      },
-      {
-        "option_text": "Identifica, tra i vantaggi, una minore autonomia decisionale decentrata",
-        "answer": false
-      },
-      {
-        "option_text": "Identifica, tra i vantaggi, la possibilità di adattare il prodotto/servizio alle specificità locali e interpretare rapidamente i cambiamenti nei gusti dei consumatori",
-        "answer": true
-      },
-      {
-        "option_text": "Identifica, tra i vantaggi, la riduzione dei costi di trasporto e la maggiore efficienza nella distribuzione",
-        "answer": true
-      },
-      {
-        "option_text": "Può facilitare la comunicazione tra le unità operative (ad esempio commerciali e della supply chain) nella specifica area",
-        "answer": true
-      },
-      {
-        "option_text": "Permette di evitare i conflitti tra lo staff dell'amministrazione centrale e lo staff della divisione d'area",
+        "option_text": "E' sempre un'azienda privata senza alcuna partecipazione pubblica",
         "answer": false
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 113
+  },
+  {
+    "code": "M1.1.1.1",
+    "question": "Quali dei seguenti componenti erano costituenti il telegrafo? (barrare solo le risposte giuste)",
+    "options": [
+      {
+        "option_text": "Un cavo di trasmissione",
+        "answer": false
+      },
+      {
+        "option_text": "Una batteria",
+        "answer": false
+      },
+      {
+        "option_text": "Un’antenna",
+        "answer": false
+      },
+      {
+        "option_text": "Una valvola rilevatrice",
+        "answer": false
+      },
+      {
+        "option_text": "Un selettore a due posizioni",
+        "answer": false
+      },
+      {
+        "option_text": "Una elettrocalamita",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 114
+  },
+  {
+    "code": "M1.1.1.2",
+    "question": "Quali dei seguenti componenti erano costituenti il trasmettitore di G.Marconi del 1.900?",
+    "options": [
+      {
+        "option_text": "Un circuito di amplificazione di tensione",
+        "answer": false
+      },
+      {
+        "option_text": "Una bobina",
+        "answer": false
+      },
+      {
+        "option_text": "Un triodo",
+        "answer": false
+      },
+      {
+        "option_text": "Una valvola rivelatrice",
+        "answer": false
+      },
+      {
+        "option_text": "Una capacità varabile",
+        "answer": false
+      },
+      {
+        "option_text": "Un diodo",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 115
+  },
+  {
+    "code": "M1.1.1.4",
+    "question": "La cifratura della parola “Mondo” con il cifrario di Cesare che parola genera?",
+    "options": [
+      {
+        "option_text": "pragr",
+        "answer": false
+      },
+      {
+        "option_text": "rpqga",
+        "answer": false
+      },
+      {
+        "option_text": "prqgr",
+        "answer": false
+      },
+      {
+        "option_text": "ptugt",
+        "answer": false
+      },
+      {
+        "option_text": "praor",
+        "answer": false
+      },
+      {
+        "option_text": "rgkig",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 116
+  },
+  {
+    "code": "M1.1.1.5",
+    "question": "La macchina enigma era?",
+    "options": [
+      {
+        "option_text": "Un dispositivo elettronico",
+        "answer": false
+      },
+      {
+        "option_text": "Un dispositivo elettromeccanico",
+        "answer": false
+      },
+      {
+        "option_text": "Un dispositivo a scambiatori interscambiabili",
+        "answer": false
+      },
+      {
+        "option_text": "Un dispositivo di criptazione con oltre 1.5*1020 possibili combinazioni",
+        "answer": false
+      },
+      {
+        "option_text": "Un dispositivo di criptazione con oltre 1.5*1010 possibili combinazioni",
+        "answer": false
+      },
+      {
+        "option_text": "Un dispositivo di criptazione e di decriptazione Mario Testino",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 117
+  },
+  {
+    "code": "M1.1.1.6",
+    "question": "Avendo a disposizioni 5 rotori e dovendone selezionare 3 per il corretto funzionamento della macchina Enigma quant’è il numero massimo delle combinazioni possibili dei rotori?",
+    "options": [
+      {
+        "option_text": "26",
+        "answer": false
+      },
+      {
+        "option_text": "66",
+        "answer": false
+      },
+      {
+        "option_text": "60",
+        "answer": false
+      },
+      {
+        "option_text": "86",
+        "answer": false
+      },
+      {
+        "option_text": "28",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 118
+  },
+  {
+    "code": "M1.1.2.1",
+    "question": "La modulazione telefonica consente:",
+    "options": [
+      {
+        "option_text": "Di adattare il segnale elettrico da trasmettere al canale",
+        "answer": false
+      },
+      {
+        "option_text": "Di adattare la frequenza del segnale da trasmettere con la banda del canale",
+        "answer": false
+      },
+      {
+        "option_text": "Di adattare la banda del canale con la frequenza del segnale da trasmettere.",
+        "answer": false
+      },
+      {
+        "option_text": "Di trasmettere segnali multipli su un unico canale trasmissivo",
+        "answer": false
+      },
+      {
+        "option_text": "Di trasmettere segnali su più canali contemporaneamente",
+        "answer": false
+      },
+      {
+        "option_text": "Di permettere ad un’onda elettromagnetica di un segnale di arrivare integra alla destinazione.",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 119
+  },
+  {
+    "code": "M1.1.2.2",
+    "question": "Le onde lunghe (a bassa frequenza):",
+    "options": [
+      {
+        "option_text": "Riescono a trasmettere maggiori informazioni rispetto alle onde corte",
+        "answer": false
+      },
+      {
+        "option_text": "Riescono a trasmettere minori informazioni rispetto alle onde corte",
+        "answer": false
+      },
+      {
+        "option_text": "Hanno bisogno di una potenza più elevata rispetto alle onde corte per essere trasmesse.",
+        "answer": false
+      },
+      {
+        "option_text": "Hanno bisogno di una potenza meno elevata rispetto alle onde corte per essere trasmesse.",
+        "answer": false
+      },
+      {
+        "option_text": "Hanno bisogno della stessa potenza rispetto alle onde corte per essere trasmesse",
+        "answer": false
+      },
+      {
+        "option_text": "Si misurano in Hz =26! 4!9! 2ଽ =26! 4!10! 2ଵ଴ =26! 4!13! 2ଵଷ =26! 8!9! 2ଽ =26! 6!9! 2ଽ =26! 2!9! 2ଽ Mario Testino",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 120
+  },
+  {
+    "code": "M1.1.2.3",
+    "question": "La PAM (Pulse Amplitude Modulation) è:",
+    "options": [
+      {
+        "option_text": "Una modulazione analogica",
+        "answer": false
+      },
+      {
+        "option_text": "Una modulazione digitale",
+        "answer": false
+      },
+      {
+        "option_text": "Una modulazione digitale a traslazione di ampiezza",
+        "answer": false
+      },
+      {
+        "option_text": "Una modulazione di ampiezza",
+        "answer": false
+      },
+      {
+        "option_text": "Una modulazione a traslazione di frequenza",
+        "answer": false
+      },
+      {
+        "option_text": "Una modulazione digitale con banda a doppio lato",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 121
+  },
+  {
+    "code": "M1.1.2.4",
+    "question": "Cos’è la larghezza di banda di un canale di comunicazione?",
+    "options": [
+      {
+        "option_text": "La misura dell'ampiezza della gamma di frequenze che possono passare per quel canale",
+        "answer": false
+      },
+      {
+        "option_text": "Un parametro inversamente proporzionale alla quantità di dati che possono essere trasmessi in un canale nell’unità di tempo",
+        "answer": false
+      },
+      {
+        "option_text": "Un parametro proporzionale alla quantità di dati che possono essere trasmessi in un canale nell’unità di tempo",
+        "answer": false
+      },
+      {
+        "option_text": "Un parametro indipendente dalla quantità di dati trasmessi in un canale",
+        "answer": false
+      },
+      {
+        "option_text": "La misura dell’ampiezza dello spettro che passa in un canale",
+        "answer": false
+      },
+      {
+        "option_text": "La capacità di un qualsiasi canale di trasmettere dati",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 122
+  },
+  {
+    "code": "M1.1.2.5",
+    "question": "Indicare quali di questi elementi costituiscono un cavo in fibra ottica:",
+    "options": [
+      {
+        "option_text": "Core",
+        "answer": false
+      },
+      {
+        "option_text": "Cladding",
+        "answer": false
+      },
+      {
+        "option_text": "Buffer",
+        "answer": false
+      },
+      {
+        "option_text": "Copper wire",
+        "answer": false
+      },
+      {
+        "option_text": "Jacket",
+        "answer": false
+      },
+      {
+        "option_text": "Insulator",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 123
+  },
+  {
+    "code": "M1.1.2.7",
+    "question": "Chi è “Cybercriminale”?",
+    "options": [
+      {
+        "option_text": "Un Hacker",
+        "answer": false
+      },
+      {
+        "option_text": "Un soggetto che viola la legge esistente in un determinato stato",
+        "answer": false
+      },
+      {
+        "option_text": "Un soggetto che estorce denaro attraverso internet",
+        "answer": false
+      },
+      {
+        "option_text": "Un soggetto che, spinto da motivazioni criminose, provoca un incidente informatico",
+        "answer": false
+      },
+      {
+        "option_text": "Un soggetto che provoca danni oggettivi mediante un incidente informatico",
+        "answer": false
+      },
+      {
+        "option_text": "Un soggetto che si impossessa delle credenziali di qualcun altro e ne fa un uso improprio Mario Testino",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 124
+  },
+  {
+    "code": "M1.2.1.1",
+    "question": "I Cybercriminali di solito:",
+    "options": [
+      {
+        "option_text": "Sono tendenzialmente non violenti ma possono nutrire forti risentimenti verso l’establishment",
+        "answer": false
+      },
+      {
+        "option_text": "Hanno caratteristiche del sociopatico",
+        "answer": false
+      },
+      {
+        "option_text": "Hanno buone capacità di organizzazione e pianificazione",
+        "answer": false
+      },
+      {
+        "option_text": "Lavorano in gruppi molto coesi",
+        "answer": false
+      },
+      {
+        "option_text": "Hanno un livello socioculturale non sempre elevato",
+        "answer": false
+      },
+      {
+        "option_text": "Hanno scarsa tendenza a percepirsi come criminale",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 125
+  },
+  {
+    "code": "M1.2.1.2",
+    "question": "Le vittime di attacchi cyber di solito:",
+    "options": [
+      {
+        "option_text": "Sfruttano molto gli automatismi delle applicazioni web, senza fare valutazioni approfondite",
+        "answer": false
+      },
+      {
+        "option_text": "Hanno molta fiducia del computer perché non da contatto fisico con le persone",
+        "answer": false
+      },
+      {
+        "option_text": "Manifestano altruismo e lo vogliono dimostrare",
+        "answer": false
+      },
+      {
+        "option_text": "Hanno paura e stress che rivelano disagio personale e necessità di aiuto",
+        "answer": false
+      },
+      {
+        "option_text": "Sono sole e hanno necessità di relazioni interpersonali",
+        "answer": false
+      },
+      {
+        "option_text": "Hanno voglia di visibilità, ricchezza e fama senza grosso sforzo.",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 126
+  },
+  {
+    "code": "M1.2.1.3",
+    "question": "Il social engineering:",
+    "options": [
+      {
+        "option_text": "Sono attività finalizzate ad impossessarsi di informazioni personali per scopi estorsivi",
+        "answer": false
+      },
+      {
+        "option_text": "Sono tecniche che rendono più facile ottenere credenziali personali di accesso rispetto a tecniche di hacking",
+        "answer": false
+      },
+      {
+        "option_text": "Sono tecniche che ingegnerizzano attacchi persistenti",
+        "answer": false
+      },
+      {
+        "option_text": "Può permettere l’installazione di software dannosi",
+        "answer": false
+      },
+      {
+        "option_text": "Sfrutta la vanità, l'avidità, la curiosità, l'altruismo delle persone",
+        "answer": false
+      },
+      {
+        "option_text": "Qualcosa che può essere rimosso con un buon antivirus",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 127
+  },
+  {
+    "code": "M1.2.2.1",
+    "question": "Il Dark Web",
+    "options": [
+      {
+        "option_text": "È la terminologia che si usa per definire i contenuti nelle darknet",
+        "answer": false
+      },
+      {
+        "option_text": "Necessità dei browser particolari per effettuare la navigazione anonima",
+        "answer": false
+      },
+      {
+        "option_text": "Una porzione di internet dove la navigazione è illegale",
+        "answer": false
+      },
+      {
+        "option_text": "Può essere utilizzato per attività legali",
+        "answer": false
+      },
+      {
+        "option_text": "Ha siti con domini particolari",
+        "answer": false
+      },
+      {
+        "option_text": "È molto più piccolo di quanto normalmente si immagina",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 128
+  },
+  {
+    "code": "M1.2.3.1",
+    "question": "Un’Infrastruttura Critica",
+    "options": [
+      {
+        "option_text": "Può essere un’azienda che concorre al mantenimento delle funzioni vitali di un paese",
+        "answer": false
+      },
+      {
+        "option_text": "Può fornire servizi per la salute pubblica",
+        "answer": false
+      },
+      {
+        "option_text": "Può fornire acqua potabile",
+        "answer": false
+      },
+      {
+        "option_text": "È un’azienda appartenente al terziario in genere",
+        "answer": false
+      },
+      {
+        "option_text": "È tale solo se appartiene all’elenco degli (OSE, operatori di servizi essenziali) come previsto dalla normativa NIS.",
+        "answer": false
+      },
+      {
+        "option_text": "Può essere un’azienda monopolista in un settore economico di un paese Mario Testino",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 129
+  },
+  {
+    "code": "M1.2.3.2",
+    "question": "Quali di questi sono i maggiori rischi percepite legati ad un Attacco Cyber",
+    "options": [
+      {
+        "option_text": "Fake news",
+        "answer": false
+      },
+      {
+        "option_text": "Danno di immagine (brand reputation)",
+        "answer": false
+      },
+      {
+        "option_text": "Furto dei dati e della proprietà intellettuale",
+        "answer": false
+      },
+      {
+        "option_text": "Reati amministrativi",
+        "answer": false
+      },
+      {
+        "option_text": "Business Continuity",
+        "answer": false
+      },
+      {
+        "option_text": "Danno alla salute pubblica",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 130
+  },
+  {
+    "code": "M1.2.3.3",
+    "question": "Un attacco alla Supply Chain",
+    "options": [
+      {
+        "option_text": "Può essere un attacco diretto ad un’azienda produttrice che rifornisce un’azienda bersaglio dell’attacco.",
+        "answer": false
+      },
+      {
+        "option_text": "Un attacco indiretto ad una azienda bersaglio",
+        "answer": false
+      },
+      {
+        "option_text": "Un attacco ad un’azienda produttrice di materie prime",
+        "answer": false
+      },
+      {
+        "option_text": "Un attacco multiplo ad aziende fornitrici un’azienda obiettivo",
+        "answer": false
+      },
+      {
+        "option_text": "Un attacco ad un cliente di un’azienda bersaglio",
+        "answer": false
+      },
+      {
+        "option_text": "Un attacco ad un’azienda produttrice di un componente in regime di monopolio",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 131
+  },
+  {
+    "code": "M1.2.4.1",
+    "question": "Gli attacchi opportunistici",
+    "options": [
+      {
+        "option_text": "Sono attacchi che hanno una durata limitata nel tempo",
+        "answer": false
+      },
+      {
+        "option_text": "Sfruttano sempre vulnerabilità standardizzate (CVE)",
+        "answer": false
+      },
+      {
+        "option_text": "Hanno obiettivi prevalentemente economici",
+        "answer": false
+      },
+      {
+        "option_text": "Possono chiedere il riscatto dopo aver bloccato dei file di sistema",
+        "answer": false
+      },
+      {
+        "option_text": "Sono un fenomeno in crescita negli ultimi anni",
+        "answer": false
+      },
+      {
+        "option_text": "Possono sfruttare porte aperte o non configurate",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 132
+  },
+  {
+    "code": "M1.2.4.2",
+    "question": "Gli attacchi di tipo DoS",
+    "options": [
+      {
+        "option_text": "Provocano l’esaurimento delle risorse di sistema",
+        "answer": false
+      },
+      {
+        "option_text": "Sono attacchi in cui l’aggressore cerca di impedire agli utenti di accedere ad una rete o alle risorse di un computer.",
+        "answer": false
+      },
+      {
+        "option_text": "Possono avere caratteristiche distribuite (ov",
+        "answer": true
+      },
+      {
+        "option_text": "Si possono verificare accidentalmente",
+        "answer": false
+      },
+      {
+        "option_text": "Sfruttano tipicamente la latenza di rete",
+        "answer": false
+      },
+      {
+        "option_text": "Possono bombardare i server della vittima con enormi quantità di messaggi",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 133
+  },
+  {
+    "code": "M1.2.4.3",
+    "question": "Il Furto di Identità Digitale",
+    "options": [
+      {
+        "option_text": "È un reato secondo l’ordinamento italiano",
+        "answer": false
+      },
+      {
+        "option_text": "È relativo all’uso illecito dell’insieme dei dati e delle informazioni che definiscono un individuo e costituiscono la rappresentazione virtuale dell'identità reale utilizzabile durante interazioni elettroniche.",
+        "answer": false
+      },
+      {
+        "option_text": "È relativo all’uso illecito dell'insieme dei dati e delle informazioni che definiscono un individuo e costituiscono la rappresentazione fisica utilizzabile durante interazioni elettroniche.",
+        "answer": false
+      },
+      {
+        "option_text": "È relativo all'insieme dei dati e delle informazioni che definiscono un individuo e costituiscono una o delle rappresentazioni virtuali dell'identità reale utilizzabile durante interazioni elettroniche.",
+        "answer": false
+      },
+      {
+        "option_text": "Può essere associato al reato di “Frode Informatica” secondo l’art. 494 del CP",
+        "answer": false
+      },
+      {
+        "option_text": "Può essere associato al reato di “Frode Informatica” secondo l’art. 640 del CP Mario Testino",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
     "id": 134
   },
   {
-    "id": 135,
+    "code": "M1.2.4.4",
+    "question": "Cos’è un APT?",
+    "options": [
+      {
+        "option_text": "Una minaccia persistente e anonima",
+        "answer": false
+      },
+      {
+        "option_text": "Una minaccia persistente e avanzata",
+        "answer": false
+      },
+      {
+        "option_text": "Una minaccia portata avanti da un avversario dotato di notevole bagaglio tecnico e grandi risorse",
+        "answer": false
+      },
+      {
+        "option_text": "Un potenziale atto di guerra",
+        "answer": false
+      },
+      {
+        "option_text": "Di solito è organizzata da singoli o da piccole organizzazioni",
+        "answer": false
+      },
+      {
+        "option_text": "Una minaccia portata avanti per periodi di tempo molto lunghi e che può sfruttare vettori di attacco multipli.",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 135
+  },
+  {
+    "code": "M1.2.4.6",
+    "question": "Phishing",
+    "options": [
+      {
+        "option_text": "È un illecito civile e penale secondo la legge Italiana",
+        "answer": false
+      },
+      {
+        "option_text": "È un illecito civile ma non penale secondo la legge italiana",
+        "answer": false
+      },
+      {
+        "option_text": "Consiste in una truffa su internet attraverso la quale si cerca di ingannare la vittima con lo scopo di carpire informazioni sensibili",
+        "answer": false
+      },
+      {
+        "option_text": "Può avvenire attraverso una mail realizzata appositamente per favorire l'inserimento di informazioni personali",
+        "answer": false
+      },
+      {
+        "option_text": "Consiste nell'impersonare qualcuno per ottenere l'accesso a dati privilegiati",
+        "answer": false
+      },
+      {
+        "option_text": "Si realizza offrendo qualcosa al fine di consentire il download di un file dannoso",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 136
+  },
+  {
+    "code": "M1.2.4.7",
+    "question": "Gli attacchi ransomware",
+    "options": [
+      {
+        "option_text": "Si realizzano, ad esempio, criptando i files di un dispositivo, richiedendo un riscatto da pagare per rimuovere la limitazione",
+        "answer": false
+      },
+      {
+        "option_text": "Sono di solito attacchi mirati e persistenti",
+        "answer": false
+      },
+      {
+        "option_text": "Sono, di solito, automatizzati e indirizzati verso target multipli",
+        "answer": false
+      },
+      {
+        "option_text": "Una volta infettato un computer tendono a propagarsi all’interno della rete LAN.",
+        "answer": false
+      },
+      {
+        "option_text": "Sono di solito attacchi opportunistici",
+        "answer": false
+      },
+      {
+        "option_text": "Una volta infettato il computer tendono a propagarsi all’esterno attraverso e-mail autogenerate.",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 137
+  },
+  {
+    "code": "M1.3.1.1",
+    "question": "Il Modello ISO/OSI",
+    "options": [
+      {
+        "option_text": "Il modello è stato realizzato negli anni Settanta da OSI (Open Systems Interconnect)",
+        "answer": false
+      },
+      {
+        "option_text": "Il modello è stato realizzato negli anni Settanta da ISO (International Organization for Standardization)",
+        "answer": false
+      },
+      {
+        "option_text": "Il modello è stato adottato per la prima volta nel 1978. 4. Il modello è stato realizzato per far fronte alla crescente necessità di standardizzazione dei dispositivi in rete 5. È costituito da una “pila” o “stack” di livelli 6. È costituito da una “coda” o “queue” di fasi Mario Testino",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 138
+  },
+  {
+    "code": "M1.3.1.2",
+    "question": "Il livello 1 del Modello ISO/OSI",
+    "options": [
+      {
+        "option_text": "Si occupa della codifica dei bit e dei segnali elettrici di trasmissione",
+        "answer": false
+      },
+      {
+        "option_text": "Il suo obiettivo è quello di gestire il mezzo trasmissivo (cavo coassiale, fibra ottica, doppini telefonici, ecc.)",
+        "answer": false
+      },
+      {
+        "option_text": "È un livello logico",
+        "answer": false
+      },
+      {
+        "option_text": "Ha la funzione di mettere in comunicazione il sistema di elaborazione al canale di comunicazione",
+        "answer": false
+      },
+      {
+        "option_text": "Genera messaggi non strutturati",
+        "answer": false
+      },
+      {
+        "option_text": "Permette ai livelli superiori l’indipendenza dai mezzi fisici",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 139
+  },
+  {
+    "code": "M1.3.1.5",
+    "question": "Il livello 4 del Modello ISO/OSI",
+    "options": [
+      {
+        "option_text": "Permettere un trasferimento di dati trasparente e affidabile tra due host.",
+        "answer": false
+      },
+      {
+        "option_text": "È il primo livello realmente end-to-end, cioè da host sorgente a destinatario",
+        "answer": false
+      },
+      {
+        "option_text": "Gestisce l’instradamento o Routing",
+        "answer": false
+      },
+      {
+        "option_text": "Vengono utilizzati i protocolli di rete standard come TCP o UDP",
+        "answer": false
+      },
+      {
+        "option_text": "Utilizza le porte per la multiplazione (ov",
+        "answer": true
+      },
+      {
+        "option_text": "Utilizza un numero massimo di 32.768 porte",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 140
+  },
+  {
+    "code": "M1.3.1.6",
+    "question": "Il livello 5 del Modello ISO/OSI",
+    "options": [
+      {
+        "option_text": "Definisce le regole per aprire e chiudere una connessione logica",
+        "answer": false
+      },
+      {
+        "option_text": "Coordina il dialogo tra utenti basandosi sul servizio del livello di trasporto",
+        "answer": false
+      },
+      {
+        "option_text": "Permette agli utenti di stabilire dei collegamenti logici o sessioni di lavoro che consentono il corretto trasferimento di informazioni",
+        "answer": false
+      },
+      {
+        "option_text": "Utilizza il protocollo IP per la comunicazione",
+        "answer": false
+      },
+      {
+        "option_text": "Permette ai processi di dividere (logicamente) il flusso dati in unità più piccole in modo che, in caso di interruzione della sessione, non sia necessario inviare nuovamente tutto il flusso ma solo una parte.",
+        "answer": false
+      },
+      {
+        "option_text": "Gestisce l’instradamento o Routing Mario Testino",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 141
+  },
+  {
+    "code": "M1.3.1.9",
+    "question": "La comunicazione logica tra due Host",
+    "options": [
+      {
+        "option_text": "Può avvenire tra tutti i livelli dello stack ISO/OSI",
+        "answer": false
+      },
+      {
+        "option_text": "Avviene solo tra livelli omologhi dello stack ISO/OSI",
+        "answer": false
+      },
+      {
+        "option_text": "Utilizza sempre fisicamente il livello 1",
+        "answer": false
+      },
+      {
+        "option_text": "Percorre gerarchicamente lo stack in discesa e salita rispettivamente dal mittente al destinatario.",
+        "answer": false
+      },
+      {
+        "option_text": "Si realizza anche fisicamente tra livelli omologhi dello stack ISO/OSI",
+        "answer": false
+      },
+      {
+        "option_text": "Semplifica la comunicazione tra due Host",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 142
+  },
+  {
+    "code": "M1.3.1.10",
+    "question": "L’incapsulamento",
+    "options": [
+      {
+        "option_text": "È un principio per cui in corrispondenza di ogni livello della struttura che il pacchetto dell'host mittente attraversa, ad esso vengono incorporate delle informazioni che sono proprie e uniche del livello attraversato dal pacchetto",
+        "answer": false
+      },
+      {
+        "option_text": "È un principio per cui in corrispondenza di ogni livello della struttura che il pacchetto dell'host mittente e destinatario attraversa, ad esso vengono incorporate delle informazioni che sono proprie e uniche del livello attraversato dal pacchetto",
+        "answer": false
+      },
+      {
+        "option_text": "È un principio per cui ad ogni livello ISO/OSI il pacchetto assume lo stesso nome identificativo",
+        "answer": false
+      },
+      {
+        "option_text": "È un principio per cui in corrispondenza di ogni livello della struttura che il pacchetto dell'host mittente attraversa, ad esso vengono incorporate che poi vengono eliminate man mano che si risalgono i livelli dell’Host destinatario sino ad estrarre il messaggio originario",
+        "answer": false
+      },
+      {
+        "option_text": "Per funzionare necessità che ogni livello ISO/OSI offra il proprio \"servizio\" al livello sottostante (o sovrastante) in maniera corretta.",
+        "answer": false
+      },
+      {
+        "option_text": "Conferisce robustezza e sicurezza delle trasmissioni al modello ISO/OSI Mario Testino",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 143
+  },
+  {
+    "code": "M1.3.1.11",
+    "question": "TCP e UDP sono protocolli di livello Uno",
+    "options": [
+      {
+        "option_text": "Due",
+        "answer": false
+      },
+      {
+        "option_text": "Tre",
+        "answer": false
+      },
+      {
+        "option_text": "Quattro",
+        "answer": false
+      },
+      {
+        "option_text": "Quattro che utilizzano il protocollo IP di livello 3",
+        "answer": false
+      },
+      {
+        "option_text": "Cinque",
+        "answer": false
+      },
+      {
+        "option_text": "Sei",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 144
+  },
+  {
+    "code": "M1.3.1.10.1",
+    "question": "L’incapsulamento ISO/OSI",
+    "options": [
+      {
+        "option_text": "È un principio per cui in corrispondenza di ogni livello della struttura che il pacchetto dell'Host mittente attraversa, si incorporano le informazioni che sono proprie e uniche del livello attraversato",
+        "answer": true
+      },
+      {
+        "option_text": "È un prin cipio per cui in corrispondenza di ogni livello della struttura che il pacchetto dell'Host mittente e destinatario attraversa, si incorporano le informazioni che sono proprie e uniche del livello attraversato",
+        "answer": false
+      },
+      {
+        "option_text": "È un principio per cui in corrispondenza di ogni livello della struttura che il pacchetto dell'Host Mittente attraversa si incorporano le informazioni che poi vengono eliminate man mano che si risalgono i livelli dell’Host Destinatario sino ad estrarre il messaggio originario",
+        "answer": true
+      },
+      {
+        "option_text": "È un principio per cui ad ogni livello ISO/OSI viene effettuato un controllo di congruenze attraverso un CRC",
+        "answer": false
+      },
+      {
+        "option_text": "Per funzionare necessità che ogni livello ISO/OSI offra il proprio \"servizio\" solamente al livello sottostante in maniera corretta",
+        "answer": false
+      },
+      {
+        "option_text": "Conferisce robustez za e sicurezza delle trasmissioni al modello ISO/OSI",
+        "answer": true
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 145
+  },
+  {
+    "code": "M1.3.2.11.1",
+    "question": "L’astrazione Socket TCP è:",
+    "options": [
+      {
+        "option_text": "Un’istruzione software standardizzata progettata per essere utilizzabile nei programmi applicativi che permette la trasmissione e la ricezione di dati attraverso una rete",
+        "answer": true
+      },
+      {
+        "option_text": "La principale responsabile nello stabilire la connessione tra due host e mantenere la sessione per poi rigenerare la connessione all'invio di ulteriori pacchetti",
+        "answer": true
+      },
+      {
+        "option_text": "Indirettamente responsabile dello hand shake a tre livelli del TCP/IP",
+        "answer": false
+      },
+      {
+        "option_text": "Configurata diversamente sul client e sul server",
+        "answer": true
+      },
+      {
+        "option_text": "Configurata in modo che lato client e lato server abbia no identiche funzionalità",
+        "answer": false
+      },
+      {
+        "option_text": "Parametrizzata con due parametri Seq (Numero Sequenza) e Ack (Riconoscimento) in tre passaggi stabilisce una connessione",
+        "answer": true
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 146
+  },
+  {
+    "code": "M3.2.1.1.1",
+    "question": "Lo standard ISO/IEC 27000 -series",
+    "options": [
+      {
+        "option_text": "È una serie di norme internazionali fuse in un unico documento che costituiscono uno standard relativo alla sicurezza delle informazioni",
+        "answer": false
+      },
+      {
+        "option_text": "È una serie di norme internazionali che costituiscono uno standard relativo alla sicurezza informatica",
+        "answer": true
+      },
+      {
+        "option_text": "È denominato \"Information Security Management Systems (ISMS) Family of Standards\" e si prefigge di proteggere le informazioni che vengono mantenute ed elaborate da un’organizzazione",
+        "answer": true
+      },
+      {
+        "option_text": "Permette alle organizzazioni di sviluppare ed implementare un proprio sistema per la gestione d ella sicurezza delle informazioni (SGSI)",
+        "answer": true
+      },
+      {
+        "option_text": "È stato generato dagli standard British Standard BS 7799 -1 e -2",
+        "answer": true
+      },
+      {
+        "option_text": "Si focalizza sulla protezione dei dati esclusivamente attraverso il consolidamento della tecnologia di rete",
+        "answer": false
+      }
+    ],
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 147
+  },
+  {
+    "code": "M3.2.1.5.1",
+    "question": "ISO/IEC 27002 permette di strutturare in controlli secondo uno schema che prevede i seguenti livelli (indicare solo quelli effettivamente presenti)",
+    "options": [
+      {
+        "option_text": "Aree di Controllo",
+        "answer": true
+      },
+      {
+        "option_text": "Aree di Rischio",
+        "answer": false
+      },
+      {
+        "option_text": "Zone Locali e Remote",
+        "answer": false
+      },
+      {
+        "option_text": "Categorie di Controllo",
+        "answer": true
+      },
+      {
+        "option_text": "Contromisure (Controlli)",
+        "answer": true
+      },
+      {
+        "option_text": "Categorie di Allarme",
+        "answer": false
+      }
+    ],
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 148
+  },
+  {
+    "code": "M3.2.6.5.1",
+    "question": "I conduits secondo ISA/IEC 62443",
+    "options": [
+      {
+        "option_text": "Raggruppano gli elementi che consentono la comunicazione peer to peer tra due zone",
+        "answer": false
+      },
+      {
+        "option_text": "Forniscono funzioni di sicurezza che consentono una comunicazione sicura e permettono la coesistenza di zone con livelli differenti",
+        "answer": true
+      },
+      {
+        "option_text": "Possono essere usati per fare comunicare due o più zone fra di loro",
+        "answer": true
+      },
+      {
+        "option_text": "Consistono nel raggruppamento di cyber asset dedicati esclusivamente alle comunicazioni, e che condividono gli stessi requisiti di cybersecurity",
+        "answer": true
+      },
+      {
+        "option_text": "Possono a ttraversare più di una zona in siti con differenti locazioni geografiche",
+        "answer": false
+      },
+      {
+        "option_text": "Possono avere sotto -conduits per una difesa in profondità",
+        "answer": false
+      }
+    ],
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 149
+  },
+  {
+    "code": "M3.3.5.1.1",
+    "question": "La Direttiva NIS (Network and Information Security)",
+    "options": [
+      {
+        "option_text": "È il primo atto legislativo sulla sicurezza informatica approvato dall’Unione Europea",
+        "answer": true
+      },
+      {
+        "option_text": "È entrata in vigore in Italia 24 giugno 2018 mediante il D.L. n. 65 del 24 18 maggio 2018",
+        "answer": true
+      },
+      {
+        "option_text": "Impone la notifica obbligatoria degli incidenti all'Autorità nazionale istituita allo scopo",
+        "answer": true
+      },
+      {
+        "option_text": "Impone la nascita di CSIRT (Computer Security Incident Response Team) nazionali, sulla base del CERT -UE",
+        "answer": true
+      },
+      {
+        "option_text": "Stabilisce l’obiettivo dell’adozione di una serie di misure di sicurezza comuni che potranno essere adottate discrezional mente dai singoli paesi",
+        "answer": false
+      },
+      {
+        "option_text": "Impone di realizzare un network nei singoli paesi che si occupi della sicurezza delle reti critiche",
+        "answer": false
+      }
+    ],
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 150
+  },
+  {
+    "code": "M3.4.5.2",
+    "question": "Un sistema di Anomaly Detection",
+    "options": [
+      {
+        "option_text": "Permette di trovare e correggere gli incidenti non appena iniziano a verificarsi e prima che possano causare danno per l’organizzazione",
+        "answer": true
+      },
+      {
+        "option_text": "Permette di trovare e correggere gli incidenti dopo che si sono verificati in modo da minimizzare i danni all’organizzazione",
+        "answer": false
+      },
+      {
+        "option_text": "Utilizza un approccio di Machine Learning per monitorare l’insieme dei dati, apprendere il comportamento di ogni dispositivo e fornire avvisi puntuali sugli errori critici",
+        "answer": true
+      },
+      {
+        "option_text": "Utilizza un approccio con logiche algoritmiche tradizi onali basate su modelli predefiniti",
+        "answer": false
+      },
+      {
+        "option_text": "Realizza il “deep packed inspection”",
+        "answer": true
+      },
+      {
+        "option_text": "Definisce la “Baseline” ov vero la “conoscenza o linea di base” di quella specifica architettura di rete",
+        "answer": true
+      }
+    ],
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 151
+  },
+  {
+    "code": "M4.1.1.1",
+    "question": "Quali tra le seguenti caratteristiche rientrano nel modello di Burocrazia secondo Max Weber",
+    "options": [
+      {
+        "option_text": "Fedeltà al marchio",
+        "answer": false
+      },
+      {
+        "option_text": "Competenza disciplinata",
+        "answer": true
+      },
+      {
+        "option_text": "Diritto di licenziare",
+        "answer": false
+      },
+      {
+        "option_text": "Gerarchia degli uffici",
+        "answer": true
+      },
+      {
+        "option_text": "Preparazione specializzata",
+        "answer": true
+      },
+      {
+        "option_text": "Concorsi pubblici per l’assunzione",
+        "answer": true
+      }
+    ],
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 152
+  },
+  {
+    "code": "M4.1.1.3",
+    "question": "Chi tra questi personaggi ha posto le basi degli attuali modelli organizzativi",
+    "options": [
+      {
+        "option_text": "Karl Marx",
+        "answer": false
+      },
+      {
+        "option_text": "Alessandro Volta",
+        "answer": false
+      },
+      {
+        "option_text": "Karl Emil Maximilian Weber",
+        "answer": true
+      },
+      {
+        "option_text": "Enrico Fermi",
+        "answer": false
+      },
+      {
+        "option_text": "Thomas Robert Malthus",
+        "answer": false
+      },
+      {
+        "option_text": "Adam Smith",
+        "answer": false
+      }
+    ],
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 153
+  },
+  {
+    "code": "M4.1.1.5",
+    "question": "Quali di questi sono principi fondamentali di organizzazione aziendale (indicare )",
+    "options": [
+      {
+        "option_text": "Dividere l’azienda per raggruppamenti funzionali omogenei (dipartimenti, divisioni, ecc.)",
+        "answer": true
+      },
+      {
+        "option_text": "Dividere l’azienda per raggruppamenti verticali o orizzontali",
+        "answer": false
+      },
+      {
+        "option_text": "Definire ruoli e mansioni nei singoli raggruppamenti",
+        "answer": true
+      },
+      {
+        "option_text": "Accentrare la responsabilità in poche figure che evitano massimamente la delega",
+        "answer": false
+      },
+      {
+        "option_text": "Modellizzare i processi aziendali in una prospettiva di miglioramento continuo",
+        "answer": true
+      },
+      {
+        "option_text": "Standardizzare i processi",
+        "answer": true
+      }
+    ],
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 154
+  },
+  {
+    "code": "M4.1.1.9",
+    "question": "Cosa significa Costruire una Struttura Organizzativa?",
+    "options": [
+      {
+        "option_text": "Scegliere l’assetto legale che si ritiene più appropriato rispetto al numero e le capacità dei dipendenti (impresa individual e o impresa di capitali o altro)",
+        "answer": false
+      },
+      {
+        "option_text": "Scegliere l’assetto legale che si ritiene più appropriato rispetto allo scopo aziendale (impresa individuale o impresa di capitali o altro)",
+        "answer": true
+      },
+      {
+        "option_text": "Dare «ordine» alle parti e ai loro compiti; creando un assetto organizzativo stabile, ancorché modificabile",
+        "answer": true
+      },
+      {
+        "option_text": "Definire «regole» e «pro cedure» di comportamento delle parti e dei partecipanti",
+        "answer": true
+      },
+      {
+        "option_text": "Definire «regole» e «procedure» di comportamento dei fornitori e dei “competitors”",
+        "answer": false
+      },
+      {
+        "option_text": "Progettare il modello, ov vero la configurazione, dell’assetto organizzativo che è rappresentato dall’organigramma dell’impresa",
+        "answer": true
+      }
+    ],
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 155
+  },
+  {
+    "code": "M4.1.1.11",
+    "question": "L’Organigramma",
+    "options": [
+      {
+        "option_text": "Rappresenta i dipendenti e le posizioni attraverso caselle o altre forme su vari livelli, linee dritte o a gomito collegano insieme tali livelli",
+        "answer": true
+      },
+      {
+        "option_text": "Riproduce parzialmente la struttura interna di un'organizzazione o un’azienda",
+        "answer": false
+      },
+      {
+        "option_text": "È una rappresentazione visiva della gerarchia e dei ranghi delle persone, delle aree funzionali o dei raggruppamenti che compongono l'organizzazione",
+        "answer": true
+      },
+      {
+        "option_text": "Può rappresentare strutture organizzative Iper-dimensionali",
+        "answer": false
+      },
+      {
+        "option_text": "Può rappresentare strutture organizzative per Area Geografica",
+        "answer": true
+      },
+      {
+        "option_text": "Può rappresentare strutture organizzative Divisionali",
+        "answer": true
+      }
+    ],
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 156
+  },
+  {
+    "code": "M4.1.1.15",
+    "question": "La Struttura Organizzativa Divisionale per Area Geografica",
+    "options": [
+      {
+        "option_text": "Prevede che ogni divisione corrisponda ad una unità organizzativa che fa parte di un gruppo",
+        "answer": true
+      },
+      {
+        "option_text": "Prevede che ogni divisione sia strettamente e rigidamente legata alla direzione generale centrale",
+        "answer": false
+      },
+      {
+        "option_text": "Facilita la comunicazione tra le unità operative dell’area",
+        "answer": true
+      },
+      {
+        "option_text": "Riduce i costi di trasporto, permettendo ma ggiore efficienza nella distribuzione",
+        "answer": true
+      },
+      {
+        "option_text": "Permette di adattare il prodotto alle specificità locali e interpretare rapidamente i cambiamenti nei gusti dei consumatori",
+        "answer": true
+      },
+      {
+        "option_text": "Non ha sostanziali svantaggi o rischi essendo gli uffici di direzione (centrale di a rea) decentralizzati",
+        "answer": false
+      }
+    ],
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 157
+  },
+  {
     "code": "M4.1.2.1",
-    "question": "Il modello Weil Broadbent per l’allineamento tra reparto IT e il Business: 1. Illustra come il Piano Strategico Aziendale può influenzare la Strategia ICT che ne rimane completamente indipendente Falso",
+    "question": "Il modello Weil Broadbent per l’allineamento tra reparto IT e il Business:",
     "options": [
       {
-        "option_text": "2. Illustra come il Piano Strategico Aziendale guidi la Strategia ICT per un vantaggio competitivo",
-        "answer": true
-      },
-      {
-        "option_text": "3. Delinea come la Strategia ICT allinei il Portfolio IT",
-        "answer": true
-      },
-      {
-        "option_text": "4. Delinea come il Portfolio IT allinei la Strategia ICT 5. Delinea come i v incoli (normativi, concorrenza, tecnologia, ecc.) influenzino il Piano Strategico e il Portfolio IT  Vero  V V V F V V F V V V F V V F V F V V F V V V V F V F V V V F  5",
+        "option_text": "Illustra come il Piano Strategico Aziendale può influenzare la Strategia ICT che ne rimane completamente indipendente",
         "answer": false
       },
       {
-        "option_text": "T1 – 8 Luglio 2022  6. Delinea come il Portfolio IT abiliti e informi il piano strategico aziendale 21 -",
+        "option_text": "Illustra come il Piano Strategico Aziendale guidi la Strategia ICT per un vantaggio competitivo",
+        "answer": true
+      },
+      {
+        "option_text": "Delinea come la Strategia ICT allinei il Portfolio IT",
+        "answer": true
+      },
+      {
+        "option_text": "Delinea come il Portfolio IT allinei la Strategia ICT",
+        "answer": false
+      },
+      {
+        "option_text": "Delinea come i v incoli (normativi, concorrenza, tecnologia, ecc.) influenzino il Piano Strategico e il Portfolio IT",
+        "answer": true
+      },
+      {
+        "option_text": "Delinea come il Portfolio IT abiliti e informi il piano strategico aziendale",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 158
   },
   {
-    "id": 136,
     "code": "M4.1.3.2",
-    "question": "Indicare con vero quali dei seguenti sono compiti del CIO (Chief Information Officer) 1. Contribuire all’analisi e alla definizione dei processi aziendali, raccogliendo e razionalizzando le esigenze dei vari compar ti Vero",
+    "question": "Indicare con  quali dei seguenti sono compiti del CIO (Chief Information Officer)",
     "options": [
       {
-        "option_text": "2. Definire, insieme alla di rezione, gli obiettivi aziendali ed il contributo dell’informatica per il loro raggiungimento",
+        "option_text": "Contribuire all’analisi e alla definizione dei processi aziendali, raccogliendo e razionalizzando le esigenze dei vari compar ti",
         "answer": true
       },
       {
-        "option_text": "3. Definire il Safety Plan (SP) per l’azienda",
-        "answer": false
-      },
-      {
-        "option_text": "4. Definire e gestire il budget destinato ai Sistemi Informativi e coordinare il reparto IT",
+        "option_text": "Definire, insieme alla di rezione, gli obiettivi aziendali ed il contributo dell’informatica per il loro raggiungimento",
         "answer": true
       },
       {
-        "option_text": "5. Avere competen ze sulla tecnologia anche se non approfondite 6. Partecipare alla definizione dei requisiti funzionali e architetturali degli strumenti informativi da introdurre in azienda Vero 22 -",
+        "option_text": "Definire il Safety Plan (SP) per l’azienda",
         "answer": false
+      },
+      {
+        "option_text": "Definire e gestire il budget destinato ai Sistemi Informativi e coordinare il reparto IT",
+        "answer": true
+      },
+      {
+        "option_text": "Avere competen ze sulla tecnologia anche se non approfondite",
+        "answer": false
+      },
+      {
+        "option_text": "Partecipare alla definizione dei requisiti funzionali e architetturali degli strumenti informativi da introdurre in azienda",
+        "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 159
   },
   {
-    "id": 137,
     "code": "M4.1.3.4",
-    "question": "Indicare con vero quali dei seguenti sono compiti del CISO (Chief Information Security Officer) 1. Realizzare assessment della sicurezza: per valutare lo stato dell’arte della sicurezza in azienda e individuare un piano",
+    "question": "Indicare con  quali dei seguenti sono compiti del CISO (Chief Information Security Officer)",
     "options": [
       {
-        "option_text": "strategico per aumentare la  capacità di reagire alle cyber minacce",
+        "option_text": "Realizzare assessment della sicurezza: per valutare lo stato dell’arte della sicurezza in azienda e individuare un piano strategico per aumentare la capacità di reagire alle cyber minacce",
         "answer": true
       },
       {
-        "option_text": "2. La definizione delle policy  di sicurezza : definire regole e standard per la gestione della sicurezza",
+        "option_text": "La definizione delle policy di sicurezza : definire regole e standard per la gestione della sicurezza",
         "answer": true
       },
       {
-        "option_text": "3. La definizione delle policy e degli standard  informatici : per le architetture tecnologiche di rete e di s istema 4. L’analisi del rischio cyber: comprendere le vulnerabilità e le minacce per l’azienda per compiere scelte adeguate alla",
+        "option_text": "La definizione delle policy e degli standard informatici : per le architetture tecnologiche di rete e di s istema",
         "answer": false
       },
       {
-        "option_text": "gestione del rischio cyber in termini di politiche e strumenti 5. La definizione delle architetture  di sicurezza : disegnar e l’architettura per la gestione della sicurezza e monitoraggio delle",
+        "option_text": "L’analisi del rischio cyber: comprendere le vulnerabilità e le minacce per l’azienda per compiere scelte adeguate alla gestione del rischio cyber in termini di politiche e strumenti",
         "answer": true
       },
       {
-        "option_text": "scelte strutturali 6. Condurre ricerche ed eseguire soluzioni di gestione della Sicurezza (Safety) per aiutare a mantenere al sicuro le persone Falso 23 -",
+        "option_text": "La definizione delle architetture di sicurezza : disegnar e l’architettura per la gestione della sicurezza e monitoraggio delle scelte strutturali",
         "answer": true
+      },
+      {
+        "option_text": "Condurre ricerche ed eseguire",
+        "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 160
   },
   {
-    "id": 138,
     "code": "M4.1.3.6",
-    "question": "Il DPO (Data Protection Officer) secondo il GDPR 1. È responsabile del monitoraggio della conformità dell’organizzazione per la quale lavora e svolge il ruolo di punto di",
+    "question": "Il DPO (Data Protection Officer) secondo il GDPR",
     "options": [
       {
-        "option_text": "contatto tra gli interessati e l’autorità di controllo competente",
+        "option_text": "È responsabile del monitoraggio della conformità dell’organizzazione per la quale lavora e svolge il ruolo di punto di contatto tra gli interessati e l’autorità di controllo competente",
         "answer": true
       },
       {
-        "option_text": "2. Inform a e consiglia l’organizzazione ed i suoi dipendenti circa gli obblighi di protezione dei dati ai sensi del GDPR 3. Monitora la conformità dell’organizzazione al Regolamento ed alle policy e procedure interne in materia di protezione dei",
+        "option_text": "Inform a e consiglia l’organizzazione ed i suoi dipendenti circa gli obblighi di protezione dei dati ai sensi del GDPR",
         "answer": true
       },
       {
-        "option_text": "dati",
+        "option_text": "Monitora la conformità dell’organizzazione al Regolamento ed alle policy e procedure interne in materia di protezione dei dati",
         "answer": true
       },
       {
-        "option_text": "4. Deve es sere obbligatoriamente nominato, sia per le aziende pubbliche che per quelle private 5. Funge da punto di contatto per l’autorità di controllo per tutte le questioni inerenti alla protezione dei dati, come la",
+        "option_text": "Deve es sere obbligatoriamente nominato, sia per le aziende pubbliche che per quelle private",
         "answer": false
       },
       {
-        "option_text": "segnalazione di violazioni dei dati",
+        "option_text": "Funge da punto di contatto per l’autorità di controllo per tutte le questioni inerenti alla protezione dei dati, come la segnalazione di violazioni dei dati",
         "answer": true
       },
       {
-        "option_text": "6. Deve essere obbligatoriamente un dipendente dell’organizzazione 24 -",
+        "option_text": "Deve essere obbligatoriamente un dipendente dell’organizzazione",
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 161
   },
   {
-    "id": 139,
     "code": "M4.1.5.2",
-    "question": "Il Security Analyst 1. Previene, rileva e gestisce le minacce informatiche, nell’ottica di proteggere computer, dati, reti e programmi delle aziende Vero",
+    "question": "Il Security Analyst",
     "options": [
       {
-        "option_text": "2. Conosce le tecniche crittografiche",
+        "option_text": "Previene, rileva e gestisce le minacce informatiche, nell’ottica di proteggere computer, dati, reti e programmi delle aziende",
         "answer": true
       },
       {
-        "option_text": "3. Conosce i protocolli di comunicazione",
+        "option_text": "Conosce le tecniche crittografiche",
         "answer": true
       },
       {
-        "option_text": "4. Conosce i sistemi di autenticazione e controllo",
+        "option_text": "Conosce i protocolli di comunicazione",
         "answer": true
       },
       {
-        "option_text": "5. Non si occupa degli aspetti giuridici e delle normative internazionali (in carico al DPO)",
+        "option_text": "Conosce i sistemi di autenticazione e controllo",
+        "answer": true
+      },
+      {
+        "option_text": "Non si occupa degli aspetti giuridici e delle normative internazionali (in carico al DPO)",
         "answer": false
       },
       {
-        "option_text": "6. Si appoggia a consulenti esterni per quel che riguarda l’Intrusion Detection 25 -",
+        "option_text": "Si appoggia a consulenti esterni per quel che riguarda l’Intrusion Detection",
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 162
   },
   {
-    "id": 140,
     "code": "M4.1.5.4",
-    "question": "L’Informatico Forense 1. È un tecnico coinvolto nella raccolta di dati circa l’utilizzo di sistemi, reti e applicazioni e analisi degli stessi in rela zione ad",
+    "question": "L’Informatico Forense",
     "options": [
       {
-        "option_text": "incidenti di cybersecurity",
+        "option_text": "È un tecnico coinvolto nella raccolta di dati circa l’utilizzo di sistemi, reti e applicazioni e analisi degli stessi in rela zione ad incidenti di cybersecurity",
         "answer": true
       },
       {
-        "option_text": "2. Si appoggia sempre alla polizia per le indagini",
+        "option_text": "Si appoggia sempre alla polizia per le indagini",
         "answer": false
       },
       {
-        "option_text": "3. Si occupa anche di redigere una docu mentazione idonea alla presentazione in sede processuale 4. È conosciuto formalmente anche come “Analista forense”  Vero   F V V F V V V V F V F V V V F V V F V V V F V F V V V V F F  6",
+        "option_text": "Si occupa anche di redigere una docu mentazione idonea alla presentazione in sede processuale",
         "answer": true
       },
       {
-        "option_text": "T1 – 8 Luglio 2022  5. È conosciuto formalmente anche come “Analista processuale”",
+        "option_text": "È conosciuto formalmente anche come “Analista forense”",
+        "answer": true
+      },
+      {
+        "option_text": "È conosciuto formalmente anche come “Analista processuale”",
         "answer": false
       },
       {
-        "option_text": "6. Ha competenze IT e degli strumenti software per le indagini forensi 26 -",
+        "option_text": "Ha competenze IT e degli strumenti software per le indagini forensi",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 163
   },
   {
-    "id": 141,
     "code": "M4.2.2.2",
-    "question": "Quali di questi elementi fanno parte di un buon piano operativo per diffondere la sicurezza informatica  (indicare con vero)",
+    "question": "Quali di questi elementi fanno parte di un buon piano operativo per diffondere la sicurezza informatica (indicare con )",
     "options": [
       {
-        "option_text": "1. Definire gli obiettivi di sicurezza",
+        "option_text": "Definire gli obiettivi di sicurezza",
         "answer": true
       },
       {
-        "option_text": "2. Realizzare attacchi di Phishing simulati",
+        "option_text": "Realizzare attacchi di Phishing simulati",
         "answer": true
       },
       {
-        "option_text": "3. Predisporre corsi di formazione e test di valutazione",
+        "option_text": "Predisporre corsi di formazione e test di valutazione",
         "answer": true
       },
       {
-        "option_text": "4. Pianificare accuratamente attività a lungo termine",
+        "option_text": "Pianificare accuratamente attività a lungo termine",
         "answer": false
       },
       {
-        "option_text": "5. Coinvolgere solo chi è coinvolto direttamente con incarichi critici",
+        "option_text": "Coinvolgere solo chi è coinvolto direttamente con incarichi critici",
         "answer": false
       },
       {
-        "option_text": "6. Prepararsi adeguatamente in caso di errori umani 27 -",
+        "option_text": "Prepararsi adeguatamente in caso di errori umani",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 164
   },
   {
-    "id": 142,
     "code": "M4.2.3.2",
-    "question": "Outsourcing 1. È una strategia aziendale in base alla quale un progetto, parte di esso o in generale un’attività o un servizio viene trasfer ita",
+    "question": "Outsourcing",
     "options": [
       {
-        "option_text": "a un'azienda esterna",
+        "option_text": "È una strategia aziendale in base alla quale un progetto, parte di esso o in generale un’attività o un servizio viene trasfer ita a un'azienda esterna",
         "answer": true
       },
       {
-        "option_text": "2. Si realizza per concentrarsi meglio sugli aspetti centrali del business",
+        "option_text": "Si realizza per concentrarsi meglio sugli aspetti centrali del business",
         "answer": true
       },
       {
-        "option_text": "3. Si realizza per concentrarsi meglio sugli aspetti centrali della cyber security",
+        "option_text": "Si realizza per concentrarsi meglio sugli aspetti centrali della cyber security",
         "answer": false
       },
       {
-        "option_text": "4. Può migliorare l'efficienza e la produttività",
+        "option_text": "Può migliorare l'efficienza e la produttività",
         "answer": true
       },
       {
-        "option_text": "5. Può provocare perdita di controllo su conoscenze specifiche (know How) e generare rischi di tipo organizzativo 6. Può generare rischi di tipo organizzativo ma non la perdita di controllo su conoscenze specifiche (know How) Falso 28 -",
+        "option_text": "Può provocare perdita di controllo su conoscenze specifiche (know How) e generare rischi di tipo organizzativo",
         "answer": true
+      },
+      {
+        "option_text": "Può generare rischi di tipo organizzativo ma non la perdita di controllo su conoscenze specifiche (know How)",
+        "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 165
   },
   {
-    "id": 143,
     "code": "M4.2.3.4",
     "question": "Esternalizzare l’infrastruttura IT (CED)",
     "options": [
       {
-        "option_text": "1. Può essere necessario per contenere i costi dell’infrastruttura informatica al crescere dell’azienda 2. Il costo del servizio può diventare molto oneroso se non sono dimensionati correttamente i requisiti (funzioni, latenza e",
+        "option_text": "Può essere necessario per contenere i costi dell’infrastruttura informatica al crescere dell’azienda",
         "answer": true
       },
       {
-        "option_text": "disponibilità)",
+        "option_text": "Il costo del servizio può diventare molto oneroso se non sono dimensionati correttamente i requisiti (funzioni, latenza e disponibilità)",
         "answer": true
       },
       {
-        "option_text": "3. Non porta mai a sorprese in relazione al livello, la qualità e la modalità di erogazione del servizio 4. Può es sere problematico se non è correttamente definito il contratto, quello che non è chiaramente scritto non si ritrova",
+        "option_text": "Non porta mai a sorprese in relazione al livello, la qualità e la modalità di erogazione del servizio",
         "answer": false
       },
       {
-        "option_text": "quando è necessario",
+        "option_text": "Può es sere problematico se non è correttamente definito il contratto, quello che non è chiaramente scritto non si ritrova quando è necessario",
         "answer": true
       },
       {
-        "option_text": "5. È sempre sinonimo di messa in sicurezza del dato anche in relazione alla sua proprietà, mai nessun leak",
+        "option_text": "È sempre sinonimo di messa in sicurezza del dato anche in relazione alla sua proprietà, mai nessun leak",
         "answer": false
       },
       {
-        "option_text": "6. Può p ortare a difficoltà di coordinazione tra le attività interne ed estern alizzate 29 -",
+        "option_text": "Può p ortare a difficoltà di coordinazione tra le attività interne ed estern alizzate",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 166
   },
   {
-    "id": 144,
-    "code": "M4.2.3.6",
-    "question": "Esternalizzare i servizi informatici in Cloud",
-    "options": [
-      {
-        "option_text": "1. Può essere una soluzione per focalizzare le risorse del CED sui servizi principali e critici per l’azienda",
-        "answer": true
-      },
-      {
-        "option_text": "2. Riduce l’onere di elaborazione in carico al CED aziendale",
-        "answer": true
-      },
-      {
-        "option_text": "3. Di solito richiede un’implementazione più lunga rispetto alle soluzioni on -premise (in loco)",
-        "answer": false
-      },
-      {
-        "option_text": "4. Ha sempre un costo del servizio molto basso e competitivo",
-        "answer": false
-      },
-      {
-        "option_text": "5. Necessità di connessione ad Internet sempre attiva, con tutto quello che ne consegue",
-        "answer": true
-      },
-      {
-        "option_text": "6. Necessità un’architettura di sicurezza più complessa (es. cloud to cloud) 30 -",
-        "answer": true
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 145,
     "code": "M4.2.3.8",
     "question": "La servitizzazione PaaS prevede",
     "options": [
       {
-        "option_text": "1. Networking gestito dal cloud service provider",
+        "option_text": "Networking gestito dal cloud service provider",
         "answer": true
       },
       {
-        "option_text": "2. Storage gestito dal cloud service provider",
+        "option_text": "Storage gestito dal cloud service provider",
         "answer": true
       },
       {
-        "option_text": "3. Server gestito dal cloud service provider",
+        "option_text": "Server gestito dal cloud service provider",
         "answer": true
       },
       {
-        "option_text": "4. Virtualizzazione gestit a internamente",
+        "option_text": "Virtualizzazione gestit a internamente",
         "answer": false
       },
       {
-        "option_text": "5. Sistema Operativo gestito internamente",
+        "option_text": "Sistema Operativo gestito internamente",
         "answer": false
       },
       {
-        "option_text": "6. Applicazione gestita internamente V F V V F V V V V F F V V V F V V F V V F V F V V V F F V V V V V F F V  7 T1 – 8 Luglio 2022 Esercizio 1 Un’azienda ha realizzato la topologia di rete  indicat a nello schema, determinare  la tipologia degl i apparati di rete e dei presidi di protezione , per ciascun punto da A ad N, considerando  gli standard ISO/IEC 27001 e ISA/IEC 62443 . Esercizio 2 È necessario partizionare  la rete 1 85.152.20.0 in 4 sottoreti così costituite: • Sottorete A: 30 Host • Sottorete B: 58 Host • Sottorete C: 20 Host • Sottorete D: 22 Host Compilare la tabella seguente con i dati richiesti: Sottorete  Indirizzo  di sottorete  Numero  Totale  Host Disponibili A 185.152.20.0/ 27 30 (Utilizzati 30) B 185.152.20.32/26  62 (Utilizzati 58) C 185.152.20.96/ 27 30 (Utilizzati 20) D 185.152.20. 128/27  30 (Utilizzati 22) A=Router  G=Switch B=VPN  H=Firewall C=Firewall  I=Switch D=IPS (Intrusion Prevention S ystem)  L=Firewall E=Switch  M=Switch F=Firewall  N=Switch  1 T2 – 8 Luglio 2022  Corso Aspetti Gestional i e Organizzativi della Cyber Security Appello 20 giugno 2022 Indicare vero [V] o falso [F] alle seguenti affermazioni : 1 -",
+        "option_text": "Applicazione gestita internamente",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 167
   },
   {
-    "id": 146,
-    "code": "M1.3.1.12.1",
-    "question": "L’incapsulamento ISO/OSI",
-    "options": [
-      {
-        "option_text": "1. Introduce un “Header” con le stesse informazioni per ogni livello ISO/OSI",
-        "answer": false
-      },
-      {
-        "option_text": "2. Introduce un “Trailer” (ovvero una ”coda” aggiunta al pacchetto) specifica per ogni livello ISO/OSI",
-        "answer": false
-      },
-      {
-        "option_text": "3. Introduce un “Header ” (ovvero un’”intestazione” iniziale aggiunta al pacchetto) specifica per ogni livello ISO/OSI",
-        "answer": true
-      },
-      {
-        "option_text": "4. Introduce un “Header” per ogni livello e un “Trailer” ( una “coda ” informativa aggiunta al pacchetto) solo a livello 2",
-        "answer": true
-      },
-      {
-        "option_text": "5. Il “Trailer” di livello 2 è util izzato per il controllo degli errori",
-        "answer": true
-      },
-      {
-        "option_text": "6. L’Header introduce le informazioni e i riferimenti necessari a ciascuno dei livelli ISO/OSI 2 -",
-        "answer": true
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 147,
-    "code": "M1.3.2.9.1",
-    "question": "Nella comunicazione con il protocollo Ethernet in caso di avvenuta collisione: 1. La stazione trasmittente sospende la trasmissione e trasmette una sequenza composta dalla parte di pacchetto già",
-    "options": [
-      {
-        "option_text": "trasmessa e un codice identificativo in coda al pacchetto",
-        "answer": true
-      },
-      {
-        "option_text": "2. La stazione trasmittente sospende la trasmissione e trasmette una se quenza denominata “jamming” 3. La stazione trasmittente sospende la trasmissione e trasmette e un codice identificativo in testa e la parte di pacchetto già",
-        "answer": true
-      },
-      {
-        "option_text": "trasmessa in coda al pacchetto",
-        "answer": false
-      },
-      {
-        "option_text": "4. La stazione trasmittente interrompe le trasmissioni e attend e sino a quando un nodo in rete inizia a ritrasmettere 5. La stazione di trasmissione, dopo l’invio della sequenza di jamming, ripete il tentativo di trasmissione dopo un tempo",
-        "answer": false
-      },
-      {
-        "option_text": "pseudocasuale 6. La stazione di trasmissione, dopo l’invio della sequenza di jamming, ripete il tentativo di trasmissione dopo un tempo",
-        "answer": true
-      },
-      {
-        "option_text": "prefissato 3 -",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 148,
-    "code": "M2.1.2.2.1",
-    "question": "Il Soggetto Giuridico",
-    "options": [
-      {
-        "option_text": "1. È il soggetto giuridicamente responsabile dell'attività svolta 2. È la persona alla quale sono riferiti i diritti e gli obblighi che nascono dalla costituzione dell’azienda e dal suo esercizio Vero",
-        "answer": true
-      },
-      {
-        "option_text": "3. È la persona che investe nel capitale privato dell’azienda",
-        "answer": false
-      },
-      {
-        "option_text": "4. Può essere una Persona Giuridica ovvero un ente, un’azienda o una società",
-        "answer": true
-      },
-      {
-        "option_text": "5. Può essere indifferentemente la Persona Fisic a o Giuridica, entrambe hanno capacità giuridica",
-        "answer": true
-      },
-      {
-        "option_text": "6. Può essere solo una Persona Fisica nel cui nome l’attività aziendale è esercitata 5 -",
-        "answer": false
-      }
-    ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
-  },
-  {
-    "id": 149,
     "code": "M3.2.1.3.1",
     "question": "Quale di queste aree non è un requisito di un ISMS ISO 27001",
     "options": [
       {
-        "option_text": "1. Leadership",
+        "option_text": "Leadership",
         "answer": true
       },
       {
-        "option_text": "2. Pianificazione 3. Attività Operative  Vero  Nome Cognome Matricola F F V V V V V V F F V F V F V F V V V V F V V F  2",
+        "option_text": "Pianificazione",
         "answer": true
       },
       {
-        "option_text": "T2 – 8 Luglio 2022  4. Disaster Recovery",
+        "option_text": "Attività Operative",
+        "answer": true
+      },
+      {
+        "option_text": "Disaster Recovery",
         "answer": false
       },
       {
-        "option_text": "5. Supporto",
+        "option_text": "Supporto",
         "answer": true
       },
       {
-        "option_text": "6. Data Entry 6 -",
+        "option_text": "Data Entry",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 168
   },
   {
-    "id": 150,
     "code": "M3.2.1.10",
     "question": "Il ciclo PDCA",
     "options": [
       {
-        "option_text": "1. È il ciclo Plan Do Check Act detto anche ciclo di Deming o ciclo di  Shewhart",
+        "option_text": "È il ciclo Plan Do Check Act detto anche ciclo di Deming o ciclo di Shewhart",
         "answer": true
       },
       {
-        "option_text": "2. È il ciclo Process Do Control Alert detto anche ciclo di Deming o ciclo di  Shewhart",
+        "option_text": "È il ciclo Process Do Control Alert detto anche ciclo di Deming o ciclo di Shewhart",
         "answer": false
       },
       {
-        "option_text": "3. È un approccio al miglioramento continuo dei processi aziendali 4. È esplicitamente indicato in ambito ISO 27000 per rappresentare il meccanismo ciclico di monitora ggio e miglioramento",
+        "option_text": "È un approccio al miglioramento continuo dei processi aziendali",
         "answer": true
       },
       {
-        "option_text": "del sistema di gestione",
+        "option_text": "È esplicitamente indicato in ambito ISO 27000 per rappresentare il meccanismo ciclico di monitora ggio e miglioramento del sistema di gestione",
         "answer": true
       },
       {
-        "option_text": "5. È esplicitamente indicato in ambito ISO 27000 per monitorare i cicli di manutenzione programmata dei sistemi",
+        "option_text": "È esplicitamente indicato in ambito ISO 27000 per monitorare i cicli di manutenzione programmata dei sistemi",
         "answer": false
       },
       {
-        "option_text": "6. Non è esplicitamente indicato in ambito ISO 27000 ma tutto lo standard è ispirato ad esso 7 -",
+        "option_text": "Non è esplicitamente indicato in ambito ISO 27000 ma tutto lo standard è ispirato ad esso",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 169
   },
   {
-    "id": 151,
     "code": "M3.3.3.1.1",
     "question": "La Brand Reputation",
     "options": [
       {
-        "option_text": "1. Si riferisce al modo in cui il brand o il marchio viene valutato da parte del pubblico",
+        "option_text": "Si riferisce al modo in cui il brand o il marchio viene valutato da parte del pubblico",
         "answer": true
       },
       {
-        "option_text": "2. È detta anche Brand Image ovvero la reale percezione del marchio da parte del pubblico 3. Deve essere differenziata dalla Brand Image che risulta costruita dall’azienda in maniera strategica e può non corrispondere",
+        "option_text": "È detta anche Brand Image ov vero la reale percezione del marchio da parte del pubblico",
         "answer": false
       },
       {
-        "option_text": "alla reale percezione del pubblico",
+        "option_text": "Deve essere differenziata dalla Brand Image che risulta costruita dall’azienda in maniera strategica e può non corrispondere alla reale percezione del pubblico",
         "answer": true
       },
       {
-        "option_text": "4. Può essere migliorata migliorando i contenuti pubblicati e con buone recensioni on -line",
+        "option_text": "Può essere migliorata migliorando i contenuti pubblicati e con buone recensioni on -line",
         "answer": true
       },
       {
-        "option_text": "5. Impatta direttamente l’immagine dell’azienda proprietaria del marchio",
+        "option_text": "Impatta direttamente l’immagine dell’azienda proprietaria del marchio",
         "answer": false
       },
       {
-        "option_text": "6. Può non impattare direttamente l’immagine dell’azienda proprietaria del marchio 9 -",
+        "option_text": "Può non impattare direttamente l’immagine dell’azienda proprietaria del marchio",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 170
   },
   {
-    "id": 152,
     "code": "M3.4.5.1.1",
     "question": "Il SIEM",
     "options": [
       {
-        "option_text": "1. E’ l’acronimo  di Security Impact and Event Management)",
+        "option_text": "E’ l’acronimo di Security Impact and Event Management)",
         "answer": false
       },
       {
-        "option_text": "2. E’ l’acronimo di Security Integrated and Evaluation Management) 3. È una soluzione software che, in tempo reale, provvede al monitoraggio e alla gestione degli eventi e delle informazioni che",
+        "option_text": "E’ l’acronimo di Security Integrated and Evaluation Management)",
         "answer": false
       },
       {
-        "option_text": "accadono all’ interno della rete e sui vari sistemi di sicurezza fornendo una correlazione e aggregazione tra essi 4. È una soluzione software offline che provvede alla visualizzazione e alla gestione degli eventi e delle informazioni che",
-        "answer": true
-      },
-      {
-        "option_text": "accadono all’interno della re te e sui vari sistemi di sicurezza fornendo una correlazione e aggregazione tra essi 5. Include le funzionalità offerte dai SIM (security information management) a quelle dei SEM (security event management) Vero 6. Ha come interfaccia una console centraliz zata, preposta ad attività di monitoraggio, segnalazione e risposta automatica a",
+        "option_text": "È una",
         "answer": false
-      },
-      {
-        "option_text": "determinati eventi 10 -",
-        "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 171
   },
   {
-    "id": 153,
     "code": "M3.4.5.3",
     "question": "VPN",
     "options": [
       {
-        "option_text": "1. È l’acronimo di Virtual Private Network",
+        "option_text": "È l’acronimo di Virtual Private Network",
         "answer": true
       },
       {
-        "option_text": "2. È l’acronimo di Verified Private Network 3. È una tecnologia che si realizza attraverso un canale di comunicazione criptato (o tunnel VPN)  Vero  V V V F V F V F V V F F V F F V F V V F V V F V F F V F V V  3",
+        "option_text": "È l’acronimo di Verified Private Network",
         "answer": false
       },
       {
-        "option_text": "T2 – 8 Luglio 2022  4. Consente di creare una rete privata virtuale",
+        "option_text": "È una tecnologia che si realizza attraverso un canale di comunicazione criptato (o tunnel VPN)",
         "answer": true
       },
       {
-        "option_text": "5. Per il suo funzionamento p uò usare i protocolli IPSec (Internet Protocol Security)",
+        "option_text": "Consente di creare una rete privata virtuale",
         "answer": true
       },
       {
-        "option_text": "6. Per il suo funzionamento p uò usare i protocolli Modbus 11 -",
+        "option_text": "Per il suo funzionamento p uò usare i protocolli IPSec (Internet Protocol Security)",
+        "answer": true
+      },
+      {
+        "option_text": "Per il suo funzionamento p uò usare i protocolli Modbus",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 172
   },
   {
-    "id": 154,
     "code": "M3.4.5.5",
     "question": "Gli Instrusion Detection/Prevention",
     "options": [
       {
-        "option_text": "1. Sono sistemi che si integrano con i Firewall per offrire una protezione più completa",
+        "option_text": "Sono sistemi che si integrano con i Firewall per offrire una protezione più completa",
         "answer": true
       },
       {
-        "option_text": "2. Sono sistemi che non si integrano con i Firewall ma che offrono lo stesso una protezione completa 3. Vengono posizionati “a valle” del firewall (rispetto alla connessione Internet) ed analizzano i pacchetti di dati ed i",
+        "option_text": "Sono sistemi che non si integrano con i Firewall ma che offrono lo stesso una protezione completa",
         "answer": false
       },
       {
-        "option_text": "comportamenti da loro generati 4. Vengono posizionali “a monte” del fir ewall (rispetto alla connessione Internet) ed analizzano i pacchetti di dati ed i",
+        "option_text": "Vengono posizionati “a valle” del firewall (rispetto alla connessione Internet) ed analizzano i pacchetti di dati ed i comportamenti da loro generati",
         "answer": true
       },
       {
-        "option_text": "comportamenti da loro generati",
+        "option_text": "Vengono posizionali “a monte” del fir ewall (rispetto alla connessione Internet) ed analizzano i pacchetti di dati ed i comportamenti da loro generati",
         "answer": false
       },
       {
-        "option_text": "5. Per la rilevazione delle minacce possono usare la metodologia del “Misuse Detection”",
+        "option_text": "Per la rilevazione delle minacce possono usare la metodologia del “Misuse Detection”",
         "answer": true
       },
       {
-        "option_text": "6. Per la rilevazione delle minacce possono usare la metodologia del “Deny Anomaly” 12 -",
+        "option_text": "Per la rilevazione delle minacce possono usare la metodologia del “Deny Anomaly”",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 173
   },
   {
-    "id": 155,
     "code": "M4.1.1.4",
     "question": "Perché organizzare l’azienda?",
     "options": [
       {
-        "option_text": "1. Per pianificare, aumentare la produttività e di conseguenza fatturato e crescita",
+        "option_text": "Per pianificare, aumentare la produttività e di conseguenza fatturato e crescita",
         "answer": true
       },
       {
-        "option_text": "2. Per sviluppare solo la parte dell’azienda più profittevole 3. Per sincronizzare processi e sistemi costituiti da una parte sociale (risorse umane) e una parte tecnica (risorse economiche",
+        "option_text": "Per sviluppare solo la parte dell’azienda più profittevole",
         "answer": false
       },
       {
-        "option_text": "a supporto)",
+        "option_text": "Per sincronizzare processi e sistemi costituiti da una parte sociale (risorse umane) e una parte tecnica (risorse economiche a supporto)",
         "answer": true
       },
       {
-        "option_text": "4. Per aumentare il valore del prodotto o servizio che l’azienda offre ai propri clienti",
+        "option_text": "Per aumentare il valore del prodotto o servizio che l’azienda offre ai propri clienti",
         "answer": true
       },
       {
-        "option_text": "5. Per moderare la performance quando i costi superano i ricavi 6. Per evitare problematiche dovute alla mancata collabo razione, integrazione o coordinamento di dipartimenti e risorse Vero 14 -",
+        "option_text": "Per moderare la performance quando i costi superano i ricavi",
         "answer": false
+      },
+      {
+        "option_text": "Per evitare problematiche dovute alla mancata collabo razione, integrazione o coordinamento di dipartimenti e risorse",
+        "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 174
   },
   {
-    "id": 156,
     "code": "M4.1.1.8",
-    "question": "Il Controllo di Gestione 1. È il meccanismo operativo  volto a guidare il management  verso il conseguimento degli obiettivi stabiliti in sede",
+    "question": "Il Controllo di Gestione",
     "options": [
       {
-        "option_text": "di pianificazione operativa",
+        "option_text": "È il meccanismo operativo volto a guidare il management verso il conseguimento degli obiettivi stabiliti in sede di pianificazione operativa",
         "answer": true
       },
       {
-        "option_text": "2. Si utilizza unicamente nelle aziende pubbliche 3. Rileva, attraverso la misurazione di appositi indicatori, lo scostamento tra obiettivi pianificati e risultati conseguiti e",
+        "option_text": "Si utilizza unicamente nelle aziende pubbliche",
         "answer": false
       },
       {
-        "option_text": "informando di tali scostamenti gli organi responsabili 4. Rileva, grazie alle fluttuazioni  della pianificazione operativa, gli elementi di scostamento con gli obiettivi ipotizzati  Falso  V F V V V F V F V F V F V V V V F V V F V V F V V V V F F V  4",
+        "option_text": "Rileva, attraverso la misurazione di appositi indicatori, lo scostamento tra obiettivi pianificati e risultati conseguiti e informando di tali scostamenti gli organi responsabili",
         "answer": true
       },
       {
-        "option_text": "T2 – 8 Luglio 2022  5. Permette che gli organi responsabili possano decidere e attuare le a zioni correttive ove necessario",
+        "option_text": "Rileva, grazie alle fluttuazioni della pianificazione operativa, gli elementi di scostamento con gli obiettivi ipotizzati",
+        "answer": false
+      },
+      {
+        "option_text": "Permette che gli organi responsabili possano decidere e attuare le a zioni correttive ove necessario",
         "answer": true
       },
       {
-        "option_text": "6. Può essere utilizzato nelle aziende pubbliche e nelle aziende private 16 -",
+        "option_text": "Può essere utilizzato nelle aziende pubbliche e nelle aziende private",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 175
   },
   {
-    "id": 157,
-    "code": "M4.1.1.10",
-    "question": "L’Organigramma",
-    "options": [
-      {
-        "option_text": "1. Riproduce la struttura interna di un'organizzazione o un’azienda 2. Rappresenta i dipendenti e le posizioni attraverso caselle o altre forme su vari livelli, linee dritte o a gomito collegano",
-        "answer": true
-      },
-      {
-        "option_text": "insieme tali livelli 3. È una rappresentazione parziale della gerarchia e dei ranghi delle persone, delle aree funzionali o dei raggruppamenti c he",
-        "answer": true
-      },
-      {
-        "option_text": "compongono l'organizzazione",
-        "answer": false
-      },
-      {
-        "option_text": "4. Può rappresentare strutture organizzative Funzionali",
-        "answer": true
-      },
-      {
-        "option_text": "5. Può rappresentare strutture organizzative Vettoriali",
-        "answer": false
-      },
-      {
-        "option_text": "6. Può rappresentare strutture organizzative Matriciali 17 -",
-        "answer": true
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 158,
-    "code": "M4.1.1.12",
-    "question": "La Struttura Organizzativa Funzionale 1. È la soluzione organizzativa dove le attività sono divise per “specialità”, ovvero le operazioni della medesima natura sono",
-    "options": [
-      {
-        "option_text": "raggruppate tra loro 2. È la soluzione organizzativa dove le attività sono divise per “specialità”, ovvero le operazioni della medesima natura sono",
-        "answer": true
-      },
-      {
-        "option_text": "raggruppate per area geografica 3. Ha come vantaggio l’incremento dell’efficienza della direzione poiché i manager possono concentrare la loro attività in un",
-        "answer": false
-      },
-      {
-        "option_text": "solo settore di attività 4. Ha come svantaggio il minore coordinamento all’interno della funzione a causa dell’assegnazione del potere decisionale ad",
-        "answer": true
-      },
-      {
-        "option_text": "un solo general manager per tutte le funzioni",
-        "answer": false
-      },
-      {
-        "option_text": "5. Ha come vantaggio la moltiplicazione dei livelli gerarchici, rendendo più semplice il  coordinamento tra le funzioni 6. Ha come rischio l’eccessiva focalizzazione da parte del manager sulla propria funzione, dandole eccessiva rilevanza rispetto",
-        "answer": false
-      },
-      {
-        "option_text": "alle altre attività aziendali 18 -",
-        "answer": true
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 159,
-    "code": "M4.1.1.14",
-    "question": "La Struttura Organizzativa Divisionale 1. È la soluzione organizzativa dove tutte le attività (produzione, marketing, finanza, ecc.) inerenti a un prodotto o servizio",
-    "options": [
-      {
-        "option_text": "vengono raggruppate in una divisione",
-        "answer": true
-      },
-      {
-        "option_text": "2. È la soluzione organizzativa dove ogni divisione corrisponde ad  una unità organizzativa 3. È la soluzione organizzativa dove tutte le attività (produzione, marketing, finanza, ecc.) vengono raggruppate in una unica",
-        "answer": true
-      },
-      {
-        "option_text": "divisione aziendale",
-        "answer": false
-      },
-      {
-        "option_text": "4. La struttura non facilita la realizzazione della strategia di diversificazione produttiva",
-        "answer": false
-      },
-      {
-        "option_text": "5. Ha come svantaggio il rischio di eccessiva focalizzazione da parte del manager per la propria divisione",
-        "answer": true
-      },
-      {
-        "option_text": "6. Può generare possibili conflitti tra staff dell’amministrazione generale e staff di divisione 19 -",
-        "answer": true
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 160,
     "code": "M4.1.1.16",
     "question": "La Struttura Organizzativa a Matrice",
     "options": [
       {
-        "option_text": "1. Presenta responsabili distinti per funzioni e per prodotti / progetti 2. Presenta un manager di funzione per l’allocazione delle risorse a ciascun progetto (finanziamenti, impianti, ecc.) e un",
+        "option_text": "Presenta responsabili distinti per funzioni e per prodotti / progetti",
         "answer": true
       },
       {
-        "option_text": "manager con la responsabilità della conduzione e dei risultati dei singoli prodotti/progetti",
+        "option_text": "Presenta un manager di funzione per l’allocazione delle risorse a ciascun progetto (finanziamenti, impianti, ecc.) e un manager con la responsabilità della conduzione e dei risultati dei singoli prodotti/progetti",
         "answer": true
       },
       {
-        "option_text": "3. Presenta una minore chiarezza dei ruoli nel processo decisionale rispetto alle altre strutture",
+        "option_text": "Presenta una minore chiarezza dei ruoli nel processo decisionale rispetto alle altre strutture",
         "answer": false
       },
       {
-        "option_text": "4. Presenta una maggiore efficienza e velocità nella comunic azione e nelle decisioni 5. Presenta m aggiori possibilità di conflitti (alle intersezioni delle linee) poiché esistono due manager allo stesso livello con",
+        "option_text": "Presenta una maggiore efficienza e velocità nella comunic azione e nelle decisioni",
         "answer": true
       },
       {
-        "option_text": "lo stesso grado di autorità 6. Permette una maggiore acquisizione di “potere” da parte di chi riesce a risolvere i conflitti, pur non ric oprendo il ruolo di",
+        "option_text": "Presenta m aggiori possibilità di conflitti (alle intersezioni delle linee) poiché esistono due manager allo stesso livello con lo stesso grado di autorità",
         "answer": true
       },
       {
-        "option_text": "responsabile 20 -",
+        "option_text": "Permette una maggiore acquisizione di “potere” da parte di chi riesce a risolvere i conflitti, pur non ric oprendo il ruolo di responsabile",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 176
   },
   {
-    "id": 161,
     "code": "M4.1.3.1",
-    "question": "La figura del CISO (Chief Information Security Officer)  V F V F V V V V F V F V V F V F F V V V F F V V V V F V V V  5",
+    "question": "La figura del CISO (Chief Information Security Officer)",
     "options": [
       {
-        "option_text": "T2 – 8 Luglio 2022  1. Ha responsabilità diretta sulla sicurezza fisica delle persone",
+        "option_text": "Ha responsabilità diretta sulla sicurezza fisica delle persone",
         "answer": false
       },
       {
-        "option_text": "2. Ha responsabilità diretta sulla Cyber Security di reti e sistemi",
+        "option_text": "Ha responsabilità diretta sulla Cyber Security di reti e sistemi",
         "answer": true
       },
       {
-        "option_text": "3. Ha maggiore focalizzazione sulla tecnologia del DPO (Data Protection Officer)",
+        "option_text": "Ha maggiore focalizzazione sulla tecnologia del DPO (Data Protection Officer)",
         "answer": true
       },
       {
-        "option_text": "4. Ha minore focalizzazione sulla tecnologia del DPO (Data Protection Officer)",
+        "option_text": "Ha minore focalizzazione sulla tecnologia del DPO (Data Protection Officer)",
         "answer": false
       },
       {
-        "option_text": "5. Ha sempre una forte focalizzazione sulla protezione dei dati e delle informazi oni",
+        "option_text": "Ha sempre una forte focalizzazione sulla protezione dei dati e delle informazi oni",
         "answer": true
       },
       {
-        "option_text": "6. Ha una maggiore focalizzazione sugli aspetti legali rispetto al DPO (Data Protection Officer) 21 -",
+        "option_text": "Ha una maggiore focalizzazione sugli aspetti legali rispetto al DPO (Data Protection Officer)",
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 177
   },
   {
-    "id": 162,
-    "code": "M4.1.3.3",
-    "question": "Indicare con vero quali dei seguenti sono compiti del CIO (Chief Information Officer)",
-    "options": [
-      {
-        "option_text": "1. Contribuire alla gestione del cambiamento in seguito all’introduzione di nuovi strumenti informativi",
-        "answer": true
-      },
-      {
-        "option_text": "2. Contribuire alla gestione del cambiamento proponendo l’introduzione di nuovi macchinari o tecnologie produttive",
-        "answer": false
-      },
-      {
-        "option_text": "3. Partecipare alla definizione della Business Impac t Analysis (BIA)",
-        "answer": true
-      },
-      {
-        "option_text": "4. Definire KPI e SLA per la valutazione sia dell’efficienza interna, sia di quella dei fornitori di software e servizi 5. Progettare e gestire il funzionamento quotidiano dei sistemi informativi, ottimizzando le risorse interne e i co ntratti con i",
-        "answer": true
-      },
-      {
-        "option_text": "fornitori esterni",
-        "answer": true
-      },
-      {
-        "option_text": "6. Gestire e organizzare il flusso delle informazioni agevolando l’uso della tecnologia 22 -",
-        "answer": true
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 163,
-    "code": "M4.1.3.5",
-    "question": "Indicare con vero quali dei seguenti sono compiti del CISO (Chief  Information Security Officer) 1. Il monitoraggio della sicurezza: controllare il traffico sui diversi canali sviluppando un Security Operation  Center (SOC)",
-    "options": [
-      {
-        "option_text": "interno all’azienda o collaborando con un provider esterno 2. La risposta agli incidenti: rispondere in tempi brevi in caso di data breach o, in generale incidenti, per limitarne gli effe tti Vero",
-        "answer": true
-      },
-      {
-        "option_text": "3. Progettare e gestire il funzionamento quotid iano dei sistemi informativi",
-        "answer": false
-      },
-      {
-        "option_text": "4. L’identificazione delle minacce: essere aggiornati sulle tipologie di minacce e di attacco 5. L’investigazione forense: condurre indagini forensi in caso di incidenti, collaborando con risorse interne o specialisti",
-        "answer": true
-      },
-      {
-        "option_text": "este rni 6. Assicurarsi che l’azienda sia conforme alle normative locali, nazionali e globali, in particolare in aree come la salute e la",
-        "answer": true
-      },
-      {
-        "option_text": "sicurezza 23 -",
-        "answer": false
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 164,
-    "code": "M4.1.5.1",
-    "question": "Il Security Auditor 1. È lo specialista che ispeziona/valuta l'efficacia delle soluzioni tecniche adottate per garantire la sicurezza di un sistema",
-    "options": [
-      {
-        "option_text": "informativo",
-        "answer": true
-      },
-      {
-        "option_text": "2. Può lavorare in un gruppo di auditing interno all’azienda o può essere un consulente esterno",
-        "answer": true
-      },
-      {
-        "option_text": "3. Lavora solamente come dipendente in gruppi di auditing  interni all’azienda",
-        "answer": false
-      },
-      {
-        "option_text": "4. Fa uso dei principali  linguaggi di programmazione",
-        "answer": true
-      },
-      {
-        "option_text": "5. Ha un’approfondita conoscenza dei  software di sicurezza",
-        "answer": true
-      },
-      {
-        "option_text": "6. Ha dimestichezza in ambito  data mining 24 -",
-        "answer": true
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 165,
     "code": "M4.1.5.3",
     "question": "L’Ethical Hacker",
     "options": [
       {
-        "option_text": "1. È un esperto di sicurezza informatica capace di simulare, anticipare e prevenire attacchi informatici",
+        "option_text": "È un esperto di sicurezza informatica capace di simulare, anticipare e prevenire attacchi informatici",
         "answer": true
       },
       {
-        "option_text": "2. L’Ethical Hacker simula attacchi al sistema informatico dell’azienda di riferimento al fine di individuare eventuali falle",
+        "option_text": "L’Ethical Hacker simula attacchi al sistema informatico dell’azienda di riferimento al fine di individuare eventuali falle",
         "answer": true
       },
       {
-        "option_text": "3. È sempre un dipendente dell’azienda o dell’organizzazione che ne richiede il servizio",
+        "option_text": "È sempre un dipendente dell’azienda o dell’organizzazione che ne richiede il servizio",
         "answer": false
       },
       {
-        "option_text": "4. Fa uso dei principali  linguaggi di programmazione",
+        "option_text": "Fa uso dei principali linguaggi di programmazione",
         "answer": true
       },
       {
-        "option_text": "5. Ha conoscenza delle tecniche di Vulnerability Assessment",
+        "option_text": "Ha conoscenza delle tecniche di Vulnerability Assessment",
         "answer": true
       },
       {
-        "option_text": "6. Conosce tools e framework per la simulazione del processo industriale 25 -",
+        "option_text": "Conosce tools e framework per la simulazione del processo industriale",
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 178
   },
   {
-    "id": 166,
     "code": "M4.2.2.1",
     "question": "Il Security Awareness",
     "options": [
       {
-        "option_text": "1. Indica la consapevolezza del personale in relazione alla Cyber Security 2. Indica la consapevolezza del personale in relazione alla sicurezza fisica (Safety) e logica Falso  F V V F V F V F V V V V V V F V V F V V F V V V V V F V V F  6 T2 – 8 Luglio 2022  3. Può essere migliorato attraverso la formazione e sensibilizzazione continua dei dipendenti per renderli consapevoli delle",
+        "option_text": "Indica la consapevolezza del personale in relazione alla Cyber Security",
         "answer": true
       },
       {
-        "option_text": "minacce cyber 4. Può essere migliorato cercando di ridurre l’incidenza degli errori umani e i costi legati a un eventuale danno",
-        "answer": true
-      },
-      {
-        "option_text": "repu tazionale 5. Può essere migliorato attraverso l’educazione dei fornitori e dei clienti in merito alle policy e procedure già definite",
-        "answer": true
-      },
-      {
-        "option_text": "dall’organizzazione ma che non vengono rispettate adeguatamente 6. Può essere migliorato attraverso l’innalzamento del  livello di sicurezza e di notifica dei dispositivi informatici in dotazione Vero 26 -",
+        "option_text": "Indica la consapevolezza del personale in relazione alla sicurezza fisica (Safety) e logica",
         "answer": false
+      },
+      {
+        "option_text": "Può essere migliorato attraverso la formazione e sensibilizzazione continua dei dipendenti per renderli consapevoli delle minacce cyber",
+        "answer": true
+      },
+      {
+        "option_text": "Può essere migliorato cercando di ridurre l’incidenza degli errori umani e i costi legati a un eventuale danno repu tazionale",
+        "answer": true
+      },
+      {
+        "option_text": "Può essere migliorato attraverso l’educazione dei fornitori e dei clienti in merito alle policy e procedure già definite dall’organizzazione ma che non vengono rispettate adeguatamente",
+        "answer": false
+      },
+      {
+        "option_text": "Può essere migliorato attraverso l’innalzamento del livello di sicurezza e di notifica dei dispositivi informatici in dotazione",
+        "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 179
   },
   {
-    "id": 167,
     "code": "M4.2.3.1",
-    "question": "Insourcing 1. Vuole dire svolgere un progetto, parte di esso o in generale un’attività o un servizio all'interno dell'azienda stessa, sia e ssa",
+    "question": "Insourcing",
     "options": [
       {
-        "option_text": "una sussidiaria o una consociata",
+        "option_text": "Vuole dire svolgere un progetto, parte di esso o in generale un’attività o un servizio all'interno dell'azienda stessa, sia e ssa una sussidiaria o una consociata",
         "answer": true
       },
       {
-        "option_text": "2. Può voler dire portare o riportare un’attività, normalmente svolta all’esterno, internamente all’azienda",
+        "option_text": "Può voler dire portare o riportare un’attività, normalmente svolta all’esterno, internamente all’azienda",
         "answer": true
       },
       {
-        "option_text": "3. Si distingue nettamente dall’attività di verticalizzazione 4. Può essere una strategia competitiva nel ca so di progetti o attività strategiche, a forte valore aggiunto che richiedano il",
+        "option_text": "Si distingue nettamente dall’attività di verticalizzazione",
         "answer": false
       },
       {
-        "option_text": "mantenimento (o il trasferimento) del know -how entro il perimetro aziendale 5. Può essere una strategia competitiva nel caso di progetti o attività, a basso valore aggiunto ma rilevanti nelle economie di",
+        "option_text": "Può essere una strategia competitiva nel ca so di progetti o attività strategiche, a forte valore aggiunto che richiedano il mantenimento (o il trasferimento) del know -how entro il perimetro aziendale",
         "answer": true
       },
       {
-        "option_text": "scala",
+        "option_text": "Può essere una strategia competitiva nel caso di progetti o attività, a basso valore aggiunto ma rilevanti nelle economie di scala",
         "answer": false
       },
       {
-        "option_text": "6. Deve considerare correttamente i costi relativi alla realizzazione dei nuovi impianti produttivi 27 -",
+        "option_text": "Deve considerare correttamente i costi relativi alla realizzazione dei nuovi impianti produttivi",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 180
   },
   {
-    "id": 168,
     "code": "M4.2.3.3",
     "question": "Esternalizzazione l’infrastruttura IT (CED)",
     "options": [
       {
-        "option_text": "1. Può essere necessario vista crescente complessità dei sistemi informatici",
+        "option_text": "Può essere necessario vista crescente complessità dei sistemi informatici",
         "answer": true
       },
       {
-        "option_text": "2. Vuole dire una riduzione dei costi a canone",
+        "option_text": "Vuole dire una riduzione dei costi a canone",
         "answer": false
       },
       {
-        "option_text": "3. Vuole dire eliminare i tempi morti del personale, tutto è gestito contrattualmente a corpo",
+        "option_text": "Vuole dire eliminare i tempi morti del personale, tutto è gestito contrattualmente a corpo",
         "answer": true
       },
       {
-        "option_text": "4. Vuole dire assistenza continua: Il contratto prevede l’assistenza continua che può arrivare a 7 giorni su 7 e 24h su 24",
+        "option_text": "Vuole dire assistenza continua: Il contratto prevede l’assistenza continua che può arrivare a 7 giorni su 7 e 24h su 24",
         "answer": true
       },
       {
-        "option_text": "5. Vuole dire scalabilità più semplice ma economicamente più onerosa se gestita con una infrastruttura esternalizzata",
+        "option_text": "Vuole dire scalabilità più semplice ma economicamente più onerosa se gestita con una infrastruttura esternalizzata",
         "answer": false
       },
       {
-        "option_text": "6. Vuole dire Disaster Recovery ge stito dal contratto 28 -",
+        "option_text": "Vuole dire Disaster Recovery ge stito dal contratto",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 181
   },
   {
-    "id": 169,
     "code": "M4.2.3.7",
     "question": "La servitizzazione IaaS prevede",
     "options": [
       {
-        "option_text": "1. Networking gestito dal cloud service provider",
+        "option_text": "Networking gestito dal cloud service provider",
         "answer": true
       },
       {
-        "option_text": "2. Storage gestito dal cloud service provider",
+        "option_text": "Storage gestito dal cloud service provider",
         "answer": true
       },
       {
-        "option_text": "3. Server s gestit i internamente",
+        "option_text": "Server s gestit i internamente",
         "answer": false
       },
       {
-        "option_text": "4. Virtualizzazione gestit a internamente",
+        "option_text": "Virtualizzazione gestit a internamente",
         "answer": false
       },
       {
-        "option_text": "5. Sistema Operativo gestito internamente",
+        "option_text": "Sistema Operativo gestito internamente",
         "answer": true
       },
       {
-        "option_text": "6. Applicazione gestita internamente 30 -",
+        "option_text": "Applicazione gestita internamente",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 182
   },
   {
-    "id": 170,
     "code": "M4.2.3.9",
     "question": "La servitizzazione SaaS prevede",
     "options": [
       {
-        "option_text": "1. Networking gestito  dal cloud service provider 2. Storage gestito dal cloud service provider  Vero  V F V V F V V V F V F V V F V V F V V V F V V F V V F F V V  7",
+        "option_text": "Networking gestito dal cloud service provider",
         "answer": true
       },
       {
-        "option_text": "T2 – 8 Luglio 2022  3. Server s gestit i dal cloud service provider",
+        "option_text": "Storage gestito dal cloud service provider",
         "answer": true
       },
       {
-        "option_text": "4. Virtualizzazione gestit a dal cloud service provider",
+        "option_text": "Server s gestit i dal cloud service provider",
         "answer": true
       },
       {
-        "option_text": "5. Sistema Operativo gestito internamente",
+        "option_text": "Virtualizzazione gestit a dal cloud service provider",
+        "answer": true
+      },
+      {
+        "option_text": "Sistema Operativo gestito internamente",
         "answer": false
       },
       {
-        "option_text": "6. Applicazione gestito internamente V V V V F F  8 T2 – 8 Luglio 2022 Esercizio 1 Un’azienda ha realizzato la topologia di rete indicata nello schema, determinare la tipologia degli apparati di rete e dei presidi di protezione, per ciascun punto da A ad N, considerando gli standard ISO/IEC 27001 e ISA/IEC 62443. Esercizio  2 È necessario partizionare  la rete 1 63.122.10.0 in 4 sottoreti così costituite: • Sottorete A: 46 Host • Sottorete B: 34 Host • Sottorete C: 24 Host • Sottorete D: 30 Host Compilare la tabella seguente con i dati richiesti: Sottorete  Indirizzo di sottorete  Numero Totale di Host Disponibili A 163.122.10.0/ 26 62 (Utilizzati 46) B 163.122.10.64/ 26 62 (Utilizzati 34) C 163.122.10. 128/27  30 (Utilizzati 24) D 163.122.10. 160/27  30 (Utilizzati 30) A=Switch  G= IPS (Intrusion Prevention S ystem) B=IPS (Intrusion Prevention S ystem)  H=Switch C=Firewall  I= Router D=Router  L= Firewall E=Router  M= IPS (Intrusion Prevention S ystem) F=Firewall  N=Switch  1 T1 – 9 Settembre 2022 Corso Aspetti Gestionali e Organizzativi della Cyber Security Appello 9 Settembre 2022 Indicare vero [V] o falso [F] alle seguenti affermazioni: 1-",
+        "option_text": "Applicazione gestito internamente",
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 183
   },
   {
-    "id": 171,
     "code": "M1.1.3.1",
-    "question": "Il Packet Switching 1. È una tecnica di commutazione in cui messaggi consecutivi vengono raggruppati in pacchetti (packets) che vengono trasmessi",
+    "question": "Il Packet Switching",
     "options": [
       {
-        "option_text": "simultaneamente 2. È una tecnica di commutazione in cui il messaggio viene diviso in parti più piccole (packets) che vengono gestite singolarmente Vero 3. È una tecnica di commutazione in cui i pacchetti viaggiano attraverso la rete, prendendo il percorso più breve possibile",
+        "option_text": "È una tecnica di commutazione in cui messaggi consecutivi vengono raggruppati in pacchetti (packets) che vengono trasmessi simultaneamente",
         "answer": false
       },
       {
-        "option_text": "(instradamento) 4. È una tecnica di commutazione in cui tutti i pacchetti vengono suddivisi e trasmessi in maniera indipendente e riassemblati",
+        "option_text": "È una tecnica di commutazione in cui il messaggio viene diviso in parti più piccole (packets) che vengono gestite singolarmente",
         "answer": true
       },
       {
-        "option_text": "all'estremità ricevente nell'ordine corretto 5. Prevede che se un messaggio arriva mancante di pacchetti o danneggiato, verrà inviata una notifica per inviare nuovamente il",
+        "option_text": "È una tecnica di commutazione in cui i pacchetti viaggiano attraverso la rete, prendendo il percorso più breve possibile (instradamento)",
         "answer": true
       },
       {
-        "option_text": "messaggio, se invece viene raggiunto l'ordine corretto dei pacchetti, verrà inviata notifica di conferma 6. Prevede che se un messaggio arriva mancante di pacchetti o danneggiato il messaggio verrà considerato comunque corretto",
+        "option_text": "È una tecnica di commutazione in cui tutti i pacchetti vengono suddivisi e trasmessi in maniera indipendente e riassemblati all'estremità ricevente nell'ordine corretto",
         "answer": true
       },
       {
-        "option_text": "perché verrà corretto da un meccanismo di completamento automatico a correzione di errore 4-",
+        "option_text": "Prevede che se un messaggio arriva mancante di pacchetti o danneggiato, verrà inviata una notifica per inviare nuovamente il messaggio, se invece viene raggiunto l'ordine corretto dei pacchetti, verrà inviata notifica di conferma",
+        "answer": true
+      },
+      {
+        "option_text": "Prevede che se un messaggio arriva mancante di pacchetti o danneggiato il messaggio verrà considerato comunque corretto perché verrà corretto da un meccanismo di completamento automatico a correzione di errore",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 184
   },
   {
-    "id": 172,
     "code": "M1.1.3.3",
     "question": "Il Routing Statico",
     "options": [
       {
-        "option_text": "1. Può essere utilizzato anche quando il numero di dispositivi è elevato",
+        "option_text": "Può essere utilizzato anche quando il numero di dispositivi è elevato",
         "answer": false
       },
       {
-        "option_text": "2. Può utilizzare l’algoritmo OSPF (Open Shortest Path First)",
+        "option_text": "Può utilizzare l’algoritmo OSPF (Open Shortest Path First)",
         "answer": false
       },
       {
-        "option_text": "3. Può utilizzare l’algoritmo RIP (Routing Information Protocol)",
+        "option_text": "Può utilizzare l’algoritmo RIP (Routing Information Protocol)",
         "answer": false
       },
       {
-        "option_text": "4. Richiede l’intervento umano nella scelta delle rotte, attraverso la configurazione manuale delle rotte",
+        "option_text": "Richiede l’intervento umano nella scelta delle rotte, attraverso la configurazione manuale delle rotte",
         "answer": true
       },
       {
-        "option_text": "5. È gestito dai routers mediante la collaborazione con gli altri routers attraverso degli speciali protocolli",
+        "option_text": "È gestito dai routers mediante la collaborazione con gli altri routers attraverso degli speciali protocolli",
         "answer": false
       },
       {
-        "option_text": "6. Identifica i path migliori e provvedere di riempire automaticamente le tabelle di routing 5-",
+        "option_text": "Identifica i path migliori e provvedere di riempire automaticamente le tabelle di routing",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 185
   },
   {
-    "id": 173,
     "code": "M1.1.3.4",
     "question": "Un indirizzo IPv6 ha la dimensione di",
     "options": [
       {
-        "option_text": "1. 32 bits, divisi in 4 ottetti binari",
+        "option_text": "32 bits, divisi in 4 ottetti binari",
         "answer": false
       },
       {
-        "option_text": "2. 32 bits, divisi in 8 gruppi da 4 bits",
+        "option_text": "32 bits, divisi in 8 gruppi da 4 bits",
         "answer": false
       },
       {
-        "option_text": "3. 128 bits, divisi in 8 gruppi da 16 bits 4. 128 bits, divisi in 16 gruppi da 8 bits Falso  Nome Cognome Matricola V F V V F F F V V V F V F V V V V F F F F V F F  2",
+        "option_text": "128 bits, divisi in 8 gruppi da 16 bits",
         "answer": true
       },
       {
-        "option_text": "T1 – 9 Settembre 2022 5. 256 bits, divisi in 32 gruppi da 8 bits",
+        "option_text": "128 bits, divisi in 16 gruppi da 8 bits",
         "answer": false
       },
       {
-        "option_text": "6. 256 bits, divisi in 8 gruppi da 32 bits 6-",
+        "option_text": "256 bits, divisi in 32 gruppi da 8 bits",
+        "answer": false
+      },
+      {
+        "option_text": "256 bits, divisi in 8 gruppi da 32 bits",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 186
   },
   {
-    "id": 174,
-    "code": "M1.1.4.1",
-    "question": "L’HyperText Transfer Protocol (HTTP) 1. È un linguaggio di testo che consente la comunicazione tra client e server attraverso internet per recuperare tutte le risorse",
-    "options": [
-      {
-        "option_text": "collegate 2. È un linguaggio compilato che consente la comunicazione tra client e server attraverso internet per recuperare tutte le risorse",
-        "answer": true
-      },
-      {
-        "option_text": "collegate 3. Ha come caratteristica peculiare che terminato lo scambio di messaggi la connessione si sgancia, rendendo il protocollo molto",
-        "answer": false
-      },
-      {
-        "option_text": "flessibile e dinamico",
-        "answer": true
-      },
-      {
-        "option_text": "4. Dispone di 5 comandi: Get, Head, Post, Put, Delete",
-        "answer": true
-      },
-      {
-        "option_text": "5. Dispone di 6 comandi: Get, Fetch, Head, Post, Put, Delete",
-        "answer": false
-      },
-      {
-        "option_text": "6. Di “default” utilizza la porta 80 per la comunicazione da client a host (server) 8-",
-        "answer": true
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 175,
     "code": "M1.1.4.3",
     "question": "L’HyperText Markup Language (HTML)",
     "options": [
       {
-        "option_text": "1. È un linguaggio di markup, ovvero che permette di indicare come disporre gli elementi all’interno di una pagina web",
+        "option_text": "È un linguaggio di markup, ov vero che permette di indicare come disporre gli elementi all’interno di una pagina web",
         "answer": true
       },
       {
-        "option_text": "2. Fornisce indicazioni sulla disposizione degli elementi attraverso degli appositi marcatori, detti tag 3. Fornisce indicazioni sulla disposizione degli elementi attraverso dei marcatori che hanno la caratteristica di essere inclusi tra",
+        "option_text": "Fornisce indicazioni sulla disposizione degli elementi attraverso degli appositi marcatori, detti tag",
         "answer": true
       },
       {
-        "option_text": "parentesi quadre",
+        "option_text": "Fornisce indicazioni sulla disposizione degli elementi attraverso dei marcatori che hanno la caratteristica di essere inclusi tra parentesi quadre",
         "answer": false
       },
       {
-        "option_text": "4. Non può essere utilizzato liberamente ma bisogna riconoscere determinate royalties al W3C 5. Permettere di disaccoppiare la struttura logica di una pagina web (definita appunto dal markup) e la sua rappresentazione",
+        "option_text": "Non può essere utilizzato liberamente ma bisogna riconoscere determinate royalties al W3C",
         "answer": false
       },
       {
-        "option_text": "grafica, una volta che la pagina è caricata dal browser",
+        "option_text": "Permettere di disaccoppiare la struttura logica di una pagina web (definita appunto dal markup) e la sua rappresentazione grafica, una volta che la pagina è caricata dal browser",
         "answer": true
       },
       {
-        "option_text": "6. Fornisce le indicazioni attraverso un file binario, di solito, con estensione HTML, spesso detto “Pagina HTML“ 9-",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 176,
-    "code": "M1.1.4.4",
-    "question": "Il World Wide Web (WWW) 1. È un servizio che permette l’accesso a contenuti ipertestuali (leggi documenti in formato ipertesto), e multimediali,",
-    "options": [
-      {
-        "option_text": "sfruttando l'infrastruttura di Internet 2. È un servizio che permette di visualizzare pagine web che hanno contenuti presenti solo sul server che gestisce il servizio Falso",
-        "answer": true
-      },
-      {
-        "option_text": "3. È costituito da tre elementi o tecnologie fondamentali: l’URL, l’http e l’html",
-        "answer": true
-      },
-      {
-        "option_text": "4. Originariamente prevedeva la visualizzazione di sole pagine ipertestuali statiche 5. L’evoluzione della tecnologia ha permesso di introdurre specifici software e linguaggi che permettono la realizzazione di",
-        "answer": true
-      },
-      {
-        "option_text": "effetti dinamici e interattivi",
-        "answer": true
-      },
-      {
-        "option_text": "6. Può funzionare anche senza un “Browser” 10-",
+        "option_text": "Fornisce le indicazioni attraverso un file binario, di solito, con estensione HTML, spesso detto “Pagina HTML“",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 187
   },
   {
-    "id": 177,
     "code": "M1.1.5.1",
     "question": "Il Virus Informatico",
     "options": [
       {
-        "option_text": "1. È un frammento di codice eseguibile, anche autonomamente, da un programma ospite",
+        "option_text": "È un frammento di codice eseguibile, anche autonomamente, da un programma ospite",
         "answer": false
       },
       {
-        "option_text": "2. Deve appoggiarsi necessariamente ad un altro programma/eseguibile per essere attivato 3. È auto-replicante, ovvero è in grado di creare la copia di sé stesso all'interno di altri file o computer senza il consenso o",
+        "option_text": "Deve appoggiarsi necessariamente ad un altro programma/eseguibile per essere attivato",
         "answer": true
       },
       {
-        "option_text": "l'intervento di un utente",
+        "option_text": "È auto-replicante, ov vero è in grado di creare la copia di sé stesso all'interno di altri file o computer senza il consenso o l'intervento di un utente",
         "answer": true
       },
       {
-        "option_text": "4. Necessita del consenso o dell'intervento di un utente per gestire la duplicazione all’interno di altri file o computer",
+        "option_text": "Necessita del consenso o dell'intervento di un utente per gestire la duplicazione all’interno di altri file o computer",
         "answer": false
       },
       {
-        "option_text": "5. È comparso per la prima volta negli anni 90 6. Può essere considerato un “Worm” Falso F F V F F F V V V V F F V F V V F V V V F F V F V F V V V F  3 T1 – 9 Settembre 2022 11-",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 178,
-    "code": "M1.1.6.2",
-    "question": "Le vulnerabilità informatiche 1. Sono malfunzionamenti, configurazioni sbagliate o semplicemente errori (bugs) presenti in un sistema che lo espongono a dei",
-    "options": [
-      {
-        "option_text": "rischi",
-        "answer": true
-      },
-      {
-        "option_text": "2. Rendono un sistema vulnerabile ed esposto a potenziali minacce",
-        "answer": true
-      },
-      {
-        "option_text": "3. Sono esclusivamente relative al codice software o firmware embedded in una determinata motherboard",
+        "option_text": "È comparso per la prima volta negli anni 90",
         "answer": false
       },
       {
-        "option_text": "4. Possono presentarsi all’interno del codice stesso, in una configurazione o addirittura nel processo di installazione",
-        "answer": true
-      },
-      {
-        "option_text": "5. Sono raggruppabili tre macro-categorie: software, protocolli e hardware",
-        "answer": true
-      },
-      {
-        "option_text": "6. Sono raggruppabili tre macro-categorie: software, protocolli e firmware 12-",
+        "option_text": "Può essere considerato un “Worm”",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 188
   },
   {
-    "id": 179,
     "code": "M1.2.1.4",
     "question": "Il Cyberspazio",
     "options": [
       {
-        "option_text": "1. Può essere considerato la quinta dimensione bellica: Terra, mare, cielo, spazio e cyberspazio",
+        "option_text": "Può essere considerato la quinta dimensione bellica: Terra, mare, cielo, spazio e cyberspazio",
         "answer": true
       },
       {
-        "option_text": "2. Può essere considerato la quarta dimensione bellica: Terra, mare, cielo e cyberspazio 3. Può essere il “terreno” per cyber attacchi volti ad ottenere informazioni militari riservate e strategiche (ad esempio di natura",
+        "option_text": "Può essere considerato la quarta dimensione bellica: Terra, mare, cielo e cyberspazio",
         "answer": false
       },
       {
-        "option_text": "tecnologica)",
+        "option_text": "Può essere il “terreno” per cyber attacchi volti ad ottenere informazioni militari riservate e strategiche (ad esempio di natura tecnologica)",
         "answer": true
       },
       {
-        "option_text": "4. Di non solito non riguarda o non è influenzato da problematiche di carattere geopolitico",
+        "option_text": "Di non solito non riguarda o non è influenzato da problematiche di carattere geopolitico",
         "answer": false
       },
       {
-        "option_text": "5. Può essere il “terreno” per cyber attacchi finalizzati a limitare o ad ostacolare l’accessibilità al web 6. Può essere il “terreno” per cyber attacchi che minacciano l’integrità di programmi ed informazioni mettendo a repentaglio la",
+        "option_text": "Può essere il “terreno” per cyber attacchi finalizzati a limitare o ad ostacolare l’accessibilità al web",
         "answer": true
       },
       {
-        "option_text": "vita di diverse persone e di minacciare gli interessi nazionali di un paese 13-",
+        "option_text": "Può essere il “terreno” per cyber attacchi che minacciano l’integrità di programmi ed informazioni mettendo a repentaglio la vita di diverse persone e di minacciare gli interessi nazionali di un paese",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 189
   },
   {
-    "id": 180,
     "code": "M1.2.2.2",
-    "question": "Le organizzazioni Cyber «Criminali» 1. Possono essere tre tipologie di organizzazioni: sovvenzionate da Governi (più o meno «canaglia»), a scopo di Lucro oppure",
+    "question": "Le organizzazioni Cyber «Criminali»",
     "options": [
       {
-        "option_text": "organizzazioni “hacktiviste” 2. Possono essere quattro tipologie di organizzazioni: sovvenzionate da Governi (più o meno «canaglia»), a scopo di Lucro,",
+        "option_text": "Possono essere tre tipologie di organizzazioni: sovvenzionate da Governi (più o meno «canaglia»), a scopo di Lucro oppure organizzazioni “hacktiviste”",
         "answer": true
       },
       {
-        "option_text": "“hacktiviste” oppure organizzazioni “ethical”",
+        "option_text": "Possono essere quattro tipologie di organizzazioni: sovvenzionate da Governi (più o meno «canaglia»), a scopo di Lucro, “hacktiviste” oppure organizzazioni “ethical”",
         "answer": false
       },
       {
-        "option_text": "3. Se sovvenzionate dai governi hanno come obiettivo lo sviluppo e il test di vere e proprie armi di natura cyber 4. A scopo di lucro sono organizzate come vere e proprie organizzazioni mafiose, utilizzano società terze per riciclare il denaro",
+        "option_text": "Se sovvenzionate dai governi hanno come obiettivo lo sviluppo e il test di vere e proprie armi di natura cyber",
         "answer": true
       },
       {
-        "option_text": "proveniente dalle attività illecite",
+        "option_text": "A scopo di lucro sono organizzate come vere e proprie organizzazioni mafiose, utilizzano società terze per riciclare il denaro proveniente dalle attività illecite",
         "answer": true
       },
       {
-        "option_text": "5. A scopo di lucro utilizzano criptovalute perché non è possibile tracciare transazioni effettuate 6. Utilizzano massimamente il deep and dark web ma non sembrano esserci “specializzazioni” nei vari stati o aree geografiche Falso 14-",
+        "option_text": "A scopo di lucro utilizzano criptovalute perché non è possibile tracciare transazioni effettuate",
         "answer": true
+      },
+      {
+        "option_text": "Utilizzano massimamente il deep and dark web ma non sembrano esserci “specializzazioni” nei vari stati o aree geografiche",
+        "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 190
   },
   {
-    "id": 181,
     "code": "M1.3.1.14",
     "question": "Quali di questi livelli ISO/OSI sono livelli logici legati agli Host",
     "options": [
       {
-        "option_text": "1. Livello 2 – Collegamento",
+        "option_text": "Livello 2 – Collegamento",
         "answer": false
       },
       {
-        "option_text": "2. Livello 3 – Rete",
+        "option_text": "Livello 3 – Rete",
         "answer": false
       },
       {
-        "option_text": "3. Livello 4 – Trasporto",
+        "option_text": "Livello 4 – Trasporto",
         "answer": true
       },
       {
-        "option_text": "4. Livello 5 – Sessione",
+        "option_text": "Livello 5 – Sessione",
         "answer": true
       },
       {
-        "option_text": "5. Livello 6 – Presentazione",
+        "option_text": "Livello 6 – Presentazione",
         "answer": true
       },
       {
-        "option_text": "6. Livello 7 – Applicazione 17-",
+        "option_text": "Livello 7 – Applicazione",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 191
   },
   {
-    "id": 182,
     "code": "M1.3.1.16",
     "question": "Quali delle seguenti funzioni appartengono al livello ISO/OSI di Rete (3)",
     "options": [
       {
-        "option_text": "1. Correggere gli errori mediante ritrasmissione",
+        "option_text": "Correggere gli errori mediante ritrasmissione",
         "answer": false
       },
       {
-        "option_text": "2. Incapsulamento del Pacchetto",
+        "option_text": "Incapsulamento del Pacchetto",
         "answer": true
       },
       {
-        "option_text": "3. Gestione Errore e Diagnostica",
+        "option_text": "Gestione Errore e Diagnostica",
         "answer": true
       },
       {
-        "option_text": "4. Frammentazione e Riassemblaggio",
+        "option_text": "Frammentazione e Riassemblaggio",
         "answer": true
       },
       {
-        "option_text": "5. Gestione delle Connessioni",
+        "option_text": "Gestione delle Connessioni",
         "answer": true
       },
       {
-        "option_text": "6. Servizio orientato alla connessione 18-",
+        "option_text": "Servizio orientato alla connessione",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 192
   },
   {
-    "id": 183,
     "code": "M1.3.1.17",
     "question": "Quali delle seguenti funzioni appartengono al livello ISO/OSI di Trasporto (4)",
     "options": [
       {
-        "option_text": "1. Servizio orientato alla connessione",
+        "option_text": "Servizio orientato alla connessione",
         "answer": true
       },
       {
-        "option_text": "2. Corretto ordine di consegna",
+        "option_text": "Corretto ordine di consegna",
         "answer": true
       },
       {
-        "option_text": "3. Trasferimento affidabile",
+        "option_text": "Trasferimento affidabile",
         "answer": true
       },
       {
-        "option_text": "4. Controllo di flusso",
+        "option_text": "Controllo di flusso",
         "answer": true
       },
       {
-        "option_text": "5. Controllo di congestione",
+        "option_text": "Controllo di congestione",
         "answer": true
       },
       {
-        "option_text": "6. Definizione della sessione 19-",
+        "option_text": "Definizione della sessione",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 193
   },
   {
-    "id": 184,
     "code": "M1.3.1.20",
     "question": "Cosa sono gli “Open System”?",
     "options": [
       {
-        "option_text": "1. Sono sistemi che pur avendo sistemi operativi differenti riescono ad interagire tra loro grazie a standard predefiniti 2. Sono sistemi che avendo gli stessi sistemi operativi ma hardware differenti riescono ad interagire tra loro grazie a standard",
+        "option_text": "Sono sistemi che pur avendo sistemi operativi differenti riescono ad interagire tra loro grazie a standard predefiniti",
         "answer": true
       },
       {
-        "option_text": "predefiniti",
+        "option_text": "Sono sistemi che avendo gli stessi sistemi operativi ma hardware differenti riescono ad interagire tra loro grazie a standard predefiniti",
         "answer": false
       },
       {
-        "option_text": "3. Sono sistemi aperti che hanno come elemento che gli accomuna il sistema operativo UNIX",
+        "option_text": "Sono sistemi aperti che hanno come elemento che gli accomuna il sistema operativo UNIX",
         "answer": false
       },
       {
-        "option_text": "4. Sono gli elementi chiave alla base della standardizzazione effettuata da ISO per la comunicazione delle reti di calcolatori",
+        "option_text": "Sono gli elementi chiave alla base della standardizzazione effettuata da ISO per la comunicazione delle reti di calcolatori",
         "answer": true
       },
       {
-        "option_text": "5. Sono gli elementi chiave dell’operazione di standardizzazione OSI (Open System Interconnection) di ISO 6. Hanno permesso allo standard ISO/OSI di diventare uno standard “de facto” grazie anche all’approccio pragmatico",
+        "option_text": "Sono gli elementi chiave dell’operazione di standardizzazione OSI (Open System Interconnection) di ISO",
         "answer": true
       },
       {
-        "option_text": "dell’insieme di protocolli TCP/IP 20-",
+        "option_text": "Hanno permesso allo standard ISO/OSI di diventare uno standard “de facto” grazie anche all’approccio pragmatico dell’insieme di protocolli TCP/IP",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 194
   },
   {
-    "id": 185,
     "code": "M1.3.2.13",
     "question": "Le Fibre Ottiche multimodali",
     "options": [
       {
-        "option_text": "1. Prevedono una sola modalità di propagazione: un'unica lunghezza d'onda della luce nel nucleo della fibra",
+        "option_text": "Prevedono una sola modalità di propagazione: un'unica lunghezza d'onda della luce nel nucleo della fibra",
         "answer": false
       },
       {
-        "option_text": "2. Prevedono nuclei di due dimensioni e almeno cinque varianti",
+        "option_text": "Prevedono nuclei di due dimensioni e almeno cinque varianti",
         "answer": true
       },
       {
-        "option_text": "3. Ha una distanza massima di trasmissione molto maggiore rispetto alla fibra monomodale",
+        "option_text": "Ha una distanza massima di trasmissione molto maggiore rispetto alla fibra monomodale",
         "answer": false
       },
       {
-        "option_text": "4. Si utilizza maggiormente nelle connessioni a breve raggio 5. Ha un nucleo di diametro esteso per consentire il passaggio della luce a diverse frequenze o lunghezze d’onda, in modo da",
+        "option_text": "Si utilizza maggiormente nelle connessioni a breve raggio",
         "answer": true
       },
       {
-        "option_text": "trasmettere simultaneamente più canali di dati",
+        "option_text": "Ha un nucleo di diametro esteso per consentire il passaggio della luce a diverse frequenze o lunghezze d’onda, in modo da trasmettere simultaneamente più canali di dati",
         "answer": true
       },
       {
-        "option_text": "6. Ha un nucleo di vetro di dimensioni maggiori o uguali a 50 microm 21-",
+        "option_text": "Ha un nucleo di vetro di dimensioni maggiori o uguali a 50 microm",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 195
   },
   {
-    "id": 186,
     "code": "M1.3.4.1",
     "question": "La rete LAN (Local Area Network)",
     "options": [
       {
-        "option_text": "1. Collega assieme più computer per un uso privato come per uso aziendale senza vincoli sul numero di connessioni",
+        "option_text": "Collega assieme più computer per un uso privato come per uso aziendale senza vincoli sul numero di connessioni",
         "answer": true
       },
       {
-        "option_text": "2. Utilizza uno standard ampiamente e uniformemente diffuso ovvero l’Ethernet",
+        "option_text": "Utilizza uno standard ampiamente e uniformemente diffuso ov vero l’Ethernet",
         "answer": true
       },
       {
-        "option_text": "3. Utilizza per la trasmissione dati cavi in rame, o fibra ottica 4. Ha una portata che dipende dagli standard e dal mezzo di trasmissione utilizzati; tuttavia, è possibile aumentarla attraverso",
+        "option_text": "Utilizza per la trasmissione dati cavi in rame, o fibra ottica",
         "answer": true
       },
       {
-        "option_text": "un ripetitore (repeater) 5. Con lo standard Ethernet Gigabit (100 Mbit/s), tramite cavo di rame, è possibile ottenere un raggio d’azione di diversi",
+        "option_text": "Ha una portata che dipende dagli standard e dal mezzo di trasmissione utilizzati; tuttavia, è possibile aumentarla attraverso un ripetitore (repeater)",
         "answer": true
       },
       {
-        "option_text": "chilometri 6. Di solito si estende per più complessi edilizi, sino ad interi quartieri Falso   F F V V V V F V V V V F V V V V V F V F F V V V F V F V V V  5 T1 – 9 Settembre 2022 22-",
+        "option_text": "Con lo standard Ethernet Gigabit (100 Mbit/s), tramite cavo di rame, è possibile ottenere un raggio d’azione di diversi chilometri",
+        "answer": false
+      },
+      {
+        "option_text": "Di solito si estende per più complessi edilizi, sino ad interi quartieri",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 196
   },
   {
-    "id": 187,
     "code": "M1.3.4.3",
     "question": "Quali delle seguenti sono Topologie di Rete",
     "options": [
       {
-        "option_text": "1. Stella",
+        "option_text": "Stella",
         "answer": true
       },
       {
-        "option_text": "2. Maglia Parziale",
+        "option_text": "Maglia Parziale",
         "answer": true
       },
       {
-        "option_text": "3. Maglia Completa",
+        "option_text": "Maglia Completa",
         "answer": true
       },
       {
-        "option_text": "4. Catena",
+        "option_text": "Catena",
         "answer": false
       },
       {
-        "option_text": "5. Bus",
+        "option_text": "Bus",
         "answer": true
       },
       {
-        "option_text": "6. Foglia 23-",
+        "option_text": "Foglia",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 197
   },
   {
-    "id": 188,
     "code": "M1.3.4.4",
-    "question": "In un sistema informatico il SPOF (Single Point of Failure) 1. È una parte del sistema hardware il cui malfunzionamento può portare ad anomalie o alla cessazione del servizio di tutto il",
+    "question": "In un sistema informatico il SPOF (Single Point of Failure)",
     "options": [
       {
-        "option_text": "sistema 2. È una parte del sistema, hardware o software, il cui malfunzionamento può portare ad anomalie o alla cessazione del servizio",
+        "option_text": "È una parte del sistema hardware il cui malfunzionamento può portare ad anomalie o alla cessazione del servizio di tutto il sistema",
         "answer": false
       },
       {
-        "option_text": "di tutto il sistema",
+        "option_text": "È una parte del sistema, hardware o software, il cui malfunzionamento può portare ad anomalie o alla cessazione del servizio di tutto il sistema",
         "answer": true
       },
       {
-        "option_text": "3. È particolarmente critico nei sistemi che devono essere costantemente attivi 4. Può essere evitato attraverso l’uso di componenti ridondanti, considerando che anche uno solo punto di vulnerabilità può",
+        "option_text": "È particolarmente critico nei sistemi che devono essere costantemente attivi",
         "answer": true
       },
       {
-        "option_text": "compromettere un intero sistema",
+        "option_text": "Può essere evitato attraverso l’uso di componenti ridondanti, considerando che anche uno solo punto di vulnerabilità può compromettere un intero sistema",
         "answer": true
       },
       {
-        "option_text": "5. Può essere evitato migliorando l’affidabilità dei componenti singoli",
+        "option_text": "Può essere evitato migliorando l’affidabilità dei componenti singoli",
         "answer": false
       },
       {
-        "option_text": "6. Può riguardare anche un servizio acquisito esternamente 24-",
+        "option_text": "Può riguardare anche un servizio acquisito esternamente",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 198
   },
   {
-    "id": 189,
-    "code": "M1.3.4.5",
-    "question": "In un sistema informatico la Ridondanza 1. È l'esistenza di più componenti o dispositivi dedicati ad una specifica funzione, organizzati in modo da evitare che un",
+    "code": "M2.1.1.1-23",
+    "question": "L’Azienda:",
     "options": [
       {
-        "option_text": "problema riguardante uno solo di essi determini il malfunzionamento generale dell'intero sistema 2. È uno strumento fondamentale, nelle fasi progettazione e di revisione di un’architettura o una topologia di rete, per",
+        "option_text": "È un’organizzazione di persone e beni economici",
         "answer": true
       },
       {
-        "option_text": "aumentare l’affidabilità e la disponibilità complessiva dei sistemi",
-        "answer": true
-      },
-      {
-        "option_text": "3. Deve essere realizzata affiancando componenti o dispositivi rigorosamente dello stesso tipo",
+        "option_text": "È un’organizzazione di persone e beni economici ma non beni strumentali",
         "answer": false
       },
       {
-        "option_text": "4. Deve essere realizzata affiancando componenti o dispositivi che realizzino le stesse funzioni nello stesso modo",
+        "option_text": "Ha al suo interno anche beni strumentali, ov vero beni economici utilizzati per la produzione di altri beni",
         "answer": true
       },
       {
-        "option_text": "5. È necessario che sia presente su tutta la catena dei dispositivi (end-to-end), evitando accuratamente gli SPOF",
-        "answer": true
-      },
-      {
-        "option_text": "6. Può essere realizzata solamente su una parte della catena dei dispositivi 25-",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 190,
-    "code": "M2.1.1.4",
-    "question": "L’Azienda: 1. È un organismo composto di persone e beni economici, diretto al raggiungimento di un fine economico, d'interesse sia",
-    "options": [
-      {
-        "option_text": "pubblico sia privato 2. È costituita di persone e beni economici ovvero  quei beni ottenibili mediante l'attività umana o disponibili in quantità limitata Vero",
-        "answer": true
-      },
-      {
-        "option_text": "3. È valutata anche in base ai marchi e i brevetti di proprietà, due tipici esempi di beni materiali 4. È organizzata dall’imprenditore per l’esercizio delle funzioni aziendali che permettono sempre di massimizzare il profitto Falso",
+        "option_text": "Ha al suo interno solo persone e beni materiali, ov vero che hanno consistenza fisica",
         "answer": false
       },
       {
-        "option_text": "5. Ha al suo interno anche beni strumentali, ad esempio: attrezzature, impianti, marchi, brevetti",
+        "option_text": "Esercita l’insieme delle funzioni aziendali per il raggiungimento degli obiettivi prefissati",
         "answer": true
       },
       {
-        "option_text": "6. Realizza la sua attività grazie alle funzioni aziendali ed è parte integrante della supply-chain 26-",
+        "option_text": "Realizza l’attività aziendale attraverso i processi aziendali, nell'ambito della sua gestione operativa",
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 199
   },
   {
-    "id": 191,
     "code": "M2.1.2.5",
-    "question": "Le aziende di produzione indiretta 1. Creano un valore aggiunto a beni e servizi già esistenti mediante un processo di trasformazione economica e di valorizzazione",
+    "question": "Le aziende di produzione indiretta",
     "options": [
       {
-        "option_text": "che ne aumenta l'utilità finale o ne agevola lo scambio",
+        "option_text": "Creano un valore aggiunto a beni e servizi già esistenti mediante un processo di trasformazione economica e di valorizzazione che ne aumenta l'utilità finale o ne agevola lo scambio",
         "answer": true
       },
       {
-        "option_text": "2. Producono beni e servizi mediante un processo di produzione materiale",
+        "option_text": "Producono beni e servizi mediante un processo di produzione materiale",
         "answer": false
       },
       {
-        "option_text": "3. Possono essere imprese bancarie, assicuratrici, commerciali ecc.",
+        "option_text": "Possono essere imprese bancarie, assicuratrici, commerciali ecc.",
         "answer": true
       },
       {
-        "option_text": "4. Possono essere industrie manifatturiere, imprese agricole, ecc.",
+        "option_text": "Possono essere industrie manifatturiere, imprese agricole, ecc.",
         "answer": false
       },
       {
-        "option_text": "5. Possono essere aziende di trasporto",
+        "option_text": "Possono essere aziende di trasporto",
         "answer": true
       },
       {
-        "option_text": "6. Sono aziende il cui sia il soggetto giuridico che quello economico sono solo di diritto privato 27-",
+        "option_text": "Sono aziende il cui sia il soggetto giuridico che quello economico sono solo di diritto privato",
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 200
   },
   {
-    "id": 192,
     "code": "M2.1.2.6",
-    "question": "Le aziende di produzione hanno obiettivi V V V V F F V V V F V F F V V V F V V V F V V F V V F F V V V F V F V F  6",
+    "question": "Le aziende di produzione hanno obiettivi",
     "options": [
       {
-        "option_text": "T1 – 9 Settembre 2022 1. Primari ovvero legati alla stessa sopravvivenza dell'impresa",
+        "option_text": "Primari ov vero legati alla stessa sopravvivenza dell'impresa",
         "answer": true
       },
       {
-        "option_text": "2. Primari che sono collegati ai processi produttivi e alla vendita dei prodotti sul mercato",
+        "option_text": "Primari che sono collegati ai processi produttivi e alla vendita dei prodotti sul mercato",
         "answer": true
       },
       {
-        "option_text": "3. Secondari ovvero obiettivi di importanza secondaria",
+        "option_text": "Secondari ov vero obiettivi di importanza secondaria",
         "answer": false
       },
       {
-        "option_text": "4. Secondari ovvero il cui raggiungimento permette di conseguire, nel modo più economico possibile, gli obiettivi primari",
+        "option_text": "Secondari ov vero il cui raggiungimento permette di conseguire, nel modo più economico possibile, gli obiettivi primari",
         "answer": true
       },
       {
-        "option_text": "5. Collaterali ovvero obiettivi economici come il rendimento e la massimizzazione del profitto",
+        "option_text": "Collaterali ov vero obiettivi economici come il rendimento e la massimizzazione del profitto",
         "answer": true
       },
       {
-        "option_text": "6. Collaterali ovvero obiettivi incidentali, non previsti preventivamente 28-",
+        "option_text": "Collaterali ov vero obiettivi incidentali, non previsti preventivamente",
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 201
   },
   {
-    "id": 193,
     "code": "M2.1.2.7",
     "question": "Le società di capitali",
     "options": [
       {
-        "option_text": "1. Per legge hanno un importo minimo per il capitale sociale",
+        "option_text": "Per legge hanno un importo minimo per il capitale sociale",
         "answer": true
       },
       {
-        "option_text": "2. Per legge non hanno un importo minimo per il capitale sociale",
+        "option_text": "Per legge non hanno un importo minimo per il capitale sociale",
         "answer": false
       },
       {
-        "option_text": "3. Se di piccole-medie dimensioni e con pochi soci coinvolti nell’attività sono S.r.l.",
+        "option_text": "Se di piccole-medie dimensioni e con pochi soci coinvolti nell’attività sono S.r.l.",
         "answer": true
       },
       {
-        "option_text": "4. Prevedono più organi sociali ognuno con le proprie competenze",
+        "option_text": "Prevedono più organi sociali ognuno con le proprie competenze",
         "answer": true
       },
       {
-        "option_text": "5. In linea generale hanno un amministratore unico o un consiglio di amministrazione 6. Hanno autonomia patrimoniale imperfetta: i creditori sociali possono agire sul patrimonio personale dei singoli soci ma solo",
+        "option_text": "In linea generale hanno un amministratore unico o un consiglio di amministrazione",
         "answer": true
       },
       {
-        "option_text": "dopo aver escusso infruttuosamente sul patrimonio sociale 29-",
+        "option_text": "Hanno autonomia patrimoniale imperfetta: i creditori sociali possono agire sul patrimonio personale dei singoli soci ma solo dopo aver escusso infruttuosamente sul patrimonio sociale",
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 202
   },
   {
-    "id": 194,
     "code": "M2.1.3.4",
     "question": "Quali dei seguenti sono Macrosettori di attività delle aziende di produzione",
     "options": [
       {
-        "option_text": "1. Primario",
+        "option_text": "Primario",
         "answer": true
       },
       {
-        "option_text": "2. Produttivo diretto o Secondario",
+        "option_text": "Produttivo diretto o Secondario",
         "answer": true
       },
       {
-        "option_text": "3. Secondario avanzato",
+        "option_text": "Secondario avanzato",
         "answer": false
       },
       {
-        "option_text": "4. Dei Servizi o Terziario",
+        "option_text": "Dei Servizi o Terziario",
         "answer": true
       },
       {
-        "option_text": "5. Terziario avanzato o Quaternario",
+        "option_text": "Terziario avanzato o Quaternario",
         "answer": true
       },
       {
-        "option_text": "6. Quinario 30-",
+        "option_text": "Quinario",
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 203
   },
   {
-    "id": 195,
     "code": "M2.2.1.2",
     "question": "Quali dei seguenti possono essere considerati asset aziendali",
     "options": [
       {
-        "option_text": "1. Sistemi informativi Gestionali (Contabilità, Bilancio, Tesoreria, Cassa, Controllo di Gestione)",
+        "option_text": "Sistemi informativi Gestionali (Contabilità, Bilancio, Tesoreria, Cassa, Controllo di Gestione)",
         "answer": true
       },
       {
-        "option_text": "2. Conoscenza commerciale: clienti, storico degli ordini, pagamenti & insoluti",
+        "option_text": "Conoscenza commerciale: clienti, storico degli ordini, pagamenti & insoluti",
         "answer": true
       },
       {
-        "option_text": "3. Impianti produttivi",
+        "option_text": "Impianti produttivi",
         "answer": true
       },
       {
-        "option_text": "4. Facility produttivi in affitto",
+        "option_text": "Facility produttivi in affitto",
         "answer": false
       },
       {
-        "option_text": "5. Know-how aziendale",
+        "option_text": "Know-how aziendale",
         "answer": true
       },
       {
-        "option_text": "6. Brevetti V V F V V F V F V V V F V V F V V F V V V F V V  7 T1 – 9 Settembre 2022 Esercizio 1 Nello schema rappresentato in figura: 1. Indicare la tipologia del dispositivo A  Router 2. Indicare la tipologia del dispositivo B Firewall 3. Indicare la tipologia del dispositivo C Firewall 4. Secondo ISA/IEC 62443 come sono denominate le aree circoscritte in blu Zone 5. Secondo ISA/IEC 62443 come sono denominati i tratti di rete colorati in verde, giallo Conduits 6. Secondo ISA/IEC 62443 come sono denominati i tratti di rete colorati in azzurro e blu Conduits Esercizio 2 Definire le mappe di routing del seguente schema di rete:  1 T2 Corso Aspetti Gestionali e Organizzativi della Cyber Security Appello 23 settembre 2022 Indicare vero [V] o falso [F] alle seguenti affermazioni: 1",
+        "option_text": "Brevetti",
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 204
   },
   {
-    "id": 196,
     "code": "M3.4.2.1",
     "question": "Il posizionamento dello standard ISA/IEC 62443 nello stack ISA 95 (Purdue Model)",
     "options": [
       {
-        "option_text": "1. È tra il livello 1 e il livello 2",
+        "option_text": "È tra il livello 1 e il livello 2",
         "answer": false
       },
       {
-        "option_text": "2. È tra il livello 0 e il livello 3",
+        "option_text": "È tra il livello 0 e il livello 3",
         "answer": true
       },
       {
-        "option_text": "3. È tra il livello 2 e il livello 4",
+        "option_text": "È tra il livello 2 e il livello 4",
         "answer": false
       },
       {
-        "option_text": "4. È tra il livello 3 e il livello 4",
+        "option_text": "È tra il livello 3 e il livello 4",
         "answer": false
       },
       {
-        "option_text": "5. È tra il livello 0 e il livello 2",
+        "option_text": "È tra il livello 0 e il livello 2",
         "answer": false
       },
       {
-        "option_text": "6. È tra il livello 1 e il livello 5 2",
+        "option_text": "È tra il livello 1 e il livello 5",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 205
   },
   {
-    "id": 197,
     "code": "M3.4.4.2",
-    "question": "Il Paradigma Operazionale 1. Prevede i seguenti elementi in ordine di importanza: Affidabilità-> Sicurezza Fisica->Impatto sul Prodotto o sul Servizio Falso 2. Prevede i seguenti elementi in ordine di importanza: Affidabilità ->Impatto sul Prodotto o sul Servizio->Sicurezza Fisica Falso 3. Prevede i seguenti elementi in ordine di importanza: Sicurezza Fisica->Affidabilità->Impatto sul Prodotto o sul Servizio Vero",
+    "question": "Il Paradigma Operazionale",
     "options": [
       {
-        "option_text": "4. Prevede un diverso ordine di importanza per i fattori CIA: Disponibilità (Accessibilità)-> Integrità-> Riservatezza",
+        "option_text": "Prevede i seguenti elementi in ordine di importanza: Affidabilità-> Sicurezza Fisica->Impatto sul Prodotto o sul Servizio",
+        "answer": false
+      },
+      {
+        "option_text": "Prevede i seguenti elementi in ordine di importanza: Affidabilità ->Impatto sul Prodotto o sul Servizio->Sicurezza Fisica",
+        "answer": false
+      },
+      {
+        "option_text": "Prevede i seguenti elementi in ordine di importanza: Sicurezza Fisica->Affidabilità->Impatto sul Prodotto o sul Servizio",
         "answer": true
       },
       {
-        "option_text": "5. Prevede un diverso ordine di importanza per i fattori CIA: Integrità-> Riservatezza-> Disponibilità (Accessibilità)",
+        "option_text": "Prevede un diverso ordine di importanza per i fattori CIA: Disponibilità (Accessibilità)-> Integrità-> Riservatezza",
+        "answer": true
+      },
+      {
+        "option_text": "Prevede un diverso ordine di importanza per i fattori CIA: Integrità-> Riservatezza-> Disponibilità (Accessibilità)",
         "answer": false
       },
       {
-        "option_text": "6. Prevede un diverso ordine di importanza per i fattori CIA: Riservatezza-> Disponibilità (Accessibilità)-> Integrità 3",
+        "option_text": "Prevede un diverso ordine di importanza per i fattori CIA: Riservatezza-> Disponibilità (Accessibilità)-> Integrità",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 206
   },
   {
-    "id": 198,
     "code": "M4.1.2.2",
     "question": "Quali sono le ragioni per cui il reparto di Information Technology può essere considerato come un centro di costo?",
     "options": [
       {
-        "option_text": "1. Scarsa sensibilità e skill digitali del top management",
+        "option_text": "Scarsa sensibilità e skill digitali del top management",
         "answer": true
       },
       {
-        "option_text": "2. Scarse risorse da dedicare ai progetti digitali",
+        "option_text": "Scarse risorse da dedicare ai progetti digitali",
         "answer": false
       },
       {
-        "option_text": "3. Scarsa capacità di ideare e portare a termine i progetti",
+        "option_text": "Scarsa capacità di ideare e portare a termine i progetti",
         "answer": true
       },
       {
-        "option_text": "4. Scarso o nessun impatto della digitalizzazione sul business dell’azienda",
+        "option_text": "Scarso o nessun impatto della digitalizzazione sul business dell’azienda",
         "answer": false
       },
       {
-        "option_text": "5. Scarsa propensione allo sviluppo commerciale globale, azienda fortemente locale",
+        "option_text": "Scarsa propensione allo sviluppo commerciale globale, azienda fortemente locale",
         "answer": true
       },
       {
-        "option_text": "6. Scarsa competitività dell’azienda (possibile azienda in regime di monopolio) 4",
+        "option_text": "Scarsa competitività dell’azienda (possibile azienda in regime di monopolio)",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 207
   },
   {
-    "id": 199,
     "code": "M4.2.1.1",
     "question": "Quali sono i maggiori rischi cyber per le Organizzazioni Bancarie e Finanziarie?",
     "options": [
       {
-        "option_text": "1. Finanziario e di mancanza di erogazione del servizio al pubblico",
+        "option_text": "Finanziario e di mancanza di erogazione del servizio al pubblico",
         "answer": false
       },
       {
-        "option_text": "2. Finanziario e di continuità del business",
+        "option_text": "Finanziario e di continuità del business",
         "answer": true
       },
       {
-        "option_text": "3. Finanziario e di diffusione di dati sensibili",
+        "option_text": "Finanziario e di diffusione di dati sensibili",
         "answer": false
       },
       {
-        "option_text": "4. Fisico e di continuità di erogazione del servizio al pubblico",
+        "option_text": "Fisico e di continuità di erogazione del servizio al pubblico",
         "answer": false
       },
       {
-        "option_text": "5. Reputazionale e di continuità del business",
+        "option_text": "Reputazionale e di continuità del business",
         "answer": false
       },
       {
-        "option_text": "6. Terroristico e di possibile bersaglio strategico 5",
+        "option_text": "Terroristico e di possibile bersaglio strategico",
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 208
   },
   {
-    "id": 200,
     "code": "M1.3.1.21",
     "question": "Quali funzioni prevede il livello ISO/OSI Applicazione (7)",
     "options": [
       {
-        "option_text": "1. Scambio di e-mail",
+        "option_text": "Scambio di e-mail",
         "answer": true
       },
       {
-        "option_text": "2. Compressione dei dati",
+        "option_text": "Compressione dei dati",
         "answer": false
       },
       {
-        "option_text": "3. Accesso ai database",
+        "option_text": "Accesso ai database",
         "answer": true
       },
       {
-        "option_text": "4. Accesso ai siti Web",
+        "option_text": "Accesso ai siti Web",
         "answer": true
       },
       {
-        "option_text": "5. Gestione remota di applicazioni distribuite 6. Formattazione Falso Nome Cognome Matricola F V F F F F F F V V F F V F V F V V F V F F F F  2 T2 6",
+        "option_text": "Gestione remota di applicazioni distribuite",
         "answer": true
+      },
+      {
+        "option_text": "Formattazione",
+        "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 209
   },
   {
-    "id": 201,
     "code": "M1.3.1.22",
     "question": "Quali di questi livelli ISO/OSI sono livelli logici legati ai mezzi di trasmissione",
     "options": [
       {
-        "option_text": "1. Livello 1 – Fisico",
+        "option_text": "Livello 1 – Fisico",
         "answer": true
       },
       {
-        "option_text": "2. Livello 2 – Collegamento",
+        "option_text": "Livello 2 – Collegamento",
         "answer": true
       },
       {
-        "option_text": "3. Livello 3 – Rete",
+        "option_text": "Livello 3 – Rete",
         "answer": true
       },
       {
-        "option_text": "4. Livello 4 – Trasporto",
+        "option_text": "Livello 4 – Trasporto",
         "answer": false
       },
       {
-        "option_text": "5. Livello 5 – Sessione",
+        "option_text": "Livello 5 – Sessione",
         "answer": false
       },
       {
-        "option_text": "6. Livello 6 – Presentazione 7",
+        "option_text": "Livello 6 – Presentazione",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 210
   },
   {
-    "id": 202,
     "code": "M1.3.1.23",
     "question": "La comunicazione tra gli omologhi livelli dello stack ISO/OSI",
     "options": [
       {
-        "option_text": "1. È Sempre una comunicazione logica",
+        "option_text": "È Sempre una comunicazione logica",
         "answer": false
       },
       {
-        "option_text": "2. È sempre una comunicazione fisica",
+        "option_text": "È sempre una comunicazione fisica",
         "answer": false
       },
       {
-        "option_text": "3. È una comunicazione logica per i livelli dal 2 al 7 e fisica per il livello 1",
+        "option_text": "È una comunicazione logica per i livelli dal 2 al 7 e fisica per il livello 1",
         "answer": true
       },
       {
-        "option_text": "4. È una comunicazione logica per i livelli dal 1 al 6 e fisica per il livello 7",
+        "option_text": "È una comunicazione logica per i livelli dal 1 al 6 e fisica per il livello 7",
         "answer": false
       },
       {
-        "option_text": "5. È una comunicazione logica per i livelli dal 1 al 3 e fisica per i livelli dal 4 al 7",
+        "option_text": "È una comunicazione logica per i livelli dal 1 al 3 e fisica per i livelli dal 4 al 7",
         "answer": false
       },
       {
-        "option_text": "6. È sempre tra un Host mittente e un Host destinatario 8",
+        "option_text": "È sempre tra un Host mittente e un Host destinatario",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 211
   },
   {
-    "id": 203,
     "code": "M4.1.1.17",
-    "question": "La Pianificazione Operativa 1. La pianificazione operativa è il processo attraverso il quale l’impresa definisce gli obiettivi da raggiungere e le azioni per",
+    "question": "La Pianificazione Operativa",
     "options": [
       {
-        "option_text": "raggiungere tali scopi nel breve periodo",
+        "option_text": "La pianificazione operativa è il processo attraverso il quale l’impresa definisce gli obiettivi da raggiungere e le azioni per raggiungere tali scopi nel breve periodo",
         "answer": true
       },
       {
-        "option_text": "2. Può essere rappresentata dagli obiettivi strategici che si intendono raggiungere nel medio periodo",
+        "option_text": "Può essere rappresentata dagli obiettivi strategici che si intendono raggiungere nel medio periodo",
         "answer": false
       },
       {
-        "option_text": "3. Può essere rappresentata dagli obiettivi che si vogliono raggiungere nell’anno di attività dell’azienda",
+        "option_text": "Può essere rappresentata dagli obiettivi che si vogliono raggiungere nell’anno di attività dell’azienda",
         "answer": true
       },
       {
-        "option_text": "4. È sempre rappresentata dalla mission dell’azienda a lungo termine 5. Si distingue da Pianificazione Tattica e Strategica che definiscono gli obiettivi, rispettivamente di medio e lungo periodo Vero",
+        "option_text": "È sempre rappresentata dalla mission dell’azienda a lungo termine",
         "answer": false
       },
       {
-        "option_text": "6. Può essere denominata anche Pianificazione Sinergica o Evolutiva 9",
+        "option_text": "Si distingue da Pianificazione Tattica e Strategica che definiscono gli obiettivi, rispettivamente di medio e lungo periodo",
+        "answer": true
+      },
+      {
+        "option_text": "Può essere denominata anche Pianificazione Sinergica o Evolutiva",
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 212
   },
   {
-    "id": 204,
     "code": "M2.1.2.8",
     "question": "Le Società di Persone",
     "options": [
       {
-        "option_text": "1. Per legge non hanno un importo minimo per il capitale sociale",
+        "option_text": "Per legge non hanno un importo minimo per il capitale sociale",
         "answer": true
       },
       {
-        "option_text": "2. Per legge hanno un importo minimo per il capitale sociale",
+        "option_text": "Per legge hanno un importo minimo per il capitale sociale",
         "answer": false
       },
       {
-        "option_text": "3. Non prevedono organi sociali, ogni socio illimitatamente responsabile può amministrare",
+        "option_text": "Non prevedono organi sociali, ogni socio illimitatamente responsabile può amministrare",
         "answer": true
       },
       {
-        "option_text": "4. Possono prevedere più organi sociali ognuno con le proprie competenze 5. Hanno un’autonomia patrimoniale definita “perfetta”: i soci sono personalmente responsabili delle obbligazioni sociali,",
+        "option_text": "Possono prevedere più organi sociali ognuno con le proprie competenze",
         "answer": false
       },
       {
-        "option_text": "solo i beni conferiti sono formalmente di proprietà della società 6. Hanno un’autonomia patrimoniale definita “imperfetta”: i creditori sociali possono agire sul patrimonio personale dei",
+        "option_text": "Hanno un’autonomia patrimoniale definita “perfetta”: i soci sono personalmente responsabili delle obbligazioni sociali, solo i beni conferiti sono formalmente di proprietà della società",
         "answer": false
       },
       {
-        "option_text": "singoli soci ma solo dopo aver escusso infruttuosamente sul patrimonio sociale 10",
+        "option_text": "Hanno un’autonomia patrimoniale definita “imperfetta”: i creditori sociali possono agire sul patrimonio personale dei singoli soci ma solo dopo aver escusso infruttuosamente sul patrimonio sociale",
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 213
   },
   {
-    "id": 205,
     "code": "M2.1.2.9",
     "question": "Le Società S.p.A.",
     "options": [
       {
-        "option_text": "1. Sono Società di Persone",
+        "option_text": "Sono Società di Persone",
         "answer": false
       },
       {
-        "option_text": "2. Sono Società di Capitali",
+        "option_text": "Sono Società di Capitali",
         "answer": true
       },
       {
-        "option_text": "3. Sono Società a responsabilità illimitata dell’imprenditore",
+        "option_text": "Sono Società a responsabilità illimitata dell’imprenditore",
         "answer": false
       },
       {
-        "option_text": "4. Sono Società a responsabilità limitata dell’imprenditore",
+        "option_text": "Sono Società a responsabilità limitata dell’imprenditore",
         "answer": false
       },
       {
-        "option_text": "5. Sono Società a responsabilità dei soci limitata al capitale sottoscritto",
+        "option_text": "Sono Società a responsabilità dei soci limitata al capitale sottoscritto",
         "answer": true
       },
       {
-        "option_text": "6. Sono Società a responsabilità dei soci illimitata oltre al capitale sottoscritto V F V V V F V V V F F F F F V F F V V F V F V F V F V F F V F V F F V F  3 T2 11",
+        "option_text": "Sono Società a responsabilità dei soci illimitata oltre al capitale sottoscritto",
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 214
   },
   {
-    "id": 206,
     "code": "M2.1.3.5",
     "question": "Un’azienda che distribuisce gas ed elettricità",
     "options": [
       {
-        "option_text": "1. Appartiene al settore delle Utility",
+        "option_text": "Appartiene al settore delle Utility",
         "answer": true
       },
       {
-        "option_text": "2. Può essere definita anche Multiutility",
+        "option_text": "Può essere definita anche Multiutility",
         "answer": true
       },
       {
-        "option_text": "3. Può essere un’infrastruttura critica",
+        "option_text": "Può essere un’infrastruttura critica",
         "answer": true
       },
       {
-        "option_text": "4. Può essere un Operatore di Servizi Essenziali",
+        "option_text": "Può essere un Operatore di Servizi Essenziali",
         "answer": true
       },
       {
-        "option_text": "5. È un’azienda manifatturiera",
+        "option_text": "È un’azienda manifatturiera",
         "answer": false
       },
       {
-        "option_text": "6. Appartiene al settore secondario 12",
+        "option_text": "Appartiene al settore secondario",
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 215
   },
   {
-    "id": 207,
     "code": "M2.2.1.4",
     "question": "A che tipi di rischio può si incorrere in caso di attacco Cyber al sistema gestionale aziendale?",
     "options": [
       {
-        "option_text": "1. Rischio generale per la salute umana",
+        "option_text": "Rischio generale per la salute umana",
         "answer": false
       },
       {
-        "option_text": "2. Rischio di emissioni nocive per l’ambiente",
+        "option_text": "Rischio di emissioni nocive per l’ambiente",
         "answer": false
       },
       {
-        "option_text": "3. Rischio violazione dati sensibili e Privacy",
+        "option_text": "Rischio violazione dati sensibili e Privacy",
         "answer": true
       },
       {
-        "option_text": "4. Rischio Business Continuity",
+        "option_text": "Rischio Business Continuity",
         "answer": true
       },
       {
-        "option_text": "5. Rischio Service Continuity",
+        "option_text": "Rischio Service Continuity",
         "answer": true
       },
       {
-        "option_text": "6. Rischio economico 13",
+        "option_text": "Rischio economico",
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 216
   },
   {
-    "id": 208,
     "code": "M2.2.2.3",
     "question": "Il Vettore di Attacco può sfruttare tipicamente",
     "options": [
       {
-        "option_text": "1. Vulnerabilità informatiche e mancato aggiornamento del software",
+        "option_text": "Vulnerabilità informatiche e mancato aggiornamento del software",
         "answer": true
       },
       {
-        "option_text": "2. Gestione di identità e permessi non adeguata",
+        "option_text": "Gestione di identità e permessi non adeguata",
         "answer": true
       },
       {
-        "option_text": "3. Meccanismi di autenticazione deboli",
+        "option_text": "Meccanismi di autenticazione deboli",
         "answer": true
       },
       {
-        "option_text": "4. App malevole",
+        "option_text": "App malevole",
         "answer": false
       },
       {
-        "option_text": "5. Obsolescenza",
+        "option_text": "Obsolescenza",
         "answer": true
       },
       {
-        "option_text": "6. Mancanza di conoscenza da parte del personale 14",
+        "option_text": "Mancanza di conoscenza da parte del personale",
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 217
   },
   {
-    "id": 209,
     "code": "M3.1.1.7",
-    "question": "Quali sono le fasi del processo di monitoraggio e gestione degli incidenti informatici? 1. Una fase di Preparazione Iniziale e poi un ciclo composto da due fasi consecutive, Contenimento-Eradicazione-Ripristino e",
+    "question": "Quali sono le fasi del processo di monitoraggio e gestione degli incidenti informatici?",
     "options": [
       {
-        "option_text": "Rilevamento-Analisi ed in ultimo una fase di Analisi Post-Incidente 2. Una fase di Preparazione Iniziale e poi una fase ciclica composta da due parti: Rilevamento-Analisi e Contenimento-",
+        "option_text": "Una fase di Preparazione Iniziale e poi un ciclo composto da due fasi consecutive, Contenimento-Eradicazione-Ripristino e Rilevamento-Analisi ed in ultimo una fase di Analisi Post-Incidente",
         "answer": false
       },
       {
-        "option_text": "Eradicazione-Ripristino ed in ultimo una fase di Analisi Post-Incidente 3. Un ciclo composto da due fasi, Rilevamento-Analisi e Contenimento-Eradicazione-ripristino e una fase di Analisi Post-",
+        "option_text": "Una fase di Preparazione Iniziale e poi una fase ciclica composta da due parti: Rilevamento-Analisi e Contenimento- Eradicazione-Ripristino ed in ultimo una fase di Analisi Post-Incidente",
         "answer": true
       },
       {
-        "option_text": "Incidente 4. Una fase di Preparazione Iniziale, una fase di Rilevamento-Analisi, una fase di Contenimento-Eradicazione-Ripristino ed in",
+        "option_text": "Un ciclo composto da due fasi, Rilevamento-Analisi e Contenimento-Eradicazione-ripristino e una fase di Analisi Post- Incidente",
         "answer": false
       },
       {
-        "option_text": "ultimo una fase di Analisi Post-Incidente",
+        "option_text": "Una fase di Preparazione Iniziale, una fase di Rilevamento-Analisi, una fase di Contenimento-Eradicazione-Ripristino ed in ultimo una fase di Analisi Post-Incidente",
         "answer": false
       },
       {
-        "option_text": "5. Una fase prima dell’incidente, una fase durante l’incidente e una fase dopo l’incidente",
+        "option_text": "Una fase prima dell’incidente, una fase durante l’incidente e una fase dopo l’incidente",
         "answer": true
       },
       {
-        "option_text": "6. Una fase di Rilevamento dell’Incidente e di Verifica dei danni dopo l’incidente 15",
+        "option_text": "Una fase di Rilevamento dell’Incidente e di Verifica dei danni dopo l’incidente",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 218
   },
   {
-    "id": 210,
     "code": "M3.1.2.4",
     "question": "L’Action Workflow",
     "options": [
       {
-        "option_text": "1. È un tipo di modellizzazione basata sulle attività",
+        "option_text": "È un tipo di modellizzazione basata sulle attività",
         "answer": false
       },
       {
-        "option_text": "2. È un tipo di modellizzazione basata sull’interazione o la negoziazione",
+        "option_text": "È un tipo di modellizzazione basata sull’interazione o la negoziazione",
         "answer": true
       },
       {
-        "option_text": "3. È un tipo di modellizzazione basata sui dati",
+        "option_text": "È un tipo di modellizzazione basata sui dati",
         "answer": false
       },
       {
-        "option_text": "4. È particolarmente adatto a rappresentare processi in cui gli elementi di decisione sono particolarmente importanti",
+        "option_text": "È particolarmente adatto a rappresentare processi in cui gli elementi di decisione sono particolarmente importanti",
         "answer": true
       },
       {
-        "option_text": "5. Mette al centro del modello le condizioni di soddisfazione (o di accordo) tra un cliente e un operatore/realizzatore",
+        "option_text": "Mette al centro del modello le condizioni di soddisfazione (o di accordo) tra un cliente e un operatore/realizzatore",
         "answer": true
       },
       {
-        "option_text": "6. Mette al centro del modello le informazioni sulla sequenza delle attività da realizzare 16",
+        "option_text": "Mette al centro del modello le informazioni sulla sequenza delle attività da realizzare",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 219
   },
   {
-    "id": 211,
     "code": "M3.1.3.5",
-    "question": "Lo Standard Internazionale 1. ISO 45001:2018 è relativo alla sicurezza del lavoro Vero V V V V F F F F V V V V V V V F V V F V F F V F F V F V V F  4",
+    "question": "Lo Standard Internazionale",
     "options": [
       {
-        "option_text": "T2 2. ISO 14001:2015 è relativo all’ambiente ovvero sui sistemi di gestione ambientale",
+        "option_text": "ISO 45001:2018 è relativo alla sicurezza del lavoro",
         "answer": true
       },
       {
-        "option_text": "3. ISO 26000:2010 è relativo alla contabilità aziendale",
+        "option_text": "ISO 14001:2015 è relativo all’ambiente ov vero sui sistemi di gestione ambientale",
+        "answer": true
+      },
+      {
+        "option_text": "ISO 26000:2010 è relativo alla contabilità aziendale",
         "answer": false
       },
       {
-        "option_text": "4. ISO 9001:2015 è relativo alla qualità",
+        "option_text": "ISO 9001:2015 è relativo alla qualità",
         "answer": true
       },
       {
-        "option_text": "5. ISO 27001:2013 è relativo alla sicurezza delle informazioni",
+        "option_text": "ISO 27001:2013 è relativo alla sicurezza delle informazioni",
         "answer": true
       },
       {
-        "option_text": "6. ISA/IEC 62443 è relativo alla sicurezza delle reti informatiche aziendali in generale 17",
+        "option_text": "ISA/IEC 62443 è relativo alla sicurezza delle reti informatiche aziendali in generale",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 220
   },
   {
-    "id": 212,
     "code": "M3.2.1.12",
     "question": "La macroarea “Linee Guida” della famiglia di standard ISO/IEC 27000 include le norme",
     "options": [
       {
-        "option_text": "1. 27002",
+        "option_text": "27002",
         "answer": true
       },
       {
-        "option_text": "2. 27003",
+        "option_text": "27003",
         "answer": true
       },
       {
-        "option_text": "3. 27006",
+        "option_text": "27006",
         "answer": false
       },
       {
-        "option_text": "4. 27007",
+        "option_text": "27007",
         "answer": true
       },
       {
-        "option_text": "5. 27011",
+        "option_text": "27011",
         "answer": false
       },
       {
-        "option_text": "6. 27021 18",
+        "option_text": "27021",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 221
   },
   {
-    "id": 213,
     "code": "M3.2.1.13",
     "question": "La macroarea “Requisiti” della famiglia di standard ISO/IEC 27000 include le norme",
     "options": [
       {
-        "option_text": "1. 27001",
+        "option_text": "27001",
         "answer": true
       },
       {
-        "option_text": "2. 27006",
+        "option_text": "27006",
         "answer": true
       },
       {
-        "option_text": "3. 27009",
+        "option_text": "27009",
         "answer": true
       },
       {
-        "option_text": "4. 27002",
+        "option_text": "27002",
         "answer": false
       },
       {
-        "option_text": "5. 27003",
+        "option_text": "27003",
         "answer": false
       },
       {
-        "option_text": "6. 27011 19",
+        "option_text": "27011",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 222
   },
   {
-    "id": 214,
     "code": "M3.2.1.14",
     "question": "Nell’ISO/IEC 27000 il ciclo di Deming o PDCA si associa",
     "options": [
       {
-        "option_text": "1. Il PLAN alla pianificazione in un ISMS",
+        "option_text": "Il PLAN alla pianificazione in un ISMS",
         "answer": false
       },
       {
-        "option_text": "2. Il PLAN all’istituzione di un ISMS",
+        "option_text": "Il PLAN all’istituzione di un ISMS",
         "answer": true
       },
       {
-        "option_text": "3. Il DO all’implementazione e conduzione dell’ISMS",
+        "option_text": "Il DO all’implementazione e conduzione dell’ISMS",
         "answer": true
       },
       {
-        "option_text": "4. Il CHECK al monitoraggio e alla revisione dell’ISMS",
+        "option_text": "Il CHECK al monitoraggio e alla revisione dell’ISMS",
         "answer": true
       },
       {
-        "option_text": "5. L’ACT all’attuazione dell’ISMS",
+        "option_text": "L’ACT all’attuazione dell’ISMS",
         "answer": false
       },
       {
-        "option_text": "6. L’ACT alla manutenzione e al miglioramento dell’ISMS 20",
+        "option_text": "L’ACT alla manutenzione e al miglioramento dell’ISMS",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 223
   },
   {
-    "id": 215,
     "code": "M3.2.1.15",
     "question": "Nell’area tematica di criticità “Supporto” dell’ISO/IEC 27001 sono presenti i seguenti requisiti",
     "options": [
       {
-        "option_text": "1. Risorse",
+        "option_text": "Risorse",
         "answer": true
       },
       {
-        "option_text": "2. Politica",
+        "option_text": "Politica",
         "answer": false
       },
       {
-        "option_text": "3. Consapevolezza",
+        "option_text": "Consapevolezza",
         "answer": true
       },
       {
-        "option_text": "4. Comunicazione",
+        "option_text": "Comunicazione",
         "answer": true
       },
       {
-        "option_text": "5. Informazioni documentate",
+        "option_text": "Informazioni documentate",
         "answer": true
       },
       {
-        "option_text": "6. Leadership e impegno 21",
+        "option_text": "Leadership e impegno",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 224
   },
   {
-    "id": 216,
     "code": "M3.2.1.17",
     "question": "Nell’area tematica di criticità “Contesto dell’Organizzazione” dell’ISO/IEC 27001 sono presenti i seguenti requisiti",
     "options": [
       {
-        "option_text": "1. Comprendere l’organizzazione e il suo contesto",
+        "option_text": "Comprendere l’organizzazione e il suo contesto",
         "answer": true
       },
       {
-        "option_text": "2. Comprendere le necessità e le aspettative delle parti interessate",
+        "option_text": "Comprendere le necessità e le aspettative delle parti interessate",
         "answer": true
       },
       {
-        "option_text": "3. Comprendere le necessità di sicurezza del profilo di business",
+        "option_text": "Comprendere le necessità di sicurezza del profilo di business",
         "answer": false
       },
       {
-        "option_text": "4. Determinare il campo di applicazione del sistema di gestione per la sicurezza delle informazioni",
+        "option_text": "Determinare il campo di applicazione del sistema di gestione per la sicurezza delle informazioni",
         "answer": true
       },
       {
-        "option_text": "5. Sistema di gestione per la sicurezza delle informazioni",
+        "option_text": "Sistema di gestione per la sicurezza delle informazioni",
         "answer": true
       },
       {
-        "option_text": "6. Sistema di gestione della sicurezza di reti e sistemi V V F V V F V V F V F V V V V F F F F V V V F V V F V V V F V V F V V F  5 T2 22",
+        "option_text": "Sistema di gestione della sicurezza di reti e sistemi",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 225
   },
   {
-    "id": 217,
     "code": "M3.2.1.16",
     "question": "Quali delle seguenti sono Aree di Controllo secondo ISO 27001 2013?",
     "options": [
       {
-        "option_text": "1. Politiche per la sicurezza delle informazioni",
+        "option_text": "Politiche per la sicurezza delle informazioni",
         "answer": true
       },
       {
-        "option_text": "2. Politiche per la sicurezza dei dati",
+        "option_text": "Politiche per la sicurezza dei dati",
         "answer": false
       },
       {
-        "option_text": "3. Sicurezza fisica e ambientale",
+        "option_text": "Sicurezza fisica e ambientale",
         "answer": true
       },
       {
-        "option_text": "4. Sicurezza logica e fisica",
+        "option_text": "Sicurezza logica e fisica",
         "answer": false
       },
       {
-        "option_text": "5. Gestione dei Fornitori",
+        "option_text": "Gestione dei Fornitori",
         "answer": false
       },
       {
-        "option_text": "6. Gestione dei clienti 23",
+        "option_text": "Gestione dei clienti",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 226
   },
   {
-    "id": 218,
     "code": "M3.2.2.1",
     "question": "L’Area di Controllo 7 dell’ISO 27001 2013 Annex A “Sicurezza delle Risorse Umane” include le seguenti Categorie di Controllo",
     "options": [
       {
-        "option_text": "1. Prima dell’Impiego",
+        "option_text": "Prima dell’Impiego",
         "answer": true
       },
       {
-        "option_text": "2. Selezione del Personale",
+        "option_text": "Selezione del Personale",
         "answer": false
       },
       {
-        "option_text": "3. Durante l’impiego",
+        "option_text": "Durante l’impiego",
         "answer": true
       },
       {
-        "option_text": "4. Formazione del Personale",
+        "option_text": "Formazione del Personale",
         "answer": false
       },
       {
-        "option_text": "5. Discontinuità del rapporto di lavoro",
+        "option_text": "Discontinuità del rapporto di lavoro",
         "answer": false
       },
       {
-        "option_text": "6. Cessazione e variazione del rapporto di lavoro 24",
+        "option_text": "Cessazione e variazione del rapporto di lavoro",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 227
   },
   {
-    "id": 219,
     "code": "M3.2.2.2",
     "question": "L’Area di Controllo 9 dell’ISO 27001 2013 Annex A “Controllo degli Accessi (logici)” include le seguenti Categorie di Controllo",
     "options": [
       {
-        "option_text": "1. Requisiti di business per il controllo degli accessi",
+        "option_text": "Requisiti di business per il controllo degli accessi",
         "answer": true
       },
       {
-        "option_text": "2. Gestione degli accessi degli utenti",
+        "option_text": "Gestione degli accessi degli utenti",
         "answer": true
       },
       {
-        "option_text": "3. Responsabilità dell’utente",
+        "option_text": "Responsabilità dell’utente",
         "answer": true
       },
       {
-        "option_text": "4. Responsabilità del manager",
+        "option_text": "Responsabilità del manager",
         "answer": false
       },
       {
-        "option_text": "5. Controllo degli accessi ai sistemi e alle applicazioni",
+        "option_text": "Controllo degli accessi ai sistemi e alle applicazioni",
         "answer": true
       },
       {
-        "option_text": "6. Controllo degli accessi fisici ai sistemi e alle applicazioni 25",
+        "option_text": "Controllo degli accessi fisici ai sistemi e alle applicazioni",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 228
   },
   {
-    "id": 220,
     "code": "M3.2.3.8",
     "question": "Nel Framework Core di NIST CF la funzione “Identify” è costituta dalle seguenti Categorie:",
     "options": [
       {
-        "option_text": "1. Asset management",
+        "option_text": "Asset management",
         "answer": true
       },
       {
-        "option_text": "2. Business Environment",
+        "option_text": "Business Environment",
         "answer": true
       },
       {
-        "option_text": "3. Analysis",
+        "option_text": "Analysis",
         "answer": false
       },
       {
-        "option_text": "4. Risk Mitigation",
+        "option_text": "Risk Mitigation",
         "answer": false
       },
       {
-        "option_text": "5. Risk Management Strategy",
+        "option_text": "Risk Management Strategy",
         "answer": true
       },
       {
-        "option_text": "6. Supply Chain Risk Management 26",
+        "option_text": "Supply Chain Risk Management",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 229
   },
   {
-    "id": 221,
     "code": "M3.2.3.9",
     "question": "Nel Framework Core di NIST CF la funzione “Protect” è costituta dalle seguenti Categorie:",
     "options": [
       {
-        "option_text": "1. Identity Management and Access Control",
+        "option_text": "Identity Management and Access Control",
         "answer": true
       },
       {
-        "option_text": "2. Awareness and Training",
+        "option_text": "Awareness and Training",
         "answer": true
       },
       {
-        "option_text": "3. Data Security",
+        "option_text": "Data Security",
         "answer": true
       },
       {
-        "option_text": "4. Information Protection Processes & Procedures",
+        "option_text": "Information Protection Processes & Procedures",
         "answer": true
       },
       {
-        "option_text": "5. Anomalies and Events",
+        "option_text": "Anomalies and Events",
         "answer": false
       },
       {
-        "option_text": "6. Protective Technology 27",
+        "option_text": "Protective Technology",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 230
   },
   {
-    "id": 222,
     "code": "M3.2.4.1",
     "question": "Le guide verticali NIST Special Publications sono raggruppate in:",
     "options": [
       {
-        "option_text": "1. SP 800 Computer security",
+        "option_text": "SP 800 Computer security",
         "answer": true
       },
       {
-        "option_text": "2. SP 1800 Cybersecurity Practice Guides 3. SP 1700 Cybersecurity Development Guides Falso V F V F F F V F V F F V V V V F V F V V F F V V V V V V F V  6",
+        "option_text": "SP 1800 Cybersecurity Practice Guides",
         "answer": true
       },
       {
-        "option_text": "T2 4. SP 500 Information technology (relevant documents)",
-        "answer": true
-      },
-      {
-        "option_text": "5. SP 300 Information technology (relevant documents)",
+        "option_text": "SP 1700 Cybersecurity Development Guides",
         "answer": false
       },
       {
-        "option_text": "6. SP 600 Computer system management 28",
+        "option_text": "SP 500 Information technology (relevant documents)",
+        "answer": true
+      },
+      {
+        "option_text": "SP 300 Information technology (relevant documents)",
+        "answer": false
+      },
+      {
+        "option_text": "SP 600 Computer system management",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 231
   },
   {
-    "id": 223,
     "code": "M3.2.6.10",
     "question": "Ciascun elemento di un SCMS secondo l’ISA/IEC 62443 ha",
     "options": [
       {
-        "option_text": "1. Un Obiettivo per Identificare chiaramente gli obiettivi dei requisiti dell’elemento",
+        "option_text": "Un Obiettivo per Identificare chiaramente gli obiettivi dei requisiti dell’elemento",
         "answer": true
       },
       {
-        "option_text": "2. Un Fondamento Logico che fornisce una guida per chiarire la logica dei requisiti dell’elemento",
+        "option_text": "Un Fondamento Logico che fornisce una guida per chiarire la logica dei requisiti dell’elemento",
         "answer": true
       },
       {
-        "option_text": "3. Una Descrizione estesa dell’elemento e dei requisiti che sono contenuti",
+        "option_text": "Una Descrizione estesa dell’elemento e dei requisiti che sono contenuti",
         "answer": true
       },
       {
-        "option_text": "4. Un link a documenti associati",
+        "option_text": "Un link a documenti associati",
         "answer": false
       },
       {
-        "option_text": "5. Associati una lista di requisiti",
+        "option_text": "Associati una lista di requisiti",
         "answer": true
       },
       {
-        "option_text": "6. Associato un solo requisito specifico 29",
+        "option_text": "Associato un solo requisito specifico",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 232
   },
   {
-    "id": 224,
     "code": "M3.2.6.11",
     "question": "Quali dei seguenti sono Fondational Requirements secondo ISA/IEC 62443",
     "options": [
       {
-        "option_text": "1. Identification and authentication control (IAC)",
+        "option_text": "Identification and authentication control (IAC)",
         "answer": true
       },
       {
-        "option_text": "2. User Controller (UCR)",
+        "option_text": "User Controller (UCR)",
         "answer": false
       },
       {
-        "option_text": "3. System Integrity (SI)",
+        "option_text": "System Integrity (SI)",
         "answer": true
       },
       {
-        "option_text": "4. Data Confidentiality (DC)",
+        "option_text": "Data Confidentiality (DC)",
         "answer": true
       },
       {
-        "option_text": "5. Restrict Data Flow (RDF)",
+        "option_text": "Restrict Data Flow (RDF)",
         "answer": true
       },
       {
-        "option_text": "6. Resource Providing (RP) 30",
+        "option_text": "Resource Providing (RP)",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 233
   },
   {
-    "id": 225,
     "code": "M3.3.1.4",
     "question": "Perché è importante la regolamentazione GDPR per l’Information Technology?",
     "options": [
       {
-        "option_text": "1. Perché i sistemi informativi conservano, gestiscono e permettono di trasferire i dati riservati e sensibili delle persone 2. Perché i dati sono archiviati e mantenuti per periodi di tempo indeterminati, potenzialmente senza possibilità di controllo",
+        "option_text": "Perché i sistemi informativi conservano, gestiscono e permettono di trasferire i dati riservati e sensibili delle persone",
         "answer": true
       },
       {
-        "option_text": "dalle persone stesse 3. Perché una gestione dei dati senza regole può mettere a repentaglio le regole principali del vivere civile ed è quindi",
+        "option_text": "Perché i dati sono archiviati e mantenuti per periodi di tempo indeterminati, potenzialmente senza possibilità di controllo dalle persone stesse",
         "answer": true
       },
       {
-        "option_text": "necessario regolamentare la gestione dei dati nel suo insieme 4. Perché una gestione dei dati senza regole può mettere a repentaglio le regole principali del vivere civile ed è quindi necessario regolamentare la gestione dei dati: ovviamente solamente l’autorizzazione al trattamento e al trasferimento Falso 5. Perché una gestione dei dati senza regole può mettere a repentaglio le regole principali del vivere civile ed è quindi necessario regolamentare la gestione dei dati: dall’autorizzazione al trattamento, il trasferimento sino al tempo massimo",
+        "option_text": "Perché una gestione dei dati senza regole può mettere a repentaglio le regole principali del vivere civile ed è quindi necessario regolamentare la gestione dei dati nel suo insieme",
         "answer": true
       },
       {
-        "option_text": "di mantenimento",
+        "option_text": "Perché una gestione dei dati senza regole può mettere a repentaglio le regole principali del vivere civile ed è quindi necessario regolamentare la gestione dei dati: ovviamente solamente l’autorizzazione al trattamento e al trasferimento",
+        "answer": false
+      },
+      {
+        "option_text": "Perché una gestione dei dati senza regole può mettere a repentaglio le regole principali del vivere civile ed è quindi necessario regolamentare la gestione dei dati: dall’autorizzazione al trattamento, il trasferimento sino al tempo massimo di mantenimento",
         "answer": true
       },
       {
-        "option_text": "6. Perché bisogna salvaguardare gli aspetti formali del trattamento dei dati V V F V F F V V V F V F V F V V V F V V V F V F  7 T2 Esercizio 1 Data la seguente topologia di rete: Indicare la tipologia degli apparati e sistemi nei quadrati e rettangoli: A B C D E F G H I Router VPN Firewall Anomaly Detection System Switch Firewall Router Router- Firewall Anomaly Detection System L M N O P Switch Router- Firewall Anomaly Detection System Switch Gateway Esercizio 2 Partizionare la rete 192.168.10.0 in 4 sottoreti così costituite, ogni sottorete deve essere suddivisa in due VLAN uguali. Rappresentare le sottoreti con la notazione /X ed esplicitare il numero totale degli Host della sottorete: Sottorete A: 68 Host Sottorete B: 26 Host Sottorete C: 12 Host Sottorete D: 58 Host VLAN N° Totale Host 192 168 10 0 /25 1 63 192 168 10 0 /25 2 63 192 168 10 128 /27 3 15 192 168 10 128 /27 4 15 192 168 10 160 /28 5 7 192 168 10 160 /28 6 7 192 168 10 176 /26 7 31 192 168 10 176 /26 8 31  1 T1 Corso Aspetti Gestionali e Organizzativi della Cyber Security Appello 23 settembre 2022 Indicare vero [V] o falso [F] alle seguenti affermazioni: 1",
+        "option_text": "Perché bisogna salvaguardare gli aspetti formali del trattamento dei dati",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 234
   },
   {
-    "id": 226,
     "code": "M1.1.2.9",
     "question": "La banda di trasmissione SHF",
     "options": [
@@ -7130,5248 +7473,3832 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "6 È utilizzata dai Radar, dai link a microonde e dalle comunicazioni satellitari 2",
+        "option_text": "6 È utilizzata dai Radar, dai link a microonde e dalle comunicazioni satellitari",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 235
   },
   {
-    "id": 227,
-    "code": "M1.1.3.2",
-    "question": "Il Routing 1. Il Routing è l'instradamento effettuato tra reti differenti con l’ausilio delle tabelle di instradamento configurate a livello",
-    "options": [
-      {
-        "option_text": "dei router 2. Il Routing è l'instradamento effettuato all’interno della stessa rete con l’ausilio delle tabelle di instradamento configurate",
-        "answer": true
-      },
-      {
-        "option_text": "a livello dei router 3. Per il suo funzionamento considera che i router siano a conoscenza degli indirizzi solo delle reti a cui sono direttamente",
-        "answer": false
-      },
-      {
-        "option_text": "collegati 4. Per il suo funzionamento considera che i router siano a conoscenza degli indirizzi delle reti a cui sono direttamente o",
-        "answer": true
-      },
-      {
-        "option_text": "indirettamente collegati 5. Nella tabella di instradamento ogni riga corrisponde a una regola e le regole vengono esaminate dalla prima all’ultima, se ci sono più regole che corrispondono all'indirizzo fornito, viene scelta la regola che ha più bit in comune con l'indirizzo",
-        "answer": false
-      },
-      {
-        "option_text": "fornito 6. Nella tabella di instradamento ogni riga corrisponde a una regola e le regole vengono esaminate dalla prima all’ultima, se",
-        "answer": true
-      },
-      {
-        "option_text": "ci sono più regole che corrispondono all'indirizzo fornito, viene scelta la prima regola che viene esaminata 3",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 228,
     "code": "M1.1.3.5",
     "question": "Un indirizzo IPv4",
     "options": [
       {
-        "option_text": "1. Ha la dimensione di 32 bits, divisi in 4 gruppi da 8 bits",
+        "option_text": "Ha la dimensione di 32 bits, divisi in 4 gruppi da 8 bits",
         "answer": true
       },
       {
-        "option_text": "2. Ha la dimensione di 32 bits, divisi in 8 gruppi da 4 bits",
+        "option_text": "Ha la dimensione di 32 bits, divisi in 8 gruppi da 4 bits",
         "answer": false
       },
       {
-        "option_text": "3. Ha la dimensione di 128 bits, divisi in 8 gruppi da 16 bits",
+        "option_text": "Ha la dimensione di 128 bits, divisi in 8 gruppi da 16 bits",
         "answer": false
       },
       {
-        "option_text": "4. Ha la dimensione di 256 bits, divisi in 8 gruppi da 32 bits",
+        "option_text": "Ha la dimensione di 256 bits, divisi in 8 gruppi da 32 bits",
         "answer": false
       },
       {
-        "option_text": "5. Può essere assegnato solo dall’ InterNIC (InterNetwork Information Center)",
+        "option_text": "Può essere pubblico, ossia che può essere raggiunto da qualsiasi altro nodo di Internet, o privato, ov",
         "answer": true
       },
       {
-        "option_text": "6. Può essere assegnato da chiunque 4",
+        "option_text": "riconosciuto solo all'interno di una rete locale",
+        "answer": true
+      },
+      {
+        "option_text": "Può essere assegnato da chiunque",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 236
   },
   {
-    "id": 229,
     "code": "M1.1.4.2",
-    "question": "L’Uniform Resource Locator (URL) 1. È una sequenza di caratteri che identifica univocamente l'indirizzo di una risorsa presente su un host (server) che fa parte",
+    "question": "L’Uniform Resource Locator (URL)",
     "options": [
       {
-        "option_text": "di una rete di computer e resa accessibile a un client",
+        "option_text": "È una sequenza di caratteri che identifica univocamente l'indirizzo di una risorsa presente su un host (server) che fa parte di una rete di computer e resa accessibile a un client",
         "answer": true
       },
       {
-        "option_text": "2. È una sequenza di caratteri esclusivamente alfanumerici 3. Identifica univocamente gli indirizzi delle risorse come documenti, un'immagini, video, tipicamente presente sui server Vero",
+        "option_text": "È una sequenza di caratteri esclusivamente alfanumerici",
         "answer": false
       },
       {
-        "option_text": "4. Può utilizzare protocolli http, https, ftp o mms",
+        "option_text": "Identifica univocamente gli indirizzi delle risorse come documenti, un'immagini, video, tipicamente presente sui server",
         "answer": true
       },
       {
-        "option_text": "5. Si avvale del DNS (Domain Name System) per “risolvere” l’URL in indirizzo IP",
+        "option_text": "Può utilizzare protocolli http, https, ftp o mms",
         "answer": true
       },
       {
-        "option_text": "6. Nel caso utilizzi il protocollo https realizza una comunicazione client server non criptata Nome Cognome Matricola V F V F V V V F V F V F V F F F V F V F V V V F  2 T1 5",
+        "option_text": "Si avvale del DNS (Domain Name System) per “risolvere” l’URL in indirizzo IP",
+        "answer": true
+      },
+      {
+        "option_text": "Nel caso utilizzi il protocollo https realizza una comunicazione client server non criptata",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 237
   },
   {
-    "id": 230,
     "code": "M1.1.6.1",
-    "question": "Una Minaccia alla sicurezza informatica 1. Può essere definita come un codice eseguibile che, utilizzando un vettore esterno o interno al perimetro aziendale, ha la capacità di compiere operazioni dannose per la macchina in cui si trova, per il sistema informatico in cui si è inserito o per",
+    "question": "Una Minaccia alla sicurezza informatica",
     "options": [
       {
-        "option_text": "i dati in esso contenuti o gestiti",
+        "option_text": "Può essere definita come un codice eseguibile che, utilizzando un vettore esterno o interno al perimetro aziendale, ha la capacità di compiere operazioni dannose per la macchina in cui si trova, per il sistema informatico in cui si è inserito o per i dati in esso contenuti o gestiti",
         "answer": true
       },
       {
-        "option_text": "2. Si propaga e si concretizza sempre indipendentemente dal fattore umano 3. Utilizza un vettore che può essere un attacco diretto o indiretto da parte di qualche malintenzionato o un incidente anche",
+        "option_text": "Si propaga e si concretizza sempre indipendentemente dal fattore umano",
         "answer": false
       },
       {
-        "option_text": "accidentale",
+        "option_text": "Utilizza un vettore che può essere un attacco diretto o indiretto da parte di qualche malintenzionato o un incidente anche accidentale",
         "answer": true
       },
       {
-        "option_text": "4. Può essere eliminata mediante l’installazione di un buon antivirus 5. Può penetrare qualsiasi tipo di file eseguibile e diffondersi nel momento in cui il file viene copiato e inviato da un utente",
+        "option_text": "Può essere eliminata mediante l’installazione di un buon antivirus",
         "answer": false
       },
       {
-        "option_text": "all'altro",
+        "option_text": "Può penetrare qualsiasi tipo di file eseguibile e diffondersi nel momento in cui il file viene copiato e inviato da un utente all'altro",
         "answer": true
       },
       {
-        "option_text": "6. Può essere costituita dai Ramsomware 6",
+        "option_text": "Può essere costituita dai Ramsomware",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 238
   },
   {
-    "id": 231,
     "code": "M1.3.1.15",
     "question": "Quali delle seguenti funzioni appartengono al livello ISO/OSI di Collegamento (2)",
     "options": [
       {
-        "option_text": "1. Identificare i nodi connessi",
+        "option_text": "Identificare i nodi connessi",
         "answer": true
       },
       {
-        "option_text": "2. Controllare gli errori",
+        "option_text": "Controllare gli errori",
         "answer": true
       },
       {
-        "option_text": "3. Correggere gli errori mediante ritrasmissione",
+        "option_text": "Correggere gli errori mediante ritrasmissione",
         "answer": true
       },
       {
-        "option_text": "4. Indirizzamento Logico",
+        "option_text": "Indirizzamento Logico",
         "answer": false
       },
       {
-        "option_text": "5. Incapsulamento del Pacchetto",
+        "option_text": "Incapsulamento del Pacchetto",
         "answer": false
       },
       {
-        "option_text": "6. Gestione delle Connessioni 7",
+        "option_text": "Gestione delle Connessioni",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 239
   },
   {
-    "id": 232,
     "code": "M1.3.1.18",
     "question": "Quali delle seguenti funzioni appartengono al livello ISO/OSI Sessione (5)",
     "options": [
       {
-        "option_text": "1. Servizio orientato alla connessione",
+        "option_text": "Servizio orientato alla connessione",
         "answer": false
       },
       {
-        "option_text": "2. Corretto ordine di consegna",
+        "option_text": "Corretto ordine di consegna",
         "answer": false
       },
       {
-        "option_text": "3. Trasferimento affidabile",
+        "option_text": "Trasferimento affidabile",
         "answer": false
       },
       {
-        "option_text": "4. Definizione della sessione",
+        "option_text": "Definizione della sessione",
         "answer": true
       },
       {
-        "option_text": "5. Frammentazione e Riassemblaggio",
+        "option_text": "Frammentazione e Riassemblaggio",
         "answer": false
       },
       {
-        "option_text": "6. Sincronizzazione 8",
+        "option_text": "Sincronizzazione",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 240
   },
   {
-    "id": 233,
     "code": "M1.3.1.19",
     "question": "Quali delle seguenti funzioni appartengono al livello ISO/OSI Presentazione (6)",
     "options": [
       {
-        "option_text": "1. Crittografia",
+        "option_text": "Crittografia",
         "answer": true
       },
       {
-        "option_text": "2. Controllare il flusso",
+        "option_text": "Controllare il flusso",
         "answer": false
       },
       {
-        "option_text": "3. Formattazione",
+        "option_text": "Formattazione",
         "answer": true
       },
       {
-        "option_text": "4. Accesso condiviso al canale MAC (Medium Access Control)",
+        "option_text": "Accesso condiviso al canale MAC (Medium Access Control)",
         "answer": false
       },
       {
-        "option_text": "5. Data Framing",
+        "option_text": "Data Framing",
         "answer": false
       },
       {
-        "option_text": "6. Compressione dei dati 9",
+        "option_text": "Compressione dei dati",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 241
   },
   {
-    "id": 234,
     "code": "M1.3.4.2",
     "question": "La rete MAN (Metropolitan Area Network)",
     "options": [
       {
-        "option_text": "1. È una rete di telecomunicazione a banda stretta, che collega più LAN geograficamente vicine 2. È di solito utilizzata da singole filiali di un’azienda che vengono connesse ad una MAN attraverso l’affitto di linee dedicate Vero",
+        "option_text": "È una rete di telecomunicazione a banda stretta, che collega più LAN geograficamente vicine",
         "answer": false
       },
       {
-        "option_text": "3. Utilizza connessioni in fibra ottica, che consentono prestazioni migliori",
+        "option_text": "È di solito utilizzata da singole filiali di un’azienda che vengono connesse ad una MAN attraverso l’affitto di linee dedicate",
         "answer": true
       },
       {
-        "option_text": "4. Ha una velocità di trasferimento tra due nodi distanti molto più lenta della comunicazione interna di una LAN",
+        "option_text": "Utilizza connessioni in fibra ottica, che consentono prestazioni migliori",
+        "answer": true
+      },
+      {
+        "option_text": "Ha una velocità di trasferimento tra due nodi distanti molto più lenta della comunicazione interna di una LAN",
         "answer": false
       },
       {
-        "option_text": "5. Ha un’infrastruttura che viene messa a disposizione da provider che operano a livello internazionale",
+        "option_text": "Ha un’infrastruttura che viene messa a disposizione da provider che operano a livello internazionale",
         "answer": true
       },
       {
-        "option_text": "6. A livello cittadino si collega a reti sovraregionali e internazionali, chiamate Wide Area Network (WAN) 10",
+        "option_text": "A livello cittadino si collega a reti sovraregionali e internazionali, chiamate Wide Area Network (WAN)",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 242
   },
   {
-    "id": 235,
     "code": "M2.2.1.3",
-    "question": "Quali strategie posso utilizzare per mitigare i possibili danni da un attacco cyber ad una linea produttiva (al momento l’unica che produce un determinato bene)? V F V F V V V V V F F F F F F V F V V F V F F V F V V F V V  3 T1 1. Ridondare e rendere indipendenti le architetture di rete e i dispositivi informatici che gestiscono le macchine di",
+    "question": "Quali strategie posso utilizzare per mitigare i possibili danni da un attacco cyber ad una linea produttiva (al momento l’unica che produce un determinato bene)? T1",
     "options": [
       {
-        "option_text": "produzione",
+        "option_text": "Ridondare e rendere indipendenti le architetture di rete e i dispositivi informatici che gestiscono le macchine di produzione",
         "answer": true
       },
       {
-        "option_text": "2. Realizzare un adeguato sistema di segmentazione e segregazione delle reti e degli apparati di controllo",
+        "option_text": "Realizzare un adeguato sistema di segmentazione e segregazione delle reti e degli apparati di controllo",
         "answer": true
       },
       {
-        "option_text": "3. Aumentare gli stock delle materie prime",
+        "option_text": "Aumentare gli stock delle materie prime",
         "answer": false
       },
       {
-        "option_text": "4. Valutare, compatibilmente con i costi, la realizzazione di una linea produttiva parallela analoga",
+        "option_text": "Valutare, compatibilmente con i costi, la realizzazione di una linea produttiva parallela analoga",
         "answer": true
       },
       {
-        "option_text": "5. Aumentare considerevolmente la quantità di prodotti finiti in magazzino",
+        "option_text": "Aumentare considerevolmente la quantità di prodotti finiti in magazzino",
         "answer": false
       },
       {
-        "option_text": "6. Isolare completamente la rete industriale dalla rete office 11",
+        "option_text": "Isolare completamente la rete industriale dalla rete office",
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 243
   },
   {
-    "id": 236,
-    "code": "M2.2.2.2",
-    "question": "Un incidente informatico interno all’organizzazione 1. Può essere qualsiasi evento che sottintende una violazione delle politiche di sicurezza IT fonte di danno per gli asset IT Vero 2. Può essere un incidente collegato ad un attacco con obiettivi economici e può avere come obiettivi i sistemi",
-    "options": [
-      {
-        "option_text": "Amministrativi e gestionali o i sistemi di progettazione",
-        "answer": true
-      },
-      {
-        "option_text": "3. In ogni caso è di rilevanza inferiore rispetto ad un attacco diretto 4. Può essere un incidente collegato ad un attacco avente come obiettivo l’interruzione del servizio e come obiettivi i",
-        "answer": false
-      },
-      {
-        "option_text": "sistemi amministrativi e gestionali, i portali web e di e-commerce i sistemi di produzione",
-        "answer": true
-      },
-      {
-        "option_text": "5. Di solito è molto semplice verificare il nesso causa-effetto tra evento rilevato e danno subito",
-        "answer": false
-      },
-      {
-        "option_text": "6. Può essere un incidente informativo casuale legato ad un’operazione o una procedura errata 12",
-        "answer": true
-      }
-    ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
-  },
-  {
-    "id": 237,
     "code": "M2.3.1.4",
     "question": "Nella Gestione Aziendale le Operazioni Soggettive possono essere:",
     "options": [
       {
-        "option_text": "1. Reperimento di mezzi finanziari",
+        "option_text": "Reperimento di mezzi finanziari",
         "answer": false
       },
       {
-        "option_text": "2. Attività decisionali",
+        "option_text": "Attività decisionali",
         "answer": true
       },
       {
-        "option_text": "3. Investimenti",
+        "option_text": "Investimenti",
         "answer": false
       },
       {
-        "option_text": "4. Attività di controllo",
+        "option_text": "Attività di controllo",
         "answer": true
       },
       {
-        "option_text": "5. Attività di produzione",
+        "option_text": "Attività di produzione",
         "answer": false
       },
       {
-        "option_text": "6. Disinvestimento 13",
+        "option_text": "Disinvestimento",
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 244
   },
   {
-    "id": 238,
     "code": "M2.3.1.5",
     "question": "L’ERP aziendale",
     "options": [
       {
-        "option_text": "1. È l’Enterprise Resource Planning",
+        "option_text": "È l’Enterprise Resource Planning",
         "answer": true
       },
       {
-        "option_text": "2. È Il Sistema Gestionale Aziendale",
+        "option_text": "È Il Sistema Gestionale Aziendale",
         "answer": true
       },
       {
-        "option_text": "3. Non fa parte del sistema informativo aziendale",
+        "option_text": "Non fa parte del sistema informativo aziendale",
         "answer": false
       },
       {
-        "option_text": "4. È un software",
+        "option_text": "È un software",
         "answer": true
       },
       {
-        "option_text": "5. È un hardware",
+        "option_text": "È un hardware",
         "answer": false
       },
       {
-        "option_text": "6. Può essere un servizio in cloud 14",
+        "option_text": "Può essere un servizio in cloud",
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 245
   },
   {
-    "id": 239,
     "code": "M2.3.2.4",
     "question": "In ogni Organizzazione",
     "options": [
       {
-        "option_text": "1. La Mansione deve essere assegnata a ogni individuo",
+        "option_text": "La Mansione deve essere assegnata a ogni individuo",
         "answer": true
       },
       {
-        "option_text": "2. Una Mansione specifica può non essere associata ad un individuo",
+        "option_text": "Può non essere associata una Mansione specifica ad un individuo",
         "answer": false
       },
       {
-        "option_text": "3. Il Ruolo è l’insieme dei comportamenti previsti da una specifica figura professionale",
+        "option_text": "Il Ruolo è l’insieme dei comportamenti previsti da una specifica figura professionale",
         "answer": true
       },
       {
-        "option_text": "4. La Posizione è lo stato o il grado assegnato ad una figura professionale",
+        "option_text": "La Posizione è lo stato o il grado assegnato ad una figura professionale",
         "answer": true
       },
       {
-        "option_text": "5. Ad ogni risorsa vanno assegnate delle responsabilità per raggiungere degli obiettivi aziendali comuni",
+        "option_text": "Ad ogni risorsa vanno assegnate delle responsabilità per raggiungere degli obiettivi aziendali comuni",
         "answer": true
       },
       {
-        "option_text": "6. Le stesse mansioni i ruoli e le posizioni aziendali possono essere attribuite a più persone contemporaneamente F V V F V V V V F V F F V V F V F V F V F V F F V V F V F V V F V V V F  4 T1 15",
+        "option_text": "Le stesse mansioni i ruoli e le posizioni aziendali possono essere attribuite a più persone contemporaneamente",
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 246
   },
   {
-    "id": 240,
     "code": "M3.1.1.5",
-    "question": "Quali dei seguenti sono i principali processi di Cyber Security (indicare Vero)",
+    "question": "Quali dei seguenti sono i principali processi di Cyber Security (indicare )",
     "options": [
       {
-        "option_text": "1. Monitoraggio degli Incidenti Informatici",
+        "option_text": "Monitoraggio degli Incidenti Informatici",
         "answer": true
       },
       {
-        "option_text": "2. Gestione delle performance di rete",
+        "option_text": "Gestione delle performance di rete",
         "answer": false
       },
       {
-        "option_text": "3. Gestione degli incidenti informatici",
+        "option_text": "Gestione degli incidenti informatici",
         "answer": true
       },
       {
-        "option_text": "4. Gestione delle vulnerabilità",
+        "option_text": "Gestione delle vulnerabilità",
         "answer": true
       },
       {
-        "option_text": "5. Gestione delle obsolescenze",
+        "option_text": "Gestione delle obsolescenze",
         "answer": true
       },
       {
-        "option_text": "6. Gestione delle risorse 17",
+        "option_text": "Gestione delle risorse",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 247
   },
   {
-    "id": 241,
     "code": "M3.1.1.6",
     "question": "Il SOC",
     "options": [
       {
-        "option_text": "1. È il Security Operations Center",
+        "option_text": "È il Security Operations Center",
         "answer": true
       },
       {
-        "option_text": "2. È il Security Organization Center",
+        "option_text": "È il Security Organization Center",
         "answer": false
       },
       {
-        "option_text": "3. È un centro da cui vengono forniti servizi finalizzati alla sicurezza dei sistemi informativi dell'azienda stessa",
+        "option_text": "È un centro da cui vengono forniti servizi finalizzati alla sicurezza dei sistemi informativi dell'azienda stessa",
         "answer": true
       },
       {
-        "option_text": "4. Può essere solo interno all’organizzazione 5. Può anche fornire servizi di Incident Response, in questo caso svolge la funzione di CERT (Computer Emergency Response",
+        "option_text": "Può essere solo interno all’organizzazione",
         "answer": false
       },
       {
-        "option_text": "Team)",
+        "option_text": "Può anche fornire servizi di Incident Response, in questo caso svolge la funzione di CERT (Computer Emergency Response Team)",
         "answer": true
       },
       {
-        "option_text": "6. Può avere anche funzioni di CSIRT (Computer Security Incident Response Team) 18",
+        "option_text": "Può avere anche funzioni di CSIRT (Computer Security Incident Response Team)",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 248
   },
   {
-    "id": 242,
     "code": "M3.1.2.2",
     "question": "Perché bisogna modellare (modellizzare) i processi aziendali?",
     "options": [
       {
-        "option_text": "1. Per fornire una descrizione di una sequenza di attività comprensibile ad un osservatore esterno al processo",
+        "option_text": "Per fornire una descrizione di una sequenza di attività comprensibile ad un osservatore esterno al processo",
         "answer": true
       },
       {
-        "option_text": "2. Perché la legislazione lo richiede obbligatoriamente 3. Per usare un modello grafico standardizzato con l’obiettivo di presentare un documento in un formato facilmente",
+        "option_text": "Perché la legislazione lo richiede obbligatoriamente",
         "answer": false
       },
       {
-        "option_text": "comprensibile ad organizzazioni differenti",
+        "option_text": "Per usare un modello grafico standardizzato con l’obiettivo di presentare un documento in un formato facilmente comprensibile ad organizzazioni differenti",
         "answer": true
       },
       {
-        "option_text": "4. Per descrivere cosa attualmente succede durante un processo",
+        "option_text": "Per descrivere cosa attualmente succede durante un processo",
         "answer": true
       },
       {
-        "option_text": "5. Per descrivere anche cosa si desidererebbe far succedere durante un processo in futuro",
+        "option_text": "Per descrivere anche cosa si desidererebbe far succedere durante un processo in futuro",
         "answer": true
       },
       {
-        "option_text": "6. Per creare la base e i presupposti all’analisi per l’innovazione di processo 19",
+        "option_text": "Per creare la base e i presupposti all’analisi per l’innovazione di processo",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 249
   },
   {
-    "id": 243,
     "code": "M3.1.2.3",
     "question": "Quali sono le tipologie di Modellizzazione?",
     "options": [
       {
-        "option_text": "1. Basata sui dati",
+        "option_text": "Basata sui dati",
         "answer": true
       },
       {
-        "option_text": "2. Basata su attività",
+        "option_text": "Basata su attività",
         "answer": true
       },
       {
-        "option_text": "3. Basata su informazioni",
+        "option_text": "Basata su informazioni",
         "answer": false
       },
       {
-        "option_text": "4. Basata su transizioni",
+        "option_text": "Basata su transizioni",
         "answer": false
       },
       {
-        "option_text": "5. Basata su messaggi",
+        "option_text": "Basata su messaggi",
         "answer": false
       },
       {
-        "option_text": "6. Basata su comunicazione 20",
+        "option_text": "Basata su comunicazione",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 250
   },
   {
-    "id": 244,
     "code": "M3.1.3.4",
     "question": "Perché le SOP (Standard Operating Procedure) sono importanti?",
     "options": [
       {
-        "option_text": "1. Aiutano l’organizzazione a soddisfare gli standard di conformità",
+        "option_text": "Aiutano l’organizzazione a soddisfare gli standard di conformità",
         "answer": true
       },
       {
-        "option_text": "2. Supportano ma non garantiscono che le attività aziendali non abbiano impatti ambientali negativi",
+        "option_text": "Supportano ma non garantiscono che le attività aziendali non abbiano impatti ambientali negativi",
         "answer": false
       },
       {
-        "option_text": "3. Semplificano e massimizzano la produzione/output",
+        "option_text": "Semplificano e massimizzano la produzione/output",
         "answer": true
       },
       {
-        "option_text": "4. Stabiliscono degli standard di sicurezza (fisica e logica)",
+        "option_text": "Stabiliscono degli standard di sicurezza (fisica e logica)",
         "answer": true
       },
       {
-        "option_text": "5. Supportano la formazione e la crescita professionale del personale",
+        "option_text": "Supportano la formazione e la crescita professionale del personale",
         "answer": true
       },
       {
-        "option_text": "6. Garantiscono sempre risultati coerenti 21",
+        "option_text": "Garantiscono sempre risultati coerenti",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 251
   },
   {
-    "id": 245,
     "code": "M3.2.1.11",
-    "question": "Quali dei seguenti gruppi di norme fanno parte della famiglia degli Standard ISO/IEC 27000? V F V V V F V F V V V F V F V F V V V F V V V V V V F F F V V F V V V F  5",
+    "question": "Quali dei seguenti gruppi di norme fanno parte della famiglia degli Standard ISO/IEC 27000? T1",
     "options": [
       {
-        "option_text": "T1 1. Norme che descrivono una panoramica e la terminologia o vocabolario",
+        "option_text": "Norme che descrivono una panoramica e la terminologia o vocabolario",
         "answer": true
       },
       {
-        "option_text": "2. Norme che specificano i requisiti",
+        "option_text": "Norme che specificano i requisiti",
         "answer": true
       },
       {
-        "option_text": "3. Norme che identificano i processi",
+        "option_text": "Norme che identificano i processi",
         "answer": false
       },
       {
-        "option_text": "4. Norme che descrivono le linee guida dettagliate",
+        "option_text": "Norme che descrivono le linee guida dettagliate",
         "answer": false
       },
       {
-        "option_text": "5. Norme che descrivono le linee guida negli specifici ambiti/settori",
+        "option_text": "Norme che descrivono le linee guida negli specifici ambiti/settori",
         "answer": true
       },
       {
-        "option_text": "6. Norme aggiunte che descrivono delle direttive specializzate 22",
+        "option_text": "Norme aggiunte che descrivono delle direttive specializzate",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 252
   },
   {
-    "id": 246,
     "code": "M3.2.5.1",
-    "question": "Quali delle seguenti sono effettive differenze tra NIST Cyber Security Framework e ISO 27001 1. Il NIST è stato creato principalmente per la gestione del rischio sulle informazioni, ISO 27001 è invece un approccio",
+    "question": "Quali delle seguenti sono effettive differenze tra NIST Cyber Security Framework e ISO 27001",
     "options": [
       {
-        "option_text": "riconosciuto a livello internazionale per la creazione e il mantenimento di un ISMS",
+        "option_text": "Il NIST è stato creato principalmente per la gestione del rischio sulle informazioni, ISO 27001 è invece un approccio riconosciuto a livello internazionale per la creazione e il mantenimento di un ISMS",
         "answer": true
       },
       {
-        "option_text": "2. ISO 27001 è volontario, mentre il NIST CSF prevede la certificazione 3. I framework NIST hanno vari cataloghi di controllo e cinque funzioni per personalizzare i controlli di sicurezza informatica, mentre l'allegato A ISO 27001 (2013) fornisce 14 categorie di controllo con 114 controlli e 7 clausole di gestione per",
+        "option_text": "ISO 27001 è volontario, mentre il NIST CSF prevede la certificazione",
         "answer": false
       },
       {
-        "option_text": "guidare le organizzazioni attraverso i loro ISMS",
+        "option_text": "I framework NIST hanno vari cataloghi di controllo e cinque funzioni per personalizzare i controlli di sicurezza informatica, mentre l'allegato A ISO 27001 (2013) fornisce 14 categorie di controllo con 114 controlli e 7 clausole di gestione per guidare le organizzazioni attraverso i loro ISMS",
         "answer": true
       },
       {
-        "option_text": "4. La ISO 27001 è meno tecnica, con maggiore enfasi sulla gestione basata sul rischio",
+        "option_text": "La ISO 27001 è meno tecnica, con maggiore enfasi sulla gestione basata sul rischio",
         "answer": true
       },
       {
-        "option_text": "5. La ISO 27001 è più tecnica, con minore enfasi sulla gestione basata sul rischio 6. La ISO 27001 è una buona scelta per certificare le organizzazioni che hanno maturità operativa, mentre il NIST CSF può essere più adatto per le organizzazioni che si trovano nelle fasi iniziali dello sviluppo di un programma di rischio per la",
+        "option_text": "La ISO 27001 è più tecnica, con minore enfasi sulla gestione basata sul rischio",
         "answer": false
       },
       {
-        "option_text": "sicurezza informatica 23",
+        "option_text": "La ISO 27001 è una buona scelta per certificare le organizzazioni che hanno maturità operativa, mentre il NIST CSF può essere più adatto per le organizzazioni che si trovano nelle fasi iniziali dello sviluppo di un programma di rischio per la sicurezza informatica",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 253
   },
   {
-    "id": 247,
     "code": "M3.3.1.2",
-    "question": "Quali sono le origini legislative del diritto alla privacy italiano? 1. Costituzione Italiana, articoli 14, 15 e 21, riguardanti il domicilio, la libertà e segretezza della corrispondenza, e la libertà",
+    "question": "Quali sono le origini legislative del diritto alla privacy italiano?",
     "options": [
       {
-        "option_text": "di manifestazione del pensiero",
+        "option_text": "Costituzione Italiana, articoli 14, 15 e 21, riguardanti il domicilio, la libertà e segretezza della corrispondenza, e la libertà di manifestazione del pensiero",
         "answer": true
       },
       {
-        "option_text": "2. Costituzione Italiana articolo 2, come anche sostenuto la Corte Costituzionale con la sentenza n. 38 del 1973",
+        "option_text": "Costituzione Italiana articolo 2, come anche sostenuto la Corte Costituzionale con la sentenza n. 38 del 1973",
         "answer": true
       },
       {
-        "option_text": "3. Sentenza della Corte di Cassazione n. 4487 del 1961",
+        "option_text": "Sentenza della Corte di Cassazione n. 4487 del 1961",
         "answer": false
       },
       {
-        "option_text": "4. Sentenza della Corte di Cassazione n. 4487 del 1956",
+        "option_text": "Sentenza della Corte di Cassazione n. 4487 del 1956",
         "answer": true
       },
       {
-        "option_text": "5. Prima legge italiana di tutela della privacy, Legge 675 del 1996, come attuazione della direttiva 95/46/CE",
+        "option_text": "Prima legge italiana di tutela della privacy, Legge 675 del 1996, come attuazione della direttiva 95/46/CE",
         "answer": true
       },
       {
-        "option_text": "6. Prima legge italiana di tutela della privacy, Legge 675 del 1998, come attuazione della direttiva 95/46/CE 24",
+        "option_text": "Prima legge italiana di tutela della privacy, Legge 675 del 1998, come attuazione della direttiva 95/46/CE",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 254
   },
   {
-    "id": 248,
     "code": "M3.3.1.3",
-    "question": "Quali sono le attuali leggi italiane sulla privacy? 1. Il decreto 198 del 2004 “Codice in materia di protezione dei dati personali” detto anche “Testo unico sulla Privacy”,",
+    "question": "Quali sono le attuali leggi italiane sulla privacy?",
     "options": [
       {
-        "option_text": "entrato in vigore dal 1° gennaio 2004 2. Il decreto 196 del 2003 “Codice in materia di protezione dei dati personali” detto anche “Testo unico sulla Privacy”,",
+        "option_text": "Il decreto 198 del 2004 “Codice in materia di protezione dei dati personali” detto anche “Testo unico sulla Privacy”, entrato in vigore dal 1° gennaio 2004",
         "answer": false
       },
       {
-        "option_text": "entrato in vigore dal 1° gennaio 2004 3. Il decreto 196 del 2003 “Codice in materia di protezione dei dati personali” detto anche “Testo unico sulla Privacy”,",
+        "option_text": "Il decreto 196 del 2003 “Codice in materia di protezione dei dati personali” detto anche “Testo unico sulla Privacy”, entrato in vigore dal 1° gennaio 2004",
         "answer": true
       },
       {
-        "option_text": "entrato in vigore dal 1° gennaio 2006 4. Il Regolamento UE 2016/697 del Parlamento Europeo e del Consiglio del 27 aprile 2016, cosiddetto GDPR (General Data Protection Regulation) attraverso il D. L. di adeguamento 10 agosto 2018, n. 101, dal D.M. n. 15 marzo 2019 e dal D.L. 14",
+        "option_text": "Il decreto 196 del 2003 “Codice in materia di protezione dei dati personali” detto anche “Testo unico sulla Privacy”, entrato in vigore dal 1° gennaio 2006",
         "answer": false
       },
       {
-        "option_text": "giugno 2019, n. 53 5. Il Regolamento UE 2016/679 del Parlamento Europeo e del Consiglio del 25 aprile 2016, cosiddetto GDPR (General Data Protection Regulation) attraverso il D.L. di adeguamento 10 agosto 2018, n. 101, dal D.M. n. 15 marzo 2019 e dal D.L. 14",
+        "option_text": "Il Regolamento UE 2016/697 del Parlamento Europeo e del Consiglio del 27 aprile 2016, cosiddetto GDPR (General Data Protection Regulation) attraverso il D. L. di adeguamento 10 agosto 2018, n. 101, dal D.M. n. 15 marzo 2019 e dal D.L. 14 giugno 2019, n. 53",
         "answer": false
       },
       {
-        "option_text": "giugno 2019, n. 53 6. Il Regolamento UE 2016/679 del Parlamento Europeo e del Consiglio del 27 aprile 2016, cosiddetto GDPR (General Data Protection Regulation) attraverso il D.L. di adeguamento 10 agosto 2018, n. 101, dal D.M. n. 15 marzo 2019 e dal D.L. 14",
+        "option_text": "Il Regolamento UE 2016/679 del Parlamento Europeo e del Consiglio del 25 aprile 2016, cosiddetto GDPR (General Data Protection Regulation) attraverso il D.L. di adeguamento 10 agosto 2018, n. 101, dal D.M. n. 15 marzo 2019 e dal D.L. 14 giugno 2019, n. 53",
         "answer": false
       },
       {
-        "option_text": "giugno 2019, n. 53 25",
+        "option_text": "Il Regolamento UE 2016/679 del Parlamento Europeo e del Consiglio del 27 aprile 2016, cosiddetto GDPR (General Data Protection Regulation) attraverso il D.L. di adeguamento 10 agosto 2018, n. 101, dal D.M. n. 15 marzo 2019 e dal D.L. 14 giugno 2019, n. 53",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 255
   },
   {
-    "id": 249,
     "code": "M3.3.2.3",
     "question": "Il Patent Infringement",
     "options": [
       {
-        "option_text": "1. È inteso come la violazione dei diritti di proprietà intellettuale o di brevetto",
+        "option_text": "È inteso come la violazione dei diritti di proprietà intellettuale o di brevetto",
         "answer": true
       },
       {
-        "option_text": "2. Per la legge italiana è assimilato al reato di furto",
+        "option_text": "Per la legge italiana è assimilato al reato di furto",
         "answer": false
       },
       {
-        "option_text": "3. Per la legge italiana è assimilato al reato di contraffazione",
+        "option_text": "Per la legge italiana è assimilato al reato di contraffazione",
         "answer": true
       },
       {
-        "option_text": "4. È in costante aumento grazie al grande sviluppo dell’e-commerce e l’utilizzo dei social media per finalità di marketing",
+        "option_text": "È in costante aumento grazie al grande sviluppo dell’e-commerce e l’utilizzo dei social media per finalità di marketing",
         "answer": true
       },
       {
-        "option_text": "5. Riguarda beni di lusso e griffati, alimentari, farmaci (con tutte le implicazioni relative alla salute pubblica), ecc. 6. Anche se non arreca un enorme danno economico sia ai titolari dei diritti che ai consumatori e comunque un fenomeno",
+        "option_text": "Riguarda beni di lusso e griffati, alimentari, farmaci (con tutte le implicazioni relative alla salute pubblica), ecc.",
         "answer": true
       },
       {
-        "option_text": "sotto osservazione 26 -",
+        "option_text": "Anche se non arreca un enorme danno economico sia ai titolari dei diritti che ai consumatori e comunque un fenomeno sotto osservazione",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 256
   },
   {
-    "id": 250,
     "code": "M3.3.5.4",
     "question": "Quali dei seguenti sono effettivamente Operatori di Servizi Essenziali (OES) secondo NIS",
     "options": [
       {
-        "option_text": "1. Impresa elettrica",
+        "option_text": "Impresa elettrica",
         "answer": true
       },
       {
-        "option_text": "2. Distributore locale di carburante per autotrazione",
+        "option_text": "Distributore locale di carburante per autotrazione",
         "answer": false
       },
       {
-        "option_text": "3. Gestori del sistema di distribuzione energia elettrica",
+        "option_text": "Gestori del sistema di distribuzione energia elettrica",
         "answer": true
       },
       {
-        "option_text": "4. Gestori del sistema di trasmissione energia elettrica",
+        "option_text": "Gestori del sistema di trasmissione energia elettrica",
         "answer": true
       },
       {
-        "option_text": "5. Gestori del sistema di distribuzione gas",
+        "option_text": "Gestori del sistema di distribuzione gas",
         "answer": true
       },
       {
-        "option_text": "6. Gestori del sistema di tele-trasmissione gas 27",
+        "option_text": "Gestori del sistema di tele-trasmissione gas",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 257
   },
   {
-    "id": 251,
     "code": "M3.3.5.5",
     "question": "Quali delle seguenti sono funzioni del CSIRT (Computer Security Incident Response Team) nazionale?",
     "options": [
       {
-        "option_text": "1. Il monitoraggio degli incidenti a livello nazionale ed internazionale 2. L’emissione di preallarmi, allerte, annunci e divulgazione di informazioni alle parti interessate in merito a rischi e incidenti Vero",
+        "option_text": "Il monitoraggio degli incidenti a livello nazionale ed internazionale",
         "answer": false
       },
       {
-        "option_text": "3. La delega dell’attività di intervento in caso di incidente",
+        "option_text": "L’emissione di preallarmi, allerte, annunci e divulgazione di informazioni alle parti interessate in merito a rischi e incidenti",
+        "answer": true
+      },
+      {
+        "option_text": "La delega dell’attività di intervento in caso di incidente",
         "answer": false
       },
       {
-        "option_text": "4. L’analisi dinamica dei rischi e degli incidenti",
+        "option_text": "L’analisi dinamica dei rischi e degli incidenti",
         "answer": true
       },
       {
-        "option_text": "5. La sensibilizzazione situazionale",
+        "option_text": "La sensibilizzazione situazionale",
         "answer": true
       },
       {
-        "option_text": "6. La partecipazione alla rete europea dei CSIRT 28",
+        "option_text": "La partecipazione alla rete europea dei CSIRT",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 258
   },
   {
-    "id": 252,
     "code": "M3.3.5.6",
     "question": "Chi sono i DSP (Digital Service Providers) secondo la Direttiva NIS?",
     "options": [
       {
-        "option_text": "1. Cloud Computing Services",
+        "option_text": "Cloud Computing Services",
         "answer": true
       },
       {
-        "option_text": "2. Cloud Virtual Machines",
+        "option_text": "Cloud Virtual Machines",
         "answer": false
       },
       {
-        "option_text": "3. Online Market Places",
+        "option_text": "Online Market Places",
         "answer": true
       },
       {
-        "option_text": "4. Online Search Engines",
+        "option_text": "Online Search Engines",
         "answer": true
       },
       {
-        "option_text": "5. Online products e-commerce",
+        "option_text": "Online products e-commerce",
         "answer": false
       },
       {
-        "option_text": "6. Online people recruitments 29",
+        "option_text": "Online people recruitments",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 259
   },
   {
-    "id": 253,
     "code": "M3.3.6.6",
     "question": "Il principio di “Accountability” del GDPR",
     "options": [
       {
-        "option_text": "1. È un concetto che può essere tradotto in italiano come responsabilizzazione/rendicontazione",
+        "option_text": "È un concetto che può essere tradotto in italiano come responsabilizzazione/rendicontazione",
         "answer": true
       },
       {
-        "option_text": "2. È un concetto che può essere tradotto in italiano come contabilità 3. Dispone che il titolare del trattamento adotti politiche e attui misure adeguate a garantire che il trattamento dei dati",
+        "option_text": "È un concetto che può essere tradotto in italiano come contabilità Dispone che il titolare del trattamento adotti politiche e attui misure adeguate a garantire che il",
         "answer": false
       },
       {
-        "option_text": "personali sia conforme allo stesso Regolamento 4. Prevede l’adozione di comportamenti proattivi e tali da dimostrare la concreta adozione di misure finalizzate ad",
+        "option_text": "trattamento dei dati personali sia conforme allo stesso Regolamento Prevede l’adozione di comportamenti proattivi e tali da dimostrare la concreta adozione di misure",
         "answer": false
       },
       {
-        "option_text": "assicurare la corretta applicazione del regolamento 5. Prevede l’adozione di criteri di \"data protection by default and by design\" ovvero che la protezione dei dati deve essere",
+        "option_text": "finalizzate ad assicurare la corretta applicazione del regolamento",
         "answer": true
       },
       {
-        "option_text": "da progetto e indipendente dall’eventuale autorizzazione al trattamento 6. Dispone che il titolare del trattamento adotti politiche e attui misure adeguate a garantire ed essere in grado di",
+        "option_text": "Prevede l’adozione di criteri di \"data protection by default and by design\" ov",
         "answer": true
       },
       {
-        "option_text": "dimostrare che il trattamento dei dati personali effettuato sia conforme allo stesso Regolamento 30",
+        "option_text": "protezione dei dati deve essere da progetto e indipendente dall’eventuale autorizzazione al Dispone che il titolare del trattamento adotti politiche e attui misure adeguate a garantire ed essere in grado di dimostrare che il trattamento dei dati personali effettuato sia conforme allo",
+        "answer": true
+      },
+      {
+        "option_text": "stesso Regolamento",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 260
   },
   {
-    "id": 254,
     "code": "M3.4.1.1",
     "question": "Quali dei seguenti requisiti ISO 27001 possono rappresentare la fase PLAN del ciclo PDCA",
     "options": [
       {
-        "option_text": "1. Contesto",
+        "option_text": "Contesto",
         "answer": true
       },
       {
-        "option_text": "2. Leadership",
+        "option_text": "Leadership",
         "answer": true
       },
       {
-        "option_text": "3. Pianificazione",
+        "option_text": "Pianificazione",
         "answer": true
       },
       {
-        "option_text": "4. Supporto",
+        "option_text": "Supporto",
         "answer": true
       },
       {
-        "option_text": "5. Attività Operative",
+        "option_text": "Attività Operative",
         "answer": false
       },
       {
-        "option_text": "6. Valutazione delle Prestazioni Esercizio 1 Nello schema in basso è rappresentata una LAN con 128 indirizzi: Completare la seguente tabella indicando gli indirizzi richiesti, attraverso la notazione a bit di maschera e rispondendo alla domanda finale: Indirizzo di rete con notazione dei bit di maschera 135.124.20.0/23 Indirizzo di Broadcast 135.124.21.255 Indirizzo di Maschera di Rete 255.255.254.0 Indirizzo Subnet 1 135.124.20.0/25 Indizizzo Subnet 2  Non è possibile definire una subnet con 254 indirizzi disponibili a partire dall’indirizzo 135.124.20.129 Indirizzo Subnet 3  135.124.21.128/25 Qual è il nome del dispositivo di colore azzurro? Router Esercizio 2 Il controllo ISO 27001 Rev. 2022 “Configuration Management” (Gestione della Configurazione) deve essere applicato (indicare solo X sulle opzioni vere) A tutte le configurazioni, comprese le configurazioni di sicurezza, di hardware, software, servizi e reti che devono essere stabilite, documentate, implementate, monitorate e riviste V F F V V V V V V V F F  8 T1 Alle sole configurazioni di sicurezza, di hardware, software, servizi e reti che devono essere stabilite, documentate, implementate, monitorate e riviste Alle sole configurazioni del software che devono essere stabilite, documentate, implementate, monitorate e riviste Il controllo è di tipo: Preventivo Investigativo Correttivo Organizzativo Fisico Tecnologico  NumeroModulo Risposta 1 Nel Packet Switching (la tecnica di commutazione):",
-        "answer": false
-      },
-      {
-        "option_text": "1.1Il messaggio viene diviso in parti più piccole (packets) che vengono gestite singolarmente",
-        "answer": true
-      },
-      {
-        "option_text": "1.2I messaggi vengono raggruppati in pacchetti (packets) che vengono trasmessi insieme",
-        "answer": false
-      },
-      {
-        "option_text": "1.3Ai pacchetti (packets) viene assegnato nell’intestazione Indirizzo Sorgente, la Destinazione ed altri dati",
-        "answer": true
-      },
-      {
-        "option_text": "1.4I pacchetti viaggiano attraverso la rete, prendendo il percorso più breve possibile (routing)",
-        "answer": true
-      },
-      {
-        "option_text": "1.5I pacchetti vengono suddivisi e trasmessi in maniera indipendente e riassemblati all'estremità ricevente nell'ordine di arrivo",
-        "answer": false
-      },
-      {
-        "option_text": "1.6Se un messaggio arriva mancante di pacchetti o danneggiato verrà inviata una notifica per inviare nuovamente il messaggio, se invece viene raggiunto l'ordine corretto dei pacchetti, verrà inviata notifica di conferma 2 La sequenza di caratteri (dentro le virgolette): \"https://www.sitoesempio.it/indirizzo/?ref=NOME\"",
-        "answer": true
-      },
-      {
-        "option_text": "2.1Rappresenta un testo nel linguaggio http",
-        "answer": false
-      },
-      {
-        "option_text": "2.2Rappresenta un indirizzo URL (Uniform Resource Locator)",
-        "answer": true
-      },
-      {
-        "option_text": "2.3Identifica univocamente l’indirizzo della risorsa “sitoesempio”",
-        "answer": true
-      },
-      {
-        "option_text": "2.4Ha come percorso “indirizzo”",
-        "answer": true
-      },
-      {
-        "option_text": "2.6Ha come stringa di query “ref=NOME”",
-        "answer": true
-      },
-      {
-        "option_text": "2.6Esprime “in chiaro” l’indirizzo IP 3 Quali sono le ragioni della crescente diffusione della criminalità informatica",
-        "answer": false
-      },
-      {
-        "option_text": "3.1L’incessante sviluppo della tecnologia informatica e le nuove opportunità di aggressione ai beni e le proprietà",
-        "answer": true
-      },
-      {
-        "option_text": "3.2La difficoltà della ricerca delle prove e i non sempre adeguati strumenti normativi",
-        "answer": true
-      },
-      {
-        "option_text": "3.3Il forte radicamento dei fenomeni cyber criminosi con il loro territorio d’origine",
-        "answer": false
-      },
-      {
-        "option_text": "3.4La transnazionalità di fenomeni criminosi e la difformità degli strumenti normativi nei vari stati",
-        "answer": true
-      },
-      {
-        "option_text": "3.5La transizione del reato da un ambiente tangibile e materiale verso un ambiente intangibile e dematerializzato",
-        "answer": true
-      },
-      {
-        "option_text": "3.6La transizione del reato da un ambiente intangibile e dematerializzato verso un ambiente tangibile e materiale 4 Il Social Engineering",
-        "answer": false
-      },
-      {
-        "option_text": "4.1È una tecnica di attacco che può sfruttare anche strumenti non informatici",
-        "answer": true
-      },
-      {
-        "option_text": "4.2Può utilizzare i siti “social” su cui sono esposte direttamente o indirettamente informazioni personali",
-        "answer": true
-      },
-      {
-        "option_text": "4.3Può utilizzare il Baiting",
-        "answer": true
-      },
-      {
-        "option_text": "4.4Può utilizzare un attacco tipo “forza bruta”",
-        "answer": false
-      },
-      {
-        "option_text": "4.5Può utilizzare il Phishing",
-        "answer": true
-      },
-      {
-        "option_text": "4.6È diretto prevalentemente contro le aziende 5 L’Avanced Persistent Threat (APT)",
-        "answer": false
-      },
-      {
-        "option_text": "5.1È una minaccia perpetrata da un avversario dotato di notevole bagaglio tecnico e grandi risorse, in grado di effettuare attacchi su vasta scala, utilizzando molteplici vettori, e per periodi di tempo molto estesi",
-        "answer": true
-      },
-      {
-        "option_text": "5.2È una minaccia che colpisce aziende molto grandi",
-        "answer": false
-      },
-      {
-        "option_text": "5.3È di solito gestita da gruppi organizzati e/o da stati sovrani",
-        "answer": true
-      },
-      {
-        "option_text": "5.4Utilizza software largamente disponibili per riuscire meglio a propagarsi",
-        "answer": false
-      },
-      {
-        "option_text": "5.5Può utilizzare software creati ad hoc, più versatili e complessi da rilevare",
-        "answer": true
-      },
-      {
-        "option_text": "5.6Per raccogliere informazioni sui propri obiettivi può utilizzare tool estremamente sofisticati, e, potenzialmente, anche appoggiarsi ai servizi di intelligence del paese di provenienza 6 L’Incapsulamento secondo il modello ISO/OSI",
-        "answer": true
-      },
-      {
-        "option_text": "6.1Permette a ciascun livello dello stack di comunicare con un proprio e specifico “protocollo”",
-        "answer": true
-      },
-      {
-        "option_text": "6.2Permette di fatto il funzionamento del modello stesso",
-        "answer": true
-      },
-      {
-        "option_text": "6.3Avviene dal Livello Applicazione (7) al livello Collegamento (2) in trasmissione",
-        "answer": true
-      },
-      {
-        "option_text": "6.4Avviene dal Livello Applicazione (7) al livello Fisico (1) in trasmissione",
-        "answer": false
-      },
-      {
-        "option_text": "6.5Avviene dal Livello Collegamento (2) al livello Applicazione (7) in ricezione (Decapsulamento)",
-        "answer": true
-      },
-      {
-        "option_text": "6.6Avviene dal Livello Applicazione (7) al livello Fisico (1) in ricezione (Decapsulamento) 7 I protocolli seriali multipunto",
-        "answer": false
-      },
-      {
-        "option_text": "7.1Sono protocolli seriali punto-punto che possono collegare ulteriori unità attraverso una connessione multi-drop",
-        "answer": true
-      },
-      {
-        "option_text": "7.2Possono utilizzare lo standard RS-422 e RS-485",
-        "answer": true
-      },
-      {
-        "option_text": "7.3In una configurazione con molte unità connesse solo un paio possono effettivamente comunicare",
-        "answer": true
-      },
-      {
-        "option_text": "7.4Possono utilizzare lo standard Bluetooth",
-        "answer": false
-      },
-      {
-        "option_text": "7.5Nel caso utilizzino gli standard RS-422 che di RS-485 sono sempre contemporaneamente bidirezionali (full-duplex)",
-        "answer": false
-      },
-      {
-        "option_text": "7.6Nel caso utilizzino lo standard RS-422 sono contemporaneamente bidirezionali  8 Una trasmissione deterministica",
-        "answer": true
-      },
-      {
-        "option_text": "8.1Viene semplicemente realizzata rispettando la sequenza temporale degli eventi",
-        "answer": true
-      },
-      {
-        "option_text": "8.2Viene semplicemente realizzata trasmettendo i messaggi con una bassa latenza",
-        "answer": false
-      },
-      {
-        "option_text": "8.3Viene semplicemente realizzata rispettando il principio di causalità (il nesso causa-effetto)",
-        "answer": true
-      },
-      {
-        "option_text": "8.4Se non lo è, la trasmissione è casuale (o semi-casuale)",
-        "answer": true
-      },
-      {
-        "option_text": "8.5Concettualmente coincide con la trasmissione real-time",
-        "answer": false
-      },
-      {
-        "option_text": "8.6Si associa al concetto di real-time, in modo che la trasmissione avvenga secondo una sequenza predeterminata ed entro limiti temporali ben precisi 9 Quali sono le ragioni che hanno portato alla creazione del protocollo TCP/IP",
-        "answer": true
-      },
-      {
-        "option_text": "9.1Realizzare una trasmissione stabile tra due host",
-        "answer": true
-      },
-      {
-        "option_text": "9.2Realizzare una trasmissione veloce tra due host",
-        "answer": false
-      },
-      {
-        "option_text": "9.3Realizzare una trasmissione monodirezionale affidabile",
-        "answer": false
-      },
-      {
-        "option_text": "9.4Stabilire una connessione tra un'origine e una destinazione, assicurandosi che rimanga attiva fino alla fine della comunicazione",
-        "answer": true
-      },
-      {
-        "option_text": "9.5Realizzare uno standard per il Packet Switching ovvero la suddivisione di un messaggio in pacchetti piccoli trasmessi indipendentemente, funzionamento alla base di internet",
-        "answer": true
-      },
-      {
-        "option_text": "9.6Realizzare un protocollo affidabile, deterministico e realtime 10 Il modello di comunicazione Broadcast:",
-        "answer": false
-      },
-      {
-        "option_text": "10.1Identifica la comunicazione uno a tutti",
-        "answer": true
-      },
-      {
-        "option_text": "10.2Identifica la comunicazione ad ampio spettro, uno a ad alcuni",
-        "answer": false
-      },
-      {
-        "option_text": "10.3Può avvenire a livello 2 dello stack ISO (indirizzamento MAC)",
-        "answer": true
-      },
-      {
-        "option_text": "10.4Può avvenire a livello 3 dello stack ISO (Indirizzamento IP)",
-        "answer": true
-      },
-      {
-        "option_text": "10.5Può peggiorare la latenza nella rete",
-        "answer": true
-      },
-      {
-        "option_text": "10.6Può migliorare la latenza di rete 11 La subnet 160.12.32.128/19:",
-        "answer": false
-      },
-      {
-        "option_text": "11.1Ha come indirizzo di rete 160.12.32.0",
-        "answer": true
-      },
-      {
-        "option_text": "11.2Ha come indirizzo di broadcast 160.12.63.255",
-        "answer": true
-      },
-      {
-        "option_text": "11.3Ha come indirizzo di broadcast 160.12.63.64",
-        "answer": false
-      },
-      {
-        "option_text": "11.4Ha come maschera di sottorete 255.255.224.0",
-        "answer": true
-      },
-      {
-        "option_text": "11.5Ha come maschera di sottorete 255.255.32.0",
-        "answer": false
-      },
-      {
-        "option_text": "11.6Ha uno spazio di indirizzamento che arriva sino a (HostMax) 160.12.63.254 12 Lo Switch di rete:",
-        "answer": true
-      },
-      {
-        "option_text": "12.1È un dispositivo elettronico intelligente, dotato di porte di interfaccia di varie tipologie",
-        "answer": true
-      },
-      {
-        "option_text": "12.2Può essere un dispositivo elettrico non dotato di CPU e, se “Unmanaged”, configurabile",
-        "answer": false
-      },
-      {
-        "option_text": "12.3Può segmentare il dominio di broadcast attraverso le VPN",
-        "answer": false
-      },
-      {
-        "option_text": "12.4Può avere una gestione “Unmanaged” o “Managed”",
-        "answer": true
-      },
-      {
-        "option_text": "12.5Può avere un instradamento di tipo “store-and-forward”",
-        "answer": true
-      },
-      {
-        "option_text": "12.6Se “Unmanaged” non permette la configurazione delle VLAN 13 Una rete peer to peer",
-        "answer": true
-      },
-      {
-        "option_text": "13.1Ha nodi che, diversamente dalla rete client-server, possono richiedere e fornire servizi",
-        "answer": true
-      },
-      {
-        "option_text": "13.2Ha nodi che, analogamente alla rete client-server, condividono lo stesso network",
-        "answer": true
-      },
-      {
-        "option_text": "13.3Ha nodi che, diversamente dalla rete client-server, sono specializzati per richiedere o fornire servizi",
-        "answer": false
-      },
-      {
-        "option_text": "13.4Può essere considerata come una rete logica da “pari” a “pari”",
-        "answer": true
-      },
-      {
-        "option_text": "13.5È un’architettura “fisica”",
-        "answer": false
-      },
-      {
-        "option_text": "13.6È un’architettura “logica” 14 La Società S.r.l.",
-        "answer": true
-      },
-      {
-        "option_text": "14.1È una società in cui i soci rispondono delle obbligazioni sociali anche oltre i limiti di quanto hanno conferito",
-        "answer": false
-      },
-      {
-        "option_text": "14.2È una società di capitali le cui partecipazioni sono rappresentate da quote e non da azioni",
-        "answer": true
-      },
-      {
-        "option_text": "14.3È una società in cui per le obbligazioni sociali risponde solo la società stessa con il suo patrimonio",
-        "answer": true
-      },
-      {
-        "option_text": "14.4Sono sempre società a responsabilità limitata di un solo imprenditore",
-        "answer": false
-      },
-      {
-        "option_text": "14.5Sono Società a responsabilità dei soci limitata al capitale sottoscritto",
-        "answer": true
-      },
-      {
-        "option_text": "14.6Sono Società a responsabilità dei soci illimitata oltre al capitale sottoscritto 15 Gli asset aziendali",
-        "answer": false
-      },
-      {
-        "option_text": "15.1Sono quelle entità all’interno dell’azienda che generano valore",
-        "answer": true
-      },
-      {
-        "option_text": "15.2Possono essere solo tangibili, ovvero fisici",
-        "answer": false
-      },
-      {
-        "option_text": "15.3Possono essere tangibili o intangibili",
-        "answer": true
-      },
-      {
-        "option_text": "15.4Se non gestiti correttamente possono mettere a repentaglio l’esistenza dell’intera organizzazione",
-        "answer": true
-      },
-      {
-        "option_text": "15.5Di solito non sono informatici",
-        "answer": false
-      },
-      {
-        "option_text": "15.6Informatici sono soggetti a fattori di rischio costantemente in evoluzione 16 Una linea di assemblaggio produce 2.500 pezzi ora per 24h al giorno, 7 giorni a settimana, ogni pezzo vale 100€.",
-        "answer": true
-      },
-      {
-        "option_text": "16.1Nel caso di un fermo linea di 5 minuti, causato da un incidente, l'azienda ha una perdita di circa 20.800 €",
-        "answer": true
-      },
-      {
-        "option_text": "16.2Nel caso di un fermo linea di 5 minuti, causato da un indicente, l'azienda ha una perdita di circa 2.080 €",
-        "answer": false
-      },
-      {
-        "option_text": "16.3Nel caso di un fermo linea di 5 minuti, causato da un indicente, l'azienda ha una perdita di circa 208 €",
-        "answer": false
-      },
-      {
-        "option_text": "16.4Per limitare le perdite sotto i 50.000 €/anno si dovrebbe avere la linea attiva (quindi disponibile) per pi ù del 99.997% del tempo in un anno",
-        "answer": true
-      },
-      {
-        "option_text": "16.5Per limitare le perdite sotto i 50.000 €/anno si dovrebbe avere la linea attiva (quindi disponibile) per pi ù del 99.97% del tempo in un anno",
-        "answer": false
-      },
-      {
-        "option_text": "16.6Per limitare le perdite sotto i 50.000 €/anno si dovrebbe avere la linea attiva (quindi disponibile) per pi ù del 99.7% del tempo in un anno 17 Nella gestione aziendale le Operazioni Oggettive possono essere:",
-        "answer": false
-      },
-      {
-        "option_text": "17.1Il reperimento di mezzi finanziari",
-        "answer": true
-      },
-      {
-        "option_text": "17.2Le attività decisionali",
-        "answer": false
-      },
-      {
-        "option_text": "17.3Gli Investimenti per lo sviluppo del business",
-        "answer": true
-      },
-      {
-        "option_text": "17.4Le attività di controllo",
-        "answer": false
-      },
-      {
-        "option_text": "17.5La produzione ovvero la trasformazione in prodotti finiti o semilavorati",
-        "answer": true
-      },
-      {
-        "option_text": "17.6Il disinvestimento di asset obsoleti 18 Un ISMS per ISO/IEC 27000 è un insieme di regole che un’azienda deve stabilire per:",
-        "answer": true
-      },
-      {
-        "option_text": "18.1Identificare gli stakeholder e le loro aspettative nei confronti dell'azienda in termini di sicurezza delle informazioni",
-        "answer": true
-      },
-      {
-        "option_text": "18.2Identificare quali rischi logici e fisici esistono per le persone all’interno dell’organizzazione",
-        "answer": false
-      },
-      {
-        "option_text": "18.3Definire i controlli e altri metodi di mitigazione per soddisfare le aspettative (al punto 1) identificate e gestire i rischi",
-        "answer": true
-      },
-      {
-        "option_text": "18.4Fissare obiettivi qualitativi e generici su ciò che deve essere raggiunto con la sicurezza delle informazioni",
-        "answer": false
-      },
-      {
-        "option_text": "18.5Misurare continuamente che i controlli implementati siano effettivamente efficaci",
-        "answer": true
-      },
-      {
-        "option_text": "18.6Migliorare continuativamente la postura dell’organizzazione relativamente alle problematiche di Cybersecurity 19 Quale dei seguenti controlli ISO 27001:2022 sono stati creati a supporto della normativa GDPR?",
-        "answer": true
-      },
-      {
-        "option_text": "19.1Threat Intelligence",
-        "answer": false
-      },
-      {
-        "option_text": "19.2Data masking",
-        "answer": true
-      },
-      {
-        "option_text": "19.3Data leakage prevention",
-        "answer": true
-      },
-      {
-        "option_text": "19.4Monitoring activities;",
-        "answer": false
-      },
-      {
-        "option_text": "19.5ICT readiness for business continuity;",
-        "answer": false
-      },
-      {
-        "option_text": "19.6Information deletion 20 Gli Attributi associati ai Gruppi di Controlli nella revisione ISO 27001 del 2022",
-        "answer": true
-      },
-      {
-        "option_text": "20.1Possono essere utilizzati per filtrare, ordinare e presentare i controlli",
-        "answer": true
-      },
-      {
-        "option_text": "20.2Permettono di etichettare i controlli in base al tipo di controllo (Preventivo, Investigativo e Correttivo)",
-        "answer": true
-      },
-      {
-        "option_text": "20.3Permettono di etichettare i controlli in base alle Information Security Properties (Riservatezza, Integrità e Disponibilità)",
-        "answer": true
-      },
-      {
-        "option_text": "20.4Permettono di etichettare i controlli in base alla Criticità (da 1 a 100)",
-        "answer": false
-      },
-      {
-        "option_text": "20.5Permettono di etichettare i controlli in base ai Domini di Sicurezza (Governance & Ecosystem, Protection, Defence, Resilience)",
-        "answer": true
-      },
-      {
-        "option_text": "20.6Permettono di etichettare i controlli in base ai Concetti NIST CSF (Identify…) 21 I nuovi controlli di ISO 27001 Rev. 2022 sono specializzati per:",
-        "answer": true
-      },
-      {
-        "option_text": "21.1Una maggior sicurezza nella gestione dei servizi Cloud",
-        "answer": true
-      },
-      {
-        "option_text": "21.2Una migliore preparazione dell’ICT in relazione alle problematiche di Business Continuity",
-        "answer": true
-      },
-      {
-        "option_text": "21.3Per privilegiare l’utilizzo di software di prodotto solo da determinati fornitori",
-        "answer": false
-      },
-      {
-        "option_text": "21.4Migliore protezione dei dati anche in relazione del loro trattamento in funzione del GDPR",
-        "answer": true
-      },
-      {
-        "option_text": "21.5Il miglioramento dell’Internet Browsing attraverso l’uso del filtraggio dei siti",
-        "answer": true
-      },
-      {
-        "option_text": "21.6Lo sviluppo sicuro del codice software 22 I controlli ISO 27001 nella Rev. 2022 sono raccolti nei seguenti gruppi:",
-        "answer": true
-      },
-      {
-        "option_text": "22.1Le persone",
-        "answer": true
-      },
-      {
-        "option_text": "22.2I fornitori",
-        "answer": false
-      },
-      {
-        "option_text": "22.3Gli oggetti fisici",
-        "answer": true
-      },
-      {
-        "option_text": "22.4La tecnologia",
-        "answer": true
-      },
-      {
-        "option_text": "22.5Gli aspetti organizzativi",
-        "answer": true
-      },
-      {
-        "option_text": "22.6La Supply Chain 23 Il controllo ISO/IEC 27001 rev.2022 \"ICT readiness for business continuity\" ovvero la capacità dell'ICT di reagire a situazioni impreviste per garantire la continuità operativa",
-        "answer": false
-      },
-      {
-        "option_text": "23.1E' un controllo di tipo Correttivo",
-        "answer": true
-      },
-      {
-        "option_text": "23.2E' un controllo di tipo Investigativo",
-        "answer": false
-      },
-      {
-        "option_text": "23.3Migliora la disponibilità",
-        "answer": true
-      },
-      {
-        "option_text": "23.4Migliora l'integrità dei dati e delle informazioni",
-        "answer": false
-      },
-      {
-        "option_text": "23.5E' nel dominio di sicurezza della Resilienza",
-        "answer": true
-      },
-      {
-        "option_text": "23.6Prevede che le funzionalità dell'ICT siano mantenute e testate sulla base degli obiettivi di continuità operativa dell'azienda. 24 Le sottocategorie del NIST CSF Framcework Core",
-        "answer": true
-      },
-      {
-        "option_text": "24.1Sono i risultati che si possono ottenere",
-        "answer": true
-      },
-      {
-        "option_text": "24.2Fanno sempre riferimento ad esempi pratici presenti nei riferimenti informativi",
-        "answer": true
-      },
-      {
-        "option_text": "24.3Sono raggruppate in categorie che poi compongono le funzioni NIST CSF",
-        "answer": true
-      },
-      {
-        "option_text": "24.4Non sono assimilabili ai controlli ISO27001",
-        "answer": false
-      },
-      {
-        "option_text": "24.5Possono fare riferimento ad altri standard di settore",
-        "answer": true
-      },
-      {
-        "option_text": "24.6Di solito non fanno mai riferimento ad altri standard di settore 25 Nel Tier \"Consapevole\" del NIST CSF",
-        "answer": false
-      },
-      {
-        "option_text": "25.1Le pratiche di gestione del rischio sono approvate dalla direzione ma potrebbero non essere stabilite come politica a livello di organizzazione",
-        "answer": true
-      },
-      {
-        "option_text": "25.2Le pratiche di gestione del rischio dell'organizzazione sono formalmente approvate ed espresse come policy",
-        "answer": false
-      },
-      {
-        "option_text": "25.3Le politiche, i processi e le procedure informative sui rischi sono definiti, implementati come previsto e riesaminati",
-        "answer": false
-      },
-      {
-        "option_text": "25.4Non è stato stabilito un approccio a livello di organizzazione alla gestione del rischio di sicurezza informatica",
-        "answer": true
-      },
-      {
-        "option_text": "25.5L'organizzazione comprende il proprio ruolo nell'ecosistema più ampio rispetto ai rapporti dipendenti o di dipendenza, ma non a entrambi",
-        "answer": true
-      },
-      {
-        "option_text": "25.6L'organizzazione comprende completamente il proprio ruolo nel suo ecosistema e contribuisce alla comprensione dei rischi verso l'esterno 26 Perché è stato realizzato lo standard IEC 62443?",
-        "answer": false
-      },
-      {
-        "option_text": "26.1Perché all’interno di un’organizzazione esistono una molteplicità di sistemi intelligenti (dotati di CPU), rilevanti per la continuità del business, oltre ai comuni computer",
-        "answer": true
-      },
-      {
-        "option_text": "26.2Per avere solamente uno standard di sicurezza informatica all’interno delle aziende industriali",
-        "answer": false
-      },
-      {
-        "option_text": "26.3Formalmente per realizzare un sistema di gestione in grado di affrontare e mitigare le vulnerabilità di sicurezza nei sistemi di controllo e automazione industriale (IACS)",
-        "answer": true
-      },
-      {
-        "option_text": "26.4Perché gli standard di sicurezza informatica più diffusi non riescono a rispondere a tutti i paradigmi di funzionamento dei sistemi all’interno di un’organizzazione",
-        "answer": true
-      },
-      {
-        "option_text": "26.5Per avere uno standard con requisiti applicabili solamente nei reparti produttivi",
-        "answer": false
-      },
-      {
-        "option_text": "26.6Per avere uno standard che permetta di proteggere i reparti produttivi da vettori d’attacco provenienti anche dalla rete office 27 Il requisito \"Supporto\" nell'implementazione di un Sistema di Gestione della SI secondo lo standard ISO 27001",
-        "answer": true
-      },
-      {
-        "option_text": "27.1Definisce che l'organizzazione deve mettere a disposizione le risorse necessarie per l’istituire, implementare, manutenere e continuare a migliorare l'SGSI",
-        "answer": true
-      },
-      {
-        "option_text": "27.2Definisce che devono essere determinate le  competenze necessarie delle persone che influenzano le prestazioni SGSI",
-        "answer": true
-      },
-      {
-        "option_text": "27.3Definisce che è necessario garantire giusti livelli di competenza con adeguata istruzione, formazione, addestramento",
-        "answer": true
-      },
-      {
-        "option_text": "27.4Definisce che coloro che operano in azienda debbono conoscere la policy di sicurezza, le loro responsabilità specifiche e le implicazioni derivanti dalla non rispetto delle regole",
-        "answer": true
-      },
-      {
-        "option_text": "27.5Definisce i criteri da utilizzare per la comunicazione al solo management all’interno dell’azienda",
-        "answer": false
-      },
-      {
-        "option_text": "27.6Definisce le misure da adottare per acquisire le competenze in una prospettiva di minimizzazione dei costi di formazione 28 Perché è necessario analizzare il rischio?",
-        "answer": false
-      },
-      {
-        "option_text": "28.1L'analisi del  rischio può concretamente aiutare l'azienda a identificare l'impatto dei pericoli sulle risorse aziendali",
-        "answer": true
-      },
-      {
-        "option_text": "28.2L'analisi del rischio permette in ultimo di eliminare completamente l'impatto dei pericoli in tutti i comparti aziendali",
-        "answer": false
-      },
-      {
-        "option_text": "28.3L'analisi del rischio permette di mettere in atto le misure al fine di mitigare gli effetti di questo rischio sulle proprie risorse",
-        "answer": true
-      },
-      {
-        "option_text": "28.4L'analisi del rischio permette di individuare il livello massimo di rischio che un'organizzazione è in grado di sopprotare per raggiungere i propri obiettivi strategici",
-        "answer": true
-      },
-      {
-        "option_text": "28.5Una volta analizzato, identificato e opportunamento valutato è possibile gestire il rischio correttamente",
-        "answer": true
-      },
-      {
-        "option_text": "28.6L'analisi del rischio è uno strumento molto focalizzato sugli aspetti finanziari ed amministrativi 29 La Tassonomia dei Rischi Organizzativi",
-        "answer": false
-      },
-      {
-        "option_text": "29.1E' una corretta mappatura della tipologia dei rischi che ne permette una prima identificazione",
-        "answer": true
-      },
-      {
-        "option_text": "29.2Permette una prima identificazione che richiede ulteriori approfondimenti e valutazioni",
-        "answer": true
-      },
-      {
-        "option_text": "29.3Definisce due macro raggruppamenti contenenti i rischi Interni ed Esterni all'organizzazione",
-        "answer": true
-      },
-      {
-        "option_text": "29.4Definisce un primo macro raggruppamento contenente i rischi Strategici e Operativi",
-        "answer": false
-      },
-      {
-        "option_text": "29.5Suddivide i rischi interni in: Strategici, Operativi e Finanziari",
-        "answer": true
-      },
-      {
-        "option_text": "29.6Inserisce il rischio IT tra i rischi stragecici 30 Quali dei seguenti possono essere indicatori chiave del rischio informatico (KRI)?",
-        "answer": false
-      },
-      {
-        "option_text": "30.1Numero di attività critiche con vulnerabilità note",
-        "answer": true
-      },
-      {
-        "option_text": "30.2Vulnerabilità interne vs. vulnerabilità esterne",
-        "answer": true
-      },
-      {
-        "option_text": "30.3Tempo medio di rilascio del prodotto",
-        "answer": false
-      },
-      {
-        "option_text": "30.4Tempo medio di interruzione a seguito di un attacco",
-        "answer": true
-      },
-      {
-        "option_text": "30.5Numero di giorni per disattivare le credenziali degli ex dipendenti",
-        "answer": true
-      },
-      {
-        "option_text": "30.6Soddisfazione media del servizio IT Esercizio 1 Identificare correttamente, nello schema topologico in figura, i dispositivi rappresentati con le lettere: Risposte A Router B Firewall C Switch D Router E Firewall F Switch G Switch H Switch I Switch L Firewall M Anomaly Detection N Switch O Switch P Gateway Qual è il nome dei segmenti di rete con collegamenti colorati in verde e giallo? VLAN  Esercizio 2 Nello schema è rappresentata una LAN con 1024 indirizzi: Risposta Qual è l'indirizzo di rete con notazione dei bit di maschera 242.64.8.0/22 Qual è l'indirizzo di Broadcast 242.64.11.255 Qual è l'indirizzo di Maschera di Rete 255.255.252.0 Qual è l'indirizzo Subnet 1 242.64.8.0/25 Qual è l'indizizzo Subnet 2 242.64.8.128/25 Qual è l'indirizzo Subnet 3 242.64.9.0/24 Che tipologia è il Dispositivo A? Switch gestito  Risultati Appello 06 Settembre 2024",
+        "option_text": "Valutazione delle Prestazioni",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 261
   },
   {
-    "id": 255,
-    "code": "M1.1.2.3.1",
-    "question": "La PAM (Pulse Amplitude Modulation) è:",
-    "options": [
-      {
-        "option_text": "1. Una modulazione di ampiezza",
-        "answer": false
-      },
-      {
-        "option_text": "2. Una modulazione digitale a traslazione di ampiezza 3. Una modulazione digitale in cui le informazioni del messaggio sono codificate nell'ampiezza di una serie di impulsi di",
-        "answer": true
-      },
-      {
-        "option_text": "segnale",
-        "answer": true
-      },
-      {
-        "option_text": "4. Una modulazione analogica a traslazione di ampiezza",
-        "answer": false
-      },
-      {
-        "option_text": "5. Una modulazione a traslazione di frequenza",
-        "answer": false
-      },
-      {
-        "option_text": "6. Una modulazione digitale con banda a doppio lato 2-",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 256,
     "code": "M1.1.2.4.1",
     "question": "Cos’è la larghezza di banda di un canale (satellitare, radio, via cavo)?",
     "options": [
       {
-        "option_text": "1. La misura dell’ampiezza dello spettro che passa in un canale 2. Un parametro inversamente proporzionale alla quantità di dati che possono essere trasmessi in un canale nell’unità di",
+        "option_text": "La misura dell’ampiezza dello spettro che passa in un canale",
         "answer": true
       },
       {
-        "option_text": "tempo",
+        "option_text": "Un parametro inversamente proporzionale alla quantità di dati che possono essere trasmessi in un canale nell’unità di tempo",
         "answer": false
       },
       {
-        "option_text": "3. Un parametro proporzionale alla quantità di dati che possono essere trasmessi in un canale nell’unità di tempo",
+        "option_text": "Un parametro proporzionale alla quantità di dati che possono essere trasmessi in un canale nell’unità di tempo",
         "answer": true
       },
       {
-        "option_text": "4. Un parametro indipendente dalla quantità di dati trasmessi in un canale",
+        "option_text": "Un parametro indipendente dalla quantità di dati trasmessi in un canale",
         "answer": false
       },
       {
-        "option_text": "5. La misura dell'ampiezza della gamma di frequenze che possono passare per quel canale",
+        "option_text": "La misura dell'ampiezza della gamma di frequenze che possono passare per quel canale",
         "answer": true
       },
       {
-        "option_text": "6. La capacità di un qualsiasi canale digitale di trasmettere dati 3-",
+        "option_text": "La capacità di un qualsiasi canale digitale di trasmettere dati",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 262
   },
   {
-    "id": 257,
-    "code": "M1.2.4.3.1",
-    "question": "Il Furto di Identità Digitale",
-    "options": [
-      {
-        "option_text": "1. È associato agli articoli 494 e 640 del CP “Sostituzione della propria all'altrui persona” e “Frode Informatica” 2. È relativo all’uso illecito dell'insieme dei dati e delle informazioni che definiscono un individuo e costituiscono la",
-        "answer": true
-      },
-      {
-        "option_text": "rappresentazione fisica utilizzabile durante interazioni elettroniche 3. È relativo all’uso illecito dell’insieme dei dati e delle informazioni che definiscono un individuo e costituiscono la",
-        "answer": false
-      },
-      {
-        "option_text": "rappresentazione virtuale dell'identità reale utilizzabile durante interazioni elettroniche 4. È relativo ai soli dati biometrici che definiscono un individuo e costituiscono una delle rappresentazioni virtuali",
-        "answer": true
-      },
-      {
-        "option_text": "dell'identità reale utilizzabile durante interazioni elettroniche",
-        "answer": false
-      },
-      {
-        "option_text": "5. È un reato penale secondo l’ordinamento italiano",
-        "answer": true
-      },
-      {
-        "option_text": "6. Può essere associato al solo reato di “Truffa” l’art. 620 del CP 4-",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 258,
-    "code": "M1.2.4.5.1",
-    "question": "Cryptojacking 1. Si tratta di una minaccia in grado di infiltrarsi nei browser web e di compromettere ogni tipo di dispositivo informatico Vero",
-    "options": [
-      {
-        "option_text": "2. È una minaccia che utilizza le risorse di un computer o un dispositivo mobile per criptare dei file",
-        "answer": false
-      },
-      {
-        "option_text": "3. È una minaccia che utilizza le risorse di un computer o un dispositivo mobile per “generare” criptovalute",
-        "answer": true
-      },
-      {
-        "option_text": "4. Utilizza malware che funzionano da processi in background sottraendo risorse hardware a danno dell’utente",
-        "answer": true
-      },
-      {
-        "option_text": "5. Il funzionamento sfrutta il meccanismo di compensazione dei “Miners” delle Blockchain delle criptovalute",
-        "answer": true
-      },
-      {
-        "option_text": "6. Si tratta di una minaccia in grado di infiltrarsi nei DNS e di compromettere solo i server Nome Cognome Matricola F V V F F F V F V F V V V F V F V F V F V V V F  2 T1 5-",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 259,
     "code": "M1.2.4.8",
     "question": "Quali delle seguenti sono tecniche di Social Engineering:",
     "options": [
       {
-        "option_text": "1. Il “baiting” (offrire qualcosa al fine di consentire il download di un file dannoso)",
+        "option_text": "Il “baiting” (offrire qualcosa al fine di consentire il download di un file dannoso)",
         "answer": true
       },
       {
-        "option_text": "2. Il “phishing” (una mail realizzata appositamente per favorire l'inserimento di informazioni personali)",
+        "option_text": "Il “phishing” (una mail realizzata appositamente per favorire l'inserimento di informazioni personali)",
         "answer": true
       },
       {
-        "option_text": "3. Il “cryptojacking” (bloccare un servizio o un programma per poi chiedere le credenziali per lo sblocco)",
+        "option_text": "Il “cryptojacking” (bloccare un servizio o un programma per poi chiedere le credenziali per lo sblocco)",
         "answer": false
       },
       {
-        "option_text": "4. Il “pretexting” (l'impersonare qualcuno per ottenere l'accesso a dati privilegiati) 5. Lo “scareware” (spingere l'utente a credere che il proprio computer sia infetto per poi offrire una soluzione con cui",
+        "option_text": "Il “pretexting” (l'impersonare qualcuno per ottenere l'accesso a dati privilegiati)",
         "answer": true
       },
       {
-        "option_text": "infettarlo veramente)",
-        "answer": true
-      },
-      {
-        "option_text": "6. Lo “squidding” viene offerto un servizio (che non esiste) per ottenere in cambio dati o informazioni confidenziali 6-",
+        "option_text": "Lo “scareware” (spingere l'utente a credere che il proprio computer sia infetto per poi offrire una",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 263
   },
   {
-    "id": 260,
-    "code": "M1.2.4.9.1",
-    "question": "L’Avanced Persistent Threat (APT) 1. È una minaccia perpetrata da un avversario dotato di notevole bagaglio tecnico e grandi risorse, in grado di effettuare",
+    "code": "M1.2.4.9",
+    "question": "L’Avanced Persistent Threat (APT)",
     "options": [
       {
-        "option_text": "attacchi su vasta scala, utilizzando molteplici vettori, e per periodi di tempo molto estesi",
+        "option_text": "È una minaccia perpetrata da un avversario dotato di notevole bagaglio tecnico e grandi risorse, in grado di effettuare attacchi su vasta scala, utilizzando molteplici vettori, e per periodi di tempo molto estesi",
         "answer": true
       },
       {
-        "option_text": "2. È una minaccia che colpisce aziende molto grandi",
+        "option_text": "È di solito gestita da gruppi organizzati e/o da stati sovrani",
+        "answer": true
+      },
+      {
+        "option_text": "Di solito utilizza software pubblicamente disponibili per riuscire meglio a propagarsi",
         "answer": false
       },
       {
-        "option_text": "3. È di solito gestita da gruppi organizzati e/o da stati sovrani",
+        "option_text": "È in grado utilizzare non solo software pubblicamente disponibili ma anche creati ad hoc, più versatili e complessi da rilevare",
         "answer": true
       },
       {
-        "option_text": "4. Utilizza software pubblicamente disponibili per riuscire meglio a propagarsi",
+        "option_text": "Per raccogliere informazioni sui propri obiettivi può utilizzare tool estremamente sofisticati, e, potenzialmente, anche appoggiarsi ai servizi di intelligence del paese di provenienza",
+        "answer": true
+      },
+      {
+        "option_text": "Raccoglie tutte le informazioni sui propri obiettivi attraverso tecniche di social engineering",
         "answer": false
-      },
-      {
-        "option_text": "5. Può utilizzare software creati ad hoc, più versatili e complessi da rilevare 6. Per raccogliere informazioni sui propri obiettivi può utilizzare tool estremamente sofisticati, e, potenzialmente, anche",
-        "answer": true
-      },
-      {
-        "option_text": "appoggiarsi ai servizi di intelligence del paese di provenienza Nome Cognome Matricola",
-        "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 264
   },
   {
-    "id": 261,
     "code": "M1.3.1.24",
-    "question": "Il livello 1 – Fisico -del Modello ISO/OSI 1. Ha tra le funzioni l’adeguamento alle caratteristiche degli apparati trasmissivi (cavi, fibra ottica, delle prese, dei",
+    "question": "Il livello 1 – Fisico -del Modello ISO/OSI",
     "options": [
       {
-        "option_text": "connettori ecc.)",
+        "option_text": "Ha tra le funzioni l’adeguamento alle caratteristiche degli apparati trasmissivi (cavi, fibra ottica, delle prese, dei connettori ecc.)",
         "answer": true
       },
       {
-        "option_text": "2. Ha tra le funzioni l’adeguamento alla tensione scelta per rappresentare i bit",
+        "option_text": "Ha tra le funzioni l’adeguamento alla tensione scelta per rappresentare i bit",
         "answer": true
       },
       {
-        "option_text": "3. Può utilizzare protocolli Bluetooth",
+        "option_text": "Può utilizzare protocolli Bluetooth",
         "answer": true
       },
       {
-        "option_text": "4. Può utilizzare protocolli IP",
+        "option_text": "Può utilizzare protocolli IP",
         "answer": false
       },
       {
-        "option_text": "5. Ha la funzione di interfacciare il software con l’hardware di comunicazione",
+        "option_text": "Ha la funzione di interfacciare il software con l’hardware di comunicazione",
         "answer": true
       },
       {
-        "option_text": "6. Una volta definito e configurato tende a vincolare i livelli superiori agli specifici mezzi fisici di comunicazione 8-",
+        "option_text": "Una volta definito e configurato tende a vincolare i livelli superiori agli specifici mezzi fisici di comunicazione",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 265
   },
   {
-    "id": 262,
     "code": "M1.3.1.25",
     "question": "Il livello 7 – Applicazione – Del livello ISO/OSI",
     "options": [
       {
-        "option_text": "1. Può avere tra i protocolli di servizio il Dynamic Host Configuration Protocol - (DHCP)",
+        "option_text": "Può avere tra i protocolli di servizio il Dynamic Host Configuration Protocol - (DHCP)",
         "answer": true
       },
       {
-        "option_text": "2. Può avere tra i protocolli di servzio RPC (Remote Procedure Call)",
+        "option_text": "Può avere tra i protocolli di servzio RPC (Remote Procedure Call)",
         "answer": false
       },
       {
-        "option_text": "3. Può avere tra i protocolli di servizio il Network Time Protocol - (NTP)",
+        "option_text": "Può avere tra i protocolli di servizio il Network Time Protocol - (NTP)",
         "answer": true
       },
       {
-        "option_text": "4. Può avere tra i protocolli di servizio il Lightweight Directory Access Protocol - (LDAP)",
+        "option_text": "Può avere tra i protocolli di servizio il Lightweight Directory Access Protocol - (LDAP)",
         "answer": true
       },
       {
-        "option_text": "5. Può avere tra i protocolli di accesso a terminali remoti Secure Shell (SSH) 6. Può avere tra i protocolli di accesso a terminali remoti (Digital Network Architecture Session Control Protocol) DNA SCP Falso 9-",
+        "option_text": "Può avere tra i protocolli di accesso a terminali remoti Secure Shell (SSH)",
         "answer": true
+      },
+      {
+        "option_text": "Può avere tra i protocolli di accesso a terminali remoti (Digital Network Architecture Session Control Protocol) DNA SCP",
+        "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 266
   },
   {
-    "id": 263,
     "code": "M1.3.1.26",
-    "question": "Il servizio di Sincronizzazione del livello ISO/OSI 5 - Sessione 1. Permette ai processi coinvolti nella comunicazione di inserire dei checkpoint (punti di sincronizzazione) in un flusso dati Vero",
+    "question": "Il servizio di Sincronizzazione del livello ISO/OSI 5 - Sessione",
     "options": [
       {
-        "option_text": "2. Permette di sincronizzare la comunicazione attraverso pacchetti di durata temporale sempre uguale 3. Permette di dividere (logicamente) il flusso dei dati in unità più piccole in modo che, in caso di interruzione della sessione,",
+        "option_text": "Permette ai processi coinvolti nella comunicazione di inserire dei checkpoint (punti di sincronizzazione) in un flusso dati",
+        "answer": true
+      },
+      {
+        "option_text": "Permette di sincronizzare la comunicazione attraverso pacchetti di durata temporale sempre uguale",
         "answer": false
       },
       {
-        "option_text": "non sia necessario inviare nuovamente tutto il flusso ma solo i dati dall’ultimo checkpoint in poi 4. Permette di dividere (temporalmente) il flusso dei dati in unità più piccole in modo che, in caso di interruzione della sessione, non sia necessario inviare nuovamente tutto il flusso ma solo l’ultimo pacchetto di lunghezza temporale prefissata Falso V V F V V F V V F V V F V V V F V F V F V V V F  3 T1 5. Permette di effettuare, ad ogni checkpoint, il back up dei dati di entrambi host in comunicazione, annotando il punto in cui è arrivata la conversazione; in tal modo, se durante il trasferimento dei dati la sessione si interrompe, la sessione successiva",
+        "option_text": "Permette di dividere (logicamente) il flusso dei dati in unità più piccole in modo che, in caso di interruzione della sessione, non sia necessario inviare nuovamente tutto il flusso ma solo i dati dall’ultimo checkpoint in poi",
         "answer": true
       },
       {
-        "option_text": "potrà sincronizzarsi riprendendo la trasmissione dal punto in cui è stata interrotta 6. Permette di effettuare, ad ogni checkpoint, il back up dei dati dell’host che trasmette, annotando il punto in cui è arrivata la conversazione; in tal modo, se durante il trasferimento dei dati la sessione si interrompe, la sessione successiva potrà",
+        "option_text": "Permette di dividere (temporalmente) il flusso dei dati in unità più piccole in modo che, in caso di interruzione della sessione, non sia necessario inviare nuovamente tutto il flusso ma solo l’ultimo pacchetto di lunghezza temporale prefissata",
+        "answer": false
+      },
+      {
+        "option_text": "Permette di effettuare, ad ogni checkpoint, il back up dei dati di entrambi host in comunicazione, annotando il punto in cui è arrivata la conversazione; in tal modo, se durante il trasferimento dei dati la sessione si interrompe, la sessione successiva potrà sincronizzarsi riprendendo la trasmissione dal punto in cui è stata interrotta",
         "answer": true
       },
       {
-        "option_text": "sincronizzarsi riprendendo la trasmissione dal punto in cui è stata interrotta 10-",
+        "option_text": "Permette di effettuare, ad ogni checkpoint, il back up dei dati dell’host che trasmette, annotando il punto in cui è arrivata la conversazione; in tal modo, se durante il trasferimento dei dati la sessione si interrompe, la sessione successiva potrà sincronizzarsi riprendendo la trasmissione dal punto in cui è stata interrotta",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 267
   },
   {
-    "id": 264,
     "code": "M1.3.2.14",
     "question": "I protocolli seriali multipunto",
     "options": [
       {
-        "option_text": "1. Sono protocolli seriali punto-punto che possono collegare ulteriori unità attraverso una connessione multi-drop",
+        "option_text": "Sono protocolli seriali punto-punto che possono collegare ulteriori unità attraverso una connessione multi-drop",
         "answer": true
       },
       {
-        "option_text": "2. Possono utilizzare lo standard RS-422 e RS-485",
+        "option_text": "Possono utilizzare lo standard RS-422 e RS-485",
         "answer": true
       },
       {
-        "option_text": "3. Possono utilizzare lo standard RS-232",
+        "option_text": "Possono utilizzare lo standard RS-232",
         "answer": false
       },
       {
-        "option_text": "4. In una configurazione con molte unità connesse solo un paio possono effettivamente comunicare",
+        "option_text": "In una configurazione con molte unità connesse solo un paio possono effettivamente comunicare",
         "answer": true
       },
       {
-        "option_text": "5. Sia nel caso di RS-422 che di RS-485 possono essere contemporaneamente bidirezionali",
+        "option_text": "Sia nel caso di RS-422 che di RS-485 possono essere contemporaneamente bidirezionali",
         "answer": false
       },
       {
-        "option_text": "6. Solo nel caso dello standard RS-422 possono essere contemporaneamente bidirezionali 11-",
+        "option_text": "Solo nel caso dello standard RS-422 possono essere contemporaneamente bidirezionali",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 268
   },
   {
-    "id": 265,
     "code": "M1.3.2.15",
     "question": "Lo standard elettrico RJ45",
     "options": [
       {
-        "option_text": "1. Se CAT 5: ha velocità massima di 100 Mbps",
+        "option_text": "Se CAT 5: ha velocità massima di 100 Mbps",
         "answer": true
       },
       {
-        "option_text": "2. Se CAT 5e: ha velocità massima di 1000 Mbps (Gigabit)",
+        "option_text": "Se CAT 5e: ha velocità massima di 1000 Mbps (Gigabit)",
         "answer": true
       },
       {
-        "option_text": "3. Se CAT 6: ha velocità massima di 10 Gbps (banda 250Hz)",
+        "option_text": "Se CAT 6: ha velocità massima di 10 Gbps (banda 250Hz)",
         "answer": true
       },
       {
-        "option_text": "4. Se CAT 6A: ha velocità massima di 10 Gbps (banda 500Hz)",
+        "option_text": "Se CAT 6A: ha velocità massima di 10 Gbps (banda 500Hz)",
         "answer": true
       },
       {
-        "option_text": "5. Se CAT 7: ha velocità massima di 100 Gbps (banda 600Hz)",
+        "option_text": "Se CAT 7: ha velocità massima di 100 Gbps (banda 600Hz)",
         "answer": false
       },
       {
-        "option_text": "6. Può gestire comunicazioni multipunto per distanze superiori ai 100m 12-",
+        "option_text": "Può gestire comunicazioni multipunto per distanze superiori ai 100m",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 269
   },
   {
-    "id": 266,
     "code": "M1.3.2.16",
     "question": "Lo standard elettrico RS-422",
     "options": [
       {
-        "option_text": "1. Utilizza 4 fili, due in ricezione (TX+ e TX-) e due in trasmissione (RX+ e RX-)",
+        "option_text": "Utilizza 4 fili, due in ricezione (TX+ e TX-) e due in trasmissione (RX+ e RX-)",
         "answer": true
       },
       {
-        "option_text": "2. Utilizza due fili, uno per ricezione e uno per trasmissione",
+        "option_text": "Utilizza due fili, uno per ricezione e uno per trasmissione",
         "answer": false
       },
       {
-        "option_text": "3. Utilizza solamente un filo in ricezione e trasmissione",
+        "option_text": "Utilizza solamente un filo in ricezione e trasmissione",
         "answer": false
       },
       {
-        "option_text": "4. Non può comunicare in configurazione multi-drop",
+        "option_text": "Non può comunicare in configurazione multi-drop",
         "answer": false
       },
       {
-        "option_text": "5. Può comunicare in configurazione multi-drop",
+        "option_text": "Può comunicare in configurazione multi-drop",
         "answer": true
       },
       {
-        "option_text": "6. Realizza comunicazioni Full-Duplex 13-",
+        "option_text": "Realizza comunicazioni Full-Duplex",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 270
   },
   {
-    "id": 267,
     "code": "M1.3.3.6",
     "question": "Lo Switch",
     "options": [
       {
-        "option_text": "1. È un dispositivo intelligente ovvero dotato di CPU",
+        "option_text": "È un dispositivo intelligente ov vero dotato di CPU",
         "answer": true
       },
       {
-        "option_text": "2. È un dispositivo elettrico non dotato di CPU",
+        "option_text": "È un dispositivo elettrico non dotato di CPU",
         "answer": false
       },
       {
-        "option_text": "3. Può segmentare il dominio di broadcast attraverso le VLAN",
-        "answer": true
-      },
-      {
-        "option_text": "4. Può avere una gestione “Unmanaged” o “Managed”",
-        "answer": true
-      },
-      {
-        "option_text": "5. Può avere un instradamento “store-and-forward”",
-        "answer": true
-      },
-      {
-        "option_text": "6. Può avere un instradamento “pass-by” 14-",
+        "option_text": "Può segmentare il dominio di broadcast attraverso le",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 271
   },
   {
-    "id": 268,
-    "code": "M1.3.4.7",
-    "question": "Quanti sono i rami di una topologia di rete Lineare Aperta?",
-    "options": [
-      {
-        "option_text": "1. (N-1)/2",
-        "answer": false
-      },
-      {
-        "option_text": "2. N*(N-1)/2",
-        "answer": false
-      },
-      {
-        "option_text": "3. N-1",
-        "answer": true
-      },
-      {
-        "option_text": "4. N",
-        "answer": false
-      },
-      {
-        "option_text": "5. N/2*(N-1)",
-        "answer": false
-      },
-      {
-        "option_text": "6. N/(N-1) 17-",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 269,
     "code": "M2.1.2.10",
     "question": "Le Società S.r.l.",
     "options": [
       {
-        "option_text": "1. Sono Società di Persone",
+        "option_text": "Sono Società di Persone",
         "answer": false
       },
       {
-        "option_text": "2. Sono Società di Capitali",
+        "option_text": "Sono Società di Capitali",
         "answer": true
       },
       {
-        "option_text": "3. Sono Società a responsabilità illimitata dell’imprenditore",
+        "option_text": "Sono Società a responsabilità illimitata dell’imprenditore",
         "answer": false
       },
       {
-        "option_text": "4. Sono Società a responsabilità limitata dell’imprenditore",
+        "option_text": "Sono Società a responsabilità limitata dell’imprenditore",
         "answer": false
       },
       {
-        "option_text": "5. Sono Società a responsabilità dei soci limitata al capitale sottoscritto",
+        "option_text": "Sono Società a responsabilità dei soci limitata al capitale sottoscritto",
         "answer": true
       },
       {
-        "option_text": "6. Sono Società a responsabilità dei soci illimitata oltre al capitale sottoscritto 18-",
+        "option_text": "Sono Società a responsabilità dei soci illimitata oltre al capitale sottoscritto",
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 272
   },
   {
-    "id": 270,
     "code": "M2.1.2.11",
     "question": "Le Società S.a.S.",
     "options": [
       {
-        "option_text": "1. Sono Società di Persone",
+        "option_text": "Sono Società di Persone",
         "answer": true
       },
       {
-        "option_text": "2. Sono Società di Capitali",
+        "option_text": "Sono Società di Capitali",
         "answer": false
       },
       {
-        "option_text": "3. Sono Società a responsabilità illimitata dell’imprenditore",
+        "option_text": "Sono Società a responsabilità illimitata dell’imprenditore",
         "answer": true
       },
       {
-        "option_text": "4. Sono Società a responsabilità limitata dell’imprenditore",
+        "option_text": "Sono Società a responsabilità limitata dell’imprenditore",
         "answer": false
       },
       {
-        "option_text": "5. Sono Società a responsabilità dei soci limitata al capitale sottoscritto",
+        "option_text": "Sono Società a responsabilità dei soci limitata al capitale sottoscritto",
         "answer": false
       },
       {
-        "option_text": "6. Sono Società a responsabilità dei soci illimitata oltre al capitale sottoscritto 19-",
+        "option_text": "Sono Società a responsabilità dei soci illimitata oltre al capitale sottoscritto",
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 273
   },
   {
-    "id": 271,
     "code": "M2.2.2.4",
-    "question": "Nel Sistema Informativo aziendale l’ERP (Enterprise Resource Planning) 1. È una piattaforma software che raggruppa i sistemi del reparto amministrativo, delle vendite, del magazzino e la logistica Vero",
+    "question": "Nel Sistema Informativo aziendale l’ERP (Enterprise Resource Planning)",
     "options": [
       {
-        "option_text": "2. Può gestire gli ordini dai clienti, la fatturazione e le paghe dei dipendenti",
+        "option_text": "È una piattaforma software che raggruppa i sistemi del reparto amministrativo, delle vendite, del magazzino e la logistica",
         "answer": true
       },
       {
-        "option_text": "3. Può gestire l’invio dei dettagli relativi alla realizzazione di un prodotto verso i sistemi produttivi",
+        "option_text": "Può gestire gli ordini dai clienti, la fatturazione e le paghe dei dipendenti",
+        "answer": true
+      },
+      {
+        "option_text": "Può gestire l’invio dei dettagli relativi alla realizzazione di un prodotto verso i sistemi produttivi",
         "answer": false
       },
       {
-        "option_text": "4. Può gestire l’inventario dei materiali, le scorte e la movimentazione delle merci",
+        "option_text": "Può gestire l’inventario dei materiali, le scorte e la movimentazione delle merci",
         "answer": true
       },
       {
-        "option_text": "5. Può includere alcune funzioni o integrare completamente le funzioni del CRM (Customer Relationship Management)",
+        "option_text": "Può includere alcune funzioni o integrare completamente le funzioni del CRM (Customer Relationship Management)",
         "answer": true
       },
       {
-        "option_text": "6. Permette di progettare o simulare il funzionamento di un determinato oggetto meccanico V V F V V F F V F F V F F F V F F F F V F F V F V F V F F F V V F V V F  5 T1 20-",
+        "option_text": "Permette di progettare o simulare il funzionamento di un determinato oggetto meccanico",
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 274
   },
   {
-    "id": 272,
-    "code": "M2.3.2.5",
-    "question": "L’Organizzazione Aziendale 1. Può essere definita come l’insieme dei processi, dei materiali, degli strumenti e delle persone che li operano e li",
-    "options": [
-      {
-        "option_text": "gestiscono, in maniera coordinata, per il raggiungimento di uno scopo comune o un obiettivo di impresa",
-        "answer": true
-      },
-      {
-        "option_text": "2. Può essere considerata come la “struttura produttiva” di un’azienda",
-        "answer": true
-      },
-      {
-        "option_text": "3. Può essere considerata come la “struttura amministrativa” di un’azienda 4. Ha come elementi fondanti gli obiettivi, l’assegnazione dei compiti e dei ruoli, e la tecnologia che realizza la struttura",
-        "answer": false
-      },
-      {
-        "option_text": "produttiva 5. Ha come primo elemento fondativo la cosiddetta “mission aziendale” che, a livello operativo, si declina in obiettivi",
-        "answer": true
-      },
-      {
-        "option_text": "concretamente raggiungibili e misurabili 6. Attraverso la distribuzione di responsabilità e poteri crea l’ossatura dell’azienda; i compiti individuano il workflow (il",
-        "answer": true
-      },
-      {
-        "option_text": "flusso di lavoro) produttivo 21-",
-        "answer": true
-      }
-    ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
-  },
-  {
-    "id": 273,
     "code": "M3.2.1.11.1",
     "question": "Quali dei seguenti gruppi di norme fanno parte della famiglia degli Standard ISO/IEC 27000?",
     "options": [
       {
-        "option_text": "1. Norme che descrivono una panoramica e la terminologia o vocabolario 2. Norme che specificano i requisiti di un SGSI, degli organismi di audit e certificazione e per la creazione di standard",
+        "option_text": "Norme che descrivono una panoramica e la terminologia o vocabolario",
         "answer": true
       },
       {
-        "option_text": "specifici di settore",
+        "option_text": "Norme che specificano i requisiti di un SGSI, degli organismi di audit e certificazione e per la creazione di standard specifici di settore",
         "answer": true
       },
       {
-        "option_text": "3. Norme che descrivono le linee guida generali per la verifica puntuale di un SGSI 4. Norme che descrivono le linee guida negli specifici ambiti/settori (ad esempio telecomunicazioni, servizi energetici, ecc.) Vero",
+        "option_text": "Norme che descrivono le linee guida generali per la verifica puntuale di un SGSI",
         "answer": false
       },
       {
-        "option_text": "5. Norme aggiunte che descrivono delle direttive specializzate (ad esempio sicurezza della rete o delle applicazioni)",
+        "option_text": "Norme che descrivono le linee guida negli specifici ambiti/settori (ad esempio telecomunicazioni, servizi energetici, ecc.)",
         "answer": true
       },
       {
-        "option_text": "6. Norme che descrivono come realizzare le procedure standard in un SGSI 23-",
+        "option_text": "Norme aggiunte che descrivono delle direttive specializzate (ad esempio sicurezza della rete o delle applicazioni)",
+        "answer": true
+      },
+      {
+        "option_text": "Norme che descrivono come realizzare le procedure standard in un SGSI",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 275
   },
   {
-    "id": 274,
     "code": "M3.2.1.18",
     "question": "Un ISMS per ISO/IEC 27000 è un insieme di regole che un’azienda deve stabilire per:",
     "options": [
       {
-        "option_text": "1. Identificare gli stakeholder e le loro aspettative nei confronti dell'azienda in termini di sicurezza delle informazioni",
+        "option_text": "Identificare gli stakeholder e le loro aspettative nei confronti dell'azienda in termini di sicurezza delle informazioni",
         "answer": true
       },
       {
-        "option_text": "2. Identificare quali rischi logici e fisici esistono per le persone all’interno dell’organizzazione",
+        "option_text": "Identificare quali rischi logici e fisici esistono per le persone all’interno dell’organizzazione",
         "answer": false
       },
       {
-        "option_text": "3. Definire i controlli e altri metodi di mitigazione per soddisfare le aspettative (al punto 1) identificate e gestire i rischi",
+        "option_text": "Definire i controlli e altri metodi di mitigazione per soddisfare le aspettative (al punto 1) identificate e gestire i rischi",
         "answer": true
       },
       {
-        "option_text": "4. Fissare obiettivi qualitativi e generici su ciò che deve essere raggiunto con la sicurezza delle informazioni",
+        "option_text": "Fissare obiettivi qualitativi e generici su ciò che deve essere raggiunto con la sicurezza delle informazioni",
         "answer": false
       },
       {
-        "option_text": "5. Attuare tutte le contromisure e gli altri metodi per il trattamento del rischio",
+        "option_text": "Attuare tutte le contromisure e gli altri metodi per il trattamento del rischio",
         "answer": true
       },
       {
-        "option_text": "6. Misurare continuamente se i controlli implementati funzionano come previsto 24-",
+        "option_text": "Misurare continuamente se i controlli implementati funzionano come previsto",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 276
   },
   {
-    "id": 275,
     "code": "M3.2.1.19",
-    "question": "I requisiti specificati da ISO/IEC 27001 1. Sono necessari per stabilire, attuare, mantenere e migliorare, in modo continuo, un sistema di gestione per la sicurezza",
+    "question": "I requisiti specificati da ISO/IEC 27001",
     "options": [
       {
-        "option_text": "delle informazioni nel contesto di un’organizzazione 2. Includono i criteri per la valutazione e il trattamento dei rischi relativi alla sicurezza delle informazioni adattati alla necessità",
+        "option_text": "Sono necessari per stabilire, attuare, mantenere e migliorare, in modo continuo, un sistema di gestione per la sicurezza delle informazioni nel contesto di un’organizzazione",
         "answer": true
       },
       {
-        "option_text": "dell’organizzazione 3. Includono unicamente i criteri per la valutazione e il trattamento dei rischi relativi alla sicurezza dei sistemi informativi in",
+        "option_text": "Includono i criteri per la valutazione e il trattamento dei rischi relativi alla sicurezza delle informazioni adattati alla necessità dell’organizzazione",
         "answer": true
       },
       {
-        "option_text": "base alla necessità dell’organizzazione",
+        "option_text": "Includono unicamente i criteri per la valutazione e il trattamento dei rischi relativi alla sicurezza dei sistemi informativi in base alla necessità dell’organizzazione",
         "answer": false
       },
       {
-        "option_text": "4. Sono necessari per certificare la conformità di un sistema informativo a questo standard 5. Utilizzano il risk management come base per decidere azioni e quali contromisure (controlli) mettere in atto Vero V V F V V V V F F V V F V V F V V F V F V F V V  6 T1 6. Possono essere utilizzati per prendere le decisioni su come e quanto investire nella sicurezza delle informazioni in base a",
+        "option_text": "Sono necessari per certificare la conformità di un sistema informativo a questo standard",
         "answer": true
       },
       {
-        "option_text": "criteri assolutamente deterministici 25-",
+        "option_text": "Utilizzano il risk management come base per decidere azioni e quali contromisure (controlli) mettere in atto",
+        "answer": true
+      },
+      {
+        "option_text": "Possono essere utilizzati per prendere le decisioni su come e quanto investire nella sicurezza delle informazioni in base a criteri assolutamente deterministici",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 277
   },
   {
-    "id": 276,
-    "code": "M3.2.2.3",
-    "question": "L’Area di Controllo 6 dell’ISO 27001 2013 Annex A “Organizzazione della Sicurezza delle Informazioni” 1. Ha tra gli obiettivi lo stabilire un quadro di riferimento per intraprendere e controllare l’attuazione e l’esercizio della",
-    "options": [
-      {
-        "option_text": "sicurezza delle informazioni all’interno dell’organizzazione",
-        "answer": true
-      },
-      {
-        "option_text": "2. Ha tra gli obiettivi l’assicurare la sicurezza del telelavoro e dell’uso di dispositivi portatili",
-        "answer": true
-      },
-      {
-        "option_text": "3. È composta da quattro gruppi di controlli",
-        "answer": false
-      },
-      {
-        "option_text": "4. È composta da due gruppi di controlli",
-        "answer": true
-      },
-      {
-        "option_text": "5. Ha tra i controlli la separazione dei compiti e le aree di responsabilità",
-        "answer": true
-      },
-      {
-        "option_text": "6. Ha tra i controlli la condivisione dei compiti e le aree di responsabilità 26-",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 277,
     "code": "M3.2.2.4",
-    "question": "L’Area di Controllo 8 dell’ISO 27001 2013 Annex A “Gestione degli asset” 1. Ha tra gli obiettivi l’identificazione degli asset dell’organizzazione e definire adeguate responsabilità per la loro protezione Vero 2. Ha tra gli obiettivi l’assicurare che le informazioni ricevano un adeguato livello di protezione in linea con la loro",
+    "question": "L’Area di Controllo 8 dell’ISO 27001 2013 Annex A “Gestione degli asset”",
     "options": [
       {
-        "option_text": "importanza per l’organizzazione 3. Ha tra gli obiettivi il prevenire la divulgazione non autorizzata, la modifica, la rimozione o la distruzione delle informazioni",
+        "option_text": "Ha tra gli obiettivi l’identificazione degli asset dell’organizzazione e definire adeguate responsabilità per la loro protezione",
         "answer": true
       },
       {
-        "option_text": "archiviate sui supporti",
+        "option_text": "Ha tra gli obiettivi l’assicurare che le informazioni ricevano un adeguato livello di protezione in linea con la loro importanza per l’organizzazione",
         "answer": true
       },
       {
-        "option_text": "4. Ha tra i controlli la “Sicurezza delle informazioni nella gestione dei progetti”",
+        "option_text": "Ha tra gli obiettivi il prevenire la divulgazione non autorizzata, la modifica, la rimozione o la distruzione delle informazioni archiviate sui supporti",
+        "answer": true
+      },
+      {
+        "option_text": "Ha tra i controlli la “Sicurezza delle informazioni nella gestione dei progetti”",
         "answer": false
       },
       {
-        "option_text": "5. Ha tra i controlli la “Classificazione delle informazioni”",
+        "option_text": "Ha tra i controlli la “Classificazione delle informazioni”",
         "answer": true
       },
       {
-        "option_text": "6. Ha tra i controlli la “Non memorizzazione delle informazioni” 27-",
+        "option_text": "Ha tra i controlli la “Non memorizzazione delle informazioni”",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 278
   },
   {
-    "id": 278,
     "code": "M3.2.3.2.1",
-    "question": "Nel NIST CSF il Framework Core 1. È un insieme di attività di sicurezza informatica, risultati desiderati e riferimenti applicabili comuni a tutti i settori delle",
+    "question": "Nel NIST CSF il Framework Core",
     "options": [
       {
-        "option_text": "infrastrutture critiche ma anche per le altre organizzazioni 2. Presenta standard, linee guida e pratiche del settore che consentono la comunicazione di attività e risultati inerenti alla",
+        "option_text": "È un insieme di attività di sicurezza informatica, risultati desiderati e riferimenti applicabili comuni a tutti i settori delle infrastrutture critiche ma anche per le altre organizzazioni",
         "answer": true
       },
       {
-        "option_text": "sicurezza anche fisica in tutta l'organizzazione",
+        "option_text": "Presenta standard, linee guida e pratiche del settore che consentono la comunicazione di attività e risultati inerenti alla sicurezza anche fisica in tutta l'organizzazione",
         "answer": false
       },
       {
-        "option_text": "3. È costituito da cinque funzioni concorrenti e continue: Identifica, Reagisci, Rileva, Rispondi, Recupera",
+        "option_text": "È costituito da cinque funzioni concorrenti e continue: Identifica, Reagisci, Rileva, Rispondi, Recupera",
         "answer": false
       },
       {
-        "option_text": "4. È costituito da quattro funzioni concorrenti e continue: Identifica, Proteggi, Rileva, Rispondi 5. Identifica le categorie e le sottocategorie chiave associate a ciascuna funzione e le abbina a riferimenti informativi di",
+        "option_text": "È costituito da quattro funzioni concorrenti e continue: Identifica, Proteggi, Rileva, Rispondi",
         "answer": false
       },
       {
-        "option_text": "esempio come standard, linee guida e pratiche esistenti per ciascuna sottocategoria 6. Associa a ciascuna funzione le categorie ovvero le suddivisioni di una funzione in gruppi di risultati di sicurezza",
+        "option_text": "Identifica le categorie e le sottocategorie chiave associate a ciascuna funzione e le abbina a riferimenti informativi di esempio come standard, linee guida e pratiche esistenti per ciascuna sottocategoria",
         "answer": true
       },
       {
-        "option_text": "informatica strettamente legati alle esigenze programmatiche e ad attività particolari 28-",
+        "option_text": "Associa a ciascuna funzione le categorie ov vero le suddivisioni di una funzione in gruppi di risultati di sicurezza informatica strettamente legati alle esigenze programmatiche e ad attività particolari",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 279
   },
   {
-    "id": 279,
-    "code": "M3.2.3.7.1",
-    "question": "Nel NIST CSF il Supply Chain Risk Management (SCRM) 1. Affronta sia l'effetto di sicurezza informatica che un'organizzazione ha sulle parti esterne sia l'effetto di sicurezza",
-    "options": [
-      {
-        "option_text": "informatica che le parti esterne hanno su un'organizzazione",
-        "answer": true
-      },
-      {
-        "option_text": "2. Può includere le attività di determinazione dei requisiti di sicurezza informatica per i fornitori 3. Può includere le attività di attuazione dei requisiti di sicurezza informatica attraverso accordi formali (ad es. contratti) Vero",
-        "answer": true
-      },
-      {
-        "option_text": "4. È l'insieme delle attività necessarie per gestire il rischio di sicurezza informatica associato solamente ai fornitori 5. Può includere le attività di verifica che i requisiti di sicurezza informatica dei fornitori siano soddisfatti attraverso una",
-        "answer": false
-      },
-      {
-        "option_text": "varietà di metodologie di valutazione 6. Può includere le attività di comunicazione ai fornitori di come saranno verificati e convalidati i requisiti di sicurezza fisica Falso V V F V V F V V F V V F V V V F V F V F F F V V V V V F V F  7 T1 29-",
-        "answer": true
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 280,
     "code": "M3.2.4.3",
     "question": "Il NIST Special Publication SP 800-82 Rev. 2",
     "options": [
       {
-        "option_text": "1. È un documento che fornisce una guida su come proteggere i sistemi di controllo industriale (ICS) 2. È una pubblicazione che fornisce un catalogo integrativo di controlli di sicurezza e privacy per i sistemi informativi e le",
+        "option_text": "È un documento che fornisce una guida su come proteggere i sistemi di controllo industriale (ICS)",
         "answer": true
       },
       {
-        "option_text": "organizzazioni 3. È il documento di punta della serie di standard e linee guida per la sicurezza delle informazioni sviluppati dal NIST in",
+        "option_text": "È una pubblicazione che fornisce un catalogo integrativo di controlli di sicurezza e privacy per i sistemi informativi e le organizzazioni",
         "answer": false
       },
       {
-        "option_text": "risposta alla FISMA della Cybersecurity & Infrastructure Security Agency americana",
+        "option_text": "È il documento di punta della serie di standard e linee guida per la sicurezza delle informazioni sviluppati dal NIST in risposta alla FISMA della Cybersecurity & Infrastructure Security Agency americana",
         "answer": false
       },
       {
-        "option_text": "4. Fa parte della serie di pubblicazioni speciali relative alla computer security",
+        "option_text": "Fa parte della serie di pubblicazioni speciali relative alla computer security",
         "answer": true
       },
       {
-        "option_text": "5. Fa parte della serie di pubblicazioni speciali che propongono guide pratiche e usabili di soluzioni per la cybersecurity",
-        "answer": false
-      },
-      {
-        "option_text": "6. Fa parte della serie di pubblicazioni che sono documenti rilevanti di Information Technology 30-",
+        "option_text": "Fa parte della serie di pubblicazioni speciali che propongono guide pratiche e usabili di",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 280
   },
   {
-    "id": 281,
     "code": "M1.1.4.5",
     "question": "L’ Uniform Resource Locator (in acronimo URL)",
     "options": [
       {
-        "option_text": "1. Identifica univocamente l’indirizzo di una risorsa su una rete di computer",
+        "option_text": "Identifica univocamente l’indirizzo di una risorsa su una rete di computer",
         "answer": true
       },
       {
-        "option_text": "2. Necessita di una “risoluzione” in indirizzo IP per l’instradamento con l’analogo protocollo",
+        "option_text": "Necessita di una “risoluzione” in indirizzo IP per l’instradamento con l’analogo protocollo",
         "answer": true
       },
       {
-        "option_text": "3. È un indirizzo composto da vari parametri che possono essere opzionali",
+        "option_text": "È un indirizzo composto da vari parametri che possono essere opzionali",
         "answer": true
       },
       {
-        "option_text": "4. Può essere una sequenza alfanumerica o binaria",
+        "option_text": "Può essere una sequenza alfanumerica o binaria",
         "answer": false
       },
       {
-        "option_text": "5. In nessun caso può utilizzare un protocollo criptato",
+        "option_text": "In nessun caso può utilizzare un protocollo criptato",
         "answer": false
       },
       {
-        "option_text": "6. È nato per facilitare la consultazione delle risorse on-line siano esse interi siti web, pagine HTML, foto o video 1",
+        "option_text": "È nato per facilitare la consultazione delle risorse on-line siano esse interi siti web, pagine HTML, foto o video",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 281
   },
   {
-    "id": 282,
     "code": "M1.1.4.6",
     "question": "L’ Hypertext Transfer Protocol (in acronimo HTTP)",
     "options": [
       {
-        "option_text": "1. Utilizza il comando PEEK che recupera una risorsa dal server (ad es. visitando una pagina)",
+        "option_text": "Utilizza il comando PEEK che recupera una risorsa dal server (ad es. visitando una pagina)",
         "answer": false
       },
       {
-        "option_text": "2. Utilizza il comando POST che invia una risorsa al server (ad es. compilando un modulo)",
+        "option_text": "Utilizza il comando POST che invia una risorsa al server (ad es. compilando un modulo)",
         "answer": true
       },
       {
-        "option_text": "3. Utilizza il comando DELETE che cancella una risorsa dal server (ad es. eliminando un file)",
+        "option_text": "Utilizza il comando DELETE che cancella una risorsa dal server (ad es. eliminando un file)",
         "answer": true
       },
       {
-        "option_text": "4. Utilizza il comando POKE che forza una determinata area di memoria (ad es. caricando un valore in un registro)",
+        "option_text": "Utilizza il comando POKE che forza una determinata area di memoria (ad es. caricando un valore in un registro)",
         "answer": false
       },
       {
-        "option_text": "5. Utilizza il comando PUT che memorizza una risorsa sul server (ad es. caricando un file)",
+        "option_text": "Utilizza il comando PUT che memorizza una risorsa sul server (ad es. caricando un file)",
         "answer": true
       },
       {
-        "option_text": "6. Utilizza il comando HEAD che recupera solo l'header della risposta senza la risorsa 2",
+        "option_text": "Utilizza il comando HEAD che recupera solo l'header della risposta senza la risorsa",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 282
   },
   {
-    "id": 283,
-    "code": "M1.1.4.6",
-    "question": "F  V V F V V (3- M1.3.2.9 - 23) Nella comunicazione con il protocollo Ethernet in caso di avvenuta collisione: 1. La stazione trasmittente sospende la trasmissione e trasmette una sequenza composta dalla parte di pacchetto già",
+    "code": "M1.3.2.12-23",
+    "question": "La comunicazione deterministica real-time:",
     "options": [
       {
-        "option_text": "trasmessa e un codice identificativo in coda al pacchetto 2. La stazione trasmittente sospende la trasmissione e trasmette e un codice identificativo in testa e la parte di pacchetto",
-        "answer": true
-      },
-      {
-        "option_text": "già trasmessa in coda al pacchetto 3. La stazione trasmittente sospende la trasmissione e trasmette una sequenza (detta di Jamming) per avvisare che il canale",
+        "option_text": "È una qualsiasi forma di comunicazione per cui gli utenti possono scambiarsi informazioni anche non nell’esatta sequenza che sono state generate ma con una latenza prevedibile o comunque predefinita",
         "answer": false
       },
       {
-        "option_text": "è occupato 4. La stazione di trasmissione, dopo l’invio della sequenza di jamming, ripete il tentativo di trasmissione per un numero di",
+        "option_text": "È una qualsiasi forma di comunicazione per cui gli utenti possono scambiarsi informazioni in maniera deterministica, istantaneamente o con una latenza trascurabile o comunque predefinita",
         "answer": true
       },
       {
-        "option_text": "volte non superiore a 5 5. La stazione di trasmissione, dopo l’invio della sequenza di jamming, ripete il tentativo di trasmissione dopo un tempo",
-        "answer": false
-      },
-      {
-        "option_text": "pseudocasuale, per evitare la ripetizione della collisione",
+        "option_text": "Ha, di solito, necessità di garantire la sincronizzazione tra due o più dispostivi (es. dispositivo di comando e di attuazione)",
         "answer": true
       },
       {
-        "option_text": "6. La stazione trasmittente interrompe le trasmissioni e attende un segnale di Restart da parte di una altra stazione 3",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 284,
-    "code": "M1.3.2.9",
-    "question": "V  F V F V F (4- M1.3.2.12 -23) La comunicazione deterministica real-time: 1. È una qualsiasi forma di comunicazione per cui gli utenti possono scambiarsi informazioni anche non nell’esatta sequenza",
-    "options": [
-      {
-        "option_text": "che sono state generate ma con una latenza prevedibile o comunque predefinita 2. È una qualsiasi forma di comunicazione per cui gli utenti possono scambiarsi informazioni in maniera deterministica,",
+        "option_text": "Deve garantire tempi di comunicazione sempre sotto il nanosecondo",
         "answer": false
       },
       {
-        "option_text": "istantaneamente o con una latenza trascurabile o comunque predefinita 3. Ha, di solito, necessità di garantire la sincronizzazione tra due o più dispostivi (es. dispositivo di comando e di attuazione) Vero",
+        "option_text": "Può permette il controllo di macchinari senza una connessione meccanica",
         "answer": true
       },
       {
-        "option_text": "4. Deve garantire tempi di comunicazione sempre sotto il nanosecondo",
-        "answer": false
-      },
-      {
-        "option_text": "5. Può permette il controllo di macchinari senza una connessione meccanica",
-        "answer": true
-      },
-      {
-        "option_text": "6. Deve garantire tempi di trasmissione compatibili con le dinamiche dei dispositivi o i processi coinvolti 4",
+        "option_text": "Deve garantire tempi di trasmissione compatibili con le dinamiche dei dispositivi o i processi coinvolti",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 283
   },
   {
-    "id": 285,
     "code": "M1.3.3.10",
     "question": "Le regole configurabili nel firewall",
     "options": [
       {
-        "option_text": "1. Hanno tra le impostazioni di base l'indirizzo IP sorgente",
+        "option_text": "Hanno tra le impostazioni di base l'indirizzo IP sorgente",
         "answer": true
       },
       {
-        "option_text": "2. Hanno tra le impostazioni di base l'indirizzo IP di destinazione",
+        "option_text": "Hanno tra le impostazioni di base l'indirizzo IP di destinazione",
         "answer": true
       },
       {
-        "option_text": "3. Hanno tra le impostazioni di base la porta attraverso la quale viene erogato il servizio",
+        "option_text": "Hanno tra le impostazioni di base la porta attraverso la quale viene erogato il servizio",
         "answer": true
       },
       {
-        "option_text": "4. Non possono abilitare o disabilitare solo uno specifico protocollo (Es. UPD, TCP, ecc.)",
+        "option_text": "Non possono abilitare o disabilitare solo uno specifico protocollo (Es. UPD, TCP, ecc.)",
         "answer": false
       },
       {
-        "option_text": "5. Possono utilizzare un criterio di applicazione di tipo  “Default-reject”",
+        "option_text": "Possono utilizzare un criterio di applicazione di tipo “Default-reject”",
         "answer": false
       },
       {
-        "option_text": "6. Possono utilizzare un criterio di applicazione di tipo  “Default-allow” 5",
+        "option_text": "Possono utilizzare un criterio di applicazione di tipo “Default-allow”",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 284
   },
   {
-    "id": 286,
-    "code": "M2.1.1.1-23",
-    "question": "L’Azienda:",
-    "options": [
-      {
-        "option_text": "1. È un’organizzazione di persone e beni economici",
-        "answer": true
-      },
-      {
-        "option_text": "2. È un’organizzazione di persone e beni economici ma non beni strumentali",
-        "answer": false
-      },
-      {
-        "option_text": "3. Ha al suo interno anche beni strumentali, ovvero beni economici utilizzati per la produzione di altri beni",
-        "answer": true
-      },
-      {
-        "option_text": "4. Ha al suo interno solo persone e beni materiali, ovvero che hanno consistenza fisica",
-        "answer": false
-      },
-      {
-        "option_text": "5. Esercita l’insieme delle funzioni aziendali per il raggiungimento degli obiettivi prefissati",
-        "answer": true
-      },
-      {
-        "option_text": "6. Realizza l’attività aziendale attraverso i processi aziendali, nell'ambito della sua gestione operativa 6",
-        "answer": true
-      }
-    ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
-  },
-  {
-    "id": 287,
     "code": "M2.2.1.5",
     "question": "Quali strategie posso utilizzare per proteggere da un possibile attacco cyber ad una linea produttiva (al momento l’unica che produce un determinato bene)?",
     "options": [
       {
-        "option_text": "1. Identificare e proteggere (o eliminare) eventuali connessioni dirette alla rete pubblica (internet)",
+        "option_text": "Identificare e proteggere (o eliminare) eventuali connessioni dirette alla rete pubblica (internet)",
         "answer": true
       },
       {
-        "option_text": "2. Realizzare un adeguato sistema di segmentazione e segregazione delle reti e degli apparati di controllo",
+        "option_text": "Realizzare un adeguato sistema di segmentazione e segregazione delle reti e degli apparati di controllo",
         "answer": true
       },
       {
-        "option_text": "3. Gestire gli accessi remoti ai sistemi informatici di linea con opportune procedure, autorizzazioni, tecnologie",
+        "option_text": "Gestire gli accessi remoti ai sistemi informatici di linea con opportune procedure, autorizzazioni, tecnologie",
         "answer": true
       },
       {
-        "option_text": "4. Valutare la realizzazione di una linea produttiva parallela analoga alla prima che utilizza la stessa rete",
+        "option_text": "Valutare la realizzazione di una linea produttiva parallela analoga alla prima che utilizza la stessa rete",
         "answer": false
       },
       {
-        "option_text": "5. Identificare eventuali obsolescenze software e hardware e vulnerabilità standardizzate (CVE) nei sistemi industriali",
+        "option_text": "Identificare eventuali obsolescenze software e hardware e vulnerabilità standardizzate (CVE) nei sistemi industriali",
         "answer": true
       },
       {
-        "option_text": "6. Isolare completamente la rete industriale dalla rete office",
+        "option_text": "Isolare completamente la rete industriale dalla rete office",
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 285
   },
   {
-    "id": 288,
     "code": "M2.2.2.5",
     "question": "Il vettore di attacco",
     "options": [
       {
-        "option_text": "1. Sfrutta debolezze o vulnerabilità solamente tecnologiche",
+        "option_text": "Sfrutta debolezze o vulnerabilità solamente tecnologiche",
         "answer": false
       },
       {
-        "option_text": "2. È la tecnica di attacco unicamente diretta e frontale verso un firewall perimetrale 3. Per esteso può essere la tecnica utilizzata per l'accesso non autorizzato da parte di un malintenzionato ad un dispositivo o",
+        "option_text": "È la tecnica di attacco unicamente diretta e frontale verso un firewall perimetrale",
         "answer": false
       },
       {
-        "option_text": "una rete per scopi nefasti",
+        "option_text": "Per esteso può essere la tecnica utilizzata per l'accesso non autorizzato da parte di un malintenzionato ad un dispositivo o una rete per scopi nefasti",
         "answer": true
       },
       {
-        "option_text": "4. Può sfruttare meccanismi di autenticazione deboli",
+        "option_text": "Può sfruttare meccanismi di autenticazione deboli",
         "answer": true
       },
       {
-        "option_text": "5. Può sfruttare debolezze umane come mancanza di conoscenza o attenzione",
+        "option_text": "Può sfruttare debolezze umane come mancanza di conoscenza o attenzione",
         "answer": true
       },
       {
-        "option_text": "6. Può utilizzare e-mail di phishing, app malevole, chiavette USB infette, botnet, ecc. 9",
+        "option_text": "Può utilizzare e-mail di phishing, app malevole, chiavette USB infette, botnet, ecc.",
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 286
   },
   {
-    "id": 289,
     "code": "M2.3.1.1-23",
-    "question": "La Gestione Aziendale 1. È l’insieme coordinato di operazioni soggettive e oggettive che l’azienda compie per raggiungere gli obiettivi prefissati Vero",
+    "question": "La Gestione Aziendale",
     "options": [
       {
-        "option_text": "2. È l’insieme delle operazioni soggettive di conduzione che il manager compie per raggiungere gli obiettivi prefissati 3. Realizza operazioni soggettive, ovvero le attività svolte dagli organi aziendali, decisioni e controlli, da effettuare al fine di",
-        "answer": false
-      },
-      {
-        "option_text": "raggiungere gli obiettivi fissati",
+        "option_text": "È l’insieme coordinato di operazioni soggettive e oggettive che l’azienda compie per raggiungere gli obiettivi prefissati",
         "answer": true
       },
       {
-        "option_text": "4. Definisce i piani strategici e organizzativi di lungo periodo",
+        "option_text": "È l’insieme delle operazioni soggettive di conduzione che il manager compie per raggiungere gli obiettivi prefissati",
         "answer": false
       },
       {
-        "option_text": "5. Realizza operazioni oggettive e soggettive per il raggiungimento della soddisfazione del cliente e dei fornitori 6. Si caratterizza in operazioni di: acquisizione dei mezzi monetari, acquisizione di fattori produttivi col capitale monetario e",
+        "option_text": "Realizza operazioni soggettive, ov vero le attività svolte dagli organi aziendali, decisioni e controlli, da effettuare al fine di raggiungere gli obiettivi fissati",
+        "answer": true
+      },
+      {
+        "option_text": "Definisce i piani strategici e organizzativi di lungo periodo",
         "answer": false
       },
       {
-        "option_text": "trasformazione di fattori in prodotti o servizi finiti 10",
+        "option_text": "Realizza operazioni oggettive e soggettive per il raggiungimento della soddisfazione del cliente e dei fornitori",
+        "answer": false
+      },
+      {
+        "option_text": "Si caratterizza in operazioni di: acquisizione dei mezzi monetari, acquisizione di fattori produttivi col capitale monetario e trasformazione di fattori in prodotti o servizi finiti",
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 287
   },
   {
-    "id": 290,
     "code": "M2.3.2.1-23",
-    "question": "I Processi Aziendali 1. Possono essere definiti come un insieme di attività, non necessariamente collegate, che possono portare a diversi",
+    "question": "I Processi Aziendali",
     "options": [
       {
-        "option_text": "obiettivi a carattere strategico 2. Possono essere definiti come un insieme di attività interdipendenti, svolte all'interno dell'azienda che creano valore",
+        "option_text": "Possono essere definiti come un insieme di attività, non necessariamente collegate, che possono portare a diversi obiettivi a carattere strategico",
         "answer": false
       },
       {
-        "option_text": "trasformando delle risorse in un prodotto o servizio finale a valore aggiunto",
+        "option_text": "Possono essere definiti come un insieme di attività interdipendenti, svolte all'interno dell'azienda che creano valore trasformando delle risorse in un prodotto o servizio finale a valore aggiunto",
         "answer": true
       },
       {
-        "option_text": "3. Devono prevedere un solo input chiaramente definito e più risultati finali",
+        "option_text": "Devono prevedere un solo input chiaramente definito e più risultati finali",
         "answer": false
       },
       {
-        "option_text": "4. Devono prevedere input, chiaramente ben definiti, e un singolo risultato finale 5. Hanno input che sono costituiti da tutti i fattori che contribuiscono (direttamente e indirettamente) al valore aggiunto di",
+        "option_text": "Devono prevedere input, chiaramente ben definiti, e un singolo risultato finale",
         "answer": true
       },
       {
-        "option_text": "un servizio o di un prodotto",
+        "option_text": "Hanno input che sono costituiti da tutti i fattori che contribuiscono (direttamente e indirettamente) al valore aggiunto di un servizio o di un prodotto",
         "answer": true
       },
       {
-        "option_text": "6. I processi si possono modellizzare attraverso l’uso dei diagrammi di flusso 11",
+        "option_text": "I processi si possono modellizzare attraverso l’uso dei diagrammi di flusso",
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 288
   },
   {
-    "id": 291,
     "code": "M3.1.2.1-23",
-    "question": "Nella Business Transaction rappresentata utilizzando il modello WIDE qui sotto: 1. Una volta entrati per il punto A i task Cancellazione Albergo  e Cancellazione Volo  vengono eseguiti contemporaneamente Vero 2. Una volta Entrati per il punto A i task Cancellazione Albergo  e Cancellazione Volo  vengono eseguiti uno successivo all’altro",
+    "question": "Nella Business Transaction rappresentata utilizzando il modello WIDE qui sotto:",
     "options": [
       {
-        "option_text": "(terminato Cancellazione Albergo viene eseguito Cancellazione Volo) 3. Si giunge al punto B solo dopo che entrambi i task Cancellazione Albergo  e Cancellazione Volo  sono stati eseguiti",
-        "answer": false
-      },
-      {
-        "option_text": "completamente 4. Si giunge al punto B anche se nessuno tra i task Cancellazione Albergo  e Cancellazione Volo  è stato eseguito completamente Falso",
+        "option_text": "Una volta entrati per il punto A i task Cancellazione Albergo e Cancellazione Volo vengono eseguiti contemporaneamente",
         "answer": true
       },
       {
-        "option_text": "5. Si giunge al punto B solo se i task Cancellazione Albergo  e Cancellazione Volo  si concludono contemporaneamente",
+        "option_text": "Una volta Entrati per il punto A i task Cancellazione Albergo e Cancellazione Volo vengono eseguiti uno successivo all’altro (terminato Cancellazione Albergo viene eseguito Cancellazione Volo)",
         "answer": false
       },
       {
-        "option_text": "6. Il punto B può anche non essere mai raggiunto  4 T3 13",
+        "option_text": "Si giunge al punto B solo dopo che entrambi i task Cancellazione Albergo e Cancellazione Volo sono stati eseguiti completamente",
+        "answer": true
+      },
+      {
+        "option_text": "Si giunge al punto B anche se nessuno tra i task Cancellazione Albergo e Cancellazione Volo è stato eseguito completamente",
+        "answer": false
+      },
+      {
+        "option_text": "Si giunge al punto B solo se i task Cancellazione Albergo e Cancellazione Volo si concludono contemporaneamente",
+        "answer": false
+      },
+      {
+        "option_text": "Il punto B può anche non essere mai raggiunto",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 289
   },
   {
-    "id": 292,
     "code": "M3.1.3.3",
-    "question": "La certificazione aziendale 1. È la dichiarazione di un ente indipendente o accreditato che il prodotto fornito o le politiche messe in atto dall'azienda sono",
+    "question": "La certificazione aziendale",
     "options": [
       {
-        "option_text": "conformi ad una certa normativa o standard di riferimento 2. È la dichiarazione di un ente indipendente o accreditato che si formalizza attraverso l’emissione di un certificato con validità",
+        "option_text": "È la dichiarazione di un ente indipendente o accreditato che il prodotto fornito o le politiche messe in atto dall'azienda sono conformi ad una certa normativa o standard di riferimento",
         "answer": true
       },
       {
-        "option_text": "illimitata 3. È la dichiarazione di un ente terzo che il prodotto fornito o le politiche messe in atto dall'azienda sono conformi ad una",
+        "option_text": "È la dichiarazione di un ente indipendente o accreditato che si formalizza attraverso l’emissione di un certificato con validità illimitata",
         "answer": false
       },
       {
-        "option_text": "certa normativa o standard di riferimento 4. Se di sistema, permette di stabilire un meccanismo continuo di verifica della conformità ad uno standard ed il",
+        "option_text": "È la dichiarazione di un ente terzo che il prodotto fornito o le politiche messe in atto dall'azienda sono conformi ad una certa normativa o standard di riferimento",
         "answer": true
       },
       {
-        "option_text": "miglioramento continuo di un sistema di gestione 5. Se di sistema, permette di stabilire un meccanismo di verifica puntuale della conformità ad uno standard ma non permette",
+        "option_text": "Se di sistema, permette di stabilire un meccanismo continuo di verifica della conformità ad uno standard ed il miglioramento continuo di un sistema di gestione",
         "answer": true
       },
       {
-        "option_text": "la verifica periodica del sistema di gestione 6. Può essere uno strumento per rispondere alle richieste sempre più pressanti del mercato per differenziarsi dai competitors",
+        "option_text": "Se di sistema, permette di stabilire un meccanismo di verifica puntuale della conformità ad uno standard ma non permette la verifica periodica del sistema di gestione",
         "answer": false
       },
       {
-        "option_text": "ed entrare, in nuovi mercati, mai esplorati prima 14",
+        "option_text": "Può essere uno strumento per rispondere alle richieste sempre più pressanti del mercato per differenziarsi dai competitors ed entrare, in nuovi mercati, mai esplorati prima",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 290
   },
   {
-    "id": 293,
     "code": "M3.2.1.20",
     "question": "Cos’è un ISMS secondo ISO 27001",
     "options": [
       {
-        "option_text": "1. Un insieme di regole che un'azienda deve stabilire per gestire la sicurezza delle informazioni 2. Un insieme di regole che, tra le altre cose, permettano di identificare gli stakeholder e le loro aspettative in termini di",
+        "option_text": "Un insieme di regole che un'azienda deve stabilire per gestire la sicurezza delle informazioni",
         "answer": true
       },
       {
-        "option_text": "sicurezza delle informazioni",
+        "option_text": "Un insieme di regole che, tra le altre cose, permettano di identificare gli stakeholder e le loro aspettative in termini di sicurezza delle informazioni",
         "answer": true
       },
       {
-        "option_text": "3. Un insieme di regole che, tra le altre cose, permettano di identificare quali rischi fisici esistano per le persone 4. Un insieme di regole che, tra le altre cose, permettano di definire i controlli e altri metodi di mitigazione per soddisfare le",
+        "option_text": "Un insieme di regole che, tra le altre cose, permettano di identificare quali rischi fisici esistano per le persone",
         "answer": false
       },
       {
-        "option_text": "aspettative identificate e gestire i rischi 5. Un insieme di regole che, tra le altre cose, permettano di fissare obiettivi chiari su ciò che deve essere raggiunto con la",
+        "option_text": "Un insieme di regole che, tra le altre cose, permettano di definire i controlli e altri metodi di mitigazione per soddisfare le aspettative identificate e gestire i rischi",
         "answer": true
       },
       {
-        "option_text": "sicurezza delle informazioni 6. Un insieme di regole che, tra le altre cose, permettano di attuare tutte le contromisure e gli altri metodi per il",
+        "option_text": "Un insieme di regole che, tra le altre cose, permettano di fissare obiettivi chiari su ciò che deve essere raggiunto con la sicurezza delle informazioni",
         "answer": true
       },
       {
-        "option_text": "trattamento dei vincoli di tipo normativo 15",
+        "option_text": "Un insieme di regole che, tra le altre cose, permettano di attuare tutte le contromisure e gli altri metodi per il trattamento dei vincoli di tipo normativo",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 291
   },
   {
-    "id": 294,
     "code": "M3.2.1.9-23",
     "question": "Secondo ISO 27002 2013 una Categoria di Controllo è:",
     "options": [
       {
-        "option_text": "1. Il controllo stesso",
+        "option_text": "Il controllo stesso",
         "answer": false
       },
       {
-        "option_text": "2. È la dichiarazione estesa dell’obiettivo che si vuole raggiungere",
+        "option_text": "È la dichiarazione estesa dell’obiettivo che si vuole raggiungere",
         "answer": true
       },
       {
-        "option_text": "3. È di fatto l’Area del Controllo",
+        "option_text": "È di fatto l’Area del Controllo",
         "answer": false
       },
       {
-        "option_text": "4. È l’appropriata contromisura in esame",
+        "option_text": "È l’appropriata contromisura in esame",
         "answer": false
       },
       {
-        "option_text": "5. È la descrizione della finalità dello specifico controllo",
+        "option_text": "È la descrizione della finalità dello specifico controllo",
         "answer": true
       },
       {
-        "option_text": "6. Uno dei tre livelli dello schema con cui sono strutturati i controlli 17",
+        "option_text": "Uno dei tre livelli dello schema con cui sono strutturati i controlli",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 292
   },
   {
-    "id": 295,
     "code": "M3.2.3.3",
-    "question": "Nel Framework Core (di NIST CSF) le Categorie 1. Sono le suddivisioni di ciascuna delle Funzioni Concorrenti in gruppi di possibili fattori di rischio di sicurezza informatica",
+    "question": "Nel Framework Core (di NIST CSF) le Categorie",
     "options": [
       {
-        "option_text": "legati alle esigenze programmatiche e ad attività generiche  5 T3 2. Sono le suddivisioni di ciascuna delle Funzioni Concorrenti in gruppi di risultati di sicurezza informatica strettamente legati",
+        "option_text": "Sono le suddivisioni di ciascuna delle Funzioni Concorrenti in gruppi di possibili fattori di rischio di sicurezza informatica legati alle esigenze programmatiche e ad attività generiche",
         "answer": false
       },
       {
-        "option_text": "alle esigenze programmatiche e ad attività particolari 3. Possono includere, ad esempio, \"Gestione degli asset\", \"Gestione dell'identità e controllo degli accessi\" e \"Processi di",
+        "option_text": "Sono le suddivisioni di ciascuna delle Funzioni Concorrenti in gruppi di risultati di sicurezza informatica strettamente legati alle esigenze programmatiche e ad attività particolari",
         "answer": true
       },
       {
-        "option_text": "rilevamento\" 4. Sono ulteriormente suddivise in sottocategorie le quali forniscono una serie di risultati che, sebbene non esaustivi, aiutano",
+        "option_text": "Possono includere, ad esempio, \"Gestione degli asset\", \"Gestione dell'identità e controllo degli accessi\" e \"Processi di rilevamento\"",
         "answer": true
       },
       {
-        "option_text": "a supportare il raggiungimento degli obiettivi (risultati o outcomes) in ciascuna categoria 5. Sono ulteriormente suddivise in sottocategorie che possono includere, ad esempio, \"I sistemi di informazione esterni sono",
+        "option_text": "Sono ulteriormente suddivise in sottocategorie le quali forniscono una serie di risultati che, sebbene non esaustivi, aiutano a supportare il raggiungimento degli obiettivi (risultati o outcomes) in ciascuna categoria",
         "answer": true
       },
       {
-        "option_text": "catalogati\", \"I dati inattivi sono protetti\" o \"Le notifiche dai sistemi di rilevamento vengono esaminate\" 6. Sono ulteriormente suddivise in sottocategorie che sono associate a Riferimenti Informativi: esempi assolutamente",
+        "option_text": "Sono ulteriormente suddivise in sottocategorie che possono includere, ad esempio, \"I sistemi di informazione esterni sono catalogati\", \"I dati inattivi sono protetti\" o \"Le notifiche dai sistemi di rilevamento vengono esaminate\"",
         "answer": true
       },
       {
-        "option_text": "esaustivi basati sulle esperienze dirette sul campo 18",
+        "option_text": "Sono ulteriormente suddivise in sottocategorie che sono associate a Riferimenti Informativi: esempi assolutamente esaustivi basati sulle esperienze dirette sul campo",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 293
   },
   {
-    "id": 296,
     "code": "M3.2.3.10",
-    "question": "Nel NIST CSF Core le sottocategorie 1. Le sottocategorie dividono ulteriormente una Categoria in risultati ottenibili avendo intrapreso attività tecniche e/o",
+    "question": "Nel NIST CSF Core le sottocategorie",
     "options": [
       {
-        "option_text": "gestionali 2. Forniscono una serie di risultati che, sebbene non esaustivi, aiutano a supportare il raggiungimento dei risultati in ciascuna",
+        "option_text": "Le sottocategorie dividono ulteriormente una Categoria in risultati ottenibili avendo intrapreso attività tecniche e/o gestionali",
         "answer": true
       },
       {
-        "option_text": "categoria",
+        "option_text": "Forniscono una serie di risultati che, sebbene non esaustivi, aiutano a supportare il raggiungimento dei risultati in ciascuna categoria",
         "answer": true
       },
       {
-        "option_text": "3. Non hanno mai associato nessun Riferimento Normativo",
+        "option_text": "Non hanno mai associato nessun Riferimento Normativo",
         "answer": false
       },
       {
-        "option_text": "4. Un esempio di sottocategoria può includere \"I sistemi di informazione esterni sono catalogati\"",
+        "option_text": "Un esempio di sottocategoria può includere \"I sistemi di informazione esterni sono catalogati\"",
         "answer": true
       },
       {
-        "option_text": "5. Un esempio di sottocategoria può includere \"Selezionare quali dati da proteggere\"",
+        "option_text": "Un esempio di sottocategoria può includere \"Selezionare quali dati da proteggere\"",
         "answer": false
       },
       {
-        "option_text": "6. Un esempio di sottocategoria può includere \"Le notifiche dai sistemi di rilevamento vengono esaminate\" 19",
+        "option_text": "Un esempio di sottocategoria può includere \"Le notifiche dai sistemi di rilevamento vengono esaminate\"",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 294
   },
   {
-    "id": 297,
     "code": "M3.2.4.2",
-    "question": "NIST Special Publication 800-53 Rev. 5 1. Fornisce un catalogo di controlli di sicurezza e privacy per i sistemi informativi e le organizzazioni per proteggere le operazioni e le risorse organizzative, gli individui, le aziende e la nazione da una serie diversificata di minacce e rischi di",
+    "question": "NIST Special Publication 800-53 Rev. 5",
     "options": [
       {
-        "option_text": "varia natura 2. Fornisce un catalogo di controlli di sicurezza e privacy per i sistemi informativi e le aziende per proteggere le operations e",
+        "option_text": "Fornisce un catalogo di controlli di sicurezza e privacy per i sistemi informativi e le organizzazioni per proteggere le operazioni e le risorse organizzative, gli individui, le aziende e la nazione da una serie diversificata di minacce e rischi di varia natura",
         "answer": true
       },
       {
-        "option_text": "le risorse organizzative, gli individui, le aziende e la nazione da minacce e rischi di varia natura 3. Sono un catalogo di controlli, ovvero contromisure, estratti direttamente e senza variazioni dal FISMA (Federal Information",
+        "option_text": "Fornisce un catalogo di controlli di sicurezza e privacy per i sistemi informativi e le aziende per proteggere le operations e le risorse organizzative, gli individui, le aziende e la nazione da minacce e rischi di varia natura",
         "answer": true
       },
       {
-        "option_text": "Security Modernization Act)",
+        "option_text": "Sono un catalogo di controlli, ov vero contromisure, estratti direttamente e senza variazioni dal FISMA (Federal Information Security Modernization Act)",
         "answer": false
       },
       {
-        "option_text": "4. Ha come titolo: “Security and Privacy Controls for Information Systems and Organizations”",
+        "option_text": "Ha come titolo: “Security and Privacy Controls for Information Systems and Organizations”",
         "answer": true
       },
       {
-        "option_text": "5. Ha come titolo: “Security Controls for Information Systems and Organizations”",
+        "option_text": "Ha come titolo: “Security Controls for Information Systems and Organizations”",
         "answer": false
       },
       {
-        "option_text": "6. Ha come titolo: “Security and Privacy Controls for the Government Information Systems” 20",
+        "option_text": "Ha come titolo: “Security and Privacy Controls for the Government Information Systems”",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 295
   },
   {
-    "id": 298,
     "code": "M3.2.6.3",
     "question": "In un CSMS (Cyber Security Management System) secondo ISA/IEC 62443",
     "options": [
       {
-        "option_text": "1. I requisiti sono associati agli elementi costitutivi del CSMS raggruppati in macrocategorie",
+        "option_text": "I requisiti sono associati agli elementi costitutivi del CSMS raggruppati in macrocategorie",
         "answer": true
       },
       {
-        "option_text": "2. Le macrocategorie sono: “Risk Analysis”, “Indirizzare il rischio con il CSMS”, “Monitorare e migliorare il CSMS”",
+        "option_text": "Le macrocategorie sono: “Risk Analysis”, “Indirizzare il rischio con il CSMS”, “Monitorare e migliorare il CSMS”",
         "answer": true
       },
       {
-        "option_text": "3. Ad ogni elemento è associato un elenco di requisiti specifici",
+        "option_text": "Ad ogni elemento è associato un elenco di requisiti specifici",
         "answer": true
       },
       {
-        "option_text": "4. Gli elementi non sono ulteriormente raggruppati all’interno delle macrocategorie",
+        "option_text": "Gli elementi non sono ulteriormente raggruppati all’interno delle macrocategorie",
         "answer": false
       },
       {
-        "option_text": "5. Ad ogni elemento è associato solamente un requisito specifico 6. Per ciascun elemento sono rappresentati gli obiettivi, la descrizione e il fondamento logico (razionale) dell’elemento Vero 21",
+        "option_text": "Ad ogni elemento è associato solamente un requisito specifico",
         "answer": false
+      },
+      {
+        "option_text": "Per ciascun elemento sono rappresentati gli obiettivi, la descrizione e il fondamento logico (razionale) dell’elemento",
+        "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 296
   },
   {
-    "id": 299,
     "code": "M3.2.6.6-23",
-    "question": "I Foundational Requirements secondo ISA/IEC 62443 1. Sono stati definiti dal momento che il classico modello CIA (Confidentiality, Integrity e Availability) non si adatta",
+    "question": "I Foundational Requirements secondo ISA/IEC 62443",
     "options": [
       {
-        "option_text": "interamente ai requisiti richiesti per gli IACS (Industrial Automation and Control Systems) 2. Sono stati definiti dal momento che il classico modello CIA (Confidentiality, Integrity e Availability) si adatta  ai requisiti",
+        "option_text": "Sono stati definiti dal momento che il classico modello CIA (Confidentiality, Integrity e Availability) non si adatta interamente ai requisiti richiesti per gli IACS (Industrial Automation and Control Systems)",
         "answer": true
       },
       {
-        "option_text": "industriali necessari per il funzionamento degli apparati sulle reti OT",
+        "option_text": "Sono stati definiti dal momento che il classico modello CIA (Confidentiality, Integrity e Availability) si adatta ai requisiti industriali necessari per il funzionamento degli apparati sulle reti OT",
         "answer": true
       },
       {
-        "option_text": "3. Sono sette requisiti di base  6",
+        "option_text": "Sono sette requisiti di base",
         "answer": true
       },
       {
-        "option_text": "T3 4. Sono quattordici requisiti di base",
+        "option_text": "Sono quattordici requisiti di base",
         "answer": false
       },
       {
-        "option_text": "5. Sono otto requisiti di base",
+        "option_text": "Sono otto requisiti di base",
         "answer": false
       },
       {
-        "option_text": "6. Focalizzano gli aspetti di cyber sicurezza in relazione al funzionamento degli IACS 22",
+        "option_text": "Focalizzano gli aspetti di cyber sicurezza in relazione al funzionamento degli IACS",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 297
   },
   {
-    "id": 300,
     "code": "M3.2.6.13",
     "question": "Gli IACS secondo l’IEC 62443?",
     "options": [
       {
-        "option_text": "1. Sono gli Industrial Automation and Control Systems ovvero i sistemi di controllo e di automazione industriali 2. Possono essere gli SCADA (Supervisory Control and Data Acquisition) ovvero i sistemi di supervisione e acquisizione dati Vero",
+        "option_text": "Sono gli Industrial Automation and Control Systems ov vero i sistemi di controllo e di automazione industriali",
         "answer": true
       },
       {
-        "option_text": "3. Possono essere le telecamere del sistema perimetrale di sicurezza",
+        "option_text": "Possono essere gli SCADA (Supervisory Control and Data Acquisition) ov vero i sistemi di supervisione e acquisizione dati",
+        "answer": true
+      },
+      {
+        "option_text": "Possono essere le telecamere del sistema perimetrale di sicurezza",
         "answer": false
       },
       {
-        "option_text": "4. Possono essere i PLC (Programmable Logic Controller) ovvero i sistemi di controllo a logica programmabile",
+        "option_text": "Possono essere i PLC (Programmable Logic Controller) ov vero i sistemi di controllo a logica programmabile",
         "answer": true
       },
       {
-        "option_text": "5. Possono essere i DCS (Distributed control system) ovvero i sistemi di Controllo Distribuito di processo",
+        "option_text": "Possono essere i DCS (Distributed control system) ov vero i sistemi di Controllo Distribuito di processo",
         "answer": true
       },
       {
-        "option_text": "6. Possono essere gli strumenti di analisi della produzione presenti nella rete office 23",
+        "option_text": "Possono essere gli strumenti di analisi della produzione presenti nella rete office",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 298
   },
   {
-    "id": 301,
-    "code": "M3.3.2.2",
-    "question": "Si può brevettare 1. Un’invenzione se si tratta di una “soluzione nuova e originale ad un problema tecnico”, che rappresenti cioè un risultato",
-    "options": [
-      {
-        "option_text": "dell’ingegno umano e del progresso tecnico 2. Un’invenzione se si tratta di una “soluzione nuova e originale ad un problema tecnico o scientifico”, che rappresenti cioè",
-        "answer": true
-      },
-      {
-        "option_text": "un risultato dell’ingegno umano e della ricerca tecnica, scientifica o matematica 3. Un’invenzione se ha requisito di “Novità”: L’invenzione è nuova se non è compresa nello stato della tecnica alla data di",
-        "answer": false
-      },
-      {
-        "option_text": "richiesta di brevetto 4. Un’invenzione se è il risultato di “Attività inventiva” ovvero se ha caratteristiche di originalità per un esperto del settore,",
-        "answer": true
-      },
-      {
-        "option_text": "non sono sufficienti quindi unicamente le caratteristiche di novità ma la novità non deve essere «banale» o «ovvia»",
-        "answer": true
-      },
-      {
-        "option_text": "5. Un’invenzione anche se contraria all’ordine pubblico e al buon costume ma che abbia caratteristiche innovative 6. Un’invenzione se ha requisito di “Industrialità“, cioè è considerata atta ad avere un'applicazione industriale ovvero se il suo",
-        "answer": false
-      },
-      {
-        "option_text": "oggetto può essere fabbricato o utilizzato in qualsiasi genere di industria, compresa quella agricola 24",
-        "answer": true
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 302,
     "code": "M3.3.7.3",
     "question": "Quali delle seguenti sono caratteristiche della certificazione di cybersicurezza secondo il Regolamento (UE) 2019/881:",
     "options": [
       {
-        "option_text": "1. Protezione dei dati dalla distruzione o dall’alterazione accidentale o non autorizzata",
+        "option_text": "Protezione dei dati dalla distruzione o dall’alterazione accidentale o non autorizzata",
         "answer": true
       },
       {
-        "option_text": "2. Accesso garantito a tutti i dati, ai servizi o alle funzioni senza discontinuità operativa",
+        "option_text": "Accesso garantito a tutti i dati, ai servizi o alle funzioni senza discontinuità operativa",
         "answer": false
       },
       {
-        "option_text": "3. Nessuna registrazione storica degli accessi a dati, servizi o funzioni",
+        "option_text": "Nessuna registrazione storica degli accessi a dati, servizi o funzioni",
         "answer": false
       },
       {
-        "option_text": "4. Ripristino tempestivo dell’accesso ai dati, ai servizi o alle funzioni in caso di incidente",
+        "option_text": "Ripristino tempestivo dell’accesso ai dati, ai servizi o alle funzioni in caso di incidente",
         "answer": true
       },
       {
-        "option_text": "5. Utilizzo di criteri di security by design per la progettazione",
+        "option_text": "Utilizzo di criteri di security by design per la progettazione",
         "answer": true
       },
       {
-        "option_text": "6. Aggiornamento costante di software e hardware 25",
+        "option_text": "Aggiornamento costante di software e hardware",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 299
   },
   {
-    "id": 303,
     "code": "M3.4.3.2-23",
     "question": "Il Rischio Informatico può essere valutato come",
     "options": [
       {
-        "option_text": "1. Impatto x Probabilità",
+        "option_text": "Impatto x Probabilità",
         "answer": true
       },
       {
-        "option_text": "2. Impatto elevato alla Probabilità",
+        "option_text": "Impatto elevato alla Probabilità",
         "answer": false
       },
       {
-        "option_text": "3. Impatto x Frequenza",
+        "option_text": "Impatto x Frequenza",
         "answer": false
       },
       {
-        "option_text": "4. Un numero compreso tra un valore minimo e uno massimo in funzione dell’incertezza del rischio 5. Un numero sempre compreso tra 1 (Rischio Molto Basso) e 4 (Rischio Molto Alto) in funzione dell’incertezza del rischio Falso 6. Un numero che è funzione dell’incertezza e fa riferimento a classi omogenee di eventi, per natura e gravità Vero 26",
+        "option_text": "Un numero compreso tra un valore minimo e uno massimo in funzione dell’incertezza del rischio",
+        "answer": true
+      },
+      {
+        "option_text": "Un numero sempre compreso tra 1 (Rischio Molto Basso) e 4 (Rischio Molto Alto) in funzione dell’incertezza del rischio",
+        "answer": false
+      },
+      {
+        "option_text": "Un numero che è funzione dell’incertezza e fa riferimento a classi omogenee di eventi, per natura e gravità",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 300
   },
   {
-    "id": 304,
     "code": "M3.4.1.2",
     "question": "Perché la leadership aziendale è fondamentale per la definizione di un SGSI (Sistema di Gestione della Sicurezza Informatica)?",
     "options": [
       {
-        "option_text": "1. Perché altrimenti possono non essere garantiti gli investimenti necessari per la sua realizzazione 2. Perché senza il benestare chiaro, motivato e comunicato della leadership aziendale non si riuscirà a coinvolgere",
+        "option_text": "Perché altrimenti possono non essere garantiti gli investimenti necessari per la sua realizzazione",
         "answer": true
       },
       {
-        "option_text": "efficacemente tutto il personale aziendale 3. Perché altrimenti non si riusciranno a portare a termine i cambiamenti nelle politiche, nei processi e nelle procedure",
+        "option_text": "Perché senza il benestare chiaro, motivato e comunicato della leadership aziendale non si riuscirà a coinvolgere efficacemente tutto il personale aziendale",
         "answer": true
       },
       {
-        "option_text": "necessari 4. Perché solo una leadership consapevole può capire sino in fondo l’impatto possibile della sicurezza informatica con il",
+        "option_text": "Perché altrimenti non si riusciranno a portare a termine i cambiamenti nelle politiche, nei processi e nelle procedure necessari",
         "answer": true
       },
       {
-        "option_text": "funzionamento dell’organizzazione",
+        "option_text": "Perché solo una leadership consapevole può capire sino in fondo l’impatto possibile della sicurezza informatica con il funzionamento dell’organizzazione",
         "answer": true
       },
       {
-        "option_text": "5. Così è chiara la responsabilità in caso di cattivo funzionamento del sistema di gestione",
+        "option_text": "Così è chiara la responsabilità in caso di cattivo funzionamento del sistema di gestione",
         "answer": false
       },
       {
-        "option_text": "6. Così è possibile creare nuove figure e ruoli che altrimenti sarebbe impossibile definire 27",
+        "option_text": "Così è possibile creare nuove figure e ruoli che altrimenti sarebbe impossibile definire",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 301
   },
   {
-    "id": 305,
     "code": "M4.2.2.3",
     "question": "Quali dei seguenti elementi possono migliorare la percezione del rischio cyber da parte dei dipendenti aziendali",
     "options": [
       {
-        "option_text": "1. La formazione e sensibilizzazione continua dei dipendenti per renderli consapevoli delle minacce cyber 2. L’educazione dei dipendenti in merito alle policy e procedure già definite dall’organizzazione ma che non vengono",
+        "option_text": "La formazione e sensibilizzazione continua dei dipendenti per renderli consapevoli delle minacce cyber",
         "answer": true
       },
       {
-        "option_text": "rispettate adeguatamente",
+        "option_text": "L’educazione dei dipendenti in merito alle policy e procedure già definite dall’organizzazione ma che non vengono rispettate adeguatamente",
         "answer": true
       },
       {
-        "option_text": "3. La maggiore dotazione di dispositivi elettronici per semplificare le operazioni dei dipendenti",
+        "option_text": "La maggiore dotazione di dispositivi elettronici per semplificare le operazioni dei dipendenti",
         "answer": false
       },
       {
-        "option_text": "4. L’innalzamento del livello di sicurezza e di notifica dei dispositivi informatici in dotazione",
+        "option_text": "L’innalzamento del livello di sicurezza e di notifica dei dispositivi informatici in dotazione",
         "answer": true
       },
       {
-        "option_text": "5. Il maggior uso di sistemi as a service che utilizzano programmi in Cloud 6. Cercare di limitare le azioni ripetitive e automatiche sulle interfacce informatiche attraverso l’introduzione di blocchi che",
+        "option_text": "Il maggior uso di sistemi as a service che utilizzano programmi in Cloud",
         "answer": false
       },
       {
-        "option_text": "permettano una maggiore consapevolezza dell’azione che si sta realizzando 28",
+        "option_text": "Cercare di limitare le azioni ripetitive e automatiche sulle interfacce informatiche attraverso l’introduzione di blocchi che permettano una maggiore consapevolezza dell’azione che si sta realizzando",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 302
   },
   {
-    "id": 306,
     "code": "M4.2.2.3",
-    "question": "V  V F V F V (29 – M4.2.1.2) L’organizzazione della Cybersicurezza in ambito bancario",
+    "question": "(29 – M4.2.1.2) L’organizzazione della Cybersicurezza in ambito bancario",
     "options": [
       {
-        "option_text": "1. Ha tradizionalmente sviluppato strategie fortemente focalizzate sulla gestione del rischio 2. Tradizionalmente si occupa poco degli aspetti di sicurezza logica perché tali aspetti non possono avere impatto",
+        "option_text": "Ha tradizionalmente sviluppato strategie fortemente focalizzate sulla gestione del rischio",
         "answer": true
       },
       {
-        "option_text": "sull’andamento finanziario dell’azienda 3. Gestisce tipicamente le nuove minacce attraverso comitati di direzione per la gestione del rischio che rispondono",
+        "option_text": "Tradizionalmente si occupa poco degli aspetti di sicurezza logica perché tali aspetti non possono avere impatto sull’andamento finanziario dell’azienda",
         "answer": false
       },
       {
-        "option_text": "all’amministratore delegato o al consiglio di amministrazione 4. In molti casi prevede che la figura del CSO (Chief of Security Officer) abbia responsabilità anche sulla sicurezza logica della",
+        "option_text": "Gestisce tipicamente le nuove minacce attraverso comitati di direzione per la gestione del rischio che rispondono all’amministratore delegato o al consiglio di amministrazione",
         "answer": true
       },
       {
-        "option_text": "banca",
+        "option_text": "In molti casi prevede che la figura del CSO (Chief of Security Officer) abbia responsabilità anche sulla sicurezza logica della banca",
         "answer": true
       },
       {
-        "option_text": "5. In nessun caso la figura del CSO ha responsabilità anche sulla sicurezza logica della banca 6. Nei casi in cui il CISO (Chief Information Security Officer) non sia gerarchicamente subordinato al CSO le azioni sono dal lui",
+        "option_text": "In nessun caso la figura del CSO ha responsabilità anche sulla sicurezza logica della banca",
         "answer": false
       },
       {
-        "option_text": "coordinate anche indirettamente 29",
+        "option_text": "Nei casi in cui il CISO (Chief Information Security Officer) non sia gerarchicamente subordinato al CSO le azioni sono dal lui coordinate anche indirettamente",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 303
   },
   {
-    "id": 307,
     "code": "M4.3.3.1",
-    "question": "Nell’organigramma apicale di una grande multiutility 1. L’Information Technology è di solito collocata nell’area di responsabilità della direzione dell’innovazione o della direzione",
+    "question": "Nell’organigramma apicale di una grande multiutility",
     "options": [
       {
-        "option_text": "tecnica o tecnologica",
+        "option_text": "L’Information Technology è di solito collocata nell’area di responsabilità della direzione dell’innovazione o della direzione tecnica o tecnologica",
         "answer": true
       },
       {
-        "option_text": "2. L’Information Technology di solito risponde al vicepresidente esecutivo",
+        "option_text": "L’Information Technology di solito risponde al vicepresidente esecutivo",
         "answer": false
       },
       {
-        "option_text": "3. La sicurezza informatica di solito riceve input dalla direzione o dai comitati che si occupano di risk management",
+        "option_text": "La sicurezza informatica di solito riceve input dalla direzione o dai comitati che si occupano di risk management",
         "answer": true
       },
       {
-        "option_text": "4. In nessun caso il CISO risponde direttamente al CEO",
+        "option_text": "In nessun caso il CISO risponde direttamente al CEO",
         "answer": true
       },
       {
-        "option_text": "5. Il CISO (o figura equivalente) di solito risponde al responsabile/direttore dei sistemi informativi (CIO o equivalente)",
+        "option_text": "Il CISO (o figura equivalente) di solito risponde al responsabile/direttore dei sistemi informativi (CIO o equivalente)",
         "answer": true
       },
       {
-        "option_text": "6. Il CISO (o figura equivalente) non risponde mai al responsabile/direttore dei sistemi informativi (CIO o equivalente) 30",
+        "option_text": "Il CISO (o figura equivalente) non risponde mai al responsabile/direttore dei sistemi informativi (CIO o equivalente)",
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 304
   },
   {
-    "id": 308,
     "code": "M1.1.4.5",
-    "question": "La riga di testo nel linguaggio HTML:  <title>Esempio di codice</title>",
+    "question": "La riga di testo nel linguaggio HTML: <title>Esempio di codice</title>",
     "options": [
       {
-        "option_text": "1. Identifica dove è posizionato il testo nella pagina visualizzata dal browser",
+        "option_text": "Identifica dove è posizionato il testo nella pagina visualizzata dal browser",
         "answer": true
       },
       {
-        "option_text": "2. Identifica che il testo contenuto nei due comandi (di inizio e fine) è il titolo della pagina che sarà visualizzata",
+        "option_text": "Identifica che il testo contenuto nei due comandi (di inizio e fine) è il titolo della pagina che sarà visualizzata",
         "answer": true
       },
       {
-        "option_text": "3. Identifica che il testo contenuto sarà visualizzato con un formato grafico di tipo “title”",
+        "option_text": "Identifica che il testo contenuto sarà visualizzato con un formato grafico di tipo “title”",
         "answer": false
       },
       {
-        "option_text": "4. Deve essere preceduta e seguita da altri comandi HTML di testo",
+        "option_text": "Deve essere preceduta e seguita da altri comandi HTML di testo",
         "answer": true
       },
       {
-        "option_text": "5. Può essere solo preceduta da altri comandi HTML di testo",
+        "option_text": "Può essere solo preceduta da altri comandi HTML di testo",
         "answer": false
       },
       {
-        "option_text": "6. Può funzionare solo se attivata da un browser 2-",
+        "option_text": "Può funzionare solo se attivata da un browser",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 305
   },
   {
-    "id": 309,
     "code": "M1.2.2.2",
     "question": "Il Deep Web",
     "options": [
       {
-        "option_text": "1. È quella la parte di web che non è indicizzata dai motori di ricerca",
+        "option_text": "È quella la parte di web che non è indicizzata dai motori di ricerca",
         "answer": true
       },
       {
-        "option_text": "2. Si considerano, di solito, siti privati, interni aziendali, accademici o di ricerca",
+        "option_text": "Si considerano, di solito, siti privati, interni aziendali, accademici o di ricerca",
         "answer": true
       },
       {
-        "option_text": "3. Possono contenere informazioni riservate, strategiche o estremamente sensibili",
+        "option_text": "Possono contenere informazioni riservate, strategiche o estremamente sensibili",
         "answer": true
       },
       {
-        "option_text": "4. Si può accedere solamente mediante specifici browsers, determinate configurazioni e accessi autorizzativi",
+        "option_text": "Si può accedere solamente mediante specifici browsers, determinate configurazioni e accessi autorizzativi",
         "answer": false
       },
       {
-        "option_text": "5. Si può accedere conoscendo l’indirizzo URL dello specifico sito",
+        "option_text": "Si può accedere conoscendo l’indirizzo URL dello specifico sito",
         "answer": true
       },
       {
-        "option_text": "6. È di solito il territorio della criminalità organizzata 4-",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 310,
-    "code": "M1.2.3.5",
-    "question": "Un attacco Cyber alla Supply Chain",
-    "options": [
-      {
-        "option_text": "1. Può essere conseguito introducendo malware in un sistema software realizzato da un fornitore esterno",
-        "answer": true
-      },
-      {
-        "option_text": "2. Può essere un attacco indiretto, ovvero attuato ad un elemento della catena di fornitura",
-        "answer": true
-      },
-      {
-        "option_text": "3. Prende di mira i fornitori invece di puntare direttamente ad aziende target per renderne più difficile l'identificazione",
-        "answer": true
-      },
-      {
-        "option_text": "4. Di solito colpisce le Grandi Aziende",
-        "answer": false
-      },
-      {
-        "option_text": "5. Può essere causato dalla differente postura di sicurezza informatica di fornitore e cliente",
-        "answer": true
-      },
-      {
-        "option_text": "6. È una minaccia emergente destinata solamente a sviluppatori e fornitori di software 8-",
+        "option_text": "È di solito il territorio della criminalità organizzata",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 306
   },
   {
-    "id": 311,
     "code": "M1.2.3.3.1",
-    "question": "V V F V F V  2",
+    "question": "Un attacco cyber alla Supply Chain",
     "options": [
       {
-        "option_text": "T2 1. Converte i bit in un pacchetto in un segnale fisico per il mezzo di trasmissione",
+        "option_text": "Può essere diretto ad un’azienda produttrice che rifornisce un’azienda bersaglio dell’attacco",
         "answer": true
       },
       {
-        "option_text": "2. Ha tra le funzioni l’adeguamento elettrico degli apparati trasmissivi",
+        "option_text": "Può essere realizzato mediante del codice software malevolo realizzato (anche involontariamente) da un consulente esterno",
         "answer": true
       },
       {
-        "option_text": "3. Può utilizzare protocolli Bluetooth",
-        "answer": true
-      },
-      {
-        "option_text": "4. Può utilizzare protocolli IP",
+        "option_text": "Può essere una conseguenza dell’internalizzazione delle attività di sviluppo del software",
         "answer": false
       },
       {
-        "option_text": "5. È l’interfaccia tra software e hardware nello stack ISO/OSI",
+        "option_text": "Può essere vettorizzato dal fornitore di servizi Cloud",
         "answer": true
       },
       {
-        "option_text": "6. Vincola i livelli superiori agli specifici mezzi fisici di comunicazione 6-",
+        "option_text": "Di solito rivela una postura di cybersicurezza peggiore del bersaglio rispetto al fornitore, origine del vettore d’attacco",
+        "answer": false
+      },
+      {
+        "option_text": "Può mirare non solamente alla disponibilità del sistema informativo del bersaglio ma anche al blocco o rallentamento della produzione dello stesso",
+        "answer": true
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 307
+  },
+  {
+    "code": "M1.2.3.3.1",
+    "question": "T2",
+    "options": [
+      {
+        "option_text": "Converte i bit in un pacchetto in un segnale fisico per il mezzo di trasmissione",
+        "answer": true
+      },
+      {
+        "option_text": "Ha tra le funzioni l’adeguamento elettrico degli apparati trasmissivi",
+        "answer": true
+      },
+      {
+        "option_text": "Può utilizzare protocolli Bluetooth",
+        "answer": true
+      },
+      {
+        "option_text": "Può utilizzare protocolli IP",
+        "answer": false
+      },
+      {
+        "option_text": "È l’interfaccia tra software e hardware nello stack ISO/OSI",
+        "answer": true
+      },
+      {
+        "option_text": "Vincola i livelli superiori agli specifici mezzi fisici di comunicazione",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 308
   },
   {
-    "id": 312,
     "code": "M1.3.2_2.5",
     "question": "Il modello di comunicazione Broadcast:",
     "options": [
       {
-        "option_text": "1. Identifica la comunicazione uno a tutti",
+        "option_text": "Identifica la comunicazione uno a tutti",
         "answer": true
       },
       {
-        "option_text": "2. Identifica la comunicazione ad ampio spettro, uno a ad alcuni",
+        "option_text": "Identifica la comunicazione ad ampio spettro, uno a ad alcuni",
         "answer": false
       },
       {
-        "option_text": "3. Può avvenire a livello 2 dello stack ISO (indirizzamento MAC)",
+        "option_text": "Può avvenire a livello 2 dello stack ISO (indirizzamento MAC)",
         "answer": true
       },
       {
-        "option_text": "4. Può avvenire a livello 3 dello stack ISO (Indirizzamento IP)",
+        "option_text": "Può avvenire a livello 3 dello stack ISO (Indirizzamento IP)",
         "answer": true
       },
       {
-        "option_text": "5. Può peggiorare la latenza nella rete",
+        "option_text": "Può peggiorare la latenza nella rete",
         "answer": true
       },
       {
-        "option_text": "6. Può migliorare la latenza di rete 8 – (M1.3.2_2.6*) La subnet 160.12.32.100/18:",
+        "option_text": "Può migliorare la latenza di rete",
         "answer": false
-      },
-      {
-        "option_text": "1. Ha come indirizzo di rete 160.12.0.0",
-        "answer": true
-      },
-      {
-        "option_text": "2. Ha come indirizzo di broadcast 160.12.63.255",
-        "answer": true
-      },
-      {
-        "option_text": "3. Ha come indirizzo di broadcast 160.12.63.254",
-        "answer": false
-      },
-      {
-        "option_text": "4. Ha come maschera di sottorete 255.255.192.0",
-        "answer": true
-      },
-      {
-        "option_text": "5. Ha come maschera di sottorete 255.255.186.0",
-        "answer": false
-      },
-      {
-        "option_text": "6. Lo spazio di indirizzamento arriva sino a (Host Max) 160.12.63.254 9-",
-        "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 309
   },
   {
-    "id": 313,
+    "code": "M1.3.2_2.6*",
+    "question": "La subnet 160.12.32.100/18:",
+    "options": [
+      {
+        "option_text": "Ha come indirizzo di rete 160.12.0.0",
+        "answer": true
+      },
+      {
+        "option_text": "Ha come indirizzo di broadcast 160.12.63.255",
+        "answer": true
+      },
+      {
+        "option_text": "Ha come indirizzo di broadcast 160.12.63.254",
+        "answer": false
+      },
+      {
+        "option_text": "Ha come maschera di",
+        "answer": false
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 310
+  },
+  {
     "code": "M1.3.2_2.7",
     "question": "La subnet 160.12.32.128/20",
     "options": [
       {
-        "option_text": "1. Ha 4.096 indirizzamenti disponibili",
+        "option_text": "Ha 4.096 indirizzamenti disponibili",
         "answer": true
       },
       {
-        "option_text": "2. Può connettere 4.094 hosts",
+        "option_text": "Può connettere 4.094 hosts",
         "answer": true
       },
       {
-        "option_text": "3. Ha 220 (1.048.576) indirizzamenti possibili",
-        "answer": false
-      },
-      {
-        "option_text": "4. Ha un numero di indirizzamenti possibili maggiore della subnet 60.12.32.128/19",
-        "answer": false
-      },
-      {
-        "option_text": "5. Ha una maschera di rete composta da 20 bit, i più significativi, a 1",
-        "answer": true
-      },
-      {
-        "option_text": "6. Ha una maschera di rete composta da 12 bit, i più significativi, a 1 10-",
+        "option_text": "Ha 220",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 311
   },
   {
-    "id": 314,
     "code": "M1.3.2.17",
     "question": "La modalità di trasmissione Half-Duplex",
     "options": [
       {
-        "option_text": "1. È un tipo di modalità di comunicazione che supporta la comunicazione a due vie ma con ritardo",
+        "option_text": "È un tipo di modalità di comunicazione che supporta la comunicazione a due vie ma con ritardo",
         "answer": true
       },
       {
-        "option_text": "2. È un tipo di modalità di comunicazione in cui i dati possono viaggiare solo in una direzione alla volta",
+        "option_text": "È un tipo di modalità di comunicazione in cui i dati possono viaggiare solo in una direzione alla volta",
         "answer": true
       },
       {
-        "option_text": "3. Ha come esempio della modalità di funzionamento la comunicazione tramite Walkie-talkie",
+        "option_text": "Ha come esempio della modalità di funzionamento la comunicazione tramite Walkie-talkie",
         "answer": true
       },
       {
-        "option_text": "4. Prevede due cavi uno per la trasmissione e uno per la ricezione",
+        "option_text": "Prevede due cavi uno per la trasmissione e uno per la ricezione",
         "answer": false
       },
       {
-        "option_text": "5. Prevede un solo cavo per la trasmissione e ricezione",
+        "option_text": "Prevede un solo cavo per la trasmissione e ricezione",
         "answer": true
       },
       {
-        "option_text": "6. È più efficiente della modalità Full-Duplex 12-",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 315,
-    "code": "M1.3.3.9",
-    "question": "Il Firewall: 1. Monitora il traffico in entrata e in uscita attraverso regole di sicurezza configurabili per autorizzare o bloccare gli eventi Vero",
-    "options": [
-      {
-        "option_text": "2. È un dispositivo, esclusivamente implementato su speciali appliance, per la sicurezza della rete 3. Nella configurazione “Default-Deny” abilita l’accesso solo di ciò che viene autorizzato esplicitamente, mentre il resto viene",
-        "answer": false
-      },
-      {
-        "option_text": "vietato 4. Nella configurazione “Default-Deny” blocca l’accesso solo di ciò che viene vietato esplicitamente, mentre il resto viene",
-        "answer": true
-      },
-      {
-        "option_text": "permesso 5. Se NGFW (Next Generation Firewall) è dotato di funzioni di prevenzione delle intrusioni (IPS) e di funzionalità di prevenzione",
-        "answer": false
-      },
-      {
-        "option_text": "delle minacce e protezione antivirus",
-        "answer": true
-      },
-      {
-        "option_text": "6. È un dispositivo che funziona solo a livello ISO/OSI 4 14-",
+        "option_text": "È più efficiente della modalità Full-Duplex",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 312
   },
   {
-    "id": 316,
     "code": "M1.3.4.8",
     "question": "Una rete peer to peer",
     "options": [
       {
-        "option_text": "1. Ha nodi che, diversamente dalla rete client-server, possono richiedere e fornire servizi",
+        "option_text": "Ha nodi che, diversamente dalla rete client-server, possono richiedere e fornire servizi",
         "answer": true
       },
       {
-        "option_text": "2. Ha nodi che, analogamente alla rete client-server, condividono lo stesso network",
+        "option_text": "Ha nodi che, analogamente alla rete client-server, condividono lo stesso network",
         "answer": true
       },
       {
-        "option_text": "3. Ha nodi che, diversamente dalla rete client-server, sono specializzati per richiedere o fornire servizi",
+        "option_text": "Ha nodi che, diversamente dalla rete client-server, sono specializzati per richiedere o fornire servizi",
         "answer": false
       },
       {
-        "option_text": "4. Può essere considerata come una rete logica da “pari” a “pari”",
+        "option_text": "Può essere considerata come una rete logica da “pari” a “pari”",
         "answer": true
       },
       {
-        "option_text": "5. È un’architettura “fisica”",
+        "option_text": "È un’architettura “fisica”",
         "answer": false
       },
       {
-        "option_text": "6. È un’architettura “logica” 17 –",
+        "option_text": "È un’architettura “logica”",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 313
   },
   {
-    "id": 317,
     "code": "M2.1.2.10",
     "question": "La Società S.r.l.",
     "options": [
       {
-        "option_text": "1. È una società in cui i soci rispondono delle obbligazioni sociali anche oltre i limiti di quanto hanno conferito",
+        "option_text": "È una società in cui i soci rispondono delle obbligazioni sociali anche oltre i limiti di quanto hanno conferito",
         "answer": false
       },
       {
-        "option_text": "2. È una società di capitali le cui partecipazioni sono rappresentate da quote e non da azioni",
+        "option_text": "È una società di capitali le cui partecipazioni sono rappresentate da quote e non da azioni",
         "answer": true
       },
       {
-        "option_text": "3. È una società in cui per le obbligazioni sociali risponde solo la società stessa con il suo patrimonio",
+        "option_text": "È una società in cui per le obbligazioni sociali risponde solo la società stessa con il suo patrimonio",
         "answer": true
       },
       {
-        "option_text": "4. Sono Società a responsabilità limitata dell’imprenditore",
+        "option_text": "Sono Società a responsabilità limitata dell’imprenditore",
         "answer": false
       },
       {
-        "option_text": "5. Sono Società a responsabilità dei soci limitata al capitale sottoscritto",
+        "option_text": "Sono Società a responsabilità dei soci limitata al capitale sottoscritto",
         "answer": true
       },
       {
-        "option_text": "6. Sono Società a responsabilità dei soci illimitata oltre al capitale sottoscritto 19-",
+        "option_text": "Sono Società a responsabilità dei soci illimitata oltre al capitale sottoscritto",
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 314
   },
   {
-    "id": 318,
-    "code": "M2.2.2.4.1",
-    "question": "Il Sistema Informativo aziendale l’ERP (Enterprise Resource Planning) 1. È una piattaforma software che raggruppa i sistemi del reparto amministrativo, delle vendite, del magazzino e la logistica Vero",
-    "options": [
-      {
-        "option_text": "2. Permette che i dati provenienti da molteplici parti dell'azienda vengono raccolti e gestiti in maniera centralizzata",
-        "answer": true
-      },
-      {
-        "option_text": "3. Può gestire l’invio dei dettagli relativi alla realizzazione di un prodotto verso i sistemi produttivi",
-        "answer": false
-      },
-      {
-        "option_text": "4. Può gestire l’inventario dei materiali, le scorte e la movimentazione delle merci",
-        "answer": true
-      },
-      {
-        "option_text": "5. Permette di progettare o simulare il funzionamento di un determinato oggetto meccanico",
-        "answer": false
-      },
-      {
-        "option_text": "6. Può essere costituito da una piattaforma SaaS in Cloud 20-",
-        "answer": true
-      }
-    ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
-  },
-  {
-    "id": 319,
     "code": "M3.1.1.2.2",
     "question": "L’Incident Response Plan (Piano di risposta agli incidenti) può essere composto da:",
     "options": [
       {
-        "option_text": "1. Una fase di rilevamento dell’incidente (Detect)",
+        "option_text": "Una fase di rilevamento dell’incidente (Detect)",
         "answer": true
       },
       {
-        "option_text": "2. La Riproduzione dell’incidente rilevato (Response)",
+        "option_text": "La Riproduzione dell’incidente rilevato (Response)",
         "answer": false
       },
       {
-        "option_text": "3. La Mitigazione degli effetti dell’incidente (Mitigation)",
+        "option_text": "La Mitigazione degli effetti dell’incidente (Mitigation)",
         "answer": true
       },
       {
-        "option_text": "4. La Registrazione dell’evento (Reporting)",
+        "option_text": "La Registrazione dell’evento (Reporting)",
         "answer": true
       },
       {
-        "option_text": "5. Il ripristino del sistema colpito (Recovery)",
+        "option_text": "Il ripristino del sistema colpito (Recovery)",
         "answer": true
       },
       {
-        "option_text": "6. L’investigazione sul problema che ha portato all’incidente (Remediation) 22-",
+        "option_text": "L’investigazione sul problema che ha portato all’incidente (Remediation)",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 315
   },
   {
-    "id": 320,
     "code": "M3.2.1_2.5",
     "question": "I nuovi controlli di ISO 27001 Rev. 2022 sono specializzati per:",
     "options": [
       {
-        "option_text": "1. Una maggior sicurezza nella gestione dei servizi Cloud",
+        "option_text": "Una maggior sicurezza nella gestione dei servizi Cloud",
         "answer": true
       },
       {
-        "option_text": "2. Preparazione dell’ICT in relazione alle problematiche di Business Continuity",
+        "option_text": "Preparazione dell’ICT in relazione alle problematiche di Business Continuity",
         "answer": true
       },
       {
-        "option_text": "3. L’utilizzo prevalente di software di prodotto solo da determinati fornitori",
+        "option_text": "L’utilizzo prevalente di software di prodotto solo da determinati fornitori",
         "answer": false
       },
       {
-        "option_text": "4. Migliorare la protezione dei dati anche in relazione del loro trattamento in funzione del GDPR",
+        "option_text": "Migliorare la protezione dei dati anche in relazione del loro trattamento in funzione del GDPR",
         "answer": true
       },
       {
-        "option_text": "5. Il miglioramento dell’Internet Browsing attraverso l’uso del filtraggio dei siti",
+        "option_text": "Il miglioramento dell’Internet Browsing attraverso l’uso del filtraggio dei siti",
         "answer": true
       },
       {
-        "option_text": "6. Lo sviluppo sicuro del codice software 25-",
+        "option_text": "Lo sviluppo sicuro del codice software",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 316
   },
   {
-    "id": 321,
     "code": "M3.2.1_2.6",
     "question": "I controlli ISO 27001 nella Rev. 2022 sono raccolti nei seguenti gruppi:",
     "options": [
       {
-        "option_text": "1. Le persone",
+        "option_text": "Le persone",
         "answer": true
       },
       {
-        "option_text": "2. I fornitori",
+        "option_text": "I fornitori",
         "answer": false
       },
       {
-        "option_text": "3. Gli oggetti fisici",
+        "option_text": "Gli oggetti fisici",
         "answer": true
       },
       {
-        "option_text": "4. La tecnologia",
+        "option_text": "La tecnologia",
         "answer": true
       },
       {
-        "option_text": "5. Gli aspetti organizzativi",
+        "option_text": "Gli aspetti organizzativi",
         "answer": true
       },
       {
-        "option_text": "6. Supply Chain 26-",
+        "option_text": "Supply Chain",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 317
   },
   {
-    "id": 322,
     "code": "M3.2.1_2.7",
-    "question": "Nella revisione 2022 del documento ISO 27001: 1. Il nuovo nome è: “Information security, cybersecurity and breach protection-Information security management systems-",
+    "question": "Nella revisione 2022 del documento ISO 27001:",
     "options": [
       {
-        "option_text": "Requirements” 2. Il nuovo nome è: “Information security, cybersecurity and privacy protection-Information security management systems-",
+        "option_text": "Il nuovo nome è: “Information security, cybersecurity and breach protection-Information security management systems- Requirements”",
         "answer": false
       },
       {
-        "option_text": "Requirements”",
+        "option_text": "Il nuovo nome è: “Information security, cybersecurity and privacy protection-Information security management systems- Requirements”",
         "answer": true
       },
       {
-        "option_text": "3. Un certo numero di controlli è rimasto invariato",
+        "option_text": "Un certo numero di controlli è rimasto invariato",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 318
   },
   {
-    "id": 323,
-    "code": "M3.2.1_2.6",
-    "question": "V F V V V F  6",
-    "options": [
-      {
-        "option_text": "T2 4. Molti controlli sono stati accorpati",
-        "answer": true
-      },
-      {
-        "option_text": "5. Nessun controllo è effettivamente nuovo",
-        "answer": false
-      },
-      {
-        "option_text": "6. Oltre il 50% di controlli sono nuovi 27-",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 324,
-    "code": "M3.2.3.2.1",
-    "question": "Nel NIST CSF il Framework Core 1. È un insieme di attività di sicurezza informatica, effetti desiderati e riferimenti applicabili comuni a tutti i settori delle",
-    "options": [
-      {
-        "option_text": "infrastrutture critiche ma anche per le altre organizzazioni 2. Presenta standard, linee guida e pratiche del settore che consentono la comunicazione di attività e risultati inerenti alla",
-        "answer": true
-      },
-      {
-        "option_text": "sicurezza anche fisica in tutta l'organizzazione",
-        "answer": false
-      },
-      {
-        "option_text": "3. È costituito da cinque funzioni concorrenti e continue: Identifica, Reagisci, Rileva, Rispondi, Recupera",
-        "answer": false
-      },
-      {
-        "option_text": "4. È costituito da quattro funzioni concorrenti e continue: Identifica, Proteggi, Rileva, Rispondi 5. Identifica le categorie e le sottocategorie chiave associate a ciascuna funzione e le abbina a riferimenti informativi di",
-        "answer": false
-      },
-      {
-        "option_text": "esempio come standard, linee guida e pratiche esistenti per ciascuna sottocategoria 6. Associa a ciascuna funzione le categorie ovvero le suddivisioni di una funzione in gruppi di risultati di sicurezza",
-        "answer": true
-      },
-      {
-        "option_text": "informatica strettamente legati alle esigenze programmatiche e ad attività particolari 28-",
-        "answer": true
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 325,
     "code": "M4.3.2.2",
-    "question": "In una Multiutility 1. La gestione del cyber rischio è di solito gestito da una commissione o un comitato che risponde al consiglio di",
+    "question": "In una Multiutility",
     "options": [
       {
-        "option_text": "amministrazione 2. Di solito la responsabilità operativa sulla cybersecurity è in carico ad un CISO che risponde, talvolta indirettamente, ad",
+        "option_text": "La gestione del cyber rischio è di solito gestito da una commissione o un comitato che risponde al consiglio di amministrazione",
         "answer": true
       },
       {
-        "option_text": "una direzione di tecnologia o innovazione",
+        "option_text": "Di solito la responsabilità operativa sulla cybersecurity è in carico ad un CISO che risponde, talvolta indirettamente, ad una direzione di tecnologia o innovazione",
         "answer": true
       },
       {
-        "option_text": "3. Di solito Presidente, Vicepresidente e Amministratore Delegato hanno uno stesso livello gerarchico 4. Di solito solo l’Amministratore delegato risponde al consiglio di amministrazione, mentre il Vicepresidente risponde solo",
+        "option_text": "Di solito Presidente, Vicepresidente e Amministratore Delegato hanno uno stesso livello gerarchico",
         "answer": true
       },
       {
-        "option_text": "al Presidente",
+        "option_text": "Di solito solo l’Amministratore delegato risponde al consiglio di amministrazione, mentre il Vicepresidente risponde solo al Presidente",
         "answer": false
       },
       {
-        "option_text": "5. La proprietà è solo pubblica",
+        "option_text": "La proprietà è solo pubblica",
         "answer": false
       },
       {
-        "option_text": "6. In alcuni casi i sistemi informativi sono esternalizzati in società che rimangono di proprietà dell’azienda 30-",
+        "option_text": "In alcuni casi i sistemi informativi sono esternalizzati in società che rimangono di proprietà dell’azienda",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 319
   },
   {
-    "id": 326,
     "code": "M3.2.6.13",
     "question": "Il PLC (Programmable Logic Controller)",
     "options": [
       {
-        "option_text": "1. È un sistema di controllo a logica programmabile utilizzato per le sue caratteristiche real-time 2. Si interfaccia attraverso gli I/O con motori/attuatori e sensori a macchine e impianti permettendo di realizzare logiche di",
+        "option_text": "È un sistema di controllo a logica programmabile utilizzato per le sue caratteristiche real-time",
         "answer": true
       },
       {
-        "option_text": "automazione",
+        "option_text": "Si interfaccia attraverso gli I/O con motori/attuatori e sensori a macchine e impianti permettendo di realizzare logiche di automazione",
         "answer": true
       },
       {
-        "option_text": "3. Utilizza tipicamente sistemi operativi standard come, ad esempio MS Windows",
+        "option_text": "Utilizza tipicamente sistemi operativi standard come, ad esempio MS Windows",
         "answer": false
       },
       {
-        "option_text": "4. Utilizza tipicamente sistemi operativi con caratteristiche real-time o estensioni che permettano il determinismo",
+        "option_text": "Utilizza tipicamente sistemi operativi con caratteristiche real-time o estensioni che permettano il determinismo",
         "answer": true
       },
       {
-        "option_text": "5. Non è mai collegabile a internet",
+        "option_text": "Non è mai collegabile a internet",
         "answer": false
       },
       {
-        "option_text": "6. Non ha mai problematiche di sicurezza informatica",
+        "option_text": "Non ha mai problematiche di sicurezza informatica",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 320
   },
   {
-    "id": 327,
     "code": "M1.1.3.1.1",
     "question": "Nel Packet Switching (la tecnica di commutazione):",
     "options": [
       {
-        "option_text": "1. Il messaggio viene diviso in parti più piccole (packets) che vengono gestite singolarmente",
+        "option_text": "Il messaggio viene diviso in parti più piccole (packets) che vengono gestite singolarmente",
         "answer": true
       },
       {
-        "option_text": "2. I messaggi vengono raggruppati in pacchetti (packets) che vengono trasmessi insieme",
+        "option_text": "I messaggi vengono raggruppati in pacchetti (packets) che vengono trasmessi insieme",
         "answer": false
       },
       {
-        "option_text": "3. Ai pacchetti (packets) viene assegnato nell’intestazione Indirizzo Sorgente, la Destinazione ed altri dati",
+        "option_text": "Ai pacchetti (packets) viene assegnato nell’intestazione Indirizzo Sorgente, la Destinazione ed altri dati",
         "answer": true
       },
       {
-        "option_text": "4. I pacchetti viaggiano attraverso la rete, prendendo il percorso più breve possibile (routing) 5. I pacchetti vengono suddivisi e trasmessi in maniera indipendente e riassemblati all'estremità ricevente nell'ordine di",
+        "option_text": "I pacchetti viaggiano attraverso la rete, prendendo il percorso più breve possibile (routing)",
         "answer": true
       },
       {
-        "option_text": "arrivo 6. Se un messaggio arriva mancante di pacchetti o danneggiato verrà inviata una notifica per inviare nuovamente il",
+        "option_text": "I pacchetti vengono suddivisi e trasmessi in maniera indipendente e riassemblati all'estremità ricevente nell'ordine di arrivo",
         "answer": false
       },
       {
-        "option_text": "messaggio, se invece viene raggiunto l'ordine corretto dei pacchetti, verrà inviata notifica di conferma 3-",
+        "option_text": "Se un messaggio arriva mancante di pacchetti o danneggiato verrà inviata una notifica per inviare nuovamente il messaggio, se invece viene raggiunto l'ordine corretto dei pacchetti, verrà inviata notifica di conferma",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 321
   },
   {
-    "id": 328,
-    "code": "M1.3.1.24.1",
-    "question": "Il livello 1 del Modello ISO/OSI",
-    "options": [
-      {
-        "option_text": "1. Converte i bit in un pacchetto in un segnale fisico per il mezzo di trasmissione",
-        "answer": true
-      },
-      {
-        "option_text": "2. Ha tra le funzioni l’adeguamento elettrico degli apparati trasmissivi",
-        "answer": true
-      },
-      {
-        "option_text": "3. Può utilizzare protocolli Bluetooth",
-        "answer": true
-      },
-      {
-        "option_text": "4. Può utilizzare il protocollo IP",
-        "answer": false
-      },
-      {
-        "option_text": "5. È l’interfaccia tra software e hardware nello stack ISO/OSI",
-        "answer": true
-      },
-      {
-        "option_text": "6. Vincola i livelli superiori agli specifici mezzi fisici di comunicazione 6-",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 329,
     "code": "M1.3.2_2.6",
     "question": "La subnet 160.12.32.128/19:",
     "options": [
       {
-        "option_text": "1. Ha come indirizzo di rete 160.12.32.0",
+        "option_text": "Ha come indirizzo di rete 160.12.32.0",
         "answer": true
       },
       {
-        "option_text": "2. Ha come indirizzo di broadcast 160.12.63.255",
+        "option_text": "Ha come indirizzo di broadcast 160.12.63.255",
         "answer": true
       },
       {
-        "option_text": "3. Ha come indirizzo di broadcast 160.12.63.64",
+        "option_text": "Ha come indirizzo di broadcast 160.12.63.64",
         "answer": false
       },
       {
-        "option_text": "4. Ha come maschera di sottorete 255.255.224.0",
-        "answer": true
-      },
-      {
-        "option_text": "5. Ha come maschera di sottorete 255.255.32.0",
-        "answer": false
-      },
-      {
-        "option_text": "6. Lo spazio di indirizzamento arriva sino a (HostMax) 160.12.63.254 9-",
-        "answer": true
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 330,
-    "code": "M1.3.1.24.1",
-    "question": "V V V F V F (M.1.3.2.14.1) V V V F F V (M.1.3.2.14.1) V F V V V F (M.1.3.2_2.6) V V F V F V (M.1.3.2_2.7) V V F F V F  3",
-    "options": [
-      {
-        "option_text": "T1 5. Permette la connessione di un numero massimo di 4 dispositivi",
-        "answer": false
-      },
-      {
-        "option_text": "6. Può gestire comunicazioni multipunto per distanze superiori ai 100m 11 –",
+        "option_text": "Ha come maschera di",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 322
   },
   {
-    "id": 331,
-    "code": "M1.3.3.7.1",
-    "question": "V V V F V F  4",
-    "options": [
-      {
-        "option_text": "T1 5. N/2*(N-1)",
-        "answer": true
-      },
-      {
-        "option_text": "6. (N-1)! 16 –",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 332,
     "code": "M3.2.1_2.6",
-    "question": "V F V V V F  6 T1 2. Il nuovo nome è: “Information security, cybersecurity and privacy protection-Information security management systems-",
+    "question": "T1 2. Il nuovo nome è: “Information security, cybersecurity and privacy protection-Information security management systems-",
     "options": [
       {
         "option_text": "Requirements”",
         "answer": true
       },
       {
-        "option_text": "3. Un certo numero di controlli è rimasto invariato",
+        "option_text": "Un certo numero di controlli è rimasto invariato",
         "answer": true
       },
       {
-        "option_text": "4. Molti controlli sono stati accorpati",
+        "option_text": "Molti controlli sono stati accorpati",
         "answer": true
       },
       {
-        "option_text": "5. Nessun controllo è effettivamente nuovo",
+        "option_text": "Nessun controllo è effettivamente nuovo",
         "answer": false
       },
       {
-        "option_text": "6. Oltre il 50% di controlli sono nuovi 27-",
+        "option_text": "Oltre il 50% di controlli sono nuovi",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 323
   },
   {
-    "id": 333,
     "code": "M1.1.1.8",
     "question": "Il Triodo (o valvola Termoionica)",
     "options": [
       {
-        "option_text": "1. Ha permesso di perfezionare e migliorare il circuito elettrico originario di Guglielmo Marconi",
+        "option_text": "Ha permesso di perfezionare e migliorare il circuito elettrico originario di Guglielmo Marconi",
         "answer": true
       },
       {
-        "option_text": "2. Era utilizzato per migliorare la “sintonizzazione” tra trasmettitore e ricevitore 3. Ha permesso di migliorare il circuito elettrico di Guglielmo Marconi grazie alla sua capacità di rilevazione delle frequenze",
+        "option_text": "Era utilizzato per migliorare la “sintonizzazione” tra trasmettitore e ricevitore",
         "answer": false
       },
       {
-        "option_text": "radio e di amplificazione del segnale",
+        "option_text": "Ha permesso di migliorare il circuito elettrico di Guglielmo Marconi grazie alla sua capacità di rilevazione delle frequenze radio e di amplificazione del segnale",
         "answer": true
       },
       {
-        "option_text": "4. Può essere considerato l’antesignano del transistor",
+        "option_text": "Può essere considerato l’antesignano del transistor",
         "answer": true
       },
       {
-        "option_text": "5. Può essere considerato l’antesignano del condensatore a capacità variabile",
+        "option_text": "Può essere considerato l’antesignano del condensatore a capacità variabile",
         "answer": false
       },
       {
-        "option_text": "6. È di fatto una tecnologia derivata dalla lampadina ad incandescenza",
+        "option_text": "È di fatto una tecnologia derivata dalla lampadina ad incandescenza",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 324
   },
   {
-    "id": 334,
     "code": "M1.1.4.5",
     "question": "La sequenza di caratteri: https://www.sitoesempio.it/indirizzo/?ref=NOME",
     "options": [
       {
-        "option_text": "1. Rappresentano un testo nel linguaggio http",
+        "option_text": "Rappresentano un testo nel linguaggio http",
         "answer": false
       },
       {
-        "option_text": "2. Rappresentano un indirizzo URL (Uniform Resource Locator)",
+        "option_text": "Rappresentano un indirizzo URL (Uniform Resource Locator)",
         "answer": true
       },
       {
-        "option_text": "3. Identifica univocamente l’indirizzo della risorsa “sitoesempio”",
+        "option_text": "Identifica univocamente l’indirizzo della risorsa “sitoesempio”",
         "answer": true
       },
       {
-        "option_text": "4. Ha come percorso “indirizzo”",
+        "option_text": "Ha come percorso “indirizzo”",
         "answer": true
       },
       {
-        "option_text": "5. Ha come stringa di query “ref=NOME”",
+        "option_text": "Ha come stringa di query “ref=NOME”",
         "answer": true
       },
       {
-        "option_text": "6. Esprime “in chiaro” l’indirizzo IP",
+        "option_text": "Esprime “in chiaro” l’indirizzo IP",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 325
   },
   {
-    "id": 335,
     "code": "M1.1.6.4",
     "question": "Incidenti e attacchi informatici",
     "options": [
       {
-        "option_text": "1. Sono sostanzialmente la stessa cosa",
+        "option_text": "Sono sostanzialmente la stessa cosa",
         "answer": false
       },
       {
-        "option_text": "2. La classe statistica dei primi (gli incidenti) include i secondi (gli attacchi)",
+        "option_text": "La classe statistica dei primi (gli incidenti) include i secondi (gli attacchi)",
         "answer": true
       },
       {
-        "option_text": "3. La classe statistica dei secondi (gli attacchi) include i primi (gli incidenti)",
+        "option_text": "La classe statistica dei secondi (gli attacchi) include i primi (gli incidenti)",
         "answer": false
       },
       {
-        "option_text": "4. Possono provocare perdite economiche ad un’organizzazione",
+        "option_text": "Possono provocare perdite economiche ad un’organizzazione",
         "answer": true
       },
       {
-        "option_text": "5. Necessitano entrambi di strumenti di protezione aggiornati",
+        "option_text": "Necessitano entrambi di strumenti di protezione aggiornati",
         "answer": true
       },
       {
-        "option_text": "6. Sono entrambi commessi da individui o organizzazioni che mirano volontariamente un altro individuo o un’azienda",
+        "option_text": "Sono entrambi commessi da individui o organizzazioni che mirano volontariamente un altro individuo o un’azienda",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 326
   },
   {
-    "id": 336,
-    "code": "M1.1.7.1",
-    "question": "Quali sono le ragioni della crescente diffusione della criminalità informatica",
+    "code": "M3.2.3.10",
+    "question": "T1",
     "options": [
       {
-        "option_text": "1. L’incessante sviluppo della tecnologia informatica e le nuove opportunità di aggressione ai beni e le proprietà 2. La difficoltà della ricerca delle prove e i non sempre adeguati strumenti normativi Vero Nome Cognome Matricola 1",
+        "option_text": "Perché all’interno di un’organizzazione esistono una molteplicità di sistemi intelligenti (dotati di CPU), rilevanti per la continuità del business, oltre ai comuni computer",
+        "answer": true
+      },
+      {
+        "option_text": "Per avere solamente uno standard di sicurezza informatica all’interno delle aziende industriali",
+        "answer": false
+      },
+      {
+        "option_text": "Formalmente per realizzare un sistema di gestione in grado di affrontare e mitigare le vulnerabilità di sicurezza nei sistemi di controllo e automazione industriale (IACS)",
+        "answer": true
+      },
+      {
+        "option_text": "Perché gli standard di sicurezza informatica più diffusi non riescono a rispondere a tutti i paradigmi di funzionamento dei sistemi all’interno di un’organizzazione",
+        "answer": true
+      },
+      {
+        "option_text": "Per avere uno standard con requisiti applicabili solamente nei reparti produttivi",
+        "answer": false
+      },
+      {
+        "option_text": "Per avere uno standard che permetta di proteggere i reparti produttivi da vettori d’attacco provenienti anche dalla rete office",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 327
   },
   {
-    "id": 337,
-    "code": "M1.1.6.4",
-    "question": "F V F V V F  2",
-    "options": [
-      {
-        "option_text": "T1 3. Il forte radicamento dei fenomeni cyber criminosi con il loro territorio d’origine",
-        "answer": false
-      },
-      {
-        "option_text": "4. La transnazionalità di fenomeni criminosi e la difformità degli strumenti normativi nei vari stati",
-        "answer": true
-      },
-      {
-        "option_text": "5. La transizione del reato da un ambiente tangibile e materiale verso un ambiente intangibile e dematerializzato",
-        "answer": true
-      },
-      {
-        "option_text": "6. La transizione del reato da un ambiente intangibile e dematerializzato verso un ambiente tangibile e materiale",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 338,
-    "code": "M1.2.1.5",
-    "question": "Il Social Engineering",
-    "options": [
-      {
-        "option_text": "1. È una tecnica di attacco che può sfruttare anche strumenti non informatici",
-        "answer": true
-      },
-      {
-        "option_text": "2. Può utilizzare i siti “social” su cui sono esposte direttamente o indirettamente informazioni personali",
-        "answer": true
-      },
-      {
-        "option_text": "3. Può utilizzare il Baiting",
-        "answer": true
-      },
-      {
-        "option_text": "4. Può utilizzare un attacco tipo “forza bruta”",
-        "answer": false
-      },
-      {
-        "option_text": "5. Può utilizzare il Phishing",
-        "answer": true
-      },
-      {
-        "option_text": "6. È diretto prevalentemente contro le aziende",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 339,
     "code": "M1.2.4.10",
     "question": "Il ransomware",
     "options": [
       {
-        "option_text": "1. Si diffonde di solito via e-mail, sistemi di messaggistica o chat",
+        "option_text": "Si diffonde di solito via e-mail, sistemi di messaggistica o chat",
         "answer": true
       },
       {
-        "option_text": "2. Si diffonde sempre tramite sofisticate forme di attacco informatico",
+        "option_text": "Si diffonde sempre tramite sofisticate forme di attacco informatico",
         "answer": false
       },
       {
-        "option_text": "3. Utilizza messaggi che sembrano provenire da soggetti conosciuti oppure da persone fidate",
+        "option_text": "Utilizza messaggi che sembrano provenire da soggetti conosciuti oppure da persone fidate",
         "answer": true
       },
       {
-        "option_text": "4. Una volta effettuato il contagio si suggerisce di pagare il riscatto",
+        "option_text": "Una volta effettuato il contagio si suggerisce di pagare il riscatto",
         "answer": false
       },
       {
-        "option_text": "5. Una volta effettuato il contagio di un computer non si propaga in rete 6. Si può mitigare con la formazione del personale, l’aggiornamento dei sw e l’uso periodico e frequente di backup dei dati e",
+        "option_text": "Una volta effettuato il contagio di un computer non si propaga in rete",
         "answer": false
       },
       {
-        "option_text": "dei sistemi",
+        "option_text": "Si può mitigare con la formazione del personale, l’aggiornamento dei sw e l’uso periodico e frequente di backup dei dati e dei sistemi",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 328
   },
   {
-    "id": 340,
     "code": "M1.2.4.11",
-    "question": "Una Botnet 1. È una rete composta da dispositivi infettati da malware che agiscono sotto il controllo di un unico attore aumentando le",
+    "question": "Una Botnet",
     "options": [
       {
-        "option_text": "risorse e le capacità offensive a sua disposizione 2. È una rete composta da dispositivi infettati da malware che agiscono sotto il controllo di attori multipli aumentando le",
+        "option_text": "È una rete composta da dispositivi infettati da malware che agiscono sotto il controllo di un unico attore aumentando le risorse e le capacità offensive a sua disposizione",
         "answer": true
       },
       {
-        "option_text": "risorse e capacità offensive a loro disposizione 3. È una rete composta da dispositivi infettati che permette di creare un sovraccarico anche nelle server farm che gestiscono",
+        "option_text": "È una rete composta da dispositivi infettati da malware che agiscono sotto il controllo di attori multipli aumentando le risorse e capacità offensive a loro disposizione",
         "answer": false
       },
       {
-        "option_text": "siti capaci di grande traffico",
+        "option_text": "È una rete composta da dispositivi infettati che permette di creare un sovraccarico anche nelle server farm che gestiscono siti capaci di grande traffico",
         "answer": true
       },
       {
-        "option_text": "4. È lo strumento principale per realizzare un attacco di tipo Ransomware",
+        "option_text": "È lo strumento principale per realizzare un attacco di tipo Ransomware",
         "answer": false
       },
       {
-        "option_text": "5. È lo strumento principale per realizzare un attacco di tipo DDoS (Distributed Denial of Service)",
+        "option_text": "È lo strumento principale per realizzare un attacco di tipo DDoS (Distributed Denial of Service)",
         "answer": true
       },
       {
-        "option_text": "6. Può utilizzare trojan specializzati che permettono il controllo remoto del sistema infettato 5",
+        "option_text": "Può utilizzare trojan specializzati che permettono il controllo remoto del sistema infettato",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 329
   },
   {
-    "id": 341,
     "code": "M1.3.1.27",
     "question": "L’Incapsulamento secondo il modello ISO/OSI",
     "options": [
       {
-        "option_text": "1. Permette a ciascun livello dello stack di comunicare con un proprio e specifico “protocollo”",
+        "option_text": "Permette a ciascun livello dello stack di comunicare con un proprio e specifico “protocollo”",
         "answer": true
       },
       {
-        "option_text": "2. Permette di fatto il funzionamento del modello stesso",
+        "option_text": "Permette di fatto il funzionamento del modello stesso",
         "answer": true
       },
       {
-        "option_text": "3. Avviene dal Livello Applicazione (7) al livello Collegamento (2) in trasmissione",
+        "option_text": "Avviene dal Livello Applicazione (7) al livello Collegamento (2) in trasmissione",
         "answer": true
       },
       {
-        "option_text": "4. Avviene dal Livello Applicazione (7) al livello Fisico (1) in trasmissione",
+        "option_text": "Avviene dal Livello Applicazione (7) al livello Fisico (1) in trasmissione",
         "answer": false
       },
       {
-        "option_text": "5. Avviene dal Livello Collegamento (2) al livello Applicazione (7) in ricezione (Decapsulamento)",
+        "option_text": "Avviene dal Livello Collegamento (2) al livello Applicazione (7) in ricezione (Decapsulamento)",
         "answer": true
       },
       {
-        "option_text": "6. Avviene dal Livello Applicazione (7) al livello Fisico (1) in ricezione (Decapsulamento)",
+        "option_text": "Avviene dal Livello Applicazione (7) al livello Fisico (1) in ricezione (Decapsulamento)",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 330
   },
   {
-    "id": 342,
     "code": "M1.3.1.28",
     "question": "Il Livello ISO/OSI 3 (Rete)",
     "options": [
       {
-        "option_text": "1. Permette di rendere i livelli superiori indipendenti dai mezzi fisici",
+        "option_text": "Permette di rendere i livelli superiori indipendenti dai mezzi fisici",
         "answer": true
       },
       {
-        "option_text": "2. Permette l’implementazione del Routing",
+        "option_text": "Permette l’implementazione del Routing",
         "answer": true
       },
       {
-        "option_text": "3. Permette l’indirizzamento logico, univoco su tutta la rete",
+        "option_text": "Permette l’indirizzamento logico, univoco su tutta la rete",
         "answer": true
       },
       {
-        "option_text": "4. Permette l’indirizzamento fisico, univoco su tutta la rete",
+        "option_text": "Permette l’indirizzamento fisico, univoco su tutta la rete",
         "answer": false
       },
       {
-        "option_text": "5. Diversamente dal livello 4 non effettua nessuna gestione degli errori e diagnostica",
+        "option_text": "Diversamente dal livello 4 non effettua nessuna gestione degli errori e diagnostica",
         "answer": false
       },
       {
-        "option_text": "6. Permette la compressione dei dati",
+        "option_text": "Permette la compressione dei dati",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 331
   },
   {
-    "id": 343,
     "code": "M1.3.2.17",
     "question": "Una trasmissione deterministica",
     "options": [
       {
-        "option_text": "1. Viene semplicemente realizzata rispettando la sequenza temporale degli eventi",
+        "option_text": "Viene semplicemente realizzata rispettando la sequenza temporale degli eventi",
         "answer": true
       },
       {
-        "option_text": "2. Viene semplicemente realizzata trasmettendo i messaggi con una bassa latenza",
+        "option_text": "Viene semplicemente realizzata trasmettendo i messaggi con una bassa latenza",
         "answer": false
       },
       {
-        "option_text": "3. Viene semplicemente realizzata rispettando il principio di causalità (il nesso causa-effetto)",
+        "option_text": "Viene semplicemente realizzata rispettando il principio di causalità (il nesso causa-effetto)",
         "answer": true
       },
       {
-        "option_text": "4. Se non lo è, la trasmissione è casuale (o semi-casuale)",
+        "option_text": "Se non lo è, la trasmissione è casuale (o semi-casuale)",
         "answer": true
       },
       {
-        "option_text": "5. Concettualmente coincide con la trasmissione real-time 6. Si associa al concetto di real-time, in modo che la trasmissione avvenga secondo una sequenza predeterminata ed entro",
+        "option_text": "Concettualmente coincide con la trasmissione real-time",
         "answer": false
       },
       {
-        "option_text": "limiti temporali ben precisi",
+        "option_text": "Si associa al concetto di real-time, in modo che la trasmissione avvenga secondo una sequenza predeterminata ed entro limiti temporali ben precisi",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 332
   },
   {
-    "id": 344,
     "code": "M1.3.2.18",
     "question": "Quali sono le ragioni che hanno portato alla creazione del protocollo TCP/IP",
     "options": [
       {
-        "option_text": "1. Realizzare una trasmissione stabile tra due host",
+        "option_text": "Realizzare una trasmissione stabile tra due host",
         "answer": true
       },
       {
-        "option_text": "2. Realizzare una trasmissione veloce tra due host",
+        "option_text": "Realizzare una trasmissione veloce tra due host",
         "answer": false
       },
       {
-        "option_text": "3. Realizzare una trasmissione monodirezionale affidabile 4. Stabilire una connessione tra un'origine e una destinazione, assicurandosi che rimanga attiva fino alla fine della",
+        "option_text": "Realizzare una trasmissione monodirezionale affidabile",
         "answer": false
       },
       {
-        "option_text": "comunicazione 5. Realizzare uno standard per il Packet Switching ovvero la suddivisione di un messaggio in pacchetti piccoli trasmessi",
+        "option_text": "Stabilire una connessione tra un'origine e una destinazione, assicurandosi che rimanga attiva fino alla fine della comunicazione",
         "answer": true
       },
       {
-        "option_text": "indipendentemente, funzionamento alla base di internet",
+        "option_text": "Realizzare uno standard per il Packet Switching ov vero la suddivisione di un messaggio in pacchetti piccoli trasmessi indipendentemente, funzionamento alla base di internet",
         "answer": true
       },
       {
-        "option_text": "6. Realizzare un protocollo affidabile, deterministico e realtime",
+        "option_text": "Realizzare un protocollo affidabile, deterministico e realtime",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 333
   },
   {
-    "id": 345,
     "code": "M1.3.2.19",
-    "question": "Il protocollo Ethernet a livello ISO/OSI 2 (Collegamento) è basato sui seguenti comportamenti o fasi: 1. Rilevazione della Trasmissione: Ogni stazione che deve trasmettere ascolta il bus e decide di trasmettere solo se questo è",
+    "question": "Il protocollo Ethernet a livello ISO/OSI 2 (Collegamento) è basato sui seguenti comportamenti o fasi:",
     "options": [
       {
-        "option_text": "libero 2. Rilevazione della Trasmissione: Ogni stazione che deve trasmettere invia un messaggio di prova per testare se il bus è",
+        "option_text": "Rilevazione della Trasmissione: Ogni stazione che deve trasmettere ascolta il bus e decide di trasmettere solo se questo è libero",
         "answer": true
       },
       {
-        "option_text": "libero 3. Accesso Multiplo: Due stazioni, trovando il mezzo trasmissivo libero, possono decidere di trasmettere",
+        "option_text": "Rilevazione della Trasmissione: Ogni stazione che deve trasmettere invia un messaggio di prova per testare se il bus è libero",
         "answer": false
       },
       {
-        "option_text": "contemporaneamente 4. Accesso Multiplo: Due stazioni, trovando il mezzo trasmissivo libero, devono attendere un determinato tempo prima di trasmettere per evitare collisioni Falso 10",
-        "answer": true
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 346,
-    "code": "M1.3.2.18",
-    "question": "V F F V V F  4 T1 5. Rilevamento della Collisione: Ogni stazione, mentre trasmette un pacchetto, ascolta i segnali sul mezzo trasmissivo per",
-    "options": [
-      {
-        "option_text": "rilevare eventuali collisioni e gestirle 6. Rilevamento della Collisione: Ogni stazione trasmette sempre insieme al pacchetto un codice di errore in modo che il",
+        "option_text": "Accesso Multiplo: Due stazioni, trovando il mezzo trasmissivo libero, possono decidere di trasmettere contemporaneamente",
         "answer": true
       },
       {
-        "option_text": "ricevente percepisca l’eventuale collisione durante la trasmissione",
+        "option_text": "Accesso Multiplo: Due stazioni, trovando il mezzo trasmissivo libero, devono attendere un determinato tempo prima di trasmettere per evitare collisioni",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 334
   },
   {
-    "id": 347,
     "code": "M1.3.2.20",
     "question": "Quali dei seguenti standard seriali elettrici sono multipunto (o multi-drop):",
     "options": [
       {
-        "option_text": "1. RS232",
+        "option_text": "RS232",
         "answer": false
       },
       {
-        "option_text": "2. RS422",
+        "option_text": "RS422",
         "answer": true
       },
       {
-        "option_text": "3. RS485",
+        "option_text": "RS485",
         "answer": true
       },
       {
-        "option_text": "4. USB",
+        "option_text": "USB",
         "answer": false
       },
       {
-        "option_text": "5. RJ45",
+        "option_text": "RJ45",
         "answer": false
       },
       {
-        "option_text": "6. Bluetooth",
+        "option_text": "Bluetooth",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 335
   },
   {
-    "id": 348,
     "code": "M1.3.2.21",
     "question": "Gli obiettivi dello standard USB sono:",
     "options": [
       {
-        "option_text": "1. Comunicazione seriale standardizzata",
+        "option_text": "Comunicazione seriale standardizzata",
         "answer": true
       },
       {
-        "option_text": "2. Semplificazione della configurazione dei software dei dispositivi collegati",
+        "option_text": "Semplificazione della configurazione dei software dei dispositivi collegati",
         "answer": true
       },
       {
-        "option_text": "3. Sostituzione delle interfacce wi-fi",
+        "option_text": "Sostituzione delle interfacce wi-fi",
         "answer": false
       },
       {
-        "option_text": "4. Standardizzazione dei connettori di interfaccia",
+        "option_text": "Standardizzazione dei connettori di interfaccia",
         "answer": true
       },
       {
-        "option_text": "5. Alimentazione dei dispositivi collegati (USB Power Delivery)",
+        "option_text": "Alimentazione dei dispositivi collegati (USB Power Delivery)",
         "answer": true
       },
       {
-        "option_text": "6. Connettività multi-drop",
+        "option_text": "Connettività multi-drop",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 336
   },
   {
-    "id": 349,
     "code": "M1.3.2_2.7",
     "question": "Il modello di comunicazione su rete Ethernet di tipo Broadcast",
     "options": [
       {
-        "option_text": "1. Trasmette un messaggio a tutti i partecipanti di una rete e non richiede una risposta 2. Trasmette un messaggio a tutti i partecipanti di una rete locale senza conoscere gli indirizzi individuali dei singoli host Vero",
+        "option_text": "Trasmette un messaggio a tutti i partecipanti di una rete e non richiede una risposta",
         "answer": true
       },
       {
-        "option_text": "3. Trasmette un messaggio solamente ad alcuni partecipanti di una rete",
-        "answer": false
-      },
-      {
-        "option_text": "4. Può trasmettere a Livello 2 e a Livello 3 dello stack ISO/OSI",
+        "option_text": "Trasmette un messaggio a tutti i partecipanti di una rete locale senza conoscere gli indirizzi individuali dei singoli host",
         "answer": true
       },
       {
-        "option_text": "5. Può trasmettere solo a Livello 3 dello stack ISO/OSI",
+        "option_text": "Trasmette un messaggio solamente ad alcuni partecipanti di una rete",
         "answer": false
       },
       {
-        "option_text": "6. Non introduce maggiori collisioni e quindi una maggiore latenza  nella trasmissione",
+        "option_text": "Può trasmettere a Livello 2 e a Livello 3 dello stack ISO/OSI",
+        "answer": true
+      },
+      {
+        "option_text": "Può trasmettere solo a Livello 3 dello stack ISO/OSI",
+        "answer": false
+      },
+      {
+        "option_text": "Non introduce maggiori collisioni e quindi una maggiore latenza nella trasmissione",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 337
   },
   {
-    "id": 350,
-    "code": "M1.3.2_2.8",
-    "question": "F V F F F F  5",
-    "options": [
-      {
-        "option_text": "T1 4. Fornitura energia (elettricità, gas)",
-        "answer": true
-      },
-      {
-        "option_text": "5. Fornitura riscaldamento",
-        "answer": true
-      },
-      {
-        "option_text": "6. Fornitura di telefonia fissa",
-        "answer": true
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 351,
     "code": "M2.2.1.5",
     "question": "Gli asset aziendali",
     "options": [
       {
-        "option_text": "1. Sono quelle entità all’interno dell’azienda che generano valore",
+        "option_text": "Sono quelle entità all’interno dell’azienda che generano valore",
         "answer": true
       },
       {
-        "option_text": "2. Possono essere solo tangibili, ovvero fisici",
+        "option_text": "Possono essere solo tangibili, ov vero fisici",
         "answer": false
       },
       {
-        "option_text": "3. Possono essere tangibili o intangibili",
+        "option_text": "Possono essere tangibili o intangibili",
         "answer": true
       },
       {
-        "option_text": "4. Se non gestiti correttamente possono mettere a repentaglio l’esistenza dell’intera organizzazione",
+        "option_text": "Se non gestiti correttamente possono mettere a repentaglio l’esistenza dell’intera organizzazione",
         "answer": true
       },
       {
-        "option_text": "5. Di solito non sono informatici",
+        "option_text": "Di solito non sono informatici",
         "answer": false
       },
       {
-        "option_text": "6. Informatici sono soggetti a fattori di rischio costantemente in evoluzione",
+        "option_text": "Informatici sono soggetti a fattori di rischio costantemente in evoluzione",
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 338
   },
   {
-    "id": 352,
     "code": "M2.2.1.6",
-    "question": "Il valore associato ad un asset in un’azienda di produzione 1. Può essere stimato in proporzione all’impatto sul valore della produzione in caso di fermata o interruzione dello stesso Vero",
+    "question": "Il valore associato ad un asset in un’azienda di produzione",
     "options": [
       {
-        "option_text": "2. È certamente sempre lo stesso durante tutto il ciclo di vita (dell’asset stesso)",
-        "answer": false
-      },
-      {
-        "option_text": "3. Non si può calcolare se l’asset è informatico",
-        "answer": false
-      },
-      {
-        "option_text": "4. Non necessariamente deve essere un valore numerico, può essere riportato su una scala di criticità",
+        "option_text": "Può essere stimato in proporzione all’impatto sul valore della produzione in caso di fermata o interruzione dello stesso",
         "answer": true
       },
       {
-        "option_text": "5. Si associa solo agli asset tangibili",
+        "option_text": "È certamente sempre lo stesso durante tutto il ciclo di vita (dell’asset stesso)",
         "answer": false
       },
       {
-        "option_text": "6. Si può assegnare agli asset tangibili ed intangibili",
+        "option_text": "Non si può calcolare se l’asset è informatico",
+        "answer": false
+      },
+      {
+        "option_text": "Non necessariamente deve essere un valore numerico, può essere riportato su una scala di criticità",
+        "answer": true
+      },
+      {
+        "option_text": "Si associa solo agli asset tangibili",
+        "answer": false
+      },
+      {
+        "option_text": "Si può assegnare agli asset tangibili ed intangibili",
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 339
   },
   {
-    "id": 353,
     "code": "M2.3.1.7",
     "question": "Nella gestione aziendale le operazioni Oggettive possono essere:",
     "options": [
       {
-        "option_text": "1. Il reperimento di mezzi finanziari",
+        "option_text": "Il reperimento di mezzi finanziari",
         "answer": true
       },
       {
-        "option_text": "2. Le attività decisionali",
+        "option_text": "Le attività decisionali",
         "answer": false
       },
       {
-        "option_text": "3. Gli Investimenti per lo sviluppo del business",
+        "option_text": "Gli Investimenti per lo sviluppo del business",
         "answer": true
       },
       {
-        "option_text": "4. Le attività di controllo",
+        "option_text": "Le attività di controllo",
         "answer": false
       },
       {
-        "option_text": "5. La produzione ovvero la trasformazione in prodotti finiti o semilavorati",
+        "option_text": "La produzione ov vero la trasformazione in prodotti finiti o semilavorati",
         "answer": true
       },
       {
-        "option_text": "6. Il disinvestimento di asset obsoleti (24-2.3.2.6) L’organizzazione aziendale 1. Può essere definita come tutti quegli elementi (materiali, strumentali e umani) che permettono di ottenere, attraverso un’azione strutturata, codificata e documentata, gli obiettivi aziendali Vero 19",
+        "option_text": "Il disinvestimento di asset obsoleti",
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 340
   },
   {
-    "id": 354,
     "code": "M2.3.1.7",
-    "question": "V F V F V V  6 T1 2. Può essere definita come tutte quelle operazioni coordinate (soggettive e oggettive) che permettono di ottenere degli",
+    "question": "T1 2. Può essere definita come tutte quelle operazioni coordinate (soggettive e oggettive) che permettono di ottenere degli",
     "options": [
       {
         "option_text": "obiettivi predefiniti",
         "answer": false
       },
       {
-        "option_text": "3. Deve declinare la “mission” aziendale in obiettivi concretamente raggiungibili e misurabili",
+        "option_text": "Deve declinare la “mission” aziendale in obiettivi concretamente raggiungibili e misurabili",
         "answer": true
       },
       {
-        "option_text": "4. Deve assegnare in maniera non ambigua compiti e ruoli a tutto il personale",
+        "option_text": "Deve assegnare in maniera non ambigua compiti e ruoli a tutto il personale",
         "answer": true
       },
       {
-        "option_text": "5. Non riguarda specificatamente la tecnologia e la struttura produttiva",
+        "option_text": "Non riguarda specificatamente la tecnologia e la struttura produttiva",
         "answer": false
       },
       {
-        "option_text": "6. Attraverso l’assegnazione dei compiti realizza il workflow produttivo (25-3.1.1.8) Quali sono le possibili cause di un Incidente Informatico",
-        "answer": true
-      },
-      {
-        "option_text": "1. Vulnerabilità informatiche",
-        "answer": true
-      },
-      {
-        "option_text": "2. Massivo utilizzo di tecnologie cloud",
-        "answer": false
-      },
-      {
-        "option_text": "3. Debolezze umane",
-        "answer": true
-      },
-      {
-        "option_text": "4. Obsolescenza",
-        "answer": true
-      },
-      {
-        "option_text": "5. Mancanza degli aggiornamenti di sicurezza",
-        "answer": true
-      },
-      {
-        "option_text": "6. Utilizzo di software di terze parti (26-3.1.3.6) I Sistemi di Gestione Standardizzati",
-        "answer": false
-      },
-      {
-        "option_text": "1. Sono modelli organizzativi aziendali adottati su base volontaria",
-        "answer": true
-      },
-      {
-        "option_text": "2. Sono modelli organizzativi aziendali obbligatori in certi ambiti",
-        "answer": false
-      },
-      {
-        "option_text": "3. Sono applicati maggiormente nelle aree critiche e sensibili dell’organizzazione 4. Sono realizzati mediante l'applicazione organica e sistematica di regole e procedure per raggiungere uno specifico",
-        "answer": true
-      },
-      {
-        "option_text": "obiettivo",
-        "answer": true
-      },
-      {
-        "option_text": "5. Di solito le regole e le procedure sono definite secondo uno standard creato dall’azienda stessa",
-        "answer": false
-      },
-      {
-        "option_text": "6. Riguardano tutti i livelli dell’organizzazione (27-3.2.1.20) I Controlli secondo ISO/IEC 27001",
-        "answer": true
-      },
-      {
-        "option_text": "1. Sono le appropriate contromisure selezionate per affrontare i rischi per la cyber security",
-        "answer": true
-      },
-      {
-        "option_text": "2. Sono pratiche da attuare per annullare completamente i rischi di cyber sicurezza",
-        "answer": false
-      },
-      {
-        "option_text": "3. Sono strutturati secondo uno schema a tre livelli (edizione 2013)",
-        "answer": true
-      },
-      {
-        "option_text": "4. Sono strutturati secondo uno schema a quattro livelli (edizione 2013)",
-        "answer": false
-      },
-      {
-        "option_text": "5. Sono riuniti in quattro gruppi di controlli (edizione 2022)",
-        "answer": true
-      },
-      {
-        "option_text": "6. Di solito non si modificano nelle varie revisioni dello standard (28-3.2.3.10) Il NIST Cyber Security Framework",
-        "answer": false
-      },
-      {
-        "option_text": "1. È uno standard che non è mai stato revisionato dalla prima pubblicazione 2. Rispetto all’ISO/IEC 27001 non parla di contromisure ma di risultati o effetti ottenuti realizzando determinate attività Vero",
-        "answer": false
-      },
-      {
-        "option_text": "3. Prevede la certificazione come l’ISO 27001",
-        "answer": false
-      },
-      {
-        "option_text": "4. Prevede solamente un livello di implementazione",
-        "answer": false
-      },
-      {
-        "option_text": "5. Contiene numerosi riferimenti informativi ad altri standard",
-        "answer": true
-      },
-      {
-        "option_text": "6. Prevede quattro livelli implementativi o Tiers (29-3.2.6.13) Perché è stato realizzato lo standard IEC 62443? 24",
+        "option_text": "Attraverso l’assegnazione dei compiti realizza il workflow produttivo",
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 341
   },
   {
-    "id": 355,
-    "code": "M3.2.3.10",
-    "question": "F V F F V V  7 T1 1. Perché all’interno di un’organizzazione esistono una molteplicità di sistemi intelligenti (dotati di CPU), rilevanti per la",
+    "code": "3.2.1.20",
+    "question": "I Controlli secondo ISO/IEC 27001",
     "options": [
       {
-        "option_text": "continuità del business, oltre ai comuni computer",
+        "option_text": "Sono le appropriate contromisure selezionate per affrontare i rischi per la cyber security",
         "answer": true
       },
       {
-        "option_text": "2. Per avere solamente uno standard di sicurezza informatica all’interno delle aziende industriali 3. Formalmente per realizzare un sistema di gestione in grado di affrontare e mitigare le vulnerabilità di sicurezza nei sistemi",
+        "option_text": "Sono pratiche da attuare per annullare completamente i rischi di cyber sicurezza",
         "answer": false
       },
       {
-        "option_text": "di controllo e automazione industriale (IACS) 4. Perché gli standard di sicurezza informatica più diffusi non riescono a rispondere a tutti i paradigmi di funzionamento dei",
+        "option_text": "Sono strutturati secondo uno schema a tre livelli (edizione 2013)",
         "answer": true
       },
       {
-        "option_text": "sistemi all’interno di un’organizzazione",
-        "answer": true
-      },
-      {
-        "option_text": "5. Per avere uno standard con requisiti applicabili solamente nei reparti produttivi 6. Per avere uno standard che permetta di proteggere i reparti produttivi da vettori d’attacco provenienti anche dalla rete",
+        "option_text": "Sono strutturati secondo uno schema a quattro livelli (edizione 2013)",
         "answer": false
       },
       {
-        "option_text": "office (30-3.3.6.7) Il Regolamento (UE) 2016/679 GDPR si applica 1. Al trattamento dei dati personali delle persone fisiche e al trattamento non automatizzato dei dati conservati in un",
+        "option_text": "Sono riuniti in quattro gruppi di controlli (edizione 2022)",
         "answer": true
       },
       {
-        "option_text": "«archivio»",
-        "answer": true
-      },
-      {
-        "option_text": "2. Ad imprese enti, ed organizzazioni in generale con sede legale all’interno dell’UE",
+        "option_text": "Di solito non si modificano nelle varie revisioni dello standard",
         "answer": false
-      },
-      {
-        "option_text": "3. A prescindere dal luogo ove sono collocati i sistemi di archiviazione e di elaborazione",
-        "answer": true
-      },
-      {
-        "option_text": "4. Solo se i sistemi di archiviazione e di elaborazione sono collocati all’interno degli stati dell’unione",
-        "answer": false
-      },
-      {
-        "option_text": "5. Si occupa anche dei dati personali per attività di sicurezza nazionale o di ordine pubblico 6. A qualunque dato personale: nomi, foto, indirizzi e-mail, dettagli bancari, interventi su siti web di social network,",
-        "answer": false
-      },
-      {
-        "option_text": "informazioni mediche o indirizzi IP di computer 29",
-        "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 342
   },
   {
-    "id": 356,
-    "code": "M1.3.2.1",
-    "question": "I protocoll i di comunicazione 1. Sono  un insieme di regole definite mediante specifiche sequenze di istruzioni  standardizzate , di varia tipologia e finalità in",
+    "code": "3.3.6.7",
+    "question": "Il Regolamento (UE) 2016/679 GDPR si applica",
     "options": [
       {
-        "option_text": "base alle entità interessate e al mezzo di comunicazione",
+        "option_text": "Al trattamento dei dati personali delle persone fisiche e al trattamento non automatizzato dei dati conservati in un «archivio»",
         "answer": true
       },
       {
-        "option_text": "2. Possono essere raccolti in famiglie in base ai vari marchi commerciali",
+        "option_text": "Ad imprese enti, ed organizzazioni in generale con sede legale all’interno dell’UE",
         "answer": false
       },
       {
-        "option_text": "3. Permett ono la comunicazione tra due o più entità connesse su una architettura di rete o di comunicazione 4. Sono  un insieme di regole definite mediante specifiche sequenze di istruzioni che possono di fferenti  nelle varie entità",
+        "option_text": "A prescindere dal luogo ove sono collocati i sistemi di archiviazione e di elaborazione",
         "answer": true
       },
       {
-        "option_text": "interessate alla specifica comunicazione",
+        "option_text": "Solo se i sistemi di archiviazione e di elaborazione sono collocati all’interno degli stati dell’unione",
         "answer": false
       },
       {
-        "option_text": "5. Possono  essere uno standard con cui sono definiti la sintassi, la semantica e la sincronizzazione della comunicazione",
-        "answer": true
+        "option_text": "Si occupa anche dei dati personali per attività di sicurezza nazionale o di ordine pubblico",
+        "answer": false
       },
       {
-        "option_text": "6. Possono  essere implementat i con hardware o software o in una combinazione di entrambi",
+        "option_text": "A qualunque dato personale: nomi, foto, indirizzi e-mail, dettagli bancari, interventi su siti web di social network, informazioni mediche o indirizzi IP di computer",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 343
   },
   {
-    "id": 357,
-    "code": "M1.3.2.4",
+    "code": "M1.3.2.1/24",
+    "question": "I protocoll i di comunicazione",
+    "options": [
+      {
+        "option_text": "Sono un insieme di regole definite mediante specifiche sequenze di istruzioni standardizzate , di varia tipologia e finalità in base alle entità interessate e al mezzo di comunicazione",
+        "answer": true
+      },
+      {
+        "option_text": "Possono essere raccolti in famiglie in base ai vari marchi commerciali",
+        "answer": false
+      },
+      {
+        "option_text": "Permett ono la comunicazione tra due o più entità connesse su una architettura di rete o di comunicazione",
+        "answer": true
+      },
+      {
+        "option_text": "Sono un insieme di regole definite mediante specifiche sequenze di istruzioni che possono di fferenti nelle varie entità interessate alla specifica comunicazione",
+        "answer": false
+      },
+      {
+        "option_text": "Possono essere uno standard con cui sono definiti la sintassi, la semantica e la sincronizzazione della comunicazione",
+        "answer": true
+      },
+      {
+        "option_text": "Possono essere implementat i con hardware o software o in una combinazione di entrambi",
+        "answer": true
+      }
+    ],
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 344
+  },
+  {
+    "code": "M1.3.2.4/24",
     "question": "L’interfaccia USB",
     "options": [
       {
-        "option_text": "1. Può raggiungere una velocità di trasmissione di 20Gbit/sec",
+        "option_text": "Può raggiungere una velocità di trasmissione di 20Gbit/sec",
         "answer": true
       },
       {
-        "option_text": "2. È utilizzata principalmente come interfaccia punto -punto",
+        "option_text": "È utilizzata principalmente come interfaccia punto -punto",
         "answer": true
       },
       {
-        "option_text": "3. Può gestire al massimo 10 Hub concentratori",
+        "option_text": "Può gestire al massimo 10 Hub concentratori",
         "answer": false
       },
       {
-        "option_text": "4. Ha tra le caratteristiche fondamentali la capacità di alimentare i dispositivi collegati",
+        "option_text": "Ha tra le caratteristiche fondamentali la capacità di alimentare i dispositivi collegati",
         "answer": true
       },
       {
-        "option_text": "5. Può trasmette sino ad una distanza non superiore ai 5 metri",
+        "option_text": "Può trasmette sino ad una distanza non superiore ai 5 metri",
         "answer": true
       },
       {
-        "option_text": "6. Può memorizzare sino a 10 0 Gbyte",
+        "option_text": "Può memorizzare sino a 10 0 Gbyte",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 345
   },
   {
-    "id": 358,
     "code": "M1.3.2.7",
     "question": "La modalità di trasmissione su canali in fibra ottica (WDM) è",
     "options": [
       {
-        "option_text": "1. Una trasmissione bidirezionale simultanea su cavo singolo",
+        "option_text": "Una trasmissione bidirezionale simultanea su cavo singolo",
         "answer": true
       },
       {
-        "option_text": "2. Una trasmissione bidirezionale non simultanea su cavo singolo",
+        "option_text": "Una trasmissione bidirezionale non simultanea su cavo singolo",
         "answer": false
       },
       {
-        "option_text": "3. Una modalità di trasmissione con fasci a lunghezza d’onda differente",
+        "option_text": "Una modalità di trasmissione con fasci a lunghezza d’onda differente",
         "answer": true
       },
       {
-        "option_text": "4. Una modalità di trasmissione con fasci di colori diversi ma con la stessa frequenza",
+        "option_text": "Una modalità di trasmissione con fasci di colori diversi ma con la stessa frequenza",
         "answer": false
       },
       {
-        "option_text": "5. Una tecnica di trasmissione con multiplexing a divisione di ampiezza",
+        "option_text": "Una tecnica di trasmissione con multiplexing a divisione di ampiezza",
         "answer": false
       },
       {
-        "option_text": "6. Una tecnica di trasmissione con multiplexing a divisione di lunghezza d’onda",
+        "option_text": "Una tecnica di trasmissione con multiplexing a divisione di lunghezza d’onda",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 346
   },
   {
-    "id": 359,
     "code": "M1.3.2.10",
-    "question": "Il Dominio di Collisione o Collision Domain nella trasmissione Ethernet: 1. È un insieme di nodi, ridotto rispetto al dominio dell’intera rete locale, che concorrono per accedere allo stesso mezzo",
+    "question": "Il Dominio di Collisione o Collision Domain nella trasmissione Ethernet:",
     "options": [
       {
-        "option_text": "trasmissivo e quindi trasmettere 2. È una tecnica per ridurre la probabilità di collisioni al crescere del numero di stazioni e/o del traffico all’interno di una  LAN Vero 3. Una tecnica per evitare che in una rete LAN il mezzo trasmissivo sia condiviso e conteso per la trasmissione tra tutte le",
+        "option_text": "È un insieme di nodi, ridotto rispetto al dominio dell’intera rete locale, che concorrono per accedere allo stesso mezzo trasmissivo e quindi trasmettere",
         "answer": true
       },
       {
-        "option_text": "stazioni",
+        "option_text": "È una tecnica per ridurre la probabilità di collisioni al crescere del numero di stazioni e/o del traffico all’interno di una LAN",
         "answer": true
       },
       {
-        "option_text": "4. Una tecnica per eliminare completamente le collisioni in una comunicazione all’interno di un’unica LAN",
+        "option_text": "Una tecnica per evitare che in una rete LAN il mezzo trasmissivo sia condiviso e conteso per la trasmissione tra tutte le stazioni",
+        "answer": true
+      },
+      {
+        "option_text": "Una tecnica per eliminare completamente le collisioni in una comunicazione all’interno di un’unica LAN",
         "answer": false
       },
       {
-        "option_text": "5. Una tecnica statistica per gestire le collisioni all’interno di una LAN 6. La suddivisione della rete in più sottoreti in modo che la contesa del mezzo avvenga soltanto tra le stazioni appartenenti",
+        "option_text": "Una tecnica statistica per gestire le collisioni all’interno di una LAN",
         "answer": true
       },
       {
-        "option_text": "ad una singola sottorete",
-        "answer": true
+        "option_text": "La suddivisione della rete in più sottoreti in modo che la contesa del mezzo avvenga soltanto tra le stazioni appartenenti ad una singola",
+        "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 347
   },
   {
-    "id": 360,
     "code": "M1.3.2.10",
-    "question": "V V V F V V  2 T1 2. È un fenomeno causato dalla forte concorrenza sul mercato dei dispositivi di rete e dall’aumento delle prestazioni delle",
+    "question": "T1 2. È un fenomeno causato dalla forte concorrenza sul mercato dei dispositivi di rete e dall’aumento delle prestazioni delle",
     "options": [
       {
         "option_text": "piattaforme di elaborazione",
         "answer": true
       },
       {
-        "option_text": "3. È un fenomeno che non ha impatto sulla standardizzazione degli specifici brand commerciali",
+        "option_text": "È un fenomeno che non ha impatto sulla standardizzazione degli specifici brand commerciali",
         "answer": false
       },
       {
-        "option_text": "4. È un fenomeno che ha portato all’obsolescenza di alcuni dispositivi 5. È un fenomeno che ha portato alcuni switch a gestire parzialmente o totalmente funzioni di routing (livello 3 ISO/OSI) Vero",
+        "option_text": "È un fenomeno che ha portato all’obsolescenza di alcuni dispositivi 5. È un fenomeno che ha portato alcuni switch a gestire parzialmente o totalmente funzioni di routing (livello 3 ISO/OSI) Vero",
         "answer": true
       },
       {
-        "option_text": "6. Ha provocato  l’obsolescenza de gli switches di rete",
+        "option_text": "Ha provocato l’obsolescenza de gli switches di rete",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 348
   },
   {
-    "id": 361,
     "code": "M1.3.3.4",
     "question": "Il Router:",
     "options": [
       {
-        "option_text": "1. Gestisce il traffico trasmesso su mezzi trasmissivi differenti (esempio fibra, doppino telefonico o wi -fi)",
+        "option_text": "Gestisce il traffico trasmesso su mezzi trasmissivi differenti (esempio fibra, doppino telefonico o wi -fi)",
         "answer": true
       },
       {
-        "option_text": "2. Attraverso l’instradamento (routing) connette dispositivi su reti differenti",
+        "option_text": "Attraverso l’instradamento (routing) connette dispositivi su reti differenti",
         "answer": true
       },
       {
-        "option_text": "3. Può funzionare solo a livello 2 dello stack ISO -OSI",
+        "option_text": "Può funzionare solo a livello 2 dello stack ISO -OSI",
         "answer": false
       },
       {
-        "option_text": "4. Funziona normalmente a livello 3 dello stack ISO -OSI",
+        "option_text": "Funziona normalmente a livello 3 dello stack ISO -OSI",
         "answer": true
       },
       {
-        "option_text": "5. Gestisce il traffico attraverso l’uso degli indirizzi IP",
+        "option_text": "Gestisce il traffico attraverso l’uso degli indirizzi IP",
         "answer": true
       },
       {
-        "option_text": "6. Gestisce il traffico attraverso l’uso degli indirizz i MAC (7-M2.1.1. 6) Quali sono le differenze tra beni di consumo e beni strumentali?",
-        "answer": false
-      },
-      {
-        "option_text": "1. I beni di consumo , diversamente dai beni strumentali, vengono utilizzati direttamente per soddisfare un bisogno 2. I beni di consumo possono essere le materie prime che vengono trasformate per ottenere un semilavorato o un prodotto",
-        "answer": true
-      },
-      {
-        "option_text": "finito",
-        "answer": true
-      },
-      {
-        "option_text": "3. Bene di consumo p uò essere il marchio di un determinato prodotto",
-        "answer": false
-      },
-      {
-        "option_text": "4. Bene di consumo può essere l’energia elettrica che alimenta il sistema informativo 5. I beni strumentali  sono  tutti quei beni materiali e immateriali che le imprese utilizzano per realizzare  la propria attività  ma",
-        "answer": true
-      },
-      {
-        "option_text": "che non sono parte costituente del prodotto o del servizio 6. I beni strumentali  sono  tutti quei beni materiali e immateriali che le imprese utilizzano per realizzare  la propria attività  ma",
-        "answer": true
-      },
-      {
-        "option_text": "che possono essere parte costituente del prodotto o del servizio",
+        "option_text": "Gestisce il traffico attraverso l’uso degli indirizz i MAC",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 349
   },
   {
-    "id": 362,
+    "code": "M2.1.1.6",
+    "question": "Quali sono le differenze tra beni di consumo e beni strumentali?",
+    "options": [
+      {
+        "option_text": "I beni di consumo , diversamente dai beni strumentali, vengono utilizzati direttamente per soddisfare un bisogno",
+        "answer": true
+      },
+      {
+        "option_text": "I beni di consumo possono essere le materie prime che vengono trasformate per ottenere un semilavorato o un prodotto finito",
+        "answer": true
+      },
+      {
+        "option_text": "Bene di consumo p uò essere il marchio di un determinato prodotto",
+        "answer": false
+      },
+      {
+        "option_text": "Bene di consumo può essere l’energia elettrica che alimenta il sistema informativo",
+        "answer": true
+      },
+      {
+        "option_text": "I beni strumentali sono tutti quei beni materiali e immateriali che le imprese utilizzano per realizzare la propria attività ma che non sono parte costituente del prodotto o del servizio",
+        "answer": true
+      },
+      {
+        "option_text": "I beni strumentali sono tutti quei beni materiali e immateriali che le imprese utilizzano per realizzare la propria attività ma che possono essere parte costituente del prodotto o del servizio",
+        "answer": false
+      }
+    ],
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 350
+  },
+  {
+    "code": "M2.1.2.2",
+    "question": "Il Soggetto Giuridico",
+    "options": [
+      {
+        "option_text": "È la persona nel cui nome l’attività aziendale è esercitata",
+        "answer": true
+      },
+      {
+        "option_text": "È la persona che assume solo gli obblighi derivanti dalle operazioni aziendali",
+        "answer": false
+      },
+      {
+        "option_text": "È la persona alla quale sono riferiti i diritti e gli obblighi che nascono dalla costituzione dell’azienda e dal suo",
+        "answer": false
+      }
+    ],
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 351
+  },
+  {
     "code": "M2.1.3.1",
     "question": "Le aziende nel settore terziario",
     "options": [
       {
-        "option_text": "1. Possono realizzare attività di intermediazione, o di produzione indiretta di beni, attraverso il commercio degli stessi",
+        "option_text": "Possono realizzare attività di intermediazione, o di produzione indiretta di beni, attraverso il commercio degli stessi",
         "answer": true
       },
       {
-        "option_text": "2. Possono realizzare attività di produzione diretta di beni",
+        "option_text": "Possono realizzare attività di produzione diretta di beni",
         "answer": false
       },
       {
-        "option_text": "3. Possono essere quelle attività complementari e di ausilio ai settori primario e secondario 4. Possono realizzare produzione diretta o indiretta di servizi (ad esempio le aziende bancarie, assicurative, di trasporto, ecc .) Vero",
+        "option_text": "Possono essere quelle attività complementari e di ausilio ai settori primario e secondario",
         "answer": true
       },
       {
-        "option_text": "5. Possono essere le aziende che gestiscono i trasporti e le comunicazioni",
+        "option_text": "Possono realizzare produzione diretta o indiretta di servizi (ad esempio le aziende bancarie, assicurative, di trasporto, ecc .)",
         "answer": true
       },
       {
-        "option_text": "6. Possono basare il proprio core business sul know -how e sui servizi intellettuali (R&D, formazione, consulenza, ecc.) (10- M2.2.1. 6) Perché i  sistemi informati ci di R&D (Ricerca & Sviluppo) e in genere di Ingegneria rappresentano un valore da proteggere per l’azienda:",
+        "option_text": "Possono essere le aziende che gestiscono i trasporti e le comunicazioni",
         "answer": true
       },
       {
-        "option_text": "1. Perché sono molto onerosi acquistare e da manutenere 2. Perché possono  racchiud ere i dettagli delle proprietà intellettuali  o dei brevetti  di quell’azienda o brand  Vero  5",
-        "answer": false
+        "option_text": "Possono basare il proprio core business sul know -how e sui servizi intellettuali (R&D, formazione, consulenza, ecc.)",
+        "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 352
   },
   {
-    "id": 363,
-    "code": "M2.1.3.1",
-    "question": "V F V V V V  3",
-    "options": [
-      {
-        "option_text": "T1 3. Perché possono racchiudere informazioni sulle  formulazion i, risultati di test e di sperimentazioni effettuate",
-        "answer": true
-      },
-      {
-        "option_text": "4. Perché in generale racchiudono il know -how aziendale elaborato in anni di presenza su un determinato mercato",
-        "answer": true
-      },
-      {
-        "option_text": "5. Perché possono essere  oggetto di interesse da parte di competitor malintenzionati",
-        "answer": true
-      },
-      {
-        "option_text": "6. Perché in caso di anomali a o blocco vi può essere un impatto sulla Business Continuity  dell’azienda",
-        "answer": false
-      }
-    ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
-  },
-  {
-    "id": 364,
     "code": "M2.3.1.2",
-    "question": "Il Sistema di Gestione aziendale 1. Sono modelli organizzativi  aziendali adottati su base volontaria e realizzati mediante l'applicazione organica e",
+    "question": "Il Sistema di Gestione aziendale",
     "options": [
       {
-        "option_text": "sistematica  di regole e procedure 2. Sono regole e procedure che una  azienda  fa proprie solamente a livello di top management e di consiglio di",
+        "option_text": "Sono modelli organizzativi aziendali adottati su base volontaria e realizzati mediante l'applicazione organica e sistematica di regole e procedure",
         "answer": true
       },
       {
-        "option_text": "amministrazione allo scopo  di raggiungere specifici obiettivi 3. Può avere come obiettivo il tenere sotto controllo l’attività dell’azienda affinché sia in grado di soddisfare le esigenze del",
+        "option_text": "Sono regole e procedure che una azienda fa proprie solamente a livello di top management e di consiglio di amministrazione allo scopo di raggiungere specifici obiettivi",
         "answer": false
       },
       {
-        "option_text": "Cliente",
+        "option_text": "Può avere come obiettivo il tenere sotto controllo l’attività dell’azienda affinché sia in grado di soddisfare le esigenze del Cliente",
         "answer": true
       },
       {
-        "option_text": "4. Può avere come obiettivo il miglioramento progressivo delle prestazioni aziendali",
+        "option_text": "Può avere come obiettivo il miglioramento progressivo delle prestazioni aziendali",
         "answer": true
       },
       {
-        "option_text": "5. Non rigu arda specificamente il controllo  dei processi aziendali 6. Può dimostrare a terzi, soprattutto a Organismi di controllo e potenziali clienti, la propria capacità di mantenere i propri",
+        "option_text": "Non rigu arda specificamente il controllo dei processi aziendali",
         "answer": false
       },
       {
-        "option_text": "impegni (conformità normativa)",
+        "option_text": "Può dimostrare a terzi, soprattutto a Organismi di controllo e potenziali clienti, la propria capacità di mantenere i propri impegni (conformità normativa)",
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 353
   },
   {
-    "id": 365,
     "code": "M3.1.1.3",
-    "question": "L’Evento di Sicurezza Informatica 1. Può essere considerato come qualsiasi situazione che si verifichi nell’ambito di un determinato asset informatico,",
+    "question": "L’Evento di Sicurezza Informatica",
     "options": [
       {
-        "option_text": "comunque rilevata, la cui rilevanza è considerata significativa ai fini della salvaguardia dell’infrastruttura informatica 2. Può essere considerata qualsiasi situazione che sottintenda una violazione delle politiche di sicurezza IT fonte di danno per gli asset IT ovvero per il patrimonio informativo dell’organizzazione e per il quale si renda necessaria l’applicazione di mi sure",
+        "option_text": "Può essere considerato come qualsiasi situazione che si verifichi nell’ambito di un determinato asset informatico, comunque rilevata, la cui rilevanza è considerata significativa ai fini della salvaguardia dell’infrastruttura informatica",
         "answer": false
       },
       {
-        "option_text": "di analisi e di contrasto e/o contenimento 3. Può essere considerato come qualsiasi situazione che si verifichi nell’ambito di un determinato asset informatico, comunque rilevata, la cui rilevanza è considerata significativa ai fini delle attività di gestione, controllo della sicurezza  e",
+        "option_text": "Può essere considerata qualsiasi situazione che sottintenda una violazione delle politiche di sicurezza IT fonte di danno per gli asset IT ov vero per il patrimonio informativo dell’organizzazione e per il quale si renda necessaria l’applicazione di mi sure di analisi e di contrasto e/o contenimento",
         "answer": false
       },
       {
-        "option_text": "contenimento dei rischi ad essa correlati 4. Può essere a basso impatto  (non significativo): qualsiasi evento gestito in maniera silente dal sistema di sicurezza e che non",
+        "option_text": "Può essere considerato come qualsiasi situazione che si verifichi nell’ambito di un determinato asset informatico, comunque rilevata, la cui rilevanza è considerata significativa ai fini delle attività di gestione, controllo della sicurezza e contenimento dei rischi ad essa correlati",
         "answer": true
       },
       {
-        "option_text": "richiede uno specifico trattamento 5. Può essere a impatto significativo: qualsiasi evento rilevato nell’ambito dei sistemi e delle infrastrutture IT, che non",
+        "option_text": "Può essere a basso impatto (non significativo): qualsiasi evento gestito in maniera silente dal sistema di sicurezza e che non richiede uno specifico trattamento",
         "answer": true
       },
       {
-        "option_text": "necessita di essere ulteriormente analizzato 6. Può essere a impatto critico: qualsiasi evento significativo che, a seguito delle analisi effettuale, potrebbe sottintendere,",
+        "option_text": "Può essere a impatto significativo: qualsiasi evento rilevato nell’ambito dei sistemi e delle infrastrutture IT, che non necessita di essere ulteriormente analizzato",
         "answer": false
       },
       {
-        "option_text": "direttamente o indirettamente, una violazione delle politiche di sicurezza dell’azienda",
+        "option_text": "Può essere a impatto critico: qualsiasi evento significativo che, a seguito delle analisi effettuale, potrebbe sottintendere, direttamente o indirettamente, una violazione delle politiche di sicurezza dell’azienda",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 354
   },
   {
-    "id": 366,
-    "code": "M3.1.3.1",
-    "question": "La Standardizzazione:",
+    "code": "M3.2.1.20",
+    "question": "Nell’Area Tematica dei Requisiti ISO 27001 “Leadeship”",
     "options": [
       {
-        "option_text": "1. Si può definire come un’attività che dà origine a soluzioni codificate e ripetibili a problemi in varie discipline",
+        "option_text": "Si richiede che l'alta direzione de bba dimostrare leadership e impegno in relazione al sistema di gestione della sicurezza delle informazioni",
         "answer": true
       },
       {
-        "option_text": "2. Di solito non è orientata ad un ritorno economico e di immagine 3. L’attività, in generale, costituisce il processo di definizione (determinazione, formulazione e rilascio) e di implementazion e",
+        "option_text": "Si richiede che l'alta direzione de bba dimostrare leadership e impegno in relazione al lo sviluppo del sistema informativo",
         "answer": false
       },
       {
-        "option_text": "degli standard 4. Può essere il risultato di un’attività di razionalizzazione e può riguardare tutte le attività aziendali, a partire da quelle  più",
+        "option_text": "Si richiede che l'alta direzione deve dimostrare leadership e impegno per assicurare che siano disponibili le risorse necessarie per il sistema di gestione della sicurezza delle informazioni",
         "answer": true
       },
       {
-        "option_text": "critiche",
+        "option_text": "L’alta direzione deve stabilire una politica di sicurezza delle informazioni che sia adeguata allo scopo dell'organizzazione",
         "answer": true
       },
       {
-        "option_text": "5. Può essere applicata, con notevoli vantaggi , nell’area della sostenibilità ambientale",
+        "option_text": "L'alta direzione deve garantire che le responsabilità e le autorità per i ruoli rilevanti per le informazioni di sicurezza vengono assegnate e comunicate all'interno dell'organizzazione",
         "answer": true
       },
       {
-        "option_text": "6. Di solito, per problematiche di complessità e costi, tendenzialmente non si applica nell’ambito della qualità",
+        "option_text": "L'alta direzione deve garantire che le responsabilità e le autorità per i ruoli rilevanti per le informazioni di sicurezza vengono assegnate secondo criteri soggettivi",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 355
   },
   {
-    "id": 367,
-    "code": "M3.2.1.1",
-    "question": "Lo standard ISO/IEC 27000 -series",
+    "code": "M3.2.1.21",
+    "question": "Nell’Area Tematica dei Requisiti ISO 27001 “ Pianificazione ”",
     "options": [
       {
-        "option_text": "1. È una serie di norme internazionali che costituiscono uno standard relativo alla sicurezza informatica",
+        "option_text": "L'organizzazione deve determinare i rischi e le opportunità che devono essere affrontati per garantire che il sistema di gestione della sicurezza delle informazioni possa raggiungere i risultati previsti",
         "answer": true
       },
       {
-        "option_text": "2. È uno standard monolitico costituito da un solo documento che unisce  insieme una serie di norme internazionali 3. È denominato \"Information Security Management Systems (ISMS) Family of Standards\" e si prefigge di proteggere le",
+        "option_text": "L'organizzazione deve determinare i rischi e le opportunità che devono essere affrontati per prevenire, o ridurre, effetti indesiderati nel raggiungimen to dei risultati previsti",
+        "answer": true
+      },
+      {
+        "option_text": "L'organizzazione deve determinare i rischi e le opportunità che devono essere affrontati per mantenere almeno costante il livello di sicurezza",
         "answer": false
       },
       {
-        "option_text": "informazioni che vengono mantenute ed elaborate da un’organizzazione 4. Permette alle organizzazioni di sviluppare ed implementare un proprio sistema per la gestione della sicurezza informatica",
+        "option_text": "L'organizzazione deve definire e applicare un processo di valutazione del rischio per la sicurezza delle informazioni che stabilisce e aggiorna i criteri di rischio per la sicurezza delle informazioni",
         "answer": true
       },
       {
-        "option_text": "per le informazioni finanziarie, la proprietà intellettuale ed i dati dei dipendenti, di clienti o di terzi",
-        "answer": true
-      },
-      {
-        "option_text": "5. Ha generato altri standard, tra cui il British Standard BS 7799 -1 e -2",
+        "option_text": "L'organizzazione deve definire e applicare un processo di valutazione del rischio per la sicurezza delle informazioni in maniera indipendente, senza prendere in considerazioni altre normative come il GDPR",
         "answer": false
       },
       {
-        "option_text": "6. Si focalizza sulla protezione dei dati unicamente attraverso il consolidamento tecnologico 10 (M2.2.1. 6) F V V V V F 11",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 368,
-    "code": "M3.2.1.1",
-    "question": "V  F  V V  F F  4 T1 (15-M3.2.1. 20) Nell’Area Tematica dei Requisiti ISO 27001 “Leadeship” 1. Si richiede  che l'alta direzione de bba dimostrare leadership e impegno in relazione al sistema di gestione della sicurezza",
-    "options": [
-      {
-        "option_text": "delle informazioni 2. Si richiede  che l'alta direzione de bba dimostrare leadership e impegno in relazione al lo sviluppo del  sistema informativo Falso 3. Si richiede  che l'alta direzione deve dimostrare leadership e impegno per assicurare che siano disponibili le risorse",
-        "answer": true
-      },
-      {
-        "option_text": "necessarie per il sistema di gestione della sicurezza delle informazioni 4. L’alta direzione deve stabilire una politica di sicurezza delle informazioni che  sia adeguata allo scopo dell'organizzazione Vero 5. L'alta direzione deve garantire che le responsabilità e le autorità per i ruoli rilevanti per le informazioni  di sicurezza vengono",
-        "answer": true
-      },
-      {
-        "option_text": "assegnate e comunicate all'interno dell'organizzazione 6. L'alta direzione deve garantire che le responsabilità e le autorità per i ruoli rilevanti per le informazioni  di sicurezza vengono",
-        "answer": true
-      },
-      {
-        "option_text": "assegnate secondo criteri soggettivi (16-M3.2.1.2 1) Nell’Area Tematica dei Requisiti ISO 27001 “ Pianificazione ” 1. L'organizzazione deve determinare  i rischi e le opportunità che devono essere affrontati per garantire che il sistema di",
-        "answer": false
-      },
-      {
-        "option_text": "gestione della sicurezza delle informazioni possa raggiungere i risultati previsti 2. L'organizzazione deve determinare i rischi e le opportunità che devono essere affrontati per prevenire, o ridurre, effetti",
-        "answer": true
-      },
-      {
-        "option_text": "indesiderati  nel raggiungimen to dei risultati previsti 3. L'organizzazione deve determinare i rischi e le opportunità che devono essere affrontati per mantenere almeno costante  il",
-        "answer": true
-      },
-      {
-        "option_text": "livello di sicurezza 4. L'organizzazione deve definire e applicare un processo di valutazione del rischio per la sicurezza delle informazioni che",
-        "answer": false
-      },
-      {
-        "option_text": "stabilisce e  aggiorna i  criteri di rischio per la sicurezza delle informazioni 5. L'organizzazione deve definire e applicare un processo di valutazione del rischio per la sicurezza delle informazioni in",
-        "answer": true
-      },
-      {
-        "option_text": "maniera indipendente, senza prendere in considerazioni altre normative come il GDPR 6. L'organizzazione deve determinare i rischi e le opportunità che garantisce che ripetute valutazioni del rischio per la",
-        "answer": false
-      },
-      {
-        "option_text": "sicurezza delle informazioni producano risultati coerenti, validi e comparabili (17- M3.2.1. 4) I Controlli ISO/IEC 27001 (Allegato A) 1. Sono le appropriate contromisure selezionate dalle organizzazioni per affrontare i rischi per la cyber security identificati Vero 2. Come indicato nel documento ISO/IEC 27002 associato all’ Annex  A di ISO 27001 sono strutturati secondo uno schema a 3",
-        "answer": true
-      },
-      {
-        "option_text": "livelli 3. Come indicato nel documento ISO/IEC 27002 associato all’ Annex A di ISO 27001 sono strutturati secondo uno schema a 2",
-        "answer": true
-      },
-      {
-        "option_text": "livelli",
-        "answer": false
-      },
-      {
-        "option_text": "4. Sono 114 secondo l’edizione ISO/IEC 27001/2 2013",
-        "answer": true
-      },
-      {
-        "option_text": "5. Sono 116 secondo l’edizione ISO/IEC 27001/2 2016",
-        "answer": false
-      },
-      {
-        "option_text": "6. Sono 93 secondo l’edizione ISO/IEC 27002 2022 (18- M3.2.1. 7) Quali delle seguenti sono Aree di Controllo secondo ISO 27001 2013?",
-        "answer": true
-      },
-      {
-        "option_text": "1. Sicurezza logica e ambientale",
-        "answer": false
-      },
-      {
-        "option_text": "2. Sicurezza delle attività operative",
-        "answer": true
-      },
-      {
-        "option_text": "3. Sicurezza delle reti e dei sistemi di comunicazione",
-        "answer": true
-      },
-      {
-        "option_text": "4. Acquisizione, sviluppo e manutenzione dei sistemi",
-        "answer": true
-      },
-      {
-        "option_text": "5. Gestione della catena di fornitura",
-        "answer": false
-      },
-      {
-        "option_text": "6. Gestione deli incidenti relativi alla sicurezza delle informazioni",
+        "option_text": "L'organizzazione deve determinare i rischi e le opportunità che garantisce che ripetute valutazioni del rischio per la sicurezza delle informazioni producano risultati coerenti, validi e comparabili",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 356
   },
   {
-    "id": 369,
+    "code": "M3.2.1.4",
+    "question": "I Controlli ISO/IEC 27001 (Allegato A)",
+    "options": [
+      {
+        "option_text": "Sono le appropriate contromisure selezionate dalle organizzazioni per affrontare i rischi per la cyber security identificati",
+        "answer": true
+      },
+      {
+        "option_text": "Come indicato nel documento ISO/IEC 27002 associato all’ Annex A di ISO 27001 sono strutturati secondo uno schema a 3 livelli",
+        "answer": true
+      },
+      {
+        "option_text": "Come indicato nel documento ISO/IEC 27002 associato all’ Annex A di ISO 27001 sono strutturati secondo uno schema a 2 livelli",
+        "answer": false
+      },
+      {
+        "option_text": "Sono 114 secondo l’edizione ISO/IEC 27001/2 2013",
+        "answer": true
+      },
+      {
+        "option_text": "Sono 116 secondo l’edizione ISO/IEC 27001/2 2016",
+        "answer": false
+      },
+      {
+        "option_text": "Sono 93 secondo l’edizione ISO/IEC 27002 2022",
+        "answer": true
+      }
+    ],
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 357
+  },
+  {
     "code": "M3.2.1.7",
-    "question": "F V V V F V  5 T1 3. È composto da quattro parti: Framework Core, Framework Implementation Tiers, Framework Profiles e Framework",
+    "question": "T1 3. È composto da quattro parti: Framework Core, Framework Implementation Tiers, Framework Profiles e Framework",
     "options": [
       {
         "option_text": "Deployment 4. Realizza un quadro che \"fornisce una tassonomia di alto livello dei risultati relativi alla sicurezza informatica e una",
@@ -12390,247 +11317,159 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 358
   },
   {
-    "id": 370,
     "code": "M3.2.3.4",
-    "question": "Nel NIST CSF i livelli di implementazione del framework (\"Tier\") 1. Forniscono un contesto su come un'organizzazione considera il rischio di sicurezza informatica e i processi in atto per",
+    "question": "Nel NIST CSF i livelli di implementazione del framework (\"Tier\")",
     "options": [
       {
-        "option_text": "gestirlo 2. Descrivono il grado in cui le pratiche di gestione del rischio di sicurezza informatica di un'organizzazione esibiscono le",
+        "option_text": "Forniscono un contesto su come un'organizzazione considera il rischio di sicurezza informatica e i processi in atto per gestirlo",
         "answer": true
       },
       {
-        "option_text": "caratteristiche definite nel Framework (ad esempio, consapevole del rischio e delle minacce, ripetibile e adattivo)",
+        "option_text": "Descrivono il grado in cui le pratiche di gestione del rischio di sicurezza informatica di un'organizzazione esibiscono le caratteristiche definite nel Framework (ad esempio, consapevole del rischio e delle minacce, ripetibile e adattivo)",
         "answer": true
       },
       {
-        "option_text": "3. Caratterizzano le pratiche di un'organizzazione in un intervallo, da Parziale (Tier 1) ad Ada ttativo  (Tier 5)",
+        "option_text": "Caratterizzano le pratiche di un'organizzazione in un intervallo, da Parziale (Tier 1) ad Ada ttativo (Tier 5)",
         "answer": false
       },
       {
-        "option_text": "4. Riflettono una progressione da risposte informali e reattive (Tier 1) ad approcci agili e informati sui rischi (Tier 5) 5. Durante il processo di selezione del livello, un'organizzazione dovrebbe considerare le sue attuali pratiche di gestione del rischio, l'ambiente delle minacce, i requisiti legali e normativi, gli obiettivi aziendali/della missione e i vincoli organiz zativi Vero 6. Sono valutati considerando tre parametri che permettono di verificare il livello di sviluppo del Processo di Gestione del Rischio (1), l’Integrazione del Programma di Gestione del Rischio (2) all’interno della realtà aziendale e la capacità dell’organizzaz ione di partecipare ad un ecosistema di gestione del rischio più ampio della singola realtà aziendale (3) Vero (21- M3.2.3. 7) Nel NIST CSF il Supply Chain Risk Management (SCRM) 1. Affronta sia l'effetto di sicurezza informatica che un'organizzazione ha sulle parti esterne sia l'effetto di sicurezza",
+        "option_text": "Riflettono una progressione da risposte informali e reattive (Tier 1) ad approcci agili e informati sui rischi (Tier 5)",
         "answer": false
       },
       {
-        "option_text": "informatica che le parti esterne hanno su un'organizzazione",
+        "option_text": "Durante il processo di selezione del livello, un'organizzazione dovrebbe considerare le sue attuali pratiche di gestione del rischio, l'ambiente delle minacce, i requisiti legali e normativi, gli obiettivi aziendali/della missione e i vincoli organiz zativi",
         "answer": true
       },
       {
-        "option_text": "2. Può includere le attività di determinazione dei requisiti di sicurezza informatica per i fornitori 3. Può includere le attività di attuazione dei requisiti di sicurezza informatica attraverso accordi formali (ad es. contratti) Vero",
+        "option_text": "Sono valutati considerando tre parametri che permettono di verificare il livello di sviluppo del Processo di Gestione del Rischio (1), l’Integrazione del Programma di Gestione del Rischio (2) all’interno della realtà aziendale e la capacità dell’organizzaz ione di partecipare ad un ecosistema di gestione del rischio più ampio della singola realtà aziendale (3)",
         "answer": true
-      },
-      {
-        "option_text": "4. È l'insieme delle attività necessarie per gestire il rischio di sicurezza informatica associato a soggetti esterni 5. Può includere le attività di verifica che i requisiti di sicurezza informatica siano soddisfatti attraverso una varietà di",
-        "answer": true
-      },
-      {
-        "option_text": "metodologie di valutazione per i soggetti interni 6. Può includere le attività di comunicazione ai fornitori di come saranno verificati e convalidati i requisiti di qualità del",
-        "answer": false
-      },
-      {
-        "option_text": "prodotto",
-        "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 359
   },
   {
-    "id": 371,
     "code": "M3.2.6.1",
-    "question": "La serie ISA/IEC 62443 1. Fornisce un quadro flessibile per affrontare e mitigare le vulnerabilità di sicurezza attuali e future nei sistemi di control lo e",
+    "question": "La serie ISA/IEC 62443",
     "options": [
       {
-        "option_text": "automazione industriale (IACS)",
+        "option_text": "Fornisce un quadro flessibile per affrontare e mitigare le vulnerabilità di sicurezza attuali e future nei sistemi di control lo e automazione industriale (IACS)",
         "answer": true
       },
       {
-        "option_text": "2. Sono standard applicabili a tutti i settori industriali e alle infrastrutture critiche",
+        "option_text": "Sono standard applicabili a tutti i settori industriali e alle infrastrutture critiche",
         "answer": true
       },
       {
-        "option_text": "3. Ha un posizionamento che scende sino a livello dell’impianto 4. Ha un posizionamento che parte dal coinvolgimento dell’amministratore delegato e del consiglio di amministrazione Falso",
+        "option_text": "Ha un posizionamento che scende sino a livello dell’impianto",
         "answer": true
       },
       {
-        "option_text": "5. È costituita da quattro famiglie di standard ancora in aggiornamento",
-        "answer": true
-      },
-      {
-        "option_text": "6. Non riguarda direttamente gli SCADA",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 372,
-    "code": "M3.2.6.4",
-    "question": "Le zone secondo ISA/IEC 62443 1. Dividono una architettura fisica (dispositivi di rete e connessioni) in zone omogenee raggruppando i dispositivi HW con",
-    "options": [
-      {
-        "option_text": "requisiti di sicurezza comuni",
+        "option_text": "Ha un posizionamento che parte dal coinvolgimento dell’amministratore delegato e del consiglio di amministrazione",
         "answer": false
       },
       {
-        "option_text": "2. Dividono un sistema in zone omogenee raggruppando le risorse (logiche o fisiche) con requisiti di sicurezza comuni 3. Hanno requisiti di sicurezza definiti da Security Level (SL), il livello richiesto per una zona è determinato dall'analisi de l",
+        "option_text": "È costituita da quattro famiglie di standard ancora in aggiornamento",
         "answer": true
       },
       {
-        "option_text": "rischio",
-        "answer": true
-      },
-      {
-        "option_text": "4. Hanno confini che separano gli elementi all'interno della zona da quelli esterni 5. Possono includere impianti presenti in siti fisici differenti  Falso  19",
-        "answer": true
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 373,
-    "code": "M3.2.6.1",
-    "question": "V V V F V F  6 T1 6. Possono essere suddivise in sottozone che definiscono diversi livelli di sicurezza e quindi consentono una difesa in",
-    "options": [
-      {
-        "option_text": "profondità",
-        "answer": true
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 374,
-    "code": "M3.3.1.1",
-    "question": "Il Diritto alla Privacy 1. Nasce negli Stati Uniti nel 1910 dall’istituto «diritto a essere lasciato solo» ( right to be let alone ) e viene elaborato in Italia",
-    "options": [
-      {
-        "option_text": "dagli anni ‘60 -’70",
+        "option_text": "Non riguarda direttamente gli SCADA",
         "answer": false
-      },
-      {
-        "option_text": "2. Attualmente viene inteso solo nel senso di protezione dei dati personali 3. Originariamente significava libertà “nel fare quello che si vuole con i propri affari privati che non coinvolgono gli altri”",
-        "answer": false
-      },
-      {
-        "option_text": "principio che deve confrontarsi con gli altri che impediscono all’individuo di agire da solo 4. Originariamente significava libertà “nel fare quello che si vuole con i propri affari privati ” senza confrontarsi con gli altri Falso 5. Attualmente viene inteso non solo nel senso di protezione dei dati personali ma anche come diritto a esprimere",
-        "answer": true
-      },
-      {
-        "option_text": "liberamente le proprie aspirazioni 6. Nasce negli Stati Uniti nel 1890 dall’istituto «diritto a essere lasciato solo» ( right to be let alone ) e viene elaborato in Italia",
-        "answer": true
-      },
-      {
-        "option_text": "dagli anni ‘60 -’70",
-        "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 360
   },
   {
-    "id": 375,
-    "code": "M3.3.6.1",
+    "code": "M3.3.6.1/24",
     "question": "Il Regolamento (UE) 2016/679 GDPR",
     "options": [
       {
-        "option_text": "1. È un  regolamento dell'Unione europea  in materia di  trattamento dei dati personali  e di privacy 2. Necessità di essere recepito dai singoli stati , ovvero i singoli stati devono prendere provvedimenti di natura legislativa  per",
+        "option_text": "È un regolamento dell'Unione europea in materia di trattamento dei dati personali e di privacy",
         "answer": true
       },
       {
-        "option_text": "conformarsi 3. Ha come obiettivo primario il rafforzamento della protezione dei dati personali di cittadini dell'Unione europea  (UE) e dei",
+        "option_text": "Necessità di essere recepito dai singoli stati , ov vero i singoli stati devono prendere provvedimenti di natura legislativa per conformarsi",
         "answer": false
       },
       {
-        "option_text": "residenti nell'UE, solo all'interno dei confini dell'UE 4. Si applica al trattamento dei dati personali delle persone fisiche e al trattamento non automatizzato dei dati conservati in",
+        "option_text": "Ha come obiettivo primario il rafforzamento della protezione dei dati personali di cittadini dell'Unione europea (UE) e dei residenti nell'UE, solo all'interno dei confini dell'UE",
         "answer": false
       },
       {
-        "option_text": "un «archivio» 5. Il regolamento non si applica ad imprese ed enti, organizzazioni con sede legale fuori dall’UE che trattano dati di residenti",
+        "option_text": "Si applica al trattamento dei dati personali delle persone fisiche e al trattamento non automatizzato dei dati conservati in un «archivio»",
         "answer": true
       },
       {
-        "option_text": "dell’Unione Europea",
+        "option_text": "Il regolamento non si applica ad imprese ed enti, organizzazioni con sede legale fuori dall’UE che trattano dati di residenti dell’Unione Europea",
         "answer": false
       },
       {
-        "option_text": "6. Il regolamento si occupa anche dei dati personali per attività di sicurezza nazionale o di ordine pubblico",
+        "option_text": "Il regolamento si occupa anche dei dati personali per attività di sicurezza nazionale o di ordine pubblico",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 361
   },
   {
-    "id": 376,
-    "code": "M3.3.6.1",
-    "question": "V F F V F F  7",
-    "options": [
-      {
-        "option_text": "T1 5. Terzi",
-        "answer": true
-      },
-      {
-        "option_text": "6. Competente",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 377,
     "code": "M3.3.7.2",
     "question": "La futura certificazione della cybersicurezza secondo il Regolamento (UE) 2019/881",
     "options": [
       {
-        "option_text": "1. Quattro livelli di certificazione con diverse “affidabilità”",
+        "option_text": "Quattro livelli di certificazione con diverse “affidabilità”",
         "answer": false
       },
       {
-        "option_text": "2. Tre livelli di certificazione con diverse “affidabilità” 3. Un livello di affidabilità “di base”, per il quale può bastare un riesame della documentazione tecnica, attività di valutazio ne sostitutive di effetto equivalente. Il livello base è l’unico per il quale il produttore/fornitore può ricorrere",
+        "option_text": "Tre livelli di certificazione con diverse “affidabilità”",
         "answer": true
       },
       {
-        "option_text": "all’autocertifi cazione, ove prevista 4. Un livello di affidabilità “sostanziale”, per il quale la valutazione di sicurezza è effettuata a un livello inteso a ridurre  al",
+        "option_text": "Un livello di affidabilità “di base”, per il quale può bastare un riesame della documentazione tecnica, attività di valutazio ne sostitutive di effetto equivalente. Il livello base è l’unico per il quale il produttore/fornitore può ricorrere all’autocertifi cazione, ove prevista",
         "answer": true
       },
       {
-        "option_text": "minimo i rischi di incidenti ed  attacchi informatici commessi da soggetti che dispongono di abilità e risorse limitate 5. Un livello di affidabilità “elevato, per il quale la valutazione di sicurezza è effettuata a un livello inteso a ridurre al m inimo",
+        "option_text": "Un livello di affidabilità “sostanziale”, per il quale la valutazione di sicurezza è effettuata a un livello inteso a ridurre al minimo i rischi di incidenti ed attacchi informatici commessi da soggetti che dispongono di abilità e risorse limitate",
         "answer": true
       },
       {
-        "option_text": "il rischio di  attacchi informatici avanzati commessi da attori che dispongono di abilità e risorse significative 6. Un livello di affidabilità “critico“, per il quale la valutazione di sicurezza è effettuata a un livello inteso ad annullare il rischio",
+        "option_text": "Un livello di affidabilità “elevato, per il quale la valutazione di sicurezza è effettuata a un livello inteso a ridurre al m inimo il rischio di attacchi informatici avanzati commessi da attori che dispongono di abilità e risorse significative",
         "answer": true
       },
       {
-        "option_text": "di attacchi informatici avanzati commessi da attori che dispongono di abilità e risorse significative",
+        "option_text": "Un livello di affidabilità “critico“, per il quale la valutazione di sicurezza è effettuata a un livello inteso ad annullare il rischio di attacchi informatici avanzati commessi da attori che dispongono di abilità e risorse significative",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 362
   },
   {
-    "id": 378,
     "code": "M3.4.3.3",
     "question": "Il Risk Apetite",
     "options": [
       {
-        "option_text": "Può essere tradotto come Propensione al Rischio Delimita inferiormente l’aerea dei rischi che devono essere assolutamente evitati o massimamente ridotti, mediante tutti gli",
+        "option_text": "Può essere tradotto come Propensione al Rischio",
         "answer": true
       },
       {
-        "option_text": "strumenti disponibili (Area Rossa) Delimita superiormente l’aerea dei rischi che devono essere assolutamente evitati o massimamente ridotti, mediante tutti",
+        "option_text": "Delimita inferiormente l’aerea dei rischi che devono essere assolutamente evitati o massimamente ridotti, mediante tutti gli strumenti disponibili (Area Rossa)",
         "answer": true
       },
       {
-        "option_text": "gli strumenti disponibili (Area Rossa)",
+        "option_text": "Delimita superiormente l’aerea dei rischi che devono essere assolutamente evitati o massimamente ridotti, mediante tutti gli strumenti disponibili (Area Rossa)",
         "answer": false
       },
       {
-        "option_text": "Delimita superiormente l’aerea dei rischi che devono essere monitorati e gestiti costantemente dall’azienda (Area Gialla) Indica il livello e il tipo di rischio che un’organizzazione è in grado di assumere coerentemente con gli obiettivi strategici",
+        "option_text": "Delimita superiormente l’aerea dei rischi che devono essere monitorati e gestiti costantemente dall’azienda (Area Gialla)",
         "answer": true
       },
       {
-        "option_text": "perseguiti",
+        "option_text": "Indica il livello e il tipo di rischio che un’organizzazione è in grado di assumere coerentemente con gli obiettivi strategic i perseguiti",
         "answer": true
       },
       {
@@ -12638,1206 +11477,966 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 363
   },
   {
-    "id": 379,
     "code": "M1.1.2.11",
     "question": "La comunicazione in Fibra Ottica",
     "options": [
       {
-        "option_text": "1. Si realizza mediante cavi in Fibra di Vetro o di Silicio",
+        "option_text": "Si realizza mediante cavi in Fibra di Vetro o di Silicio",
         "answer": true
       },
       {
-        "option_text": "2. Si realizza mediante cavi in Materiali Polimerici",
+        "option_text": "Si realizza mediante cavi in Materiali Polimerici",
         "answer": false
       },
       {
-        "option_text": "3. Permette di raggiungere velocità di propagazione e larghezza di banda molto maggiori rispetto ai cavi tradizionali",
+        "option_text": "Permette di raggiungere velocità di propagazione e larghezza di banda molto maggiori rispetto ai cavi tradizionali",
         "answer": true
       },
       {
-        "option_text": "4. Visti i costi, di solito si utilizza per distanze brevi e medie",
+        "option_text": "Visti i costi, di solito si utilizza per distanze brevi e medie",
         "answer": false
       },
       {
-        "option_text": "5. Permette di trasmettere il segnale con frequenze da 300 a 107 GHz",
+        "option_text": "Permette di trasmettere il segnale con frequenze da 300 a 107 GHz",
         "answer": true
       },
       {
-        "option_text": "6. Può essere Monomodale o Multimodale 2-",
+        "option_text": "Può essere Monomodale o Multimodale",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 364
   },
   {
-    "id": 380,
     "code": "M1.1.2.2",
-    "question": "Le onde lunghe (ovvero le onde a bassa frequenza):",
+    "question": "Le onde lunghe (ov  le onde a bassa frequenza):",
     "options": [
       {
-        "option_text": "1. Riescono a trasmettere maggiori informazioni rispetto alle onde corte",
+        "option_text": "Riescono a trasmettere maggiori informazioni rispetto alle onde corte",
         "answer": false
       },
       {
-        "option_text": "2. Riescono a trasmettere minori informazioni rispetto alle onde corte",
+        "option_text": "Riescono a trasmettere minori informazioni rispetto alle onde corte",
         "answer": true
       },
       {
-        "option_text": "3. Hanno bisogno di una potenza più elevata rispetto alle onde corte per essere trasmesse",
+        "option_text": "Hanno bisogno di una potenza più elevata rispetto alle onde corte per essere trasmesse",
         "answer": false
       },
       {
-        "option_text": "4. Hanno bisogno di una potenza meno elevata rispetto alle onde corte per essere trasmesse",
+        "option_text": "Hanno bisogno di una potenza meno elevata rispetto alle onde corte per essere trasmesse",
         "answer": true
       },
       {
-        "option_text": "5. Possono trasmettere segnali sino a 1000 chilometri",
+        "option_text": "Possono trasmettere segnali sino a 1000 chilometri",
         "answer": true
       },
       {
-        "option_text": "6. Si misurano in KHz 3-",
+        "option_text": "Si misurano in KHz",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 365
   },
   {
-    "id": 381,
     "code": "M1.1.4.5",
     "question": "Un linguaggio di Markup",
     "options": [
       {
-        "option_text": "1. È un linguaggio di marcatura o di formattazione",
+        "option_text": "È un linguaggio di marcatura o di formattazione",
         "answer": true
       },
       {
-        "option_text": "2. È un insieme di regole che descrivono i meccanismi di rappresentazione o impaginazione di un testo",
+        "option_text": "È un insieme di regole che descrivono i meccanismi di rappresentazione o impaginazione di un testo",
         "answer": true
       },
       {
-        "option_text": "3. È il linguaggio HTML",
+        "option_text": "È il linguaggio HTML",
         "answer": true
       },
       {
-        "option_text": "4. È il protocollo http",
+        "option_text": "È il protocollo http",
         "answer": false
       },
       {
-        "option_text": "5. Mescola il testo di un documento con le istruzioni di markup nello stesso flusso di dati o file",
+        "option_text": "Mescola il testo di un documento con le istruzioni di markup nello stesso flusso di dati o file",
         "answer": true
       },
       {
-        "option_text": "6. Non necessità di altri applicativi o strumenti per visualizzare correttamente il formato del testo 4-",
+        "option_text": "Non necessità di altri applicativi o strumenti per visualizzare correttamente il formato del testo",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 366
   },
   {
-    "id": 382,
     "code": "M1.1.4.6",
     "question": "Il DNS (Domain Name System)",
     "options": [
       {
-        "option_text": "1. Può essere definito come la \"guida telefonica\" di Internet",
+        "option_text": "Può essere definito come la \"guida telefonica\" di Internet",
         "answer": true
       },
       {
-        "option_text": "2. È uno standard che funziona solo con IPV4",
+        "option_text": "È uno standard che funziona solo con IPV4",
         "answer": false
       },
       {
-        "option_text": "3. Traduce i nomi di dominio in indirizzi IP, in modo che il browser possa caricare le risorse Internet",
+        "option_text": "Traduce i nomi di dominio in indirizzi IP, in modo che il browser possa caricare le risorse Internet",
         "answer": true
       },
       {
-        "option_text": "4. È un database distribuito di domini, ovvero insiemi di nomi formati da serie di stringhe separate da punti",
+        "option_text": "È un database distribuito di domini, ov vero insiemi di nomi formati da serie di stringhe separate da punti",
         "answer": true
       },
       {
-        "option_text": "5. Utilizza nomi di dominio in cui la parte più importante è la prima stringa partendo da destra sino al punto",
+        "option_text": "Utilizza nomi di dominio in cui la parte più importante è la prima stringa partendo da destra sino al punto",
         "answer": false
       },
       {
-        "option_text": "6. Utilizza nomi di dominio univoci a livello globale 5-",
+        "option_text": "Utilizza nomi di dominio univoci a livello globale",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 367
   },
   {
-    "id": 383,
     "code": "M1.2.4.39",
-    "question": "Advanced Persistent Threat (APT) 1. È una minaccia perpetrata da un avversario dotato di notevole bagaglio tecnico e grandi risorse, in grado di effettuare",
+    "question": "Advanced Persistent Threat (APT)",
     "options": [
       {
-        "option_text": "attacchi su vasta scala, utilizzando molteplici vettori, e per periodi di tempo molto estesi",
+        "option_text": "È una minaccia perpetrata da un avversario dotato di notevole bagaglio tecnico e grandi risorse, in grado di effettuare attacchi su vasta scala, utilizzando molteplici vettori, e per periodi di tempo molto estesi",
         "answer": true
       },
       {
-        "option_text": "2. È di solito gestita da gruppi organizzati e/o da stati sovrani",
+        "option_text": "È di solito gestita da gruppi organizzati e/o da stati sovrani",
         "answer": true
       },
       {
-        "option_text": "3. Utilizza prevalentemente software pubblicamente disponibili per riuscire meglio a propagarsi",
+        "option_text": "Utilizza prevalentemente software pubblicamente disponibili per riuscire meglio a propagarsi",
         "answer": false
       },
       {
-        "option_text": "4. Di solito utilizza software creati ad hoc, più versatili e complessi da rilevare 5. Per raccogliere informazioni sui propri obiettivi può utilizzare tool estremamente sofisticati, e, potenzialmente, anche",
+        "option_text": "Di solito utilizza software creati ad hoc, più versatili e complessi da rilevare",
         "answer": true
       },
       {
-        "option_text": "appoggiarsi ai servizi di intelligence del paese di provenienza 6. Di solito è realizzata da piccole organizzazioni con obiettivi di basso profilo, prevalentemente economici Falso Nome Cognome Matricola V F V F V V F V F V V V V V V F V F V F V V F V  2 T2 – 22 Settembre 2022 6-",
-        "answer": true
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 384,
-    "code": "M1.3.4.5",
-    "question": "In un sistema informatico la Ridondanza V V F V V F V F V V V F V V V F V F V V V F V F V V V V V F V V V F V F  3 T2 – 22 Settembre 2022 1. È l'esistenza di più componenti o dispositivi dedicati ad una specifica funzione, organizzati in modo da evitare che un",
-    "options": [
-      {
-        "option_text": "problema riguardante uno solo di essi determini il malfunzionamento generale dell'intero sistema 2. È uno strumento fondamentale, nelle fasi progettazione e di revisione di un’architettura o una topologia di rete, per",
+        "option_text": "Per raccogliere informazioni sui propri obiettivi può utilizzare tool estremamente sofisticati, e, potenzialmente, anche appoggiarsi ai servizi di intelligence del paese di provenienza",
         "answer": true
       },
       {
-        "option_text": "aumentare l’affidabilità e la disponibilità complessiva dei sistemi",
-        "answer": true
-      },
-      {
-        "option_text": "3. Deve essere realizzata affiancando componenti o dispositivi rigorosamente dello stesso tipo",
-        "answer": false
-      },
-      {
-        "option_text": "4. Deve essere realizzata affiancando componenti o dispositivi che realizzino le stesse funzioni nello stesso modo",
-        "answer": true
-      },
-      {
-        "option_text": "5. È necessario che sia presente su tutta la catena dei dispositivi (end-to-end), evitando accuratamente gli SPOF",
-        "answer": true
-      },
-      {
-        "option_text": "6. Può essere realizzata solamente su una parte della catena dei dispositivi 12-",
+        "option_text": "Di solito è realizzata da piccole organizzazioni con obiettivi di basso profilo, prevalentemente economici",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 368
   },
   {
-    "id": 385,
     "code": "M3.1.3.4",
     "question": "Il percorso di Certificazione Aziendale",
     "options": [
       {
-        "option_text": "1. È composto di una prima fase (di solito) consulenziale di progettazione e implementazione del Sistema di Gestione 2. È composto di una prima fase in cui si realizzano manuali, procedure, istruzioni e moduli di registrazioni conformi alle norme",
+        "option_text": "È composto di una prima fase (di solito) consulenziale di progettazione e implementazione del Sistema di Gestione",
         "answer": true
       },
       {
-        "option_text": "dello schema di riferimento 3. Prevede un audit, ovvero una valutazione indipendente di un ente terzo di certificazione volta a ottenere le evidenze della",
+        "option_text": "È composto di una prima fase in cui si realizzano manuali, procedure, istruzioni e moduli di registrazioni conformi alle norme dello schema di riferimento",
         "answer": true
       },
       {
-        "option_text": "soddisfazione dei criteri prefissati 4. Prevede un audit, ovvero una valutazione interna o da parte di terzi, volta a ottenere le evidenze della soddisfazione dei",
+        "option_text": "Prevede un audit, ov vero una valutazione indipendente di un ente terzo di certificazione volta a ottenere le evidenze della soddisfazione dei criteri prefissati",
         "answer": true
       },
       {
-        "option_text": "criteri prefissati 5. È composto di una seconda fase di richiesta della certificazione del Sistema di Gestione dopo l’esito positivo della valutazione",
+        "option_text": "Prevede un audit, ov vero una valutazione interna o da parte di terzi, volta a ottenere le evidenze della soddisfazione dei criteri prefissati",
         "answer": false
       },
       {
-        "option_text": "interna 6. È composto di una seconda fase in cui si effettua la pianificazione dell’audit e del conseguimento del certificato a seguito del",
+        "option_text": "È composto di una seconda fase di richiesta della certificazione del Sistema di Gestione dopo l’esito positivo della valutazione interna",
         "answer": false
       },
       {
-        "option_text": "completamento positivo dell’audit da parte dell’ente di certificazione 14 -",
+        "option_text": "È composto di una seconda fase in cui si effettua la pianificazione dell’audit e del conseguimento del certificato a seguito del completamento positivo dell’audit da parte dell’ente di certificazione",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 369
   },
   {
-    "id": 386,
-    "code": "M3.2.6.14",
-    "question": "La serie ISA/IEC 62443 1. È stata sviluppata dal comitato ISA99 e rilasciata con lo stesso nome, successivamente è stata adottata dalla Commissione",
-    "options": [
-      {
-        "option_text": "elettrotecnica internazionale (IEC) 2. Continua ad essere sviluppata dal comitato ISA99 che si avvale del contributo e delle conoscenze degli esperti di sicurezza",
-        "answer": true
-      },
-      {
-        "option_text": "IACS di tutto il mondo",
-        "answer": true
-      },
-      {
-        "option_text": "3. Originariamente è stata sviluppata da ISA99 ed ora è in gestione dal comitato IEC che non sviluppa nuove parti 4. Fornisce un quadro flessibile per affrontare e mitigare le vulnerabilità di sicurezza attuali e future nei sistemi di controllo e",
-        "answer": false
-      },
-      {
-        "option_text": "automazione industriale (IACS)",
-        "answer": true
-      },
-      {
-        "option_text": "5. Attualmente è costituito da quattro famiglie di standard corrispondenti a quattro profili di approfondimento",
-        "answer": true
-      },
-      {
-        "option_text": "6. Attualmente è costituito da tre famiglie di standard corrispondenti a tre profili di approfondimento 15 -",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 387,
     "code": "M3.3.1.5",
     "question": "Il Regolamento UE 2016/679 del Parlamento Europeo e del Consiglio del 27 aprile 2016, detto GDPR",
     "options": [
       {
-        "option_text": "1. È un atto giuridico che è stato recepito da parte degli stati membri l’UE",
+        "option_text": "È un atto giuridico che deve essere recepito da parte degli stati membri l’UE",
         "answer": true
       },
       {
-        "option_text": "2. Ha sostituito una precedente direttiva relativa alla tutela delle persone fisiche riguardo il trattamento dei dati personali",
+        "option_text": "Ha sostituito una precedente direttiva relativa alla tutela delle persone fisiche riguardo il trattamento dei dati personali",
         "answer": true
       },
       {
-        "option_text": "3. In Italia ha reso necessaria una modifica della legislazione esistente (il Codice della Privacy)",
+        "option_text": "In Italia ha reso necessaria una modifica della legislazione esistente (il Codice della Privacy)",
         "answer": true
       },
       {
-        "option_text": "4. È entrato vigore in Italia senza la necessità di essere recepito e senza modificare la legislazione esistente",
+        "option_text": "È entrato vigore in Italia senza la necessità di essere recepito e senza modificare la legislazione esistente",
         "answer": false
       },
       {
-        "option_text": "5. Disciplina il trattamento dei dati personali relativi ai cittadini dell'UE, da parte di persone, società o organizzazioni",
+        "option_text": "Disciplina il trattamento dei dati personali relativi ai cittadini dell'UE, da parte di persone, società o organizzazioni",
         "answer": true
       },
       {
-        "option_text": "6. Disciplina il trattamento dei dati personali da parte di persone, società o organizzazioni facenti parte dell’UE 17 - (M.3.3.2.4) Il Brevetto 1. È un titolo in forza del quale si conferisce al titolare un monopolio di sfruttamento di un’invenzione, per un periodo di tempo",
+        "option_text": "Disciplina il trattamento dei dati personali da parte di persone, società o organizzazioni facenti parte dell’UE",
+        "answer": false
+      }
+    ],
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 370
+  },
+  {
+    "code": "M.3.3.2.4",
+    "question": "Il Brevetto",
+    "options": [
+      {
+        "option_text": "È un titolo in forza del quale si conferisce al titolare un monopolio di sfruttamento di un’invenzione, per un periodo di tempo limitato",
+        "answer": true
+      },
+      {
+        "option_text": "Consiste nel diritto esclusivo di realizzare un’invenzione, disporne e farne un uso commerciale, vietando tali attività ad altri soggetti non autorizzati",
+        "answer": true
+      },
+      {
+        "option_text": "Attribuisce al titolare un’autorizzazione al libero uso dell’invenzione coperta dal brevetto",
         "answer": false
       },
       {
-        "option_text": "limitato 2. Consiste nel diritto esclusivo di realizzare un’invenzione, disporne e farne un uso commerciale, vietando tali attività ad altri",
+        "option_text": "Attribuisce al titolare il diritto di escludere altri soggetti dall’utilizzo della stessa",
         "answer": true
       },
       {
-        "option_text": "soggetti non autorizzati",
+        "option_text": "Conferisce un diritto esclusivo di sfruttamento dell'invenzione, in un territorio e per un periodo ben determinato",
         "answer": true
       },
       {
-        "option_text": "3. Attribuisce al titolare un’autorizzazione al libero uso dell’invenzione coperta dal brevetto",
+        "option_text": "Conferisce un diritto esclusivo di sfruttamento dell'invenzione, globalmente e per un periodo illimitato",
+        "answer": false
+      }
+    ],
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 371
+  },
+  {
+    "code": "M.3.3.2.5",
+    "question": "Gli Asset informatici",
+    "options": [
+      {
+        "option_text": "Sono le casseforti aziendali a cui deve essere attribuito il valore effettivo in base a adeguate valutazioni",
+        "answer": true
+      },
+      {
+        "option_text": "Sono i contenitori dei patrimoni conoscitivi dell’azienda, che permettono di realizzare in maniera costante e ripetitiva o, altresì, di evolvere un prodotto o un servizio",
+        "answer": true
+      },
+      {
+        "option_text": "Sono unicamente i sistemi gestionali che permettono di gestire gli ordini dai clienti e quindi il vero valore per l’azienda",
         "answer": false
       },
       {
-        "option_text": "4. Attribuisce al titolare il diritto di escludere altri soggetti dall’utilizzo della stessa",
-        "answer": true
-      },
-      {
-        "option_text": "5. Conferisce un diritto esclusivo di sfruttamento dell'invenzione, in un territorio e per un periodo ben determinato",
-        "answer": true
-      },
-      {
-        "option_text": "6. Conferisce un diritto esclusivo di sfruttamento dell'invenzione, globalmente e per un periodo illimitato 18 - (M.3.3.2.5) Gli Asset informatici",
+        "option_text": "Sono quei sistemi informatici che non richiedono un onere di gestione e manutenzione grazie al forte ritorno economico",
         "answer": false
       },
       {
-        "option_text": "1. Sono le casseforti aziendali a cui deve essere attribuito il valore effettivo in base a adeguate valutazioni 2. Sono i contenitori dei patrimoni conoscitivi dell’azienda, che permettono di realizzare in maniera costante e ripetitiva o,",
+        "option_text": "Devono essere protetti con una strategia di protezione crescente e stratificata, dall’esterno verso il cuore della proprietà intellettuale",
         "answer": true
       },
       {
-        "option_text": "altresì, di evolvere un prodotto o un servizio",
-        "answer": true
-      },
-      {
-        "option_text": "3. Sono unicamente i sistemi gestionali che permettono di gestire gli ordini dai clienti e quindi il vero valore per l’azienda 4. Sono quei sistemi informatici che non richiedono un onere di gestione e manutenzione grazie al forte ritorno economico Falso",
-        "answer": false
-      },
-      {
-        "option_text": "5. Devono essere protetti con una strategia crescente e stratificata, dall’esterno verso il cuore della proprietà intellettuale 6. Possono essere i Sistemi CAD/CAM Computer Aided Design e Manufacturing presso gli uffici di ingegneria e progettazione Vero 19 - (M.3.3.3.3) I Data Breach 1. Sono violazioni di sicurezza che comportano la distruzione, la perdita, la modifica, la divulgazione non autorizzata o l’accesso",
-        "answer": true
-      },
-      {
-        "option_text": "ai dati personali trasmessi, conservati o comunque trattati 2. Sono violazioni dei dati personali che possono compromettere la riservatezza, l’integrità o la disponibilità di dati personali Vero",
-        "answer": true
-      },
-      {
-        "option_text": "3. Possono essere, ad esempio, gli accessi o le acquisizioni dei dati da parte di terzi non autorizzati",
-        "answer": true
-      },
-      {
-        "option_text": "4. Possono essere, ad esempio, i furti o le perdite di dispositivi informatici contenenti dati personali",
-        "answer": true
-      },
-      {
-        "option_text": "5. Possono essere, ad esempio, le impossibilità di accedere ai dati per aver dimenticato o perso le credenziali",
-        "answer": false
-      },
-      {
-        "option_text": "6. Possono essere, ad esempio, le deliberate alterazione di dati personali V V F V V F V V V F V F V V F V V F V V F F V V V V V V F V  5 T1 – 22 Settembre 2022 20 -",
+        "option_text": "Possono essere i Sistemi CAD/CAM Computer Aided Design e Manufacturing presso gli uffici di ingegneria e progettazione",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 372
   },
   {
-    "id": 388,
+    "code": "M.3.3.3.3",
+    "question": "I Data Breach",
+    "options": [
+      {
+        "option_text": "Sono violazioni di sicurezza che comportano la distruzione, la perdita, la modifica, la divulgazione non autorizzata o l’accesso ai dati personali trasmessi, conservati o comunque trattati",
+        "answer": true
+      },
+      {
+        "option_text": "Sono violazioni dei dati personali che possono compromettere la riservatezza, l’integrità o la disponibilità di dati personali",
+        "answer": true
+      },
+      {
+        "option_text": "Possono essere, ad esempio, l’accesso o l’acquisizione dei dati da parte di terzi non autorizzati",
+        "answer": true
+      },
+      {
+        "option_text": "Possono essere, ad esempio, il furto o la perdita di dispositivi informatici contenenti dati personali",
+        "answer": true
+      },
+      {
+        "option_text": "Possono essere, ad esempio, l’impossibilità di accedere ai dati per aver dimenticato o perso le credenziali",
+        "answer": false
+      },
+      {
+        "option_text": "Possono essere, ad esempio, la deliberata alterazione di dati personali",
+        "answer": true
+      }
+    ],
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 373
+  },
+  {
     "code": "M3.3.5.2",
     "question": "Secondo la direttiva NIS (Network and Information Security) il CSIRT Nazionale include i seguenti compiti:",
     "options": [
       {
-        "option_text": "1. Il monitoraggio degli incidenti a livello nazionale 1. L’emissione di preallarmi, allerte, annunci e divulgazione di informazioni alle parti interessate in merito a rischi e incidenti Vero",
+        "option_text": "Il monitoraggio degli incidenti a livello nazionale Vero 1. L’emissione di preallarmi, allerte, annunci e divulgazione di informazioni alle parti interessate in merito a rischi e incidenti",
         "answer": true
       },
       {
-        "option_text": "2. L’intervento in caso di incidente",
+        "option_text": "L’intervento in caso di incidente",
         "answer": true
       },
       {
-        "option_text": "3. L’analisi a posteriori dei rischi e degli incidenti",
+        "option_text": "L’analisi a posteriori dei rischi e degli incidenti",
         "answer": false
       },
       {
-        "option_text": "4. La partecipazione economica agli investimenti in cybersecurity",
+        "option_text": "La partecipazione economica agli investimenti in cybersecurity",
         "answer": false
       },
       {
-        "option_text": "5. La partecipazione alla rete dei CSIRT europei 21 -",
+        "option_text": "La partecipazione alla rete dei CSIRT europei",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 374
   },
   {
-    "id": 389,
     "code": "M3.3.5.3",
-    "question": "NIS2 (Network and Information Security) rispetto alla prima direttiva NIS: 1. Elimina la distinzione tra fornitori di servizi essenziali e fornitori di servizi digitali, le aziende vengono classificate in",
+    "question": "NIS2 (Network and Information Security) rispetto alla prima direttiva NIS:",
     "options": [
       {
-        "option_text": "“essenziali” e/o “importanti” a seconda della criticità dei servizi che offrono",
+        "option_text": "Elimina la distinzione tra fornitori di servizi essenziali e fornitori di servizi digitali, le aziende vengono classificate in “essenziali” e/o “importanti” a seconda della criticità dei servizi che offrono",
         "answer": true
       },
       {
-        "option_text": "2. Prevede che le nuove categorie dei sevizi essenziali e importanti siano sottoposte a regimi di vigilanza diversi",
+        "option_text": "Prevede che le nuove categorie dei sevizi essenziali e importanti siano sottoposte a regimi di vigilanza diversi",
         "answer": true
       },
       {
-        "option_text": "3. Entrerà direttamente in forza senza il recepimento dei singoli stati dell’UE 4. Amplia l’ambito di applicazione comprendendo più servizi, come la produzione di prodotti farmaceutici, dispositivi medici e prodotti chimici, il settore alimentare, la gestione delle acque reflue e dei rifiuti, i servizi postali, nonché la pubblica",
+        "option_text": "Entrerà direttamente in forza senza il recepimento dei singoli stati dell’UE",
         "answer": false
       },
       {
-        "option_text": "amministrazione",
+        "option_text": "Amplia l’ambito di applicazione comprendendo più servizi, come la produzione di prodotti farmaceutici, dispositivi medici e prodotti chimici, il settore alimentare, la gestione delle acque reflue e dei rifiuti, i servizi postali, nonché la pubblica amministrazione",
         "answer": true
       },
       {
-        "option_text": "5. Prevede il nuovo obiettivo di rafforzare la sicurezza informatica lungo la catena di approvvigionamento",
+        "option_text": "Prevede il nuovo obiettivo di rafforzare la sicurezza informatica lungo la catena di approvvigionamento",
         "answer": true
       },
       {
-        "option_text": "6. Non è ancora entra in vigore 21 -",
+        "option_text": "Non è ancora entra in vigore",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 375
   },
   {
-    "id": 390,
     "code": "M3.3.6.7",
-    "question": "L’ambito di applicazione (SCOPE) del regolamento Europeo UE 2016/679 (General Data Protection) 1. È relativo al trattamento dei dati personali in genere, ed al trattamento manuale dei dati se conservati in un \"archivio\",",
+    "question": "L’ambito di applicazione (SCOPE) del regolamento Europeo UE 2016/679 (General Data Protection)",
     "options": [
       {
-        "option_text": "definito in modo simile all'espressione \"banca di dati\", presente nel codice della privacy italiano 2. Riguarda anche a imprese ed enti, organizzazioni in generale, con sede legale fuori dall'UE che trattano dati personali di",
+        "option_text": "È relativo al trattamento dei dati personali in genere, ed al trattamento manuale dei dati se conservati in un \"archivio\", definito in modo simile all'espressione \"banca di dati\", presente nel codice della privacy italiano",
         "answer": true
       },
       {
-        "option_text": "residenti nell'Unione Europea",
+        "option_text": "Riguarda anche a imprese ed enti, organizzazioni in generale, con sede legale fuori dall'UE che trattano dati personali di residenti nell'Unione Europea",
         "answer": true
       },
       {
-        "option_text": "3. Prescinde dal luogo o dai luoghi ove sono collocati i sistemi di archiviazione (storage) e di elaborazione (server)",
+        "option_text": "Prescinde dal luogo o dai luoghi ove sono collocati i sistemi di archiviazione (storage) e di elaborazione (server)",
         "answer": true
       },
       {
-        "option_text": "4. Il regolamento riguarda anche la gestione di dati personali per attività di sicurezza nazionale o di ordine pubblico",
+        "option_text": "Il regolamento riguarda anche la gestione di dati personali per attività di sicurezza nazionale o di ordine pubblico",
         "answer": false
       },
       {
-        "option_text": "5. Riguarda specificatamente i dati memorizzati su supporto informatico",
+        "option_text": "Riguarda specificatamente i dati memorizzati su supporto informatico",
         "answer": false
       },
       {
-        "option_text": "6. Riguarda e disciplina il trattamento dei dati delle persone fisiche e giuridiche 22-",
+        "option_text": "Riguarda e disciplina il trattamento dei dati delle persone fisiche e giuridiche",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 376
   },
   {
-    "id": 391,
     "code": "M3.3.6.8",
     "question": "Per il Regolamento UE 2016/679 GDPR",
     "options": [
       {
-        "option_text": "1. L’informativa deve essere fornita dal titolare del trattamento agli interessati, prima del trattamento",
+        "option_text": "L’informativa deve essere fornita dal titolare del trattamento agli interessati, prima del trattamento",
         "answer": true
       },
       {
-        "option_text": "2. L’informativa deve essere fornita dal titolare del trattamento sulle finalità e le modalità dei trattamenti operati",
+        "option_text": "L’informativa deve essere fornita dal titolare del trattamento sulle finalità e le modalità dei trattamenti operati",
         "answer": true
       },
       {
-        "option_text": "3. L'informativa disciplina due diversi casi: dati raccolti presso l'interessato e dati raccolti presso altri soggetti",
+        "option_text": "L'informativa disciplina due diversi casi: dati raccolti presso l'interessato e dati raccolti presso altri soggetti",
         "answer": true
       },
       {
-        "option_text": "4. L'informativa disciplina diversi casi: dall’Art. 13 sino all’articolo 16 5. Una volta fornita l’informativa deve essere poi esplicitamente dato un valido consenso per la raccolta dei dati e per i propositi",
+        "option_text": "L'informativa disciplina diversi casi: dall’Art. 13 sino all’articolo 16",
         "answer": false
       },
       {
-        "option_text": "per i quali sono usati da parte dell’interessato",
+        "option_text": "Una volta fornita l’informativa deve essere poi esplicitamente dato un valido consenso per la raccolta dei dati e per i propositi per i quali sono usati da parte dell’interessato",
         "answer": true
       },
       {
-        "option_text": "6. Il consenso può essere fornito in maniera unica anche su molti punti informativi anche non distinti e specificati 23 -",
+        "option_text": "Il consenso può essere fornito in maniera unica anche su molti punti informativi anche non distinti e specificati",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 377
   },
   {
-    "id": 392,
     "code": "M3.3.7.3",
     "question": "Il Cybersecurity Act (Regolamento EU 2019/881)",
     "options": [
       {
-        "option_text": "1. È composto di due parti fondamentali (il Titolo II e Titolo III)",
+        "option_text": "È composto di due parti fondamentali (il Titolo II e Titolo III)",
         "answer": true
       },
       {
-        "option_text": "2. Si occupa in primis di definire il ruolo dell’Agenzia Europea per la Cybersecurity 3. Si occupa nella seconda parte di definire un quadro di certificazione europea della cybersicurezza per i prodotti, i servizi e i",
+        "option_text": "Si occupa in primis di definire il ruolo dell’Agenzia Europea per la Cybersecurity",
         "answer": true
       },
       {
-        "option_text": "processi TIC 4. Si occupa nella seconda parte di definire un quadro di certificazione europea della cybersicurezza esclusivamente per i",
+        "option_text": "Si occupa nella seconda parte di definire un quadro di certificazione europea della cybersicurezza per i prodotti, i servizi e i processi TIC",
         "answer": true
       },
       {
-        "option_text": "prodotti TIC",
+        "option_text": "Si occupa nella seconda parte di definire un quadro di certificazione europea della cybersicurezza esclusivamente per i prodotti TIC",
         "answer": false
       },
       {
-        "option_text": "5. Prevede un quadro di certificazione a tre livelli di affidabilità: di base, sostanziale ed elevato",
+        "option_text": "Prevede un quadro di certificazione a tre livelli di affidabilità: di base, sostanziale ed elevato",
         "answer": true
       },
       {
-        "option_text": "6. Prevede un quadro di certificazione a quattro livelli di affidabilità: di base, moderato, elevato e critico 24 -",
+        "option_text": "Prevede un quadro di certificazione a quattro livelli di affidabilità: di base, moderato, elevato e critico",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 378
   },
   {
-    "id": 393,
     "code": "M3.4.1.2",
-    "question": "I requisiti ISO 27001 nel ciclo di Deming (PDCA) sono associati: V V V F F V V V F V V F V V V F F F V V V F V F V V V F V F  6",
+    "question": "I requisiti ISO 27001 nel ciclo di Deming (PDCA) sono associati:",
     "options": [
       {
-        "option_text": "T2 – 22 Settembre 2022 1. Contesto, Leadership, Pianificazione e Supporto a PLAN",
+        "option_text": "Contesto, Leadership, Pianificazione e Supporto a PLAN",
         "answer": true
       },
       {
-        "option_text": "2. Contesto, Leadership e Pianificazione a PLAN",
+        "option_text": "Contesto, Leadership e Pianificazione a PLAN",
         "answer": false
       },
       {
-        "option_text": "3. Attività Operative a DO",
+        "option_text": "Attività Operative a DO",
         "answer": true
       },
       {
-        "option_text": "4. Supporto e Attività Operative a DO",
+        "option_text": "Supporto e Attività Operative a DO",
         "answer": false
       },
       {
-        "option_text": "5. Valutazione prestazioni a CHECK",
+        "option_text": "Valutazione prestazioni a CHECK",
         "answer": true
       },
       {
-        "option_text": "6. Miglioramento ad ACT 25 -",
+        "option_text": "Miglioramento ad ACT",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 379
   },
   {
-    "id": 394,
     "code": "M3.4.1.3",
-    "question": "Il Contesto di un’Organizzazione secondo ISO 27001? 1. Fa riferimento alla comprensione dell’organizzazione nel suo insieme, il modello di business e i suoi rischi, le aspettative degli",
+    "question": "Il Contesto di un’Organizzazione secondo ISO 27001?",
     "options": [
       {
-        "option_text": "“stake holder”, il management e tutte le parti che ne compongono la struttura",
+        "option_text": "Fa riferimento alla comprensione dell’organizzazione nel suo insieme, il modello di business e i suoi rischi, le aspettative degli “stake holder”, il management e tutte le parti che ne compongono la struttura",
         "answer": true
       },
       {
-        "option_text": "2. Deve essere considerato a partire dall’alto (approccio Top-Down)",
+        "option_text": "Deve essere considerato a partire dall’alto (approccio Top-Down)",
         "answer": true
       },
       {
-        "option_text": "3. Deve essere considerato a partire dalle strutture operative (approccio Bottom-Up) 4. Deve essere utilizzato per definire il campo di applicazione e gli obiettivi del sistema di gestione che si vuole implementare Vero 5. Deve considerare lo stato attuale dell’azienda e l’obiettivo futuro, dopodiché permettere di definire il progetto di",
+        "option_text": "Deve essere considerato a partire dalle strutture operative (approccio Bottom-Up)",
         "answer": false
       },
       {
-        "option_text": "cambiamento",
+        "option_text": "Deve essere utilizzato per definire il campo di applicazione e gli obiettivi del sistema di gestione che si vuole implementare",
         "answer": true
       },
       {
-        "option_text": "6. Supporta, nella definizione del progetto di cambiamento, la quantizzazione dei possibili investimenti 26 -",
+        "option_text": "Deve considerare lo stato attuale dell’azienda e l’obiettivo futuro, dopodiché permettere di definire il progetto di cambiamento",
+        "answer": true
+      },
+      {
+        "option_text": "Supporta, nella definizione del progetto di cambiamento, la quantizzazione dei possibili investimenti",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 380
   },
   {
-    "id": 395,
     "code": "M3.4.3.4",
     "question": "Come si può definire una strategia di mitigazione del rischio?",
     "options": [
       {
-        "option_text": "1. Si può delimitare, coerentemente con gli obiettivi strategici stabiliti, aree di gestione differenti",
+        "option_text": "Si può delimitare, coerentemente con gli obiettivi strategici stabiliti, aree di gestione differenti",
         "answer": true
       },
       {
-        "option_text": "2. Si associano le varie aree di gestione ad azioni di mitigazione diversificate",
+        "option_text": "Si associano le varie aree di gestione ad azioni di mitigazione diversificate",
         "answer": true
       },
       {
-        "option_text": "3. Si possono delimitare, ad esempio, tre aree di gestioni (attenzione, monitoraggio e divieto)",
+        "option_text": "Si possono delimitare, ad esempio, tre aree di gestioni (attenzione, monitoraggio e divieto)",
         "answer": true
       },
       {
-        "option_text": "4. Si possono delimitare le aree con soglie associate al livello e la tipologia del rischio",
+        "option_text": "Si possono delimitare le aree con soglie associate al livello e la tipologia del rischio",
         "answer": true
       },
       {
-        "option_text": "5. Si definisce un’area di divieto che richiede un monitoraggio continuo",
+        "option_text": "Si definisce un’area di divieto che richiede un monitoraggio continuo",
         "answer": false
       },
       {
-        "option_text": "6. Si definisce sempre una soglia di Risk Apetite ovvero una soglia che deve essere sempre superata 27 -",
+        "option_text": "Si definisce sempre una soglia di Risk Apetite ov vero una soglia che deve essere sempre superata",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 381
   },
   {
-    "id": 396,
     "code": "M3.4.4.3",
     "question": "Perché il modello RID (Riservatezza-Integrità-Disponibilità) non va bene per i sistemi operazionali OT?",
     "options": [
       {
-        "option_text": "1. Perché la Riservatezza è parzialmente rilevante*",
+        "option_text": "Perché la Riservatezza è parzialmente rilevante*",
         "answer": true
       },
       {
-        "option_text": "2. Perché la Riservatezza non è assolutamente rilevante*",
+        "option_text": "Perché la Riservatezza non è assolutamente rilevante*",
         "answer": false
       },
       {
-        "option_text": "3. L’integrità è significativa* se è associata alla capacità di mantenere attivo il controllo sul processo",
+        "option_text": "L’integrità è significativa* se è associata alla capacità di mantenere attivo il controllo sul processo",
         "answer": true
       },
       {
-        "option_text": "4. Perché la disponibilità* è un fattore rilevante se la si considera dal punto di vista dell’impatto sulla business continuty",
+        "option_text": "Perché la disponibilità* è un fattore rilevante se la si considera dal punto di vista dell’impatto sulla business continuty",
         "answer": true
       },
       {
-        "option_text": "5. Perché esistono parametri più rilevanti*, quali il Safety (Sicurezza Fisica) o la Reliability (Affidabilità)",
+        "option_text": "Perché esistono parametri più rilevanti*, quali il Safety (Sicurezza Fisica) o la Reliability (Affidabilità)",
         "answer": true
       },
       {
-        "option_text": "6. Perché esistono parametri più rilevanti*, quali l’Accountability (*) Per un sistema OT 28 -",
+        "option_text": "Perché esistono parametri più rilevanti*, quali l’Accountability",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 382
   },
   {
-    "id": 397,
     "code": "M4.1.2.3",
     "question": "Come si riesce a trasformare il reparto IT da centro di costo a centro di profitto?",
     "options": [
       {
-        "option_text": "1. Sensibilizzazione e formazione degli skills del top management verso il Digitale",
+        "option_text": "Sensibilizzazione e formazione degli skills del top management verso il Digitale",
         "answer": true
       },
       {
-        "option_text": "2. Utilizzo delle politiche economiche industriali e dei relativi incentivi, bonus o benefit",
+        "option_text": "Utilizzo delle politiche economiche industriali e dei relativi incentivi, bonus o benefit",
         "answer": true
       },
       {
-        "option_text": "3. Realizzare investimenti informatici che permettano la crescita commerciale sul mercato globale",
+        "option_text": "Realizzare investimenti informatici che permettano la crescita commerciale sul mercato globale",
         "answer": true
       },
       {
-        "option_text": "4. Realizzare investimenti informatici che permettano la maggiore competitività sul mercato",
+        "option_text": "Realizzare investimenti informatici che permettano la maggiore competitività sul mercato",
         "answer": true
       },
       {
-        "option_text": "5. Realizzare investimenti informatici che permettano l’internazionalizzazione dell’azienda",
+        "option_text": "Realizzare investimenti informatici che permettano l’internazionalizzazione dell’azienda",
         "answer": true
       },
       {
-        "option_text": "6. Realizzare investimenti informatici che migliorino il rendimento produttivo riducendo gli sprechi V F V F V V V V F V V V V V V V F F V F V V V F V V V V V V  7 T2 – 22 Settembre 2022 29-",
+        "option_text": "Realizzare investimenti informatici che migliorino il rendimento produttivo riducendo gli sprechi",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 383
   },
   {
-    "id": 398,
     "code": "M4.1.4.1",
     "question": "Quali possono essere le ragioni per investire in Digitalizzazione?",
     "options": [
       {
-        "option_text": "1. Migliore qualità: Controlli automatici e ripetitivi, segnalazione anomalie in tempo reale",
+        "option_text": "Migliore qualità: Controlli automatici e ripetitivi, segnalazione anomalie in tempo reale",
         "answer": true
       },
       {
-        "option_text": "2. Risparmio di tempo: Riduzione dei tempi di produzione e di consegna, riduzione dei fermi 3. Riduzione dei magazzini: Integrazione della supply chain, riordino automatico dei componenti solo quando serve",
+        "option_text": "Risparmio di tempo: Riduzione dei tempi di produzione e di consegna, riduzione dei fermi",
         "answer": true
       },
       {
-        "option_text": "effettivamente",
+        "option_text": "Riduzione dei magazzini: Integrazione della supply chain, riordino automatico dei componenti solo quando serve effettivamente",
         "answer": true
       },
       {
-        "option_text": "4. Risparmio di costi di infrastruttura, grazie all’utilizzo prevalente delle affidabili connessioni internet pubbliche",
+        "option_text": "Risparmio di costi di infrastruttura, grazie all’utilizzo prevalente delle affidabili connessioni internet pubbliche",
         "answer": false
       },
       {
-        "option_text": "5. Maggiore sostenibilità: minori consumi ed emissioni, riduzione dei supporti cartacei per la documentazione",
+        "option_text": "Maggiore sostenibilità: minori consumi ed emissioni, riduzione dei supporti cartacei per la documentazione",
         "answer": true
       },
       {
-        "option_text": "6. Smart working: maggiore flessibilità lavorativa e migliore produttività 30 –",
+        "option_text": "Smart working: maggiore flessibilità lavorativa e migliore produttività",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 384
   },
   {
-    "id": 399,
     "code": "M4.2.1.2",
     "question": "I seguenti settori di attività e il relativo rischio:",
     "options": [
       {
-        "option_text": "1. Le organizzazioni bancarie e finanziarie: il rischio cyber è relativo alla continuità del servizio e quindi del business",
+        "option_text": "Le organizzazioni bancarie e finanziarie: il rischio cyber è relativo alla continuità del servizio e quindi del business",
         "answer": true
       },
       {
-        "option_text": "2. Le aziende industriali: il rischio cyber può portare a un danno reputazionale",
+        "option_text": "Le aziende industriali: il rischio cyber può portare a un danno reputazionale",
         "answer": true
       },
       {
-        "option_text": "3. Le aziende industriali: il rischio cyber può influire sulla continuità del business",
+        "option_text": "Le aziende industriali: il rischio cyber può influire sulla continuità del business",
         "answer": true
       },
       {
-        "option_text": "4. I servizi sanitari (ambulatori, strutture ospedaliere, ecc.): in cui il rischio è la diffusione dei dati sensibili dei pazienti",
+        "option_text": "I servizi sanitari (ambulatori, strutture ospedaliere, ecc.): in cui il rischio è la diffusione dei dati sensibili dei pazienti",
         "answer": true
       },
       {
-        "option_text": "5. I servizi sanitari (ambulatori, strutture ospedaliere, ecc.): in cui il rischio è il possibile impatto sulla salute pubblica",
+        "option_text": "I servizi sanitari (ambulatori, strutture ospedaliere, ecc.): in cui il rischio è il possibile impatto sulla salute pubblica",
         "answer": true
       },
       {
-        "option_text": "6. Le infrastrutture critiche: il rischio primario è quello finanziario Esercizio 1 Nello schema topologico in figura identificare i dispositivi rappresentati con le lettere indicandoli negli appositi spazi nella tabella sotto lo schema, inoltre rispondere alle seguenti domante: Le connessioni colorate in rosso, verde, giallo e azzurro cosa rappresentano? (Risposta in R) Indicare la sigla del dispositivo più critico che andrebbe ridondato nell’architettura rappresentata (Risposta in S) A B C D E F G H I L Router Firewall Switch Router Firewall Switch Switch Anomaly Detection Firewall Router M N O P Q R S Cloud Router VPN Anomaly Detection Switch VLAN G V V V F V V V V V V V F  8 T2 – 22 Settembre 2022 Esercizio 2 Rappresentare attraverso la modellizzazione WIDE (mediante la descrizione formale con i componenti grafici wide del diagramma di flusso) un processo di controllo manutentivo del sistema UPS (gruppo di continuità elettrica): Il processo è così strutturato:  È necessario effettuare un controllo ciclico, per ciascuno degli N gruppi presenti in azienda, per verificare se le batterie sono in buono stato ed eventualmente sostituirle, in ogni caso è necessario sostituire i contatti elettrici.  Operazione di sostituzione dei contatti elettrici  Se necessita sostituzione, operazione di sostituzione della batteria e si itera al successivo UPS  Se non necessita sostituzione si itera il controllo al successivo UPS  1 T1 – 22 Settembre 2022 Corso Aspetti Gestionali e Organizzativi della Cyber Security Appello 22 Settembre 2023 Indicare vero [V] o falso [F] alle seguenti affermazioni: 1-",
+        "option_text": "Le infrastrutture critiche: il rischio primario è quello finanziario",
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 385
   },
   {
-    "id": 400,
     "code": "M1.1.2.4.1",
     "question": "Cos’è la larghezza di banda di un canale?",
     "options": [
       {
-        "option_text": "1. La misura dell’ampiezza dello spettro che passa in un canale 2. Un parametro inversamente proporzionale alla quantità di dati che possono essere trasmessi in un canale nell’unità di tempo Falso",
+        "option_text": "La misura dell’ampiezza dello spettro che passa in un canale",
         "answer": true
       },
       {
-        "option_text": "3. Un parametro proporzionale alla quantità di dati che possono essere trasmessi in un canale nell’unità di tempo",
-        "answer": true
-      },
-      {
-        "option_text": "4. Un parametro indipendente dalla quantità di dati trasmessi in un canale",
+        "option_text": "Un parametro inversamente proporzionale alla quantità di dati che possono essere trasmessi in un canale nell’unità di tempo",
         "answer": false
       },
       {
-        "option_text": "5. La misura dell'ampiezza della gamma di frequenze che possono passare per quel canale",
+        "option_text": "Un parametro proporzionale alla quantità di dati che possono essere trasmessi in un canale nell’unità di tempo",
         "answer": true
       },
       {
-        "option_text": "6. La capacità di un qualsiasi canale digitale di trasmettere dati 2-",
+        "option_text": "Un parametro indipendente dalla quantità di dati trasmessi in un canale",
+        "answer": false
+      },
+      {
+        "option_text": "La misura dell'ampiezza della gamma di frequenze che possono passare per quel canale",
+        "answer": true
+      },
+      {
+        "option_text": "La capacità di un qualsiasi canale digitale di trasmettere dati",
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 386
   },
   {
-    "id": 401,
-    "code": "M1.1.3.3",
-    "question": "Il Packet Switching 1. È una tecnica di trasmissione in cui messaggi consecutivi vengono raggruppati in pacchetti (packets), trasmessi ripetutamente Falso",
-    "options": [
-      {
-        "option_text": "2. È una tecnica di trasmissione in cui il messaggio viene diviso in parti più piccole (packets), gestite singolarmente",
-        "answer": true
-      },
-      {
-        "option_text": "3. È una tecnica di trasmissione in cui i pacchetti viaggiano attraverso la rete, attraverso un percorso casuale 4. È una tecnica di trasmissione in cui tutti i pacchetti vengono suddivisi e trasmessi in maniera indipendente e riassemblati in ricezione",
-        "answer": false
-      },
-      {
-        "option_text": "nell'ordine corretto 5. Prevede che, se un messaggio arriva mancante di pacchetti o danneggiato, viene inviata una notifica per inviare nuovamente il",
-        "answer": true
-      },
-      {
-        "option_text": "messaggio, se invece viene raggiunto l'ordine corretto dei pacchetti, verrà inviata notifica di conferma 6. Prevede che, se un messaggio arriva mancante di pacchetti o danneggiato il messaggio verrà considerato comunque corretto",
-        "answer": true
-      },
-      {
-        "option_text": "perché verrà corretto da un meccanismo di completamento automatico a correzione di errore 4-",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 402,
-    "code": "M1.1.4.2",
-    "question": "L’Uniform Resource Locator (URL) 1. È una sequenza di caratteri che identifica univocamente l'indirizzo di una risorsa presente su un host (server) che fa parte di una",
-    "options": [
-      {
-        "option_text": "rete di computer e resa accessibile a un client",
-        "answer": true
-      },
-      {
-        "option_text": "2. È una sequenza di caratteri esclusivamente alfanumerici",
-        "answer": false
-      },
-      {
-        "option_text": "3. Identifica univocamente gli indirizzi delle risorse come documenti, un'immagini, video, tipicamente presente sui server",
-        "answer": true
-      },
-      {
-        "option_text": "4. Può utilizzare protocolli http, https, ftp o mms",
-        "answer": true
-      },
-      {
-        "option_text": "5. Si avvale del DNS (Domain Name System) per “risolvere” l’URL in indirizzo IP",
-        "answer": true
-      },
-      {
-        "option_text": "6. Nel caso utilizzi il protocollo https realizza una comunicazione client server non criptata 5-",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 403,
-    "code": "M1.3.1.14",
-    "question": "Quali di questi livelli ISO/OSI sono livelli logici legati agli Host V V V F V F V F V V F V V F F V F V V V F V V F V V V F V F V V V F V F  3",
-    "options": [
-      {
-        "option_text": "T1 – 22 Settembre 2022 1. Livello 2 – Collegamento",
-        "answer": false
-      },
-      {
-        "option_text": "2. Livello 3 – Rete",
-        "answer": false
-      },
-      {
-        "option_text": "3. Livello 4 – Trasporto",
-        "answer": true
-      },
-      {
-        "option_text": "4. Livello 5 – Sessione",
-        "answer": true
-      },
-      {
-        "option_text": "5. Livello 6 – Presentazione",
-        "answer": true
-      },
-      {
-        "option_text": "6. Livello 7 – Applicazione 12-",
-        "answer": true
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 404,
     "code": "M4.1.3.7",
     "question": "Verificare la correttezza del significato delle sigle corrispondenti alle seguenti figure professionali:",
     "options": [
       {
-        "option_text": "1. CIO = Chief Information Officer",
+        "option_text": "CIO = Chief Information Officer",
         "answer": true
       },
       {
-        "option_text": "2. CSO = Chief Security Officer",
+        "option_text": "CSO = Chief Security Officer",
         "answer": true
       },
       {
-        "option_text": "3. CSO = Chief Safety Officer",
+        "option_text": "CSO = Chief Safety Officer",
         "answer": false
       },
       {
-        "option_text": "4. CISO = Chief Information Security Officer",
+        "option_text": "CISO = Chief Information Security Officer",
         "answer": true
       },
       {
-        "option_text": "5. DPO = Data Prevention Officer",
+        "option_text": "DPO = Data Prevention Officer",
         "answer": false
       },
       {
-        "option_text": "6. CTO = Chief Transiction Officer V V V F F V V V F V V V V F V V V F V V V V V V V V F V F F  7 T1 – 22 Settembre 2022 29 -",
+        "option_text": "CTO = Chief Transiction Officer",
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 387
   },
   {
-    "id": 405,
     "code": "M4.1.5.5",
     "question": "Il CISO (Chief Information Security Officer)",
     "options": [
       {
-        "option_text": "1. È il direttore aziendale della sicurezza informatica 2. È una figura la cui responsabilità è di sviluppare una strategia aziendale perché i beni d'informazione e le tecnologie aziendali",
+        "option_text": "È il direttore aziendale della sicurezza informatica",
         "answer": true
       },
       {
-        "option_text": "siano adeguatamente protetti",
+        "option_text": "È una figura la cui responsabilità è di sviluppare una strategia aziendale perché i beni d'informazione e le tecnologie aziendali siano adeguatamente protetti",
         "answer": true
       },
       {
-        "option_text": "3. Ha tra le competenze una forte conoscenza dei processi produttivi industriali",
+        "option_text": "Ha tra le competenze una forte conoscenza dei processi produttivi industriali",
         "answer": false
       },
       {
-        "option_text": "4. Ha tra le competenze una forte leadership in modo da interagire bene con il consiglio di amministrazione 5. Ha tra le competenze il pensiero strategico: per generare e implementare idee innovative e in linea con gli obiettivi aziendali Vero",
+        "option_text": "Ha tra le competenze una forte leadership in modo da interagire bene con il consiglio di amministrazione",
         "answer": true
       },
       {
-        "option_text": "6. Non necessità della conoscenza delle regolamentazioni in vigore nei singoli stati perché collabora con il DPO Esercizio 1 Nello schema topologico in figura identificare i dispositivi rappresentati con le lettere indicandoli negli appositi spazi nella tabella sotto lo schema, inoltre rispondere alle seguenti domande: Le connessioni colorate in rosso, verde, giallo, azzurro e marrone cosa rappresentano? (Risposta in R) Indicare la sigla del dispositivo più critico che andrebbe ridondato nell’architettura rappresentata (Risposta in S) A B C D E F G H I L Router Firewall Switch Router Firewall Switch Switch Firewall Switch VPN M N O P Q R S Router Switch Switch Gateway Cloud VLAN G V V V F V V  8 T1 – 22 Settembre 2022 Esercizio 2 Rappresentare attraverso la modellizzazione WIDE (mediante la descrizione formale con i componenti grafici wide del diagramma di flusso) un processo di controllo manutentivo dei filtri associati ai sistemi di ventilazione dei server IT: Il processo è così strutturato:  È necessario effettuare un controllo ciclico, per ciascuno degli N filtri, per verificare se la condizione del filtro necessità la sostituzione o semplicemente una pulizia accurata.  Se necessita sostituzione, si effettua l’operazione e si itera al successivo filtro  Se non necessita sostituzione bisogna effettuare la pulizia accurata, e quindi si itera il controllo al successivo filtro.  1 T1 Corso Aspetti Gestionali e Organizzativi della Cyber Security Appello 13 Ottobre 2023 Indicare vero [V] o falso [F] alle seguenti affermazioni: 1",
-        "answer": false
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 406,
-    "code": "M1.1.3.2",
-    "question": "Il Routing 1. Il Routing è l'instradamento effettuato tra reti differenti con l’ausilio delle tabelle di instradamento configurate sui vari",
-    "options": [
-      {
-        "option_text": "Router 2. Il Routing è l'instradamento effettuato all’interno della stessa rete con l’ausilio delle tabelle di instradamento configurate",
+        "option_text": "Ha tra le competenze il pensiero strategico: per generare e implementare idee innovative e in linea con gli obiettivi aziendali",
         "answer": true
       },
       {
-        "option_text": "sui vari Router 3. Per il suo funzionamento considera che i router siano a conoscenza degli indirizzi solo delle reti a cui sono direttamente",
-        "answer": false
-      },
-      {
-        "option_text": "collegati 4. Per il suo funzionamento considera che i router siano a conoscenza degli indirizzi delle reti a cui sono direttamente o",
-        "answer": true
-      },
-      {
-        "option_text": "indirettamente collegati 5. Nella tabella di instradamento ogni riga corrisponde a una regola e le regole vengono esaminate dalla prima all’ultima, se ci sono più regole che corrispondono all'indirizzo fornito, viene scelta la regola che ha più bit in comune con l'indirizzo",
-        "answer": false
-      },
-      {
-        "option_text": "fornito 6. Nella tabella di instradamento ogni riga corrisponde a una regola e le regole vengono esaminate dalla prima all’ultima, se",
-        "answer": true
-      },
-      {
-        "option_text": "ci sono più regole che corrispondono all'indirizzo fornito, viene scelta la prima regola che viene esaminata 3",
+        "option_text": "Non necessità della conoscenza delle regolamentazioni in vigore nei singoli stati perché collabora con il DPO",
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 388
   },
   {
-    "id": 407,
-    "code": "M1.1.6.1",
-    "question": "Una Minaccia alla sicurezza informatica 1. Può essere definita come un codice eseguibile che ha la capacità di compiere operazioni dannose per la macchina in cui si",
-    "options": [
-      {
-        "option_text": "trova, per il sistema informatico in cui si è inserito o per i dati in esso contenuti o gestiti",
-        "answer": true
-      },
-      {
-        "option_text": "2. Si propaga e si concretizza sempre indipendentemente dal fattore umano 3. Utilizza un vettore (ovvero il percorso seguito dall'attacco) che può essere esterno, da parte di qualche malintenzionato, o",
-        "answer": false
-      },
-      {
-        "option_text": "interno all’organizzazione, anche incidentale",
-        "answer": true
-      },
-      {
-        "option_text": "4. Può essere eliminata mediante l’installazione di un buon antivirus 5. Può penetrare qualsiasi tipo di file eseguibile e diffondersi nel momento in cui il file viene copiato e inviato da un utente",
-        "answer": false
-      },
-      {
-        "option_text": "all'altro",
-        "answer": true
-      },
-      {
-        "option_text": "6. Può essere costituita dai Ramsomware 6",
-        "answer": true
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 408,
     "code": "M2.2.1.3.1",
-    "question": "Quali strategie posso utilizzare per mitigare i possibili danni da un attacco cyber ai sistemi che gestiscono una linea produttiva (l’unica che produce un determinato prodotto molto costoso)? 1. Ridondare e rendere indipendenti le architetture di rete e i dispositivi informatici che gestiscono le linee di produzione Vero",
+    "question": "Quali strategie posso utilizzare per mitigare i possibili danni da un attacco cyber ai sistemi che gestiscono una linea produttiva (l’unica che produce un determinato prodotto molto costoso)?",
     "options": [
       {
-        "option_text": "2. Realizzare un adeguato sistema di segmentazione e segregazione delle reti e degli apparati di controllo",
+        "option_text": "Ridondare e rendere indipendenti le architetture di rete e i dispositivi informatici che gestiscono le linee di produzione",
         "answer": true
       },
       {
-        "option_text": "3. Aumentare gli stock delle materie prime",
-        "answer": false
-      },
-      {
-        "option_text": "4. Controllare strettamente e monitorare gli accessi logici diretti ai sistemi di produzione dall’esterno  all’azienda",
+        "option_text": "Realizzare un adeguato sistema di segmentazione e segregazione delle reti e degli apparati di controllo",
         "answer": true
       },
       {
-        "option_text": "5. Aumentare considerevolmente la quantità di prodotti finiti in magazzino",
+        "option_text": "Aumentare gli stock delle materie prime",
         "answer": false
       },
       {
-        "option_text": "6. Scollegare fisicamente e isolare la rete industriale di produzione dalla rete office 11",
+        "option_text": "Controllare strettamente e monitorare gli accessi logici diretti ai sistemi di produzione dall’esterno all’azienda",
+        "answer": true
+      },
+      {
+        "option_text": "Aumentare considerevolmente la quantità di prodotti finiti in magazzino",
+        "answer": false
+      },
+      {
+        "option_text": "Scollegare fisicamente e isolare la rete industriale di produzione dalla rete office",
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 389
   },
   {
-    "id": 409,
     "code": "M3.1.2.3",
     "question": "Quali sono le principali tipologie di Modellizzazione dei Processi?",
     "options": [
       {
-        "option_text": "1. Basate sui dati",
+        "option_text": "Basate sui dati",
         "answer": true
       },
       {
-        "option_text": "2. Basate sulle attività",
+        "option_text": "Basate sulle attività",
         "answer": true
       },
       {
-        "option_text": "3. Basata sulle informazioni",
+        "option_text": "Basata sulle informazioni",
         "answer": false
       },
       {
-        "option_text": "4. Basata sulle transizioni",
+        "option_text": "Basata sulle transizioni",
         "answer": false
       },
       {
-        "option_text": "5. Basata sui messaggi",
+        "option_text": "Basata sui messaggi",
         "answer": false
       },
       {
-        "option_text": "6. Basata sulla comunicazione 19",
+        "option_text": "Basata sulla comunicazione",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 390
   },
   {
-    "id": 410,
     "code": "M3.2.1_2.9",
     "question": "Nella revisione 2022 di ISO 27001",
     "options": [
       {
-        "option_text": "1. Compare per la prima volta la parola Cybersecurity nel titolo 2. Il numero dei controlli è inferiore rispetto alla versione precedente del 2013 Vero V F V V V F F F V F V V V F V V V V V V F F F V V F V V V F  5",
+        "option_text": "Compare per la prima volta la parola Cybersecurity nel titolo",
         "answer": true
       },
       {
-        "option_text": "T1 3. Molti controlli sono stati accorpati e non ne sono stati introdotti di nuovi",
+        "option_text": "Il numero dei controlli è inferiore rispetto alla versione precedente del 2013",
+        "answer": true
+      },
+      {
+        "option_text": "Molti controlli sono stati accorpati e non ne sono stati introdotti di nuovi",
         "answer": false
       },
       {
-        "option_text": "4. Molti controlli sono rimasti invariati",
+        "option_text": "Molti controlli sono rimasti invariati",
         "answer": true
       },
       {
-        "option_text": "5. Un certo numero di controlli è stato semplicemente rinominato",
+        "option_text": "Un certo numero di controlli è stato semplicemente rinominato",
         "answer": true
       },
       {
-        "option_text": "6. Un certo numero di controlli è completamente nuovo 21",
+        "option_text": "Un certo numero di controlli è completamente nuovo",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 391
   },
   {
-    "id": 411,
     "code": "M3.2.1_2.8",
-    "question": "Il nuovo Controllo ISO 27001 Rev. 2022 “Data leakage prevention” 1. Indica che le misure di prevenzione della fuga di dati si applicano ai sistemi, alle reti e a qualsiasi altro dispositivo che",
+    "question": "Il nuovo Controllo ISO 27001 Rev. 2022 “Data leakage prevention”",
     "options": [
       {
-        "option_text": "tratta, memorizza o trasmette informazioni sensibili 2. Indica che le misure di prevenzione della fuga di dati si applicano ai soli sistemi abilitati al trattamento dei dati di terzi Falso",
+        "option_text": "Indica che le misure di prevenzione della fuga di dati si applicano ai sistemi, alle reti e a qualsiasi altro dispositivo che tratta, memorizza o trasmette informazioni sensibili",
         "answer": true
       },
       {
-        "option_text": "3. È stato pensato, insieme ad altri nuovi controlli, in funzione della normativa europea GDPR",
-        "answer": true
-      },
-      {
-        "option_text": "4. È un controllo solo di tipo “Preventivo",
+        "option_text": "Indica che le misure di prevenzione della fuga di dati si applicano ai soli sistemi abilitati al trattamento dei dati di terzi",
         "answer": false
       },
       {
-        "option_text": "5. È un controllo di tipo “Preventivo” e “Investigativo”",
+        "option_text": "È stato pensato, insieme ad altri nuovi controlli, in funzione della normativa europea GDPR",
         "answer": true
       },
       {
-        "option_text": "6. È un controllo solo di tipo “Correttivo” 22",
+        "option_text": "È un controllo solo di tipo “Preventivo",
+        "answer": false
+      },
+      {
+        "option_text": "È un controllo di tipo “Preventivo” e “Investigativo”",
+        "answer": true
+      },
+      {
+        "option_text": "È un controllo solo di tipo “Correttivo”",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 392
   },
   {
-    "id": 412,
-    "code": "M3.2.5.1",
-    "question": "Quali delle seguenti sono effettive differenze tra NIST Cyber Security Framework e ISO 27001 1. Il NIST è stato creato originariamente per la gestione del rischio sulle informazioni, ISO 27001 è invece un approccio",
-    "options": [
-      {
-        "option_text": "standardizzato per la creazione e il mantenimento di un sistema di gestione della sicurezza delle informazioni",
-        "answer": true
-      },
-      {
-        "option_text": "2. ISO 27001 è volontario, mentre il NIST CSF prevede la certificazione",
-        "answer": false
-      },
-      {
-        "option_text": "3. ISO 27001 è uno standard più rigido è prescrittivo del NIST, che ha una natura volontaria e gratuita",
-        "answer": true
-      },
-      {
-        "option_text": "4. La ISO 27001 è meno tecnica, con maggiore enfasi sulla gestione basata sul rischio",
-        "answer": true
-      },
-      {
-        "option_text": "5. La ISO 27001 è più tecnica, con minore enfasi sulla gestione basata sul rischio 6. La ISO 27001 è una buona scelta per certificare le organizzazioni che hanno maturità operativa, mentre il NIST CSF può essere più adatto per le organizzazioni che si trovano nelle fasi iniziali dello sviluppo di un programma di rischio per la",
-        "answer": false
-      },
-      {
-        "option_text": "sicurezza informatica 23",
-        "answer": true
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 413,
-    "code": "M3.3.1.2.1",
-    "question": "Quali sono le origini legislative del diritto alla privacy italiano? 1. La Costituzione Italiana, con gli articoli riguardanti il domicilio, la libertà e segretezza della corrispondenza, e la libertà di",
-    "options": [
-      {
-        "option_text": "manifestazione del pensiero 2. La Costituzione Italiana con l’articolo che incorpora la privacy nei diritti inviolabili dell’uomo, come anche sostenuto dalla",
-        "answer": true
-      },
-      {
-        "option_text": "sentenza della Corte costituzionale",
-        "answer": true
-      },
-      {
-        "option_text": "3. La prima sentenza della Corte di Cassazione degli anni ’50 sul “caso del tenore Enrico Caruso” 4. La prima sentenza della Corte di Cassazione degli anni ’50 che identificava il diritto alla privacy nella tutela delle situazioni e vicende personali e familiari solamente se riguardanti le vicende personali verificatesi entro il domicilio",
-        "answer": true
-      },
-      {
-        "option_text": "domestico 5. La prima legge italiana di tutela della privacy come attuazione della vecchia direttiva europea della metà degli anni ‘90 Vero 6. La prima legge italiana di tutela della privacy come attuazione del vecchio regolamento europeo della metà degli anni ‘90 Falso 24",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 414,
-    "code": "M3.3.1.3.1",
-    "question": "Quali sono le attuali leggi italiane sulla privacy?",
-    "options": [
-      {
-        "option_text": "1. Il \"Codice in materia di protezione dei dati personali” detto anche “Testo unico sulla Privacy”",
-        "answer": true
-      },
-      {
-        "option_text": "2. Il Codice anche detto “Codice della Privacy”",
-        "answer": true
-      },
-      {
-        "option_text": "3. Il Codice “Tutela delle persone e di altri soggetti rispetto al trattamento dei dati personali” del 1996 4. Il Regolamento del Parlamento Europeo e del Consiglio cosiddetto GDPR (General Data Protection Regulation) attraverso i",
-        "answer": false
-      },
-      {
-        "option_text": "relativi D.M. e D.L. di adeguamento 5. La Direttiva europea “Relativa alla tutela delle persone fisiche con riguardo al trattamento dei dati personali, nonché alla libera circolazione di tali dati” Falso V V F V V V V F V F V F V F V V F V V V V F V F  6 T1 6. Il decreto-legge con le disposizioni che abrogano la vecchia direttiva europea relativa alla tutela delle persone fisiche con",
-        "answer": true
-      },
-      {
-        "option_text": "riguardo al trattamento dei dati personali, nonché alla libera circolazione di tali dati 25",
-        "answer": true
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 415,
     "code": "M3.3.5.6",
     "question": "Chi sono i DSP (Digital Service Providers) secondo la Direttiva NIS nella prima versione?",
     "options": [
       {
-        "option_text": "1. Cloud Computing Services",
+        "option_text": "Cloud Computing Services",
         "answer": true
       },
       {
-        "option_text": "2. Cloud Virtual Machines",
+        "option_text": "Cloud Virtual Machines",
         "answer": false
       },
       {
-        "option_text": "3. Online Marketplaces",
+        "option_text": "Online Marketplaces",
         "answer": true
       },
       {
-        "option_text": "4. Online Search Engines",
+        "option_text": "Online Search Engines",
         "answer": true
       },
       {
-        "option_text": "5. Online products e-commerce",
+        "option_text": "Online products e-commerce",
         "answer": false
       },
       {
-        "option_text": "6. Online people recruitments 29",
+        "option_text": "Online people recruitments",
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 393
   },
   {
-    "id": 416,
     "code": "M1.2.4.12",
     "question": "Una vittima di Pretexting E' stata manipolata, mediante una finta e-mail dal proprio capo, ed ha fornito i numeri e le credenziali della carta di credito",
     "options": [
@@ -13866,38 +12465,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 394
   },
   {
-    "id": 417,
-    "code": "M1.3.1.3",
-    "question": "Il livello 2 del Modello ISO/OSI Utilizza indirizzamento MAC Address VERO Realizza il Data Framing (inserimento di Header e Tail al messaggio) e relativa interpretazione dei bit contenuti negli Header e",
-    "options": [
-      {
-        "option_text": "Tail",
-        "answer": true
-      },
-      {
-        "option_text": "Utilizza un sottolivello superiore (LLC - Logical Link Control) per la rilevazione (o correzione) degli errori",
-        "answer": true
-      },
-      {
-        "option_text": "Utilizza indirizzi di tipo IP per l’indirizzamento in rete",
-        "answer": false
-      },
-      {
-        "option_text": "Può utilizzare protocolli wi-fi",
-        "answer": true
-      },
-      {
-        "option_text": "Realizza la Frammentazione e il Riasseblaggio",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 418,
     "code": "M2.3.2.1",
     "question": "Un Processo Aziendale Può essere definito come un insieme di attività, non necessariamente collegate, che possono portare a diversi obiettivi a",
     "options": [
@@ -13926,10 +12497,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 395
   },
   {
-    "id": 419,
     "code": "M3.2.1.19",
     "question": "I requisiti di un ISMS secondo ISO/IEC 27001 Sono necessari per stabilire, attuare, mantenere e migliorare, in modo continuo, un sistema di gestione per la sicurezza delle",
     "options": [
@@ -13942,8 +12513,8 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Sono indipendenti dai controlli (ovvero le contromisure) presenti nell'Allegato A dello stesso documento",
-        "answer": false
+        "option_text": "Sono indipendenti dai controlli (ov",
+        "answer": true
       },
       {
         "option_text": "Sono necessari per certificare la conformità di un sistema informativo a questo standard",
@@ -13958,10 +12529,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 396
   },
   {
-    "id": 420,
     "code": "M3.2.1_1.2",
     "question": "L'area tematica dei requisiti ISO/IEC 27001 \"Attività Operative\" definisce che: L'organizzazione deve pianificare, implementare e controllare i processi necessari per soddisfare i requisiti e implementare le",
     "options": [
@@ -13990,10 +12561,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 397
   },
   {
-    "id": 421,
     "code": "M3.2.3_1.1",
     "question": "Il futuro NIST CSF 2.0",
     "options": [
@@ -14022,19 +12593,19 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 398
   },
   {
-    "id": 422,
     "code": "M3.3.4.2",
     "question": "Le fasi dell'Informatica Forense",
     "options": [
       {
-        "option_text": "Nella fase Identificazione  si identificano i dati digitali rilevanti, operando sui dispositivi di memorizzazione dei dati digitali Nella fase di Raccolta si acquisicono i sistemi che contengono i dati e si procede alla messa in sicurezza dei supporti di",
+        "option_text": "Nella fase Identificazione si identificano i dati digitali rilevanti, operando sui dispositivi di memorizzazione dei dati digitali Nella fase di Raccolta si acquisicono i sistemi che contengono i dati e si procede alla messa in sicurezza dei supporti di",
         "answer": true
       },
       {
-        "option_text": "memorizzazione. Nella fase di Acquisizione  si realizza una copia di tutti i dati, tramite appositi strumenti è possibile produrre una copia \"legale\"",
+        "option_text": "memorizzazione. Nella fase di Acquisizione si realizza una copia di tutti i dati, tramite appositi strumenti è possibile produrre una copia \"legale\"",
         "answer": true
       },
       {
@@ -14046,7 +12617,7 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Nella fase di Elaborazione  si estraggono le informazioni dai dati \"grezzi\" come completamento della fase di analisi Nella fase di Presentazione  si produce una relazione tecnica per presentare ciò che è emerso nel corso dell’attività tecnica in",
+        "option_text": "Nella fase di Elaborazione si estraggono le informazioni dai dati \"grezzi\" come completamento della fase di analisi Nella fase di Presentazione si produce una relazione tecnica per presentare ciò che è emerso nel corso dell’attività tecnica in",
         "answer": false
       },
       {
@@ -14054,10 +12625,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 399
   },
   {
-    "id": 423,
     "code": "M1.1.2.12",
     "question": "Il cavo di fibra ottica:",
     "options": [
@@ -14086,70 +12657,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 400
   },
   {
-    "id": 424,
-    "code": "M1.1.2.4",
-    "question": "Cos’è la larghezza di banda di un canale di comunicazione?",
-    "options": [
-      {
-        "option_text": "La misura dell'ampiezza della gamma di frequenze che possono passare per quel canale Un parametro inversamente proporzionale alla quantità di dati che possono essere trasmessi in",
-        "answer": true
-      },
-      {
-        "option_text": "un canale nell’unità di tempo Un parametro proporzionale alla quantità di dati che possono essere trasmessi in un canale",
-        "answer": false
-      },
-      {
-        "option_text": "nell’unità di tempo",
-        "answer": true
-      },
-      {
-        "option_text": "Un parametro indipendente dalla quantità di dati trasmessi in un canale",
-        "answer": false
-      },
-      {
-        "option_text": "La misura dell’ampiezza dello spettro che passa in un canale",
-        "answer": true
-      },
-      {
-        "option_text": "La capacità di un qualsiasi canale di trasmettere dati",
-        "answer": true
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 425,
-    "code": "M1.2.3.1",
-    "question": "Un’Infrastruttura Critica",
-    "options": [
-      {
-        "option_text": "Può essere un’azienda che concorre al mantenimento delle funzioni vitali di un paese",
-        "answer": true
-      },
-      {
-        "option_text": "Può fornire servizi per la salute pubblica",
-        "answer": true
-      },
-      {
-        "option_text": "Può fornire acqua potabile",
-        "answer": true
-      },
-      {
-        "option_text": "È un’azienda appartenente al terziario in genere In europa rientra verosimilmente nella tassonomia dei soggetti altamente critici e critici presente nella normativa NIS 2VERO",
-        "answer": false
-      },
-      {
-        "option_text": "Italiana, per tipologia, è sicuramente critica anche in un paese extra-europeo",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 426,
     "code": "M1.3.1.11",
     "question": "TCP e UDP sono protocolli",
     "options": [
@@ -14178,13 +12689,21 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 401
   },
   {
-    "id": 427,
     "code": "M1.3.1.13",
-    "question": "A cosa serve il modello ISO/OSI? Per far fronte ad una crescente necessità di standardizzazione nella comunicazione dei sistemi informaticiVERO Per risolvere il problema delle reti di computer single “brand”, ovvero in grado di comunicare solo",
+    "question": "A cosa serve il modello ISO/OSI? Per far fronte ad una crescente necessità di standardizzazione nella comunicazione dei sistemi",
     "options": [
+      {
+        "option_text": "informatici",
+        "answer": true
+      },
+      {
+        "option_text": "Per risolvere il problema delle reti di computer single “brand”, ov",
+        "answer": true
+      },
       {
         "option_text": "con apparati dello stesso produttore Per realizzare una comunicazione multilivello, che permetta di adattarsi alle specifiche reti di",
         "answer": true
@@ -14206,16 +12725,24 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 402
   },
   {
-    "id": 428,
     "code": "M1.3.2.11.1",
-    "question": "Una Socket TCP è: Un’astrazione software standardizzata progettata per essere utilizzabile nei programmi applicativi che permette la trasmissione e la ricezione di dati attraverso una reteVERO È il mezzo attraverso il quale un pacchetto di destinazione viene dotato di tutte le informazioni",
+    "question": "Una Socket TCP è: Un’astrazione software standardizzata progettata per essere utilizzabile nei programmi applicativi",
     "options": [
       {
-        "option_text": "necessarie per partire alla volta dell'host destinatario La principale responsabile nello stabilire la connessione tra due host e mantenere la sessione per poi rigenerare la connessione all'invio di ulteriori pacchettiFALSO",
+        "option_text": "che permette la trasmissione e la ricezione di dati attraverso una rete È il mezzo attraverso il quale un pacchetto di destinazione viene dotato di tutte le informazioni",
         "answer": true
+      },
+      {
+        "option_text": "necessarie per partire alla volta dell'host destinatario La principale responsabile nello stabilire la connessione tra due host e mantenere la sessione per",
+        "answer": true
+      },
+      {
+        "option_text": "poi rigenerare la connessione all'invio di ulteriori pacchetti",
+        "answer": false
       },
       {
         "option_text": "Indirettamente responsabile dello hand shake a tre livelli del TCP/IP",
@@ -14230,10 +12757,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 403
   },
   {
-    "id": 429,
     "code": "M1.3.4.4",
     "question": "In un sistema informatico il SPOF (Single Point of Failure) È una parte del solo sistema hardware il cui malfunzionamento può portare ad anomalie o alla",
     "options": [
@@ -14246,7 +12773,7 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "È particolarmente critico nei sistemi che devono essere costantemente attivi  Può essere evitato attraverso l’uso di componenti ridondanti, considerando che anche un solo",
+        "option_text": "È particolarmente critico nei sistemi che devono essere costantemente attivi Può essere evitato attraverso l’uso di componenti ridondanti, considerando che anche un solo",
         "answer": true
       },
       {
@@ -14262,7 +12789,8 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 404
   },
   {
     "code": "M2.1.1.6",
@@ -14281,11 +12809,11 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "Necessità di beni strumentali, materiali e know-how",
+        "option_text": "Necessità di beni strumentali, materiali e know-how Nel caso della realizzazione di un bene materiale, ha necessità di tutti i materiali costitutivi, gli",
         "answer": true
       },
       {
-        "option_text": "Nel caso della realizzazione di un bene materiale, ha necessità di tutti i materiali costitutivi, gli strumenti o le macchine per l’assemblaggio e la conoscenza per finalizzare le attività produttive",
+        "option_text": "strumenti o le macchine per l’assemblaggio e la conoscenza per finalizzare le attività produttive",
         "answer": true
       },
       {
@@ -14294,10 +12822,9 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 430
+    "id": 405
   },
   {
-    "id": 431,
     "code": "M2.2.1.7",
     "question": "Quali strategie posso utilizzare per proteggere da un possibile attacco cyber ad una linea produttiva (l’unica che produce uno specifico prodotto)?",
     "options": [
@@ -14326,10 +12853,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 406
   },
   {
-    "id": 432,
     "code": "M2.3.1.4",
     "question": "Il Sistema Informativo nella Gestione Aziendale È quell’insieme di elementi che raccolgono, elaborano, memorizzano e distribuiscono dati e",
     "options": [
@@ -14342,22 +12869,14 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Identifica l’infrastruttura tecnologica ma non le persone che contribuiscono al suo funzionamento  È lo strumento che permette al personale aziendale l’analisi dei problemi e la visualizzazione delle possibili soluzioniVERO",
+        "option_text": "Identifica l’infrastruttura tecnologica ma non le persone che contribuiscono al suo funzionamento",
         "answer": false
-      },
-      {
-        "option_text": "Non è mai integrato con gli impianti e le linee produttivi",
-        "answer": false
-      },
-      {
-        "option_text": "Supporta la definizione di strategie e la conduzione esecutiva dell’azienda",
-        "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 407
   },
   {
-    "id": 433,
     "code": "M3.1.3.3",
     "question": "La certificazione aziendale ad uno standard ISO È la dichiarazione di un ente indipendente o accreditato che il prodotto fornito o le politiche",
     "options": [
@@ -14386,42 +12905,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 408
   },
   {
-    "id": 434,
-    "code": "M3.2.1_2.13",
-    "question": "Il controllo ISO/IEC 27001: 2022 \"Information security for use of cloud services\" ovvero che i processi relativi ai servizi cloud devono essere conformi con i requisiti di sicurezza delle informazioni dell'organizzazione",
-    "options": [
-      {
-        "option_text": "E' un controllo solo Preventivo",
-        "answer": true
-      },
-      {
-        "option_text": "E' un controllo di tipo Investigativo",
-        "answer": false
-      },
-      {
-        "option_text": "E' un controllo sia Preventivo che Correttivo",
-        "answer": false
-      },
-      {
-        "option_text": "Migliora Riservatezza, Integrità e Disponibilità",
-        "answer": true
-      },
-      {
-        "option_text": "Migliora solo la Disponibilità",
-        "answer": false
-      },
-      {
-        "option_text": "Migliora l'Integrità e la Riservatezza",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 435,
     "code": "M3.2.5.1",
     "question": "Quali delle seguenti sono le principali differenze tra NIST Cyber Security Framework e ISO 27001 Il NIST è stato creato principalmente per la gestione del rischio sulle informazioni, ISO 27001 è",
     "options": [
@@ -14450,23 +12937,27 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 409
   },
   {
-    "id": 436,
     "code": "M3.2.6.5",
     "question": "Le zone secondo ISA/IEC 62443 Dividono un sistema in zone omogenee raggruppando le risorse (logiche o fisiche) con requisiti di",
     "options": [
       {
-        "option_text": "sicurezza comuni Dividono una architettura fisica (dispositivi di rete e connessioni) in zone omogenee raggruppando i dispositivi HW con requisiti di sicurezza comuniFALSO Hanno requisiti di sicurezza definiti da Security Level (SL), il livello richiesto per una zona è",
+        "option_text": "sicurezza comuni Dividono una architettura fisica (dispositivi di rete e connessioni) in zone omogenee",
         "answer": true
+      },
+      {
+        "option_text": "raggruppando i dispositivi HW con requisiti di sicurezza comuni Hanno requisiti di sicurezza definiti da Security Level (SL), il livello richiesto per una zona è",
+        "answer": false
       },
       {
         "option_text": "determinato dall'analisi del rischio Sono connesse attraverso i conduits che raggruppano gli elementi che ne consentono la",
         "answer": true
       },
       {
-        "option_text": "comunicazione  Possono essere suddivise in sottozone con livelli di sicurezza differenti consentendo una difesa in",
+        "option_text": "comunicazione Possono essere suddivise in sottozone con livelli di sicurezza differenti consentendo una difesa in",
         "answer": true
       },
       {
@@ -14478,10 +12969,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 410
   },
   {
-    "id": 437,
     "code": "M3.4.1.5",
     "question": "Requisiti ISO 27001 e ciclo PDCA",
     "options": [
@@ -14494,7 +12985,11 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "Permettono di raggruppare ed associare le aree tematiche dei requisiti a fasi specifiche e definite Si associano per costruire un sistema di gestione adattabile, in grado di proteggere le informazioni aziendali ai cambiamenti.VERO Associano alla fase Plan la comprensione del contesto dell'organizzazione, della leadership, la pianificazione e gli elementi di supportoVERO",
+        "option_text": "Permettono di raggruppare ed associare le aree tematiche dei requisiti a fasi specifiche e definite Si associano per costruire un sistema di gestione adattabile, in grado di proteggere le informazioni aziendali ai cambiamenti.VERO Associano alla fase Plan la comprensione del contesto dell'organizzazione, della leadership, la",
+        "answer": true
+      },
+      {
+        "option_text": "pianificazione e gli elementi di supporto",
         "answer": true
       },
       {
@@ -14502,10 +12997,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 411
   },
   {
-    "id": 438,
     "code": "M3.4.4.4",
     "question": "L’Assessment del Rischio Prevede una fase di identificazione che mira ad individuare le minacce esistenti e a stabilirne le",
     "options": [
@@ -14526,20 +13021,36 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "impatto) Prevede una fase di valutazione che viene espressa di solito in forma complessa utilizzabile mediante appositi strumentiFALSO",
+        "option_text": "impatto) Prevede una fase di valutazione che viene espressa di solito in forma complessa utilizzabile",
         "answer": true
+      },
+      {
+        "option_text": "mediante appositi strumenti",
+        "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 412
   },
   {
-    "id": 439,
     "code": "M3.4.5.7",
-    "question": "La VPN (Virtual Private Network) Si realizza attraverso un canale di comunicazione criptato creato per gestire la privacy nelle comunicazioniVERO Si realizza attraverso un canale di comunicazione criptato che può essere creato anche sopra una LAN aziendaleVERO La criptazione fornisce garanzie che i pacchetti non contengano potenziali minacce rendendo il sistema intrinsecamente sicuroFALSO",
+    "question": "La VPN (Virtual Private Network) Si realizza attraverso un canale di comunicazione criptato creato per gestire la privacy nelle",
     "options": [
       {
-        "option_text": "Utilizza sempre e solo una tiplogia di protocollo di criptazione, il vero limite della tecnologia",
+        "option_text": "comunicazioni Si realizza attraverso un canale di comunicazione criptato che può essere creato anche sopra una",
+        "answer": true
+      },
+      {
+        "option_text": "LAN aziendale La criptazione fornisce garanzie che i pacchetti non contengano potenziali minacce rendendo il",
+        "answer": true
+      },
+      {
+        "option_text": "sistema intrinsecamente sicuro",
         "answer": false
+      },
+      {
+        "option_text": "Utilizza sempre e solo una tiplogia di protocollo di criptazione, il",
+        "answer": true
       },
       {
         "option_text": "Può utilizzare il protocollo SSTP (Secure Socket Tunneling Protocol)",
@@ -14550,7 +13061,8 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 413
   },
   {
     "code": "M4.1.2.3",
@@ -14582,15 +13094,18 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 440
+    "id": 414
   },
   {
-    "id": 441,
     "code": "M4.1.3.2",
     "question": "Quali dei seguenti sono compiti del CIO (Chief Information Officer)",
     "options": [
       {
-        "option_text": "Contribuire all’analisi e alla definizione dei processi aziendali Definire, insieme alla direzione generale, gli obiettivi aziendali ed il contributo dell’informatica per il loro raggiungimentoVERO",
+        "option_text": "Contribuire all’analisi e alla definizione dei processi aziendali Definire, insieme alla direzione generale, gli obiettivi aziendali ed il contributo dell’informatica per",
+        "answer": true
+      },
+      {
+        "option_text": "il loro raggiungimento",
         "answer": true
       },
       {
@@ -14610,38 +13125,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 415
   },
   {
-    "id": 442,
-    "code": "M4.1.5.6",
-    "question": "La figura del Security Auditor Valuta attraverso un'analisi documentale esterna l'efficacia delle soluzioni tecniche di sicurezza",
-    "options": [
-      {
-        "option_text": "informatica adottate Ispeziona direttamente e valuta l'efficacia delle soluzioni tecniche adottate per garantire la sicurezza di un sistema informativoVERO",
-        "answer": false
-      },
-      {
-        "option_text": "Lavora unicamente in un gruppo di Auditing Interno alle dirette dipendenze dell'organizzazione",
-        "answer": false
-      },
-      {
-        "option_text": "Può essere un consulente esterno",
-        "answer": true
-      },
-      {
-        "option_text": "Di solito ha la certificazione ISO 27001",
-        "answer": true
-      },
-      {
-        "option_text": "Ha di solito una preparazione tecnica informatica sviluppata nell'area della programmazione",
-        "answer": true
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 443,
     "code": "M4.2.1.2",
     "question": "L’organizzazione della Cybersicurezza in ambito bancario",
     "options": [
@@ -14650,11 +13137,15 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "avere impatto sull’andamento finanziario dell’azienda  Gestisce tipicamente le nuove minacce attraverso comitati di direzione per la gestione del rischio",
+        "option_text": "avere impatto sull’andamento finanziario dell’azienda Gestisce tipicamente le nuove minacce attraverso comitati di direzione per la gestione del rischio",
         "answer": false
       },
       {
-        "option_text": "che rispondono all’amministratore delegato o al consiglio di amministrazione In molti casi prevede che la figura del CSO (Chief of Security Officer) abbia responsabilità anche sulla sicurezza logica della bancaVERO",
+        "option_text": "che rispondono all’amministratore delegato o al consiglio di amministrazione In molti casi prevede che la figura del CSO (Chief of Security Officer) abbia responsabilità anche",
+        "answer": true
+      },
+      {
+        "option_text": "sulla sicurezza logica della banca",
         "answer": true
       },
       {
@@ -14662,20 +13153,24 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "CSO le azioni sono dal lui coordinate anche indirettamente Esercizio 1 Nello schema è rappresentata un'azienda di produzione con due stabilimenti remoti connessi alla sede principale con la dorsale pubblica Internet. Entrambi gli impianti produttivi producono su un turno singolo di 8 ore, il prezzo del bene A= € 50, del bene B=€ 70. Identificare la tipologia dei dispositivi rappresentati con le lettere (A-H) nello schema topologico sopraindicato selezionandolo nei relativi campi della seguente tabella: A= Router B= VPN C= Firewall D= Switch E= Router+Firewall F= Router+Firewall G= Switch H= Switch Per un'anomalia ai sistemi SCADA si bloccano entrambi gli impianti per mezza giornata, quanti pezzi effettivi o perso in totale? 2.982 Corrispondenti ad un fatturato? € 168.940 Nell'invio degli ordini di produzione delle h14.00 sono stati richiesti dei pezzi non necessari a causa dell'annullamento di un ordine cliente che corrispondono al 10% di tutta la produzione del pomeriggio, di quanti pezzi effettivi stiamo parlando? 298  Esercizio 2  Appello 11 Novembre Aspetti Organizzativie e Gestionali della C.S.",
+        "option_text": "CSO le azioni sono dal lui coordinate anche indirettamente",
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 416
   },
   {
-    "id": 444,
     "code": "M1.1.3.2",
     "question": "Il Routing Il Routing è l'instradamento effettuato tra reti differenti con l’ausilio delle tabelle di instradamento configurate sui vari",
     "options": [
       {
-        "option_text": "Router Il Routing è l'instradamento effettuato all’interno della stessa rete con l’ausilio delle tabelle di instradamento configurate sui vari RouterFALSO Per il suo funzionamento considera che i router siano a conoscenza degli indirizzi solo delle reti a cui sono direttamente",
+        "option_text": "Router Il Routing è l'instradamento effettuato all’interno della stessa rete con l’ausilio delle tabelle di instradamento configurate sui",
         "answer": true
+      },
+      {
+        "option_text": "vari Router Per il suo funzionamento considera che i router siano a conoscenza degli indirizzi solo delle reti a cui sono direttamente",
+        "answer": false
       },
       {
         "option_text": "collegati Per il suo funzionamento considera che i router siano a conoscenza degli indirizzi delle reti a cui sono direttamente o",
@@ -14694,10 +13189,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 417
   },
   {
-    "id": 445,
     "code": "M1.1.4.1",
     "question": "L’HyperText Transfer Protocol (HTTP) È un linguaggio di testo che consente la comunicazione tra client e server attraverso internet per recuperare tutte le risorse",
     "options": [
@@ -14726,20 +13221,24 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 418
   },
   {
-    "id": 446,
     "code": "M1.1.6.1",
-    "question": "Una Minaccia alla sicurezza informatica  Può essere definita come un codice eseguibile che ha la capacità di compiere operazioni dannose per la macchina in cui si",
+    "question": "Una Minaccia alla sicurezza informatica Può essere definita come un codice eseguibile che ha la capacità di compiere operazioni dannose per la macchina in cui si",
     "options": [
       {
         "option_text": "trova, per il sistema informatico in cui si è inserito o per i dati in esso contenuti o gestiti",
         "answer": true
       },
       {
-        "option_text": "Si propaga e si concretizza sempre indipendentemente dal fattore umano Utilizza un vettore (ovvero il percorso seguito dall'attacco) che può essere esterno, da parte di qualche malintenzionato, o",
+        "option_text": "Si propaga e si concretizza sempre indipendentemente dal fattore umano",
         "answer": false
+      },
+      {
+        "option_text": "Utilizza un vettore (ov",
+        "answer": true
       },
       {
         "option_text": "interno all’organizzazione, anche incidentale",
@@ -14758,10 +13257,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 419
   },
   {
-    "id": 447,
     "code": "M1.1.6.2",
     "question": "Le vulnerabilità informatiche Sono malfunzionamenti, configurazioni sbagliate o semplicemente errori (bugs) presenti in un sistema che lo espongono a",
     "options": [
@@ -14790,10 +13289,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 420
   },
   {
-    "id": 448,
     "code": "M1.3.2.7",
     "question": "La modalità di trasmissione su canali in fibra ottica (WDM = Wavelength Division Multiplexing) è:",
     "options": [
@@ -14822,10 +13321,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 421
   },
   {
-    "id": 449,
     "code": "M1.3.3.1",
     "question": "La convergenza funzionale nei dispositivi di rete",
     "options": [
@@ -14854,66 +13353,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 422
   },
   {
-    "id": 450,
-    "code": "M3.2.1_2.14",
-    "question": "Il controllo ISO/IEC 27001: 2022 “Data leakage prevention” ovvero orientato alla prevenzione della divulgazione deliberata di informazioni riservate Indica che le misure di prevenzione della fuga di dati si devono applicare ai sistemi, alle reti e a qualsiasi altro dispositivo che tratta, memorizza o trasmette informazioni sensibiliVERO",
-    "options": [
-      {
-        "option_text": "Indica che le misure di prevenzione della fuga di dati si applicano ai soli sistemi abilitati al trattamento dei dati di terzi",
-        "answer": false
-      },
-      {
-        "option_text": "È stato pensato, insieme ad altri nuovi controlli, in funzione della normativa europea GDPR",
-        "answer": true
-      },
-      {
-        "option_text": "È un controllo solo di tipo “Preventivo",
-        "answer": false
-      },
-      {
-        "option_text": "È un controllo di tipo “Preventivo” e “Investigativo”",
-        "answer": true
-      },
-      {
-        "option_text": "È un controllo solo di tipo “Correttivo”",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 451,
-    "code": "M3.2.3.4",
-    "question": "Nel NIST CSF i livelli di implementazione del framework (\"Tier\")",
-    "options": [
-      {
-        "option_text": "Forniscono un contesto su come un'organizzazione considera il rischio di sicurezza informatica e i processi in atto per gestirlo Descrivono il grado in cui le pratiche di gestione del rischio di sicurezza informatica di un'organizzazione esibiscono le",
-        "answer": true
-      },
-      {
-        "option_text": "caratteristiche definite nel Framework",
-        "answer": true
-      },
-      {
-        "option_text": "Caratterizzano le pratiche di un'organizzazione in un intervallo, da Parziale (Tier 1) ad Adattativo (Tier 5)",
-        "answer": false
-      },
-      {
-        "option_text": "Riflettono una progressione da risposte informali e reattive (Tier 1) ad approcci agili e informati sui rischi (Tier 5) Sono selezionati da un'organizzazione considerando le sue attuali pratiche di gestione del rischio, l'ambiente delle minacce, i",
-        "answer": false
-      },
-      {
-        "option_text": "requisiti legali e normativi, gli obiettivi aziendali/della missione e i vincoli organizzativi Sono valutati considerando tre parametri che permettono di verificare il livello di sviluppo del Processo di Gestione del Rischio (1), l’Integrazione del Programma di Gestione del Rischio (2) all’interno della realtà aziendale e la capacità dell’organizzazione di partecipare ad un ecosistema di gestione del rischio più ampio della singola realtà aziendale (3)VERO",
-        "answer": true
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 452,
     "code": "M3.2.6.1",
     "question": "La serie ISA/IEC 62443 Fornisce un quadro di norme per affrontare e mitigare le vulnerabilità di sicurezza nei sistemi di controllo e automazione",
     "options": [
@@ -14942,10 +13385,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 423
   },
   {
-    "id": 453,
     "code": "M3.2.6.7",
     "question": "I Livelli di Sicurezza secondo ISA/IEC 62443-3-3 Sono quattro: Da SL1= Protezione contro violazioni casuali a SL4=Protezione contro violazioni con mezzi sofisticati, risorse",
     "options": [
@@ -14958,7 +13401,7 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "skill specifici e alta motivazione  Per la corretta definizione dei requisiti di sicurezza vengono declinati per ciascuno dei requisiti derivati dai requisiti di base o",
+        "option_text": "skill specifici e alta motivazione Per la corretta definizione dei requisiti di sicurezza vengono declinati per ciascuno dei requisiti derivati dai requisiti di base o",
         "answer": false
       },
       {
@@ -14974,10 +13417,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 424
   },
   {
-    "id": 454,
     "code": "M3.3.3.2",
     "question": "La Cybersecurity e la Brand Reputation",
     "options": [
@@ -15006,10 +13449,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 425
   },
   {
-    "id": 455,
     "code": "M3.3.5.7",
     "question": "NIS2 (Network and Information Security) rispetto alla prima direttiva NIS Elimina la distinzione tra fornitori di servizi essenziali e fornitori di servizi digitali, le aziende vengono classificate in",
     "options": [
@@ -15038,10 +13481,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 426
   },
   {
-    "id": 456,
     "code": "M3.3.5.10",
     "question": "In cosa la normativa GDPR differisce dalla NIS 2",
     "options": [
@@ -15070,10 +13513,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 427
   },
   {
-    "id": 457,
     "code": "M3.4.3.8",
     "question": "Il Rischio Informatico nelle aziende industriali",
     "options": [
@@ -15102,10 +13545,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 428
   },
   {
-    "id": 458,
     "code": "M4.2.1.3",
     "question": "Quali dei seguenti sono i maggiori rischi di cyber security nelle aziende industriali di produzione di beni?",
     "options": [
@@ -15130,46 +13573,14 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Rischio di service continuity Esercizio 1 Data la seguente topologia di rete con una LAN costituita da 2048 indirizzi rispondete alle domante selezionando adeguatamente le opzioni indicate. 1. Qual è l'indirizzo di rete con notazione dei bit di maschera 223.128.8.0/21 2. Qual è l'indirizzo di Broadcast 223.128.15.255 3. Qual è l'indirizzo di Maschera di Rete 255.255.248.0 4. Qual è l'indirizzo Subnet 1 223.128.8.0/25 5. Qual è l'indizizzo Subnet 2  223.128.8.128/25 6. Qual è l'indirizzo Subnet 3    223.128.9.0/24 7. Qual è l'indirizzo Subnet 4 223.128.10.0/23 8. L’indirizzo 223.128.8.5 può comunicare con l’indirizzo 223.128.8.131?Se il router ha una regola che lo permette e il firewall lo consente Esercizio 2 Il controllo ISO/IEC 27001: 2022  \"Configuration management\". Indica che le configurazioni, comprese le configurazioni di sicurezza, di hardware, software, servizi e reti devono essere stabilite, documentate, implementate monitorate e revisionate. Tale Controllo appartiene al seguente gruppo di controlli: Technological (Inerente gli aspetti Tecnologici) Tale Controllo è di tipo: Preventivo Considerando il paradigma CIA (o RID) quali delle proprietà elencate possono essere implementare con il controllo?Confidentiality, Integrity e Availability  Quali Concetti del NIST Cyber Security Framework possono essere associati al controllo? Protect Il Controllo è stato concepito primariamente per:Reagire tempestivamente ad un possibile disastro Quali delle seguenti procedure possono essere implementate per realizzare il Controllo?Gestire l'inventario degli asset informatici e le relative configurazioni in maniera centralizzata  Soluzioni Appello Aspetti Organizzativi e Gestionali della Cybesecurity 13 Giugno 2025",
+        "option_text": "Rischio di service continuity",
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 429
   },
   {
-    "id": 459,
-    "code": "M1.1.3.1.2",
-    "question": "Il Packet Switching:",
-    "options": [
-      {
-        "option_text": "È una tecnica di commutazione in cui messaggi consecutivi vengono raggruppati in pacchetti (packets) che vengono trasmessi simultaneamente",
-        "answer": false
-      },
-      {
-        "option_text": "È una tecnica di commutazione in cui il messaggio viene diviso in parti più piccole (packets) che vengono gestite singolarmente",
-        "answer": true
-      },
-      {
-        "option_text": "È una tecnica di commutazione in cui i pacchetti viaggiano attraverso la rete, prendendo il percorso più breve possibile (instradamento)",
-        "answer": true
-      },
-      {
-        "option_text": "È una tecnica di commutazione in cui tutti i pacchetti vengono suddivisi e trasmessi in maniera indipendente e riassemblati all'estremità ricevente nell'ordine corretto",
-        "answer": true
-      },
-      {
-        "option_text": "Prevede, se un messaggio è pervenuto mancante di pacchetti o danneggiato, che venga notificata un richiesta di rinvio del messaggio, se invece viene raggiunto l'ordine corretto dei pacchetti, si invia conferma",
-        "answer": true
-      },
-      {
-        "option_text": "Prevede, se un messaggio arriva mancante di pacchetti o danneggiato, che il messaggio possa essere corretto da un meccanismo di completamento automatico a correzione di errore",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 460,
     "code": "M1.2.3.5",
     "question": "La Cyber Security nella Supply Chain",
     "options": [
@@ -15198,42 +13609,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Reti, Internet e Cyber Security (M1)"
+    "category": "Reti, Internet e Cyber Security (M1)",
+    "id": 430
   },
   {
-    "id": 461,
-    "code": "M1.3.1.5",
-    "question": "Il livello 4 del Modello ISO/OSI",
-    "options": [
-      {
-        "option_text": "Si occupa del Trasporto dei dati mediante specifici protocolli",
-        "answer": true
-      },
-      {
-        "option_text": "Attraverso la funzione di Multiplazione permette di stabilire diverse connessioni simultanee tra gli stessi due host",
-        "answer": true
-      },
-      {
-        "option_text": "Attraverso il servizio di Sincronizzazione inserisce Checkpoint nella flusso dei dati della comunicazione",
-        "answer": false
-      },
-      {
-        "option_text": "Attraverso il Servizio di Connessione si incarica di realizzare una connessione persistente per ogni connessione richiesta, che viene poi chiusa quando non è più necessaria",
-        "answer": true
-      },
-      {
-        "option_text": "Si occupa di evitare errori di over-running se gli host coinvolti nella comunicazione hanno velocità di trasmissione differenti",
-        "answer": true
-      },
-      {
-        "option_text": "Si occupa dell'indirizzamento logico dei pacchetti trasportati",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)"
-  },
-  {
-    "id": 462,
     "code": "M2.1.2.13",
     "question": "La Società S.n.c.",
     "options": [
@@ -15262,10 +13641,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 431
   },
   {
-    "id": 463,
     "code": "M2.2.2.5.1",
     "question": "Quali dei seguenti elementi possono essere considerati Vettori di Attacco",
     "options": [
@@ -15294,10 +13673,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Organizzazione e Gestione Aziendale (M2)"
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 432
   },
   {
-    "id": 464,
     "code": "M3.1.3.4",
     "question": "Il percorso che porta alla certificazione di un'azienda o un'organizzazione",
     "options": [
@@ -15326,42 +13705,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 433
   },
   {
-    "id": 465,
-    "code": "M3.1.3.5",
-    "question": "Lo Standard Internazionale",
-    "options": [
-      {
-        "option_text": "ISO 45001 è relativo alla sicurezza del lavoro",
-        "answer": true
-      },
-      {
-        "option_text": "ISO 31000 è relativo alla gestione del rischio",
-        "answer": true
-      },
-      {
-        "option_text": "ISO 14001 è relativo all’ambiente ovvero sui sistemi di gestione ambientale",
-        "answer": true
-      },
-      {
-        "option_text": "ISO 26000 è relativo alla qualità",
-        "answer": false
-      },
-      {
-        "option_text": "ISO 9001 è relativo alla qualità",
-        "answer": true
-      },
-      {
-        "option_text": "ISA/IEC 62443 è relativo alla sicurezza delle informazioni",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 466,
     "code": "M3.2.1.22",
     "question": "Un Sistema di Gestione della Sicurezza delle Informazioni (ISMS)",
     "options": [
@@ -15390,10 +13737,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 434
   },
   {
-    "id": 467,
     "code": "M3.2.1_1.3",
     "question": "L'area tematica dei requisiti ISO/IEC 27001 \"Leadership\" definisce che:",
     "options": [
@@ -15422,42 +13769,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 435
   },
   {
-    "id": 468,
-    "code": "M3.2.1_2.17",
-    "question": "Il controllo ISO/IEC 27001: 2022 “Privileged access rights” ovvero che l'assegnazione e l'uso dei diritti di accesso privilegiati devono essere limitati e gestiti",
-    "options": [
-      {
-        "option_text": "Indica che l'assegnazione e l'uso dei diritti di accesso privilegiati deve essere assegnato in base al ruolo e la responsabilità all'interno dell'organizzazione",
-        "answer": true
-      },
-      {
-        "option_text": "Indica che una volta definiti gli specifici diritti di accesso questi non saranno modificati sino alle dimissioni del dipendente",
-        "answer": false
-      },
-      {
-        "option_text": "È un requisito solo Preventivo",
-        "answer": true
-      },
-      {
-        "option_text": "È un  requisito Preventivo e Investigativo",
-        "answer": false
-      },
-      {
-        "option_text": "È un controllo solamente Correttivo",
-        "answer": false
-      },
-      {
-        "option_text": "È un controllo che appartiene solamente all'ambito dei requisiti di Integrità e Disponibilità",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
-  },
-  {
-    "id": 469,
     "code": "M3.2.1_2.18",
     "question": "L'attributo dei controlli ISO/IEC 27001:2022 Cybersecurity Concepts",
     "options": [
@@ -15486,10 +13801,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 436
   },
   {
-    "id": 470,
     "code": "M3.2.3_1.2",
     "question": "Le Funzioni del Framework Core",
     "options": [
@@ -15506,22 +13821,22 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "Sono suddivise in categorie, ovvero in gruppi di risultati di sicurezza informatica",
+        "option_text": "Sono suddivise in categorie, ov",
         "answer": true
       },
       {
-        "option_text": "Sono divise in sottocategorie ovvero i controlli da effettuare",
-        "answer": false
+        "option_text": "Sono divise in sottocategorie ov",
+        "answer": true
       },
       {
         "option_text": "Devono essere sempre attive",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 437
   },
   {
-    "id": 471,
     "code": "M3.2.3_1.3",
     "question": "I Framework Profile del NIST CSF",
     "options": [
@@ -15550,12 +13865,12 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 438
   },
   {
-    "id": 472,
     "code": "M3.2.3_1.4",
-    "question": "Il risultato atteso NIST CSF ID.AM-08: Sistemi, hardware, software, servizi e dati vengono gestiti durante tutto il loro ciclo di vita  vuole significare",
+    "question": "Il risultato atteso NIST CSF ID.AM-08: Sistemi, hardware, software, servizi e dati vengono gestiti durante tutto il loro ciclo di vita vuole significare",
     "options": [
       {
         "option_text": "Che per tutti i sistemi, gli hardware i software i sevizi e i dati è necessario gestire la configurazione e identificare la durata del ciclo di vita",
@@ -15566,7 +13881,7 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Che per tutti i sistemi, gli hardware i software fuori dal ciclo di vita, ovvero obsoleti, devono essere sostituti",
+        "option_text": "Che per tutti i sistemi, gli hardware i software fuori dal ciclo di vita, ov",
         "answer": true
       },
       {
@@ -15582,10 +13897,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 439
   },
   {
-    "id": 473,
     "code": "M3.2.4.3.2",
     "question": "ll documento NIST Special Publication SP 800-53 Rev. 5",
     "options": [
@@ -15614,10 +13929,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 440
   },
   {
-    "id": 474,
     "code": "M3.2.6.21",
     "question": "Il Documento ISA/IEC 62443-4-2",
     "options": [
@@ -15642,14 +13957,14 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "E' relativo ai Componenti ovvero: Dispositivi embedded, componenti di rete, componenti host e applicazioni software",
+        "option_text": "E' relativo ai Componenti ov",
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 441
   },
   {
-    "id": 475,
     "code": "M3.2.6.19",
     "question": "I Requisiti di Sicurezza (SR) secondo ISO/IEC 62443-3-3",
     "options": [
@@ -15678,10 +13993,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 442
   },
   {
-    "id": 476,
     "code": "M3.2.6.20",
     "question": "Come si può migliorare i livello di sicurezza di un Conduit secondo ISO/IEC 62443",
     "options": [
@@ -15710,10 +14025,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 443
   },
   {
-    "id": 477,
     "code": "M3.3.5_1.1",
     "question": "Il DL 138 di recepimento italiano della direttiva NIS 2",
     "options": [
@@ -15742,10 +14057,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 444
   },
   {
-    "id": 478,
     "code": "M3.3.5_1.2",
     "question": "I principali elementi che differenziano la prima edizione della NIS e NIS2 sono",
     "options": [
@@ -15774,10 +14089,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 445
   },
   {
-    "id": 479,
     "code": "M3.3.5_1.3",
     "question": "Quali obblighi in materia di gestione del rischio sono stati introdotti dalla normativa NIS 2?",
     "options": [
@@ -15806,10 +14121,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 446
   },
   {
-    "id": 480,
     "code": "M3.3.5_1.4",
     "question": "Quali obblighi di notifica prevede la direttiva NIS 2?",
     "options": [
@@ -15838,10 +14153,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 447
   },
   {
-    "id": 481,
     "code": "M3.3.5_1.5",
     "question": "Qual è il punto di contatto unico competente NIS relativamente alla direttiva (UE) 2022/2555",
     "options": [
@@ -15870,10 +14185,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)"
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 448
   },
   {
-    "id": 482,
     "code": "M4.1.1.1",
     "question": "Secondo il sociologo e filosofo Max Weber",
     "options": [
@@ -15902,42 +14217,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 449
   },
   {
-    "id": 483,
-    "code": "M4.1.1.13",
-    "question": "La Struttura organizzativa Divisionale",
-    "options": [
-      {
-        "option_text": "È una soluzione organizzativa dove tutte le attività (produzione, marketing, finanza, ecc.) inerenti un prodotto vengono raggruppate in una divisione",
-        "answer": true
-      },
-      {
-        "option_text": "È una soluzione organizzativa dove ogni divisione corrisponde ad una unità organizzativa",
-        "answer": true
-      },
-      {
-        "option_text": "Facilita la realizzazione di strategie per la diversificazione produttiva",
-        "answer": true
-      },
-      {
-        "option_text": "Permette di ridurre il numero di dipendenti nelle varie divisioni permettendo economie nelle risorse umane",
-        "answer": false
-      },
-      {
-        "option_text": "Riduce i possibili conflitti tra staff dell’amministrazione generale e staff delle divisioni",
-        "answer": false
-      },
-      {
-        "option_text": "Permette di raggruppare tutte le attività di uno specifico prodotto migliorando la flessibilità delle operazioni",
-        "answer": true
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "id": 484,
     "code": "M4.1.2.5",
     "question": "Un'anzienda che, relativamente alla cybersecurity, privilegia gli aspetti tecnologici ed infrastrutturali può prevedere una struttura organizzativa",
     "options": [
@@ -15966,10 +14249,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 450
   },
   {
-    "id": 485,
     "code": "M4.1.3.3",
     "question": "Quali dei seguenti sono compiti del CISO (Chief Information Security Officer)",
     "options": [
@@ -15998,10 +14281,10 @@ const QUIZ_QUESTIONS = [
         "answer": true
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 451
   },
   {
-    "id": 486,
     "code": "M4.1.5.7",
     "question": "La figura aziendale dell'Informatico Forense",
     "options": [
@@ -16030,10 +14313,10 @@ const QUIZ_QUESTIONS = [
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 452
   },
   {
-    "id": 487,
     "code": "M4.2.1.4",
     "question": "L’organizzazione della Cybersicurezza nelle Infrastrutture Critiche",
     "options": [
@@ -16058,83 +14341,83 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Secondo le normative deve prevedere un sistema di gestione  Nello topografia indicata nello schema sopra sono rappresentate  Zone (con differenti colori in base alla specifica funzione) e dispositivi di rete numerati progressivamente. Indicare quali dei segmenti di rete (indicati con l'insieme dei dispositivi) sono  Conduit  secondo ISA-IEC 62443 selezionando vero o falso nelle seguenti opzioni:",
+        "option_text": "Secondo le normative deve prevedere un sistema di gestione Nello topografia indicata nello schema sopra sono rappresentate Zone (con differenti colori in base alla specifica funzione) e dispositivi di rete numerati progressivamente.",
         "answer": true
       },
       {
-        "option_text": "0",
+        "option_text": "Indicare quali dei segmenti di rete (indicati con l'insieme dei dispositivi) sono Conduit secondo ISA-IEC 62443 selezionando",
         "answer": true
       },
       {
-        "option_text": "1-2-3-4-5-6-7",
+        "option_text": "2-3-4-5-6-7",
         "answer": true
       },
       {
-        "option_text": "1-2-3-4-5",
+        "option_text": "2-3-4-5",
         "answer": false
       },
       {
-        "option_text": "6-7",
+        "option_text": "9-10-11",
+        "answer": true
+      },
+      {
+        "option_text": "13-14-15",
+        "answer": true
+      },
+      {
+        "option_text": "9-10-11-12-13-14-15",
         "answer": false
       },
       {
-        "option_text": "8-9-10-11",
+        "option_text": "17-18",
         "answer": true
       },
       {
-        "option_text": "12-13-14-15",
-        "answer": true
-      },
-      {
-        "option_text": "8-9-10-11-12-13-14-15",
+        "option_text": "17-18-19-20-21-22-23-24",
         "answer": false
       },
       {
-        "option_text": "16-17-18",
+        "option_text": "20-21",
         "answer": true
       },
       {
-        "option_text": "16-17-18-19-20-21-22-23-24",
+        "option_text": "23-24",
+        "answer": true
+      },
+      {
+        "option_text": "26-27-28-29-30-31-32-33-34-35-36",
         "answer": false
       },
       {
-        "option_text": "19-20-21",
-        "answer": true
-      },
-      {
-        "option_text": "22-23-24",
-        "answer": true
-      },
-      {
-        "option_text": "25-26-27-28-29-30-31-32-33-34-35-36",
+        "option_text": "38-39-40-41-42-43-44-45-46-47-48",
         "answer": false
       },
       {
-        "option_text": "37-38-39-40-41-42-43-44-45-46-47-48",
-        "answer": false
-      },
-      {
-        "option_text": "25-26-27-28",
+        "option_text": "26-27-28",
         "answer": true
       },
       {
-        "option_text": "29-30-31-32",
+        "option_text": "30-31-32",
         "answer": true
       },
       {
-        "option_text": "33-34-35-36",
+        "option_text": "34-35-36",
         "answer": true
       },
       {
-        "option_text": "37-38-39-40",
+        "option_text": "38-39-40",
         "answer": true
       },
       {
-        "option_text": "41-42-43-44",
+        "option_text": "42-43-44",
         "answer": true
       },
       {
-        "option_text": "45-46-47-48  Un'azienda di produzione ha necessità di aumentare il livello di sicurezza degli accessi esterni da parte di fornitori di servizi di assistenza e manutenzione. Per fare questo è stato deciso di migliorare il sistema di gestione esistente utilizzando alcuni controlli ISO/IEC 27001: 2022 e IEC 62443. Indicare vero o falso se ritenete che i controlli elencati siano adeguati o meno allo scopo:",
+        "option_text": "46-47-48 Un'azienda di produzione ha necessità di aumentare il livello di sicurezza degli accessi esterni da parte di fornitori di servizi di assistenza e manutenzione. Per fare questo è stato deciso di migliorare il sistema di gestione esistente utilizzando alcuni controlli ISO/IEC 27001: 2022 e IEC",
+        "answer": true
+      },
+      {
+        "option_text": "Indicare",
         "answer": true
       },
       {
@@ -16174,51 +14457,20 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "ISA/IEC 62443-3-3 SR 4.2 - Information persistence - RE 1 Purging of shared memory resoruce {1:MC:~Vero~=Falso}",
+        "option_text": "ISA/IEC 62443-3-3 SR 4.2 - Information persistence - RE 1 Purging of shared memory resoruce {1:MC:~Vero~=Falso}",
         "answer": false
       },
       {
-        "option_text": "ISA/IEC 62443-3-3 SR 5.3 – General purpose person-to-person communication restrictions {1:MC:~Vero~=Falso}",
+        "option_text": "ISA/IEC 62443-3-3 SR 5.3 – General purpose person-to-person communication restrictions {1:MC:~Vero~=Falso}",
         "answer": false
       },
       {
-        "option_text": "ISA/IEC 62443-3-3 SR 7.5 – Emergency power {1:MC:~Vero~=Falso}",
+        "option_text": "ISA/IEC 62443-3-3 SR 7.5 – Emergency power {1:MC:~Vero~=Falso}",
         "answer": false
       }
     ],
-    "category": "Risk Management, Legal & Compliance (M4)"
-  },
-  {
-    "code": "M1.2.2.1",
-    "question": "Il Dark Web",
-    "options": [
-      {
-        "option_text": "È accessibile solo tramite appositi browser e protocolli di anonimizzazione",
-        "answer": true
-      },
-      {
-        "option_text": "Rappresenta una porzione molto piccola di internet (meno dello 0,01%)",
-        "answer": true
-      },
-      {
-        "option_text": "Oltre a essere una \"centrale\" per il crimine informatico, l'anonimato che offre viene sfruttato da attivisti politici, giornalisti e informatori in paesi soggetti a censura.",
-        "answer": true
-      },
-      {
-        "option_text": "È sempre illegale proprio per le sue caratteristiche di anonimato",
-        "answer": false
-      },
-      {
-        "option_text": "Garantisce sempre l'inviolabilità delle informazioni personali",
-        "answer": false
-      },
-      {
-        "option_text": "Si è evoluto in vero e proprio e-commerce strutturati, completo di sistemi di recensioni, conti deposito e assistenza clienti",
-        "answer": true
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 488
+    "category": "Risk Management, Legal & Compliance (M4)",
+    "id": 453
   },
   {
     "code": "M1.2.3.6",
@@ -16250,39 +14502,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 489
-  },
-  {
-    "code": "M1.2.4.11",
-    "question": "Una Botnet",
-    "options": [
-      {
-        "option_text": "È una rete composta da dispositivi infettati da malware che agiscono sotto il controllo di un unico attore aumentando le risorse e le capacità offensive a sua disposizione",
-        "answer": true
-      },
-      {
-        "option_text": "È una rete composta da dispositivi infettati da malware che agiscono sotto il controllo di attori multipli aumentando le risorse e capacità offensive a loro disposizione",
-        "answer": false
-      },
-      {
-        "option_text": "È una rete composta da dispositivi infettati che permette di creare un sovraccarico anche nelle server farm che gestiscono siti capaci di grande traffico",
-        "answer": true
-      },
-      {
-        "option_text": "È lo strumento principale per realizzare un attacco di tipo Ransomware",
-        "answer": false
-      },
-      {
-        "option_text": "È lo strumento principale per realizzare un attacco di tipo DDoS (Distributed Denial of Service)",
-        "answer": true
-      },
-      {
-        "option_text": "Può utilizzare trojan specializzati che permettono il controllo remoto del sistema infettato",
-        "answer": true
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 490
+    "id": 454
   },
   {
     "code": "M1.3.1.10",
@@ -16297,7 +14517,7 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Permette ad ogni checkpoint che entrambi gli host effettuino il backup dei dati, salvino la configurazione della rete e del clock, ed annotino il punto in cui è arrivata la conversazione",
+        "option_text": "Permette ad ogni checkpoint che entrambi gli host effettuino il backup dei dati, salvino la configurazione della rete e del clock, ed annotino il punto in cui è arrivata la conversazione",
         "answer": true
       },
       {
@@ -16314,7 +14534,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 491
+    "id": 455
   },
   {
     "code": "M2.2.2.7",
@@ -16346,7 +14566,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 492
+    "id": 456
   },
   {
     "code": "M2.2.2.8",
@@ -16378,7 +14598,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 493
+    "id": 457
   },
   {
     "code": "M2.3.1.8",
@@ -16401,8 +14621,8 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "La produzione ovvero la trasformazione in prodotti finiti o semilavorati",
-        "answer": false
+        "option_text": "La produzione ov",
+        "answer": true
       },
       {
         "option_text": "Il disinvestimento di asset obsoleti",
@@ -16410,7 +14630,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 494
+    "id": 458
   },
   {
     "code": "M2.3.2.8",
@@ -16442,7 +14662,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 495
+    "id": 459
   },
   {
     "code": "M3.2.1.24",
@@ -16474,7 +14694,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 496
+    "id": 460
   },
   {
     "code": "M3.2.1_1.6",
@@ -16506,7 +14726,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 497
+    "id": 461
   },
   {
     "code": "M3.2.3_1.5",
@@ -16525,7 +14745,7 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Ha di fatto ampliato  l'ambito di applicazione riconoscendo che la cybersecurity riguarda l'intera organizzazione e le sue interazioni",
+        "option_text": "Ha di fatto ampliato l'ambito di applicazione riconoscendo che la cybersecurity riguarda l'intera organizzazione e le sue interazioni",
         "answer": true
       },
       {
@@ -16538,39 +14758,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 498
-  },
-  {
-    "code": "M3.2.6.1",
-    "question": "La serie ISA/IEC 62443",
-    "options": [
-      {
-        "option_text": "Fornisce un quadro di norme per affrontare e mitigare le vulnerabilità di sicurezza nei sistemi di controllo e automazione industriale (IACS)",
-        "answer": true
-      },
-      {
-        "option_text": "Sono standard applicabili a tutti i settori industriali e alle infrastrutture critiche",
-        "answer": true
-      },
-      {
-        "option_text": "Ha un posizionamento che scende sino a livello dell’impianto",
-        "answer": true
-      },
-      {
-        "option_text": "Ha un posizionamento che parte dal coinvolgimento dell’amministratore delegato e del consiglio di amministrazione",
-        "answer": false
-      },
-      {
-        "option_text": "È costituita da quattro famiglie di standard ancora in aggiornamento",
-        "answer": true
-      },
-      {
-        "option_text": "Non riguarda direttamente gli SCADA",
-        "answer": false
-      }
-    ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 499
+    "id": 462
   },
   {
     "code": "M3.2.6.34",
@@ -16585,8 +14773,8 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "Richiede che per garantire le risorse durante un incidente si applichi il principio della Least Functionality (minima funzionalità), ovvero disabilitare o limitare servizi e funzioni non necessari",
-        "answer": false
+        "option_text": "Richiede che per garantire le risorse durante un incidente si applichi il principio della Least Functionality (minima funzionalità), ov",
+        "answer": true
       },
       {
         "option_text": "Richiede che i componenti del sistema di controllo devono gestire attivamente l'allocazione delle risorse (es. memoria, banda di rete, cicli di CPU) per prevenire attacchi mirati all'esaurimento delle stesse",
@@ -16602,39 +14790,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 500
-  },
-  {
-    "code": "M4.1.1.3",
-    "question": "Il Controllo di Gestione",
-    "options": [
-      {
-        "option_text": "E' il meccanismo operativo volto a guidare la gestione verso il conseguimento degli obiettivi stabiliti in sede di pianificazione operativa",
-        "answer": true
-      },
-      {
-        "option_text": "Rileva, attraverso la misurazione di appositi indicatori, lo scostamento tra obiettivi pianificati e risultati conseguiti",
-        "answer": true
-      },
-      {
-        "option_text": "Informa degli scostamenti dagli obiettivi gli uffici e le persone che non stanno raggiungendo i risultati desiderati",
-        "answer": false
-      },
-      {
-        "option_text": "E' un processo aziendale che usa la raccolta e l'analisi di dati economico-finanziari e operativi",
-        "answer": true
-      },
-      {
-        "option_text": "Può contribuire a prevenire e gestire i rischi operativi e finanziari",
-        "answer": true
-      },
-      {
-        "option_text": "Non si occupa di valutare la redditività di progetti, prodotti o settori di vendita",
-        "answer": false
-      }
-    ],
-    "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 501
+    "id": 463
   },
   {
     "code": "M4.2.3.11",
@@ -16666,7 +14822,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 502
+    "id": 464
   },
   {
     "code": "M3.4.6.3",
@@ -16693,35 +14849,11 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Sono reti di neuroni artificiali addestrate mediante la taratura dei parametri che propagano o meno il segnale (spike) ai neuroni successivi. Esercizio 1 1. Identificare correttamente, nello schema topologico in figura, i dispositivi rappresentati con le lettere: A. Router B. Firewall C. VPN D. Router E.Anomaly Detection F. Switch G. Switch H. Switch 2. Qual è il nome dei segmenti di rete con collegamenti colorati in verde e arancione?  VLAN 3. La presenza di due CED invece di uno",
-        "answer": true
-      },
-      {
-        "option_text": "Elimina il \"Single Point of Failure\"",
-        "answer": true
-      },
-      {
-        "option_text": "Aiuta a gestire il Disaster Recovery e protegge meglio i dati",
-        "answer": true
-      },
-      {
-        "option_text": "Aumenta la capacità di elaborazione complessiva senza aumentare troppo i costi",
-        "answer": false
-      },
-      {
-        "option_text": "Permette una ridondanza fisica se i due CED sono vicini tra di loro Esercizio 2 Un'azienda di produzione intende implementare alcuni System Requirement (SR) ANSI/ISA-62443 per innalzare la postura di sicurezza. Indicare quale delle seguenti affermazioni associate ai requisiti sono VERE o FALSE: L'identificatore (es. un nome utente, un ID di processo o un certificato digitale assegnato a un'entità) deve rimanere sempre associato",
-        "answer": false
-      },
-      {
-        "option_text": "all'entità fisica per tracciare le azioni; Il sistema di controllo deve fornire la capacità di supportare la gestione degli identificatori per utente, gruppo, ruolo o interfaccia del sistema di controllo.VERO Il sistema deve fornire la capacità di identificare in modo univoco non solo gli utenti umani, ma anche i processi software e i dispositivi.VEROSR 1.4 – Identifier management Indica che non è consentito un riutilizzo immediato dell'Identificatore subito dopo la disattivazione per evitare rischi di confusione o furto di identità all'interno dell'impianto industriale.FALSO Indica che le credenziali per l'accesso wireless possono essere condivise tra più utenti e dispositivi generici per velocizzare la manutenzioneFALSO Indica che il sistema di controllo deve essere in grado di identificare e autenticare tutti gli utenti (persone, processi software o dispositivi) coinvolti nella comunicazione wireless.VERO Definisce che l'ambito di applicazione non è solo l'Wi-Fi aziendale, ma qualsiasi mezzo di comunicazione wireless industriale (es. Bluetooth, ZigBee, packet radio)VERO Indica che, poiché si tratta di reti senza fili, lo standard permette che i dispositivi e i processi software possano non essere autenticati quando si collegano in wirelessFALSO Indica che il sistema di controllo, dopo aver verificato l'identità di un utente (persona, processo software o dispositivo), deve anche verificare che l'operazione richiesta sia effettivamente consentita in base alle policy e procedure di sicurezza definiteVERO Prevede che il sistema di controllo debba fornire la capacità di applicare le autorizzazioni assegnate a tutti gli utenti umani per controllare l'uso del sistema di controllo, al fine di supportare la separazione dei doveri e il privilegio minimoVERO Prevede che i privilegi amministrativi completi (di default) non siano consentiti; le autorizzazioni concesse devono essere limitate a quelle necessarie per lo svolgimento della specifica mansioneVERO Prevede che Il controllo delle autorizzazioni deve essere applicato su tutte le interfacce del sistema di controllo, non solo su quelle",
-        "answer": false
-      },
-      {
-        "option_text": "principali o dell'operatore. Assicura che sia sempre possibile capire chi o cosa ha eseguito un'azione (es. l'utente specifico, il software o il dispositivo che l'ha originata)VERO Prevede che il sistema di controllo deve essere in grado di generare record di audit rilevanti per la sicurezzaVERO Prevede che i singoli record di audit devono includere timestamp, origine (dispositivo di origine, processo software o account utente umano), categoria, tipo, ID evento e risultato dell'eventoVERO Prevede registrazioni di audit per le seguenti categorie: controllo degli accessi, errori di richiesta, eventi del sistema operativo, eventi del sistema di controllo, eventi di backup e ripristino, modifiche alla configurazione, potenziali attività di ricognizione ed eventi del registro di auditVERO Richiede che il sistema di controllo fornisca data e ora esatte per l'uso nella generazione dei record di auditVERO Non richiede particolare accuratezza del dato, l'accuratezza dei timestamp è infatti irrilevante per le analisi di sicurezzaFALSO Non richiede che i timestamp siano protetti se il file di log è archiviato in localeFALSO Può prevedere il requisito di miglioramento RE 1 \"Internal time synchronisation\" per mantenere allineati gli orari tra i diversi dispositivi del sistema.VERO Il requisito si concentra sulla protezione dell'integrità del firmware, del codice applicativo e dei dati sensibili del sistemaVERO Il requisito si applica esclusivamente al firmware del dispositivo e non ai dati di configurazioneFALSO Indica che l'utilizzo di firme digitali crittografiche sui pacchetti di aggiornamento è un metodo valido per soddisfare questo requisitoVERO Indica il divieto categorico dell'utilizzo di software Open Source all'interno dei componenti industrialiVERO Garantisce che le funzioni di sicurezza fisica o di controllo critico mantengano tempi di risposta prevedibili anche durante un attacco informaticoVERO Indica che il requisito sia applicabile a tutti i componenti software aziendali (come i sistemi ERP)FALSO Stabilisce un tempo di risposta universale (es. inferiore a 10 millisecondi) che tutti i dispositivi industriali certificati devono rispettareFALSO Richiede che il sistema continui a generare i propri output in modo deterministico (rispettando le scadenze temporali necessarie alla sicurezza operativa), anche se la rete è congestionata da un attacco o un sovraccaricoVEROSR 1.4 – Identifier management SR 1.6 – Wireless access management SR 2.1 – Authorization enforcement SR 2.8 – Auditable events SR 2.11 – Timestamps SR 3.4 – Software and information integrity SR 3.6 – Deterministic output",
+        "option_text": "Sono reti di neuroni artificiali addestrate mediante la taratura dei parametri che propagano o meno il segnale (spike) ai neuroni successivi.",
         "answer": true
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 503
+    "id": 465
   }
 ];
