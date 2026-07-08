@@ -717,6 +717,7 @@ class CyberQuestApp {
         
         // Calculate points
         let totalPoints = 0;
+        let totalMaxPoints = 0;
         let correctCount = 0;
         let wrongCount = 0;
         let blankCount = 0;
@@ -747,30 +748,36 @@ class CyberQuestApp {
             });
             
             // Points math depending on penalty
+            let optCount = q.options.length;
             if (this.exam.penalty === 'allornothing') {
+                totalMaxPoints += 1.0;
                 if (questionCorrectOpts === optCount) {
                     totalPoints += 1.0;
                 }
             } else {
                 // Per-option scoring
-                // Max points for this question = 1.0
-                // Correct yields +1/optCount, Wrong deducts penalty/optCount, Blank is 0
+                // User explicit rule: +0.15 for correct, -0.05 for wrong (standard)
                 let qPoints = 0;
-                let penaltyVal = 0.5; // standard
-                if (this.exam.penalty === 'light') penaltyVal = 0.25;
+                let penaltyVal = 0.05; // standard
+                if (this.exam.penalty === 'light') penaltyVal = 0.025;
                 if (this.exam.penalty === 'nopenalty') penaltyVal = 0;
                 
-                qPoints += (questionCorrectOpts / optCount) * 1.0;
-                qPoints -= (questionWrongOpts / optCount) * penaltyVal;
+                qPoints += (questionCorrectOpts * 0.15);
+                qPoints -= (questionWrongOpts * penaltyVal);
                 
                 // Question score can't go below 0 (standard university exam rule)
                 totalPoints += Math.max(0, qPoints);
+                
+                // Each correct option gives 0.15
+                totalMaxPoints += (optCount * 0.15);
             }
         });
         
         // Calculate score out of 30
-        const examMaxPoints = this.exam.questions.length;
-        let rawGrade = (totalPoints / examMaxPoints) * 30;
+        let rawGrade = 0;
+        if (totalMaxPoints > 0) {
+            rawGrade = (totalPoints / totalMaxPoints) * 30;
+        }
         // round to nearest 0.5 or 0.25 (standard university grading)
         rawGrade = Math.max(0, Math.round(rawGrade * 2) / 2);
         
