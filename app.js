@@ -454,7 +454,7 @@ class CyberQuestApp {
     
     startExam() {
         const count = parseInt(document.getElementById('exam-q-count').value);
-        this.exam.penalty = document.getElementById('exam-penalty-select').value;
+        // Scoring: fixed rules (+0.15 correct, -0.05 wrong, 0 blank)
         
         const incM1 = document.getElementById('exam-inc-m1').checked;
         const incM2 = document.getElementById('exam-inc-m2').checked;
@@ -716,8 +716,11 @@ class CyberQuestApp {
         if (this.exam.timerId) clearInterval(this.exam.timerId);
         
         // Calculate points
+        // Rule: each QUESTION is worth max 1 point.
+        // Within each question: +0.15 per correct option, -0.05 per wrong option, 0 for blank.
+        // Question score is clamped to [0, 1].
+        // Final grade = (totalPoints / numQuestions) * 30
         let totalPoints = 0;
-        let totalMaxPoints = 0;
         let correctCount = 0;
         let wrongCount = 0;
         let blankCount = 0;
@@ -747,37 +750,22 @@ class CyberQuestApp {
                 totalOptionsChecked++;
             });
             
-            // Points math depending on penalty
-            if (this.exam.penalty === 'allornothing') {
-                totalMaxPoints += 1.0;
-                if (questionCorrectOpts === optCount) {
-                    totalPoints += 1.0;
-                }
-            } else {
-                // Per-option scoring
-                // User explicit rule: +0.15 for correct, -0.05 for wrong (standard)
-                let qPoints = 0;
-                let penaltyVal = 0.05; // standard
-                if (this.exam.penalty === 'light') penaltyVal = 0.025;
-                if (this.exam.penalty === 'nopenalty') penaltyVal = 0;
-                
-                qPoints += (questionCorrectOpts * 0.15);
-                qPoints -= (questionWrongOpts * penaltyVal);
-                
-                // Question score can't go below 0 (standard university exam rule)
-                totalPoints += Math.max(0, qPoints);
-                
-                // Each correct option gives 0.15
-                totalMaxPoints += (optCount * 0.15);
-            }
+            // Points for this question
+            let qPoints = 0;
+            qPoints += (questionCorrectOpts * 0.15);  // +0.15 per correct
+            qPoints -= (questionWrongOpts * 0.05);     // -0.05 per wrong
+            // blank = 0 (no change)
+            
+            // Clamp question score to [0, 1]
+            qPoints = Math.max(0, Math.min(1, qPoints));
+            totalPoints += qPoints;
         });
         
-        // Calculate score out of 30
-        let rawGrade = 0;
-        if (totalMaxPoints > 0) {
-            rawGrade = (totalPoints / totalMaxPoints) * 30;
-        }
-        // round to nearest 0.5 or 0.25 (standard university grading)
+        // Final grade out of 30
+        // With 30 questions, totalPoints directly equals the grade
+        const numQuestions = this.exam.questions.length;
+        let rawGrade = (totalPoints / numQuestions) * 30;
+        // Round to nearest 0.5
         rawGrade = Math.max(0, Math.round(rawGrade * 2) / 2);
         
         const passed = rawGrade >= 18;
