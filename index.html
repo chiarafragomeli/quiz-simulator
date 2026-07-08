@@ -64,6 +64,9 @@
                     <p id="section-subtitle">Panoramica dei tuoi progressi e dello stato di studio.</p>
                 </div>
                 <div class="header-actions">
+                    <button class="btn btn-secondary" id="open-ai-settings-btn" style="margin-right: 8px;">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> Impostazioni AI ✨
+                    </button>
                     <button class="btn btn-secondary" id="reset-progress-btn">
                         <i class="fa-solid fa-rotate-left"></i> Reset Progressi
                     </button>
@@ -283,6 +286,9 @@
                         <div class="card-footer">
                             <button class="btn btn-secondary-outline" id="study-prev-btn">
                                 <i class="fa-solid fa-chevron-left"></i> Precedente
+                            </button>
+                            <button class="btn btn-secondary-outline" id="study-ai-explain-btn">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i> Spiegazione AI ✨
                             </button>
                             <button class="btn btn-primary" id="study-verify-btn">
                                 <i class="fa-solid fa-circle-check"></i> Verifica Risposte
@@ -537,6 +543,64 @@
             <div class="modal-footer">
                 <button class="btn btn-secondary-outline" id="modal-cancel-btn">Annulla</button>
                 <button class="btn btn-primary" id="modal-confirm-btn">Consegna</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gemini API Key Modal -->
+    <div class="modal-overlay hidden" id="gemini-key-modal">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3>Impostazioni Assistente AI Gemini ✨</h3>
+            </div>
+            <div class="modal-body">
+                <p>Inserisci la tua chiave API di Gemini per attivare le spiegazioni con l'intelligenza artificiale. La chiave viene salvata esclusivamente nel tuo browser.</p>
+                <div class="form-group">
+                    <label for="gemini-api-key-input">Gemini API Key:</label>
+                    <input type="password" id="gemini-api-key-input" class="form-control" placeholder="Inserisci la tua API Key...">
+                </div>
+                <div class="modal-info-box" style="margin-bottom: 0;">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <span>Non hai una chiave? Creala gratuitamente in 10 secondi su <a href="https://aistudio.google.com/" target="_blank" style="color: #f472b6; font-weight:700">Google AI Studio</a>.</span>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary-outline" id="gemini-key-close-btn">Annulla</button>
+                <button class="btn btn-danger" id="gemini-key-delete-btn">Elimina Chiave</button>
+                <button class="btn btn-primary" id="gemini-key-save-btn">Salva</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gemini Chat Side Drawer -->
+    <div class="chat-drawer-overlay hidden" id="chat-drawer-overlay">
+        <div class="chat-drawer">
+            <div class="drawer-header">
+                <div class="drawer-title-group">
+                    <div class="drawer-icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <div>
+                        <h3>Assistente AI Gemini ✨</h3>
+                        <span>Tutor per la Cyber Security</span>
+                    </div>
+                </div>
+                <button class="drawer-close-btn" id="chat-drawer-close-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            
+            <div class="drawer-messages" id="drawer-messages-container">
+                <!-- Chat messages will be loaded dynamically here -->
+            </div>
+            
+            <div class="drawer-input-area">
+                <div class="input-wrapper">
+                    <input type="text" id="drawer-chat-input" placeholder="Chiedi spiegazioni o approfondimenti...">
+                    <button id="drawer-send-btn">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </div>

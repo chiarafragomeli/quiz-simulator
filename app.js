@@ -29,12 +29,18 @@ class CyberQuestApp {
         
         this.currentSection = 'dashboard';
         
+        // Gemini AI Tutor states
+        this.geminiApiKey = '';
+        this.chatHistory = [];
+        this.currentExplainingQuestion = null;
+        
         // Bind UI Elements & Event Listeners
         this.init();
     }
     
     init() {
         this.loadProgress();
+        this.loadGeminiKey();
         this.setupNavigation();
         this.bindEvents();
         this.updateDashboard();
@@ -855,7 +861,10 @@ class CyberQuestApp {
             header.innerHTML = `
                 <span class="category-badge ${catClass}">${q.category.split(' ')[0]}</span>
                 <span class="question-code">${q.code}</span>
-                <h4 class="review-q-title">${qIdx + 1}. ${q.question}</h4>
+                <button class="btn btn-secondary-outline btn-review-ai" style="margin-left: auto;" onclick="app.askGeminiExplanation(${q.id})">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i> Spiegazione AI ✨
+                </button>
+                <h4 class="review-q-title" style="width: 100%; margin-top: 4px;">${qIdx + 1}. ${q.question}</h4>
             `;
             qEl.appendChild(header);
             
@@ -1056,6 +1065,295 @@ class CyberQuestApp {
         document.getElementById('modal-confirm-btn').addEventListener('click', () => this.submitExam());
         document.getElementById('exam-back-setup-btn').addEventListener('click', () => this.resetExamSetup());
         document.getElementById('exam-review-toggle-btn').addEventListener('click', () => this.toggleExamReview());
+        
+        // Gemini AI Tutor events
+        document.getElementById('open-ai-settings-btn').addEventListener('click', () => this.openGeminiKeyModal());
+        document.getElementById('gemini-key-close-btn').addEventListener('click', () => this.closeGeminiKeyModal());
+        document.getElementById('gemini-key-save-btn').addEventListener('click', () => {
+            const key = document.getElementById('gemini-api-key-input').value.trim();
+            this.saveGeminiKey(key);
+            this.closeGeminiKeyModal();
+        });
+        document.getElementById('gemini-key-delete-btn').addEventListener('click', () => {
+            this.deleteGeminiKey();
+            this.closeGeminiKeyModal();
+        });
+        document.getElementById('study-ai-explain-btn').addEventListener('click', () => {
+            if (this.study.questions.length > 0) {
+                this.askGeminiExplanation(this.study.questions[this.study.index].id);
+            }
+        });
+        document.getElementById('chat-drawer-close-btn').addEventListener('click', () => this.closeChatDrawer());
+        document.getElementById('chat-drawer-overlay').addEventListener('click', (e) => {
+            if (e.target.id === 'chat-drawer-overlay') this.closeChatDrawer();
+        });
+        document.getElementById('drawer-send-btn').addEventListener('click', () => this.sendChatMessage());
+        document.getElementById('drawer-chat-input').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') this.sendChatMessage();
+        });
+    }
+    
+    // Gemini API Key Management
+    loadGeminiKey() {
+        this.geminiApiKey = localStorage.getItem('cyberquest_gemini_api_key') || '';
+    }
+    
+    saveGeminiKey(key) {
+        if (!key) return;
+        this.geminiApiKey = key;
+        localStorage.setItem('cyberquest_gemini_api_key', key);
+    }
+    
+    deleteGeminiKey() {
+        this.geminiApiKey = '';
+        localStorage.removeItem('cyberquest_gemini_api_key');
+        document.getElementById('gemini-api-key-input').value = '';
+    }
+    
+    openGeminiKeyModal() {
+        document.getElementById('gemini-api-key-input').value = this.geminiApiKey;
+        document.getElementById('gemini-key-modal').classList.remove('hidden');
+    }
+    
+    closeGeminiKeyModal() {
+        document.getElementById('gemini-key-modal').classList.add('hidden');
+    }
+    
+    openChatDrawer() {
+        document.getElementById('chat-drawer-overlay').classList.remove('hidden');
+        document.getElementById('drawer-chat-input').focus();
+    }
+    
+    closeChatDrawer() {
+        document.getElementById('chat-drawer-overlay').classList.add('hidden');
+    }
+    
+    // Markdown Formatter (Simple Client-Side Parser)
+    formatMarkdown(text) {
+        if (!text) return '';
+        
+        let html = text;
+        
+        // Escape HTML tags to prevent XSS/broken layouts
+        html = html.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        
+        // Fenced code blocks
+        html = html.replace(/```(\w*)\n([\s\S]*?)```/g, (match, lang, code) => {
+            return `<pre><code>${code.trim()}</code></pre>`;
+        });
+        
+        // Inline code
+        html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+        
+        // Bold
+        html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+        
+        // Italic
+        html = html.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+        html = html.replace(/_([^_]+)_/g, '<em>$1</em>');
+        
+        // Unordered List Items (lines starting with - or *)
+        let lines = html.split('\n');
+        let inList = false;
+        for (let i = 0; i < lines.length; i++) {
+            let line = lines[i].trim();
+            if (line.startsWith('- ') || line.startsWith('* ')) {
+                let content = line.substring(2);
+                if (!inList) {
+                    lines[i] = '<ul><li>' + content + '</li>';
+                    inList = true;
+                } else {
+                    lines[i] = '<li>' + content + '</li>';
+                }
+            } else {
+                if (inList) {
+                    lines[i] = '</ul>' + (line ? `<p>${line}</p>` : '');
+                    inList = false;
+                } else {
+                    if (line && !line.startsWith('<pre>') && !line.startsWith('</pre>') && !line.startsWith('<code>') && !line.startsWith('</code>')) {
+                        lines[i] = `<p>${line}</p>`;
+                    }
+                }
+            }
+        }
+        if (inList) {
+            lines.push('</ul>');
+        }
+        
+        html = lines.join('\n');
+        
+        // Clean double breaks and convert simple newlines that are not in tags
+        html = html.replace(/\n\n/g, '<br><br>');
+        
+        return html;
+    }
+    
+    // Call Gemini API
+    async callGeminiAPI() {
+        const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${this.geminiApiKey}`;
+        
+        try {
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    contents: this.chatHistory,
+                    systemInstruction: {
+                        parts: [{
+                            text: "Sei un tutor accademico esperto in Cyber Security, Reti e Crittografia. Aiuta lo studente a comprendere appieno il concetto teorico o pratico dietro la domanda d'esame proposta. Sii incoraggiante, chiaro e schematico. Usa elenchi puntati per spiegare le opzioni e mantieni un tono amichevole ma professionale. Rispondi sempre in italiano."
+                        }]
+                    }
+                })
+            });
+            
+            if (!response.ok) {
+                const errData = await response.json().catch(() => ({}));
+                throw new Error(errData.error?.message || `HTTP ${response.status}`);
+            }
+            
+            const data = await response.json();
+            const replyText = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+            return replyText;
+        } catch (error) {
+            console.error("Gemini API Error:", error);
+            throw error;
+        }
+    }
+    
+    // Send Chat Message
+    async sendChatMessage() {
+        const inputEl = document.getElementById('drawer-chat-input');
+        const userText = inputEl.value.trim();
+        if (!userText) return;
+        
+        // Append user message
+        this.appendChatMessage('user', userText);
+        inputEl.value = '';
+        
+        // Add to history
+        this.chatHistory.push({
+            role: 'user',
+            parts: [{ text: userText }]
+        });
+        
+        // Show loading
+        const loadingEl = this.appendLoadingIndicator();
+        
+        try {
+            const aiReply = await this.callGeminiAPI();
+            loadingEl.remove();
+            
+            // Append AI message
+            this.appendChatMessage('ai', aiReply);
+            
+            // Add to history
+            this.chatHistory.push({
+                role: 'model',
+                parts: [{ text: aiReply }]
+            });
+        } catch (error) {
+            loadingEl.remove();
+            this.appendChatMessage('ai', `❌ Errore durante la comunicazione con Gemini: ${error.message}. Verifica la tua chiave API o la connessione internet.`);
+        }
+    }
+    
+    // Ask Explanation for a specific question
+    async askGeminiExplanation(qId) {
+        if (!this.geminiApiKey) {
+            this.openGeminiKeyModal();
+            alert("Per favore, inserisci una chiave API di Gemini per iniziare a ricevere spiegazioni dal tutor AI.");
+            return;
+        }
+        
+        const q = this.questions.find(item => item.id === qId);
+        if (!q) return;
+        
+        this.currentExplainingQuestion = q;
+        this.openChatDrawer();
+        
+        // Clear chat area
+        const container = document.getElementById('drawer-messages-container');
+        container.innerHTML = '';
+        
+        // Build the system prompt prompt to start history
+        const optDescriptions = q.options.map((opt, idx) => {
+            return `Opzione ${idx+1}: "${opt.option_text}" -> Risposta Corretta: ${opt.answer ? 'VERO' : 'FALSO'}`;
+        }).join('\n');
+        
+        const initPrompt = `Spiegami questa domanda d'esame del modulo "${q.category}":
+Codice Domanda: ${q.code}
+Domanda principale: "${q.question}"
+
+Opzioni da valutare:
+${optDescriptions}
+
+Fornisci una spiegazione strutturata ma concisa in italiano, analizzando perché ciascuna opzione è VERA o FALSA in base alla materia.`;
+        
+        // Reset chat history with first user message
+        this.chatHistory = [
+            {
+                role: 'user',
+                parts: [{ text: initPrompt }]
+            }
+        ];
+        
+        // Append initial system visual notice
+        this.appendChatMessage('ai', `📖 **Analisi della domanda ${q.code}**:\n*${q.question}*\n\nSto formulando la spiegazione... 🧠✨`);
+        
+        // Show loading
+        const loadingEl = this.appendLoadingIndicator();
+        
+        try {
+            const aiReply = await this.callGeminiAPI();
+            loadingEl.remove();
+            
+            // Append AI message
+            this.appendChatMessage('ai', aiReply);
+            
+            // Add reply to history
+            this.chatHistory.push({
+                role: 'model',
+                parts: [{ text: aiReply }]
+            });
+        } catch (error) {
+            loadingEl.remove();
+            this.appendChatMessage('ai', `❌ Errore durante la generazione della spiegazione: ${error.message}. Verifica che la chiave API sia valida.`);
+        }
+    }
+    
+    // Append Message to Chat UI
+    appendChatMessage(sender, text) {
+        const container = document.getElementById('drawer-messages-container');
+        const msgEl = document.createElement('div');
+        msgEl.className = `chat-msg ${sender}`;
+        
+        if (sender === 'ai') {
+            msgEl.innerHTML = this.formatMarkdown(text);
+        } else {
+            msgEl.textContent = text;
+        }
+        
+        container.appendChild(msgEl);
+        container.scrollTop = container.scrollHeight;
+    }
+    
+    // Append Loading indicator
+    appendLoadingIndicator() {
+        const container = document.getElementById('drawer-messages-container');
+        const loadContainer = document.createElement('div');
+        loadContainer.className = 'chat-msg ai';
+        loadContainer.innerHTML = `
+            <div class="ai-loading-container">
+                <div class="loading-dot"></div>
+                <div class="loading-dot"></div>
+                <div class="loading-dot"></div>
+            </div>
+        `;
+        container.appendChild(loadContainer);
+        container.scrollTop = container.scrollHeight;
+        return loadContainer;
     }
 }
 
