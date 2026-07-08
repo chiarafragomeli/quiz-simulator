@@ -2210,7 +2210,7 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Fornitura di servizi web",
-        "answer": true
+        "answer": false
       },
       {
         "option_text": "Raccolta e riciclo/smaltimento rifiuti",
@@ -2226,7 +2226,7 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Fornitura di telefonia fissa",
-        "answer": true
+        "answer": false
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
@@ -5405,16 +5405,28 @@ const QUIZ_QUESTIONS = [
     "question": "Il SIEM",
     "options": [
       {
-        "option_text": "E’ l’acronimo di Security Impact and Event Management)",
+        "option_text": "E' l'acronimo di Security Impact and Event Management",
         "answer": false
       },
       {
-        "option_text": "E’ l’acronimo di Security Integrated and Evaluation Management)",
+        "option_text": "E' l'acronimo di Security Integrated and Evaluation Management",
         "answer": false
       },
       {
-        "option_text": "È una",
+        "option_text": "È una soluzione software che, in tempo reale, provvede al monitoraggio e alla gestione degli eventi e delle informazioni che accadono all'interno della rete e sui vari sistemi di sicurezza fornendo una correlazione e aggregazione tra essi",
+        "answer": true
+      },
+      {
+        "option_text": "È una soluzione software offline che provvede alla visualizzazione e alla gestione degli eventi e delle informazioni che accadono all'interno della rete e sui vari sistemi di sicurezza fornendo una correlazione e aggregazione tra essi",
         "answer": false
+      },
+      {
+        "option_text": "Include le funzionalità offerte dai SIM (security information management) a quelle dei SEM (security event management)",
+        "answer": true
+      },
+      {
+        "option_text": "Ha come interfaccia una console centralizzata, preposta ad attività di monitoraggio, segnalazione e risposta automatica a determinati eventi",
+        "answer": true
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
