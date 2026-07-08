@@ -1221,11 +1221,11 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Sono solo le aziende che assemblano direttamente i beni o forniscono direttamente i servizi Sono sia le aziende che producono direttamente beni o servizi sia quelle che creano valore aggiunto",
+        "option_text": "Sono solo le aziende che assemblano direttamente i beni o forniscono direttamente i servizi",
         "answer": false
       },
       {
-        "option_text": "a beni e servizi già esistenti",
+        "option_text": "Sono sia le aziende che producono direttamente beni o servizi sia quelle che creano valore aggiunto a beni e servizi già esistenti",
         "answer": true
       },
       {
@@ -1245,32 +1245,32 @@ const QUIZ_QUESTIONS = [
     "id": 39
   },
   {
-    "code": "M3.1.1.2",
+    "code": "M3.1.1.2.1",
     "question": "L’Incident Response Plan (Piano di risposta agli incidenti)",
     "options": [
+      {
+        "option_text": "Permette di rispondere all’esigenza di individuare gli attacchi e mitigare il danno",
+        "answer": true
+      },
+      {
+        "option_text": "Esegue anche la pre-analysis che consente di delineare preventivamente la reale portata dell’incidente",
+        "answer": false
+      },
       {
         "option_text": "Permette di rispondere ad un attacco esterno mediante misure controffensive verso l’attaccante",
         "answer": false
       },
       {
-        "option_text": "Permette di rispondere all’esigenza di individuare incidenti o attacchi e mitigarne il danno",
+        "option_text": "È un insieme di procedure documentate che descrivono in dettaglio i passaggi da intraprendere in ciascuna fase della risposta agli incidenti",
         "answer": true
       },
       {
-        "option_text": "Esegue anche la post analysis che consente di delineare la reale portata dell’incidente È un insieme di procedure documentate che descrivono in dettaglio i passaggi da intraprendere in",
+        "option_text": "Può essere strutturato in sette fasi standardizzate: Detection, Response, Mitigation, Reporting, Recovery, Remediation e Lesson Learned",
         "answer": true
       },
       {
-        "option_text": "ciascuna fase della risposta agli incidenti",
-        "answer": true
-      },
-      {
-        "option_text": "Se ben strutturato e documentato può non essere aggiornato frequentemente Dovrebbe includere linee guida per ruoli e responsabilità, piani di comunicazione e processi di",
+        "option_text": "Può essere strutturato in cinque fasi standardizzate: Response, Mitigation, Reporting, Repudiation e Lesson Learned",
         "answer": false
-      },
-      {
-        "option_text": "risposta standardizzati",
-        "answer": true
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
@@ -1702,18 +1702,18 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.4.5.4",
-    "question": "L’Endpoint Protection",
+    "question": "L’Endpoint protection",
     "options": [
       {
-        "option_text": "Realizza il tunneling nella comunicazione dall’interno all’esterno dell’azienda Si riferisce alla protezione di qualsiasi dispositivo o connessione che abbia accesso alla rete",
+        "option_text": "Realizza il tunneling nella comunicazione dall’interno all’esterno dell’azienda",
         "answer": false
       },
       {
-        "option_text": "aziendale",
+        "option_text": "Si riferisce alla protezione di qualsiasi dispositivo o connessione che abbia accesso alla rete aziendale",
         "answer": true
       },
       {
-        "option_text": "Può utilizzare tecniche di Machine learning per rilevare le minacce zero-day",
+        "option_text": "Può utilizzare tecniche di Machine learning per rilevare le minacce zero -day",
         "answer": true
       },
       {
@@ -1725,7 +1725,7 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "Può realizzare la security dei dispositivi Mobile",
+        "option_text": "Può realizzare la Mobile security (cellulari, tablet e laptop)",
         "answer": true
       }
     ],
@@ -1957,31 +1957,19 @@ const QUIZ_QUESTIONS = [
     "id": 61
   },
   {
-    "code": "M1.1.3.2",
+    "code": "M1.1.3.2.1",
     "question": "Il Routing",
     "options": [
       {
-        "option_text": "Il Routing è l'instradamento effettuato tra reti differenti con l’ausilio delle tabelle di instradamento configurate a livello dei router",
+        "option_text": "Statico, prevede che le rotte debbano essere configurate manualmente e non si aggiornino automaticamente in caso di guasto",
         "answer": true
       },
       {
-        "option_text": "Il Routing è l'instradamento effettuato all’interno della stessa rete con l’ausilio delle tabelle di instradamento configurate a livello dei router",
+        "option_text": "Dinamico, prevede che le rotte apprese da un protocollo non possano mai essere inserite manualmente",
         "answer": false
       },
       {
-        "option_text": "Per il suo funzionamento considera che i router siano a conoscenza degli indirizzi solo delle reti a cui sono direttamente collegati",
-        "answer": true
-      },
-      {
-        "option_text": "Per il suo funzionamento considera che i router siano a conoscenza degli indirizzi delle reti a cui sono direttamente o indirettamente collegati",
-        "answer": false
-      },
-      {
-        "option_text": "Nella tabella di instradamento ogni riga corrisponde a una regola e le regole vengono esaminate dalla prima all’ultima, se ci sono più regole che corrispondono all'indirizzo fornito, viene scelta la regola che ha più bit in comune con l'indirizzo fornito",
-        "answer": true
-      },
-      {
-        "option_text": "Nella tabella di instradamento ogni riga corrisponde a una regola e le regole vengono esaminate dalla prima all’ultima, se ci sono più regole che corrispondono all'indirizzo fornito, viene scelta la prima regola che viene esaminata",
+        "option_text": "Definisce le decisioni di instradamento basandosi solo sugli indirizzi MAC",
         "answer": false
       }
     ],
@@ -2117,32 +2105,32 @@ const QUIZ_QUESTIONS = [
     "id": 66
   },
   {
-    "code": "M1.3.3.9",
+    "code": "M1.3.3.5.1",
     "question": "Il Firewall:",
     "options": [
       {
-        "option_text": "Monitora il traffico in entrata e in uscita attraverso regole di sicurezza configurabili per autorizzare o bloccare gli eventi",
-        "answer": true
-      },
-      {
-        "option_text": "È un dispositivo, esclusivamente implementato su speciali appliance hardware, per la sicurezza della rete",
+        "option_text": "È un dispositivo solamente hardware che funziona a livello 2",
         "answer": false
       },
       {
-        "option_text": "Nella configurazione “Default-Deny” abilita l’accesso solo di ciò che viene autorizzato esplicitamente, mentre il resto viene vietato",
+        "option_text": "Monitora il traffico in entrata e in uscita utilizzando una serie predefinita di regole di sicurezza per consentire o bloccar e gli eventi",
         "answer": true
       },
       {
-        "option_text": "Nella configurazione “Default-Deny” blocca l’accesso solo di ciò che viene vietato esplicitamente, mentre il resto viene permesso",
-        "answer": false
-      },
-      {
-        "option_text": "Se NGFW (Next Generation Firewall) è dotato di funzioni di prevenzione delle intrusioni (IPS) e di funzionalità di prevenzione delle minacce e protezione antivirus",
+        "option_text": "Che utilizza il criterio di applicazione “Default -Deny” permette solo ciò che viene au torizzato esplicitamente, mentre il resto viene vietato",
         "answer": true
       },
       {
-        "option_text": "È un dispositivo che funziona solo a livello ISO/OSI 4",
+        "option_text": "Che utilizza il criterio di applicazione “Default -Deny” blocca solo ciò che viene vietato esplicitamente, mentre il resto viene permesso",
         "answer": false
+      },
+      {
+        "option_text": "Utilizza normalmente per la configurazione delle reg ole: indirizzo IP sorgente, IP di destinazione e l’indirizzo MAC",
+        "answer": false
+      },
+      {
+        "option_text": "Se funziona a livello 7 può mettere in sicurezza le applicazioni Web",
+        "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
@@ -3477,31 +3465,31 @@ const QUIZ_QUESTIONS = [
     "id": 109
   },
   {
-    "code": "M3.2.6.27",
+    "code": "M3.2.6.2.1",
     "question": "La struttura di ISA/IEC 62443",
     "options": [
       {
-        "option_text": "E' composta da quattro famiglie di standard corrispondenti a quattro profili di approfondimento",
+        "option_text": "È rappresentabile in quattro gruppi di standard che possono rappresentare: “Modelli”, “Gestione”, “Sistema” e “Componente”",
         "answer": true
       },
       {
-        "option_text": "E' composta da una solo gruppo organico di standard in cui sono sviluppati diversi livelli di approfondimento",
+        "option_text": "È costituita da tre famiglie di standard con vari livelli di approfondimento più uno non ancora pubblicato",
         "answer": false
       },
       {
-        "option_text": "Prevede livelli di approfondimento che vanno dal livello generale ed arrivano sino al livello del componente inteso come prodotto utilizzato all'interno di un sistema.",
+        "option_text": "È composta dalle famiglie: “Modelli”, “Gestione”, “Organizzazione” e “Componente”",
+        "answer": false
+      },
+      {
+        "option_text": "È composta dalle famiglie: “General”, “Policy & Procedures”, “System” e “Component”",
         "answer": true
       },
       {
-        "option_text": "Prevede un livello Generale dove sono presenti le informazioni introduttive, vocabolari, modelli, concetti e casi d'uso",
+        "option_text": "È costituita da famiglie di standard con documenti ancora in fase di sviluppo",
         "answer": true
       },
       {
-        "option_text": "Prevede un livello Sistema ov",
-        "answer": true
-      },
-      {
-        "option_text": "E' immutabile sia nelle famiglie che nel numero dei documenti presenti in ciascuna famiglia",
+        "option_text": "È costituita da famiglie di standard con analogo numero di documenti in ogni famiglia",
         "answer": false
       }
     ],
@@ -3610,11 +3598,11 @@ const QUIZ_QUESTIONS = [
     "options": [
       {
         "option_text": "Un cavo di trasmissione",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Una batteria",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Un’antenna",
@@ -3626,11 +3614,11 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Un selettore a due posizioni",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Una elettrocalamita",
-        "answer": false
+        "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
@@ -3642,11 +3630,11 @@ const QUIZ_QUESTIONS = [
     "options": [
       {
         "option_text": "Un circuito di amplificazione di tensione",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Una bobina",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Un triodo",
@@ -3682,7 +3670,7 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "prqgr",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "ptugt",
@@ -3710,15 +3698,15 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Un dispositivo elettromeccanico",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Un dispositivo a scambiatori interscambiabili",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Un dispositivo di criptazione con oltre 1.5*1020 possibili combinazioni",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Un dispositivo di criptazione con oltre 1.5*1010 possibili combinazioni",
@@ -3726,7 +3714,7 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Un dispositivo di criptazione e di decriptazione Mario Testino",
-        "answer": false
+        "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
@@ -3746,7 +3734,7 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "60",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "86",
@@ -3766,11 +3754,11 @@ const QUIZ_QUESTIONS = [
     "options": [
       {
         "option_text": "Di adattare il segnale elettrico da trasmettere al canale",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Di adattare la frequenza del segnale da trasmettere con la banda del canale",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Di adattare la banda del canale con la frequenza del segnale da trasmettere.",
@@ -3778,7 +3766,7 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Di trasmettere segnali multipli su un unico canale trasmissivo",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Di trasmettere segnali su più canali contemporaneamente",
@@ -3786,7 +3774,7 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Di permettere ad un’onda elettromagnetica di un segnale di arrivare integra alla destinazione.",
-        "answer": false
+        "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
@@ -3802,7 +3790,7 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Riescono a trasmettere minori informazioni rispetto alle onde corte",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Hanno bisogno di una potenza più elevata rispetto alle onde corte per essere trasmesse.",
@@ -3810,7 +3798,7 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Hanno bisogno di una potenza meno elevata rispetto alle onde corte per essere trasmesse.",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Hanno bisogno della stessa potenza rispetto alle onde corte per essere trasmesse",
@@ -3818,30 +3806,30 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Si misurano in Hz =26! 4!9! 2ଽ =26! 4!10! 2ଵ଴ =26! 4!13! 2ଵଷ =26! 8!9! 2ଽ =26! 6!9! 2ଽ =26! 2!9! 2ଽ Mario Testino",
-        "answer": false
+        "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
     "id": 120
   },
   {
-    "code": "M1.1.2.3",
+    "code": "M1.1.2.3.1",
     "question": "La PAM (Pulse Amplitude Modulation) è:",
     "options": [
       {
-        "option_text": "Una modulazione analogica",
-        "answer": false
-      },
-      {
-        "option_text": "Una modulazione digitale",
+        "option_text": "Una modulazione di ampiezza",
         "answer": false
       },
       {
         "option_text": "Una modulazione digitale a traslazione di ampiezza",
-        "answer": false
+        "answer": true
       },
       {
-        "option_text": "Una modulazione di ampiezza",
+        "option_text": "Una modulazione digitale in cui le informazioni del messaggio sono codificate nell'ampiezza di una serie di impulsi di segnale",
+        "answer": true
+      },
+      {
+        "option_text": "Una modulazione analogica a traslazione di ampiezza",
         "answer": false
       },
       {
@@ -3862,7 +3850,7 @@ const QUIZ_QUESTIONS = [
     "options": [
       {
         "option_text": "La misura dell'ampiezza della gamma di frequenze che possono passare per quel canale",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Un parametro inversamente proporzionale alla quantità di dati che possono essere trasmessi in un canale nell’unità di tempo",
@@ -3870,7 +3858,7 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Un parametro proporzionale alla quantità di dati che possono essere trasmessi in un canale nell’unità di tempo",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Un parametro indipendente dalla quantità di dati trasmessi in un canale",
@@ -3878,11 +3866,11 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "La misura dell’ampiezza dello spettro che passa in un canale",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "La capacità di un qualsiasi canale di trasmettere dati",
-        "answer": false
+        "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
@@ -3894,15 +3882,15 @@ const QUIZ_QUESTIONS = [
     "options": [
       {
         "option_text": "Core",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Cladding",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Buffer",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Copper wire",
@@ -3910,7 +3898,7 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Jacket",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Insulator",
@@ -3930,11 +3918,11 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Un soggetto che viola la legge esistente in un determinato stato",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Un soggetto che estorce denaro attraverso internet",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Un soggetto che, spinto da motivazioni criminose, provoca un incidente informatico",
@@ -3942,11 +3930,11 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Un soggetto che provoca danni oggettivi mediante un incidente informatico",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Un soggetto che si impossessa delle credenziali di qualcun altro e ne fa un uso improprio Mario Testino",
-        "answer": false
+        "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
@@ -3958,15 +3946,15 @@ const QUIZ_QUESTIONS = [
     "options": [
       {
         "option_text": "Sono tendenzialmente non violenti ma possono nutrire forti risentimenti verso l’establishment",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Hanno caratteristiche del sociopatico",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Hanno buone capacità di organizzazione e pianificazione",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Lavorano in gruppi molto coesi",
@@ -3978,7 +3966,7 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Hanno scarsa tendenza a percepirsi come criminale",
-        "answer": false
+        "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
@@ -3990,11 +3978,11 @@ const QUIZ_QUESTIONS = [
     "options": [
       {
         "option_text": "Sfruttano molto gli automatismi delle applicazioni web, senza fare valutazioni approfondite",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Hanno molta fiducia del computer perché non da contatto fisico con le persone",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Manifestano altruismo e lo vogliono dimostrare",
@@ -4002,46 +3990,46 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Hanno paura e stress che rivelano disagio personale e necessità di aiuto",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Sono sole e hanno necessità di relazioni interpersonali",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Hanno voglia di visibilità, ricchezza e fama senza grosso sforzo.",
-        "answer": false
+        "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
     "id": 126
   },
   {
-    "code": "M1.2.1.3",
-    "question": "Il social engineering:",
+    "code": "M1.2.1.5",
+    "question": "Il Social Engineering",
     "options": [
       {
-        "option_text": "Sono attività finalizzate ad impossessarsi di informazioni personali per scopi estorsivi",
+        "option_text": "È una tecnica di attacco che può sfruttare anche strumenti non informatici",
+        "answer": true
+      },
+      {
+        "option_text": "Può utilizzare i siti “social” su cui sono esposte direttamente o indirettamente informazioni personali",
+        "answer": true
+      },
+      {
+        "option_text": "Può utilizzare il Baiting",
+        "answer": true
+      },
+      {
+        "option_text": "Può utilizzare un attacco tipo “forza bruta”",
         "answer": false
       },
       {
-        "option_text": "Sono tecniche che rendono più facile ottenere credenziali personali di accesso rispetto a tecniche di hacking",
-        "answer": false
+        "option_text": "Può utilizzare il Phishing",
+        "answer": true
       },
       {
-        "option_text": "Sono tecniche che ingegnerizzano attacchi persistenti",
-        "answer": false
-      },
-      {
-        "option_text": "Può permettere l’installazione di software dannosi",
-        "answer": false
-      },
-      {
-        "option_text": "Sfrutta la vanità, l'avidità, la curiosità, l'altruismo delle persone",
-        "answer": false
-      },
-      {
-        "option_text": "Qualcosa che può essere rimosso con un buon antivirus",
+        "option_text": "È diretto prevalentemente contro le aziende",
         "answer": false
       }
     ],
@@ -4054,11 +4042,11 @@ const QUIZ_QUESTIONS = [
     "options": [
       {
         "option_text": "È la terminologia che si usa per definire i contenuti nelle darknet",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Necessità dei browser particolari per effettuare la navigazione anonima",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Una porzione di internet dove la navigazione è illegale",
@@ -4066,15 +4054,15 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Può essere utilizzato per attività legali",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Ha siti con domini particolari",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "È molto più piccolo di quanto normalmente si immagina",
-        "answer": false
+        "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
@@ -4086,15 +4074,15 @@ const QUIZ_QUESTIONS = [
     "options": [
       {
         "option_text": "Può essere un’azienda che concorre al mantenimento delle funzioni vitali di un paese",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Può fornire servizi per la salute pubblica",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Può fornire acqua potabile",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "È un’azienda appartenente al terziario in genere",
@@ -4122,11 +4110,11 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Danno di immagine (brand reputation)",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Furto dei dati e della proprietà intellettuale",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Reati amministrativi",
@@ -4134,11 +4122,11 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Business Continuity",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Danno alla salute pubblica",
-        "answer": false
+        "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
@@ -4150,11 +4138,11 @@ const QUIZ_QUESTIONS = [
     "options": [
       {
         "option_text": "Può essere un attacco diretto ad un’azienda produttrice che rifornisce un’azienda bersaglio dell’attacco.",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Un attacco indiretto ad una azienda bersaglio",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Un attacco ad un’azienda produttrice di materie prime",
@@ -4162,15 +4150,15 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Un attacco multiplo ad aziende fornitrici un’azienda obiettivo",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Un attacco ad un cliente di un’azienda bersaglio",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Un attacco ad un’azienda produttrice di un componente in regime di monopolio",
-        "answer": false
+        "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
@@ -4182,7 +4170,7 @@ const QUIZ_QUESTIONS = [
     "options": [
       {
         "option_text": "Sono attacchi che hanno una durata limitata nel tempo",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Sfruttano sempre vulnerabilità standardizzate (CVE)",
@@ -4190,19 +4178,19 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Hanno obiettivi prevalentemente economici",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Possono chiedere il riscatto dopo aver bloccato dei file di sistema",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Sono un fenomeno in crescita negli ultimi anni",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Possono sfruttare porte aperte o non configurate",
-        "answer": false
+        "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
@@ -4241,31 +4229,31 @@ const QUIZ_QUESTIONS = [
     "id": 133
   },
   {
-    "code": "M1.2.4.3",
+    "code": "M1.2.4.3.1",
     "question": "Il Furto di Identità Digitale",
     "options": [
       {
-        "option_text": "È un reato secondo l’ordinamento italiano",
+        "option_text": "È associato agli articoli 494 e 640 del CP “Sostituzione della propria all'altrui persona” e “Frode Informatica”",
+        "answer": true
+      },
+      {
+        "option_text": "È relativo all’uso illecito dell'insieme dei dati e delle informazioni che definiscono un individuo e costituiscono la rappresentazione fisica utilizzabile durante interazioni elettroniche",
         "answer": false
       },
       {
-        "option_text": "È relativo all’uso illecito dell’insieme dei dati e delle informazioni che definiscono un individuo e costituiscono la rappresentazione virtuale dell'identità reale utilizzabile durante interazioni elettroniche.",
+        "option_text": "È relativo all’uso illecito dell’insieme dei dati e delle informazioni che definiscono un individuo e costituiscono la rappresentazione virtuale dell'identità reale utilizzabile durante interazioni elettroniche",
+        "answer": true
+      },
+      {
+        "option_text": "È relativo ai soli dati biometrici che definiscono un individuo e costituiscono una delle rappresentazioni virtuali dell'identità reale utilizzabile durante interazioni elettroniche",
         "answer": false
       },
       {
-        "option_text": "È relativo all’uso illecito dell'insieme dei dati e delle informazioni che definiscono un individuo e costituiscono la rappresentazione fisica utilizzabile durante interazioni elettroniche.",
-        "answer": false
+        "option_text": "È un reato penale secondo l’ordinamento italiano",
+        "answer": true
       },
       {
-        "option_text": "È relativo all'insieme dei dati e delle informazioni che definiscono un individuo e costituiscono una o delle rappresentazioni virtuali dell'identità reale utilizzabile durante interazioni elettroniche.",
-        "answer": false
-      },
-      {
-        "option_text": "Può essere associato al reato di “Frode Informatica” secondo l’art. 494 del CP",
-        "answer": false
-      },
-      {
-        "option_text": "Può essere associato al reato di “Frode Informatica” secondo l’art. 640 del CP Mario Testino",
+        "option_text": "Può essere associato al solo reato di “Truffa” l’art. 620 del CP",
         "answer": false
       }
     ],
@@ -4282,15 +4270,15 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Una minaccia persistente e avanzata",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Una minaccia portata avanti da un avversario dotato di notevole bagaglio tecnico e grandi risorse",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Un potenziale atto di guerra",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Di solito è organizzata da singoli o da piccole organizzazioni",
@@ -4298,7 +4286,7 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Una minaccia portata avanti per periodi di tempo molto lunghi e che può sfruttare vettori di attacco multipli.",
-        "answer": false
+        "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
@@ -4310,7 +4298,7 @@ const QUIZ_QUESTIONS = [
     "options": [
       {
         "option_text": "È un illecito civile e penale secondo la legge Italiana",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "È un illecito civile ma non penale secondo la legge italiana",
@@ -4318,11 +4306,11 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Consiste in una truffa su internet attraverso la quale si cerca di ingannare la vittima con lo scopo di carpire informazioni sensibili",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Può avvenire attraverso una mail realizzata appositamente per favorire l'inserimento di informazioni personali",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Consiste nell'impersonare qualcuno per ottenere l'accesso a dati privilegiati",
@@ -4342,7 +4330,7 @@ const QUIZ_QUESTIONS = [
     "options": [
       {
         "option_text": "Si realizzano, ad esempio, criptando i files di un dispositivo, richiedendo un riscatto da pagare per rimuovere la limitazione",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Sono di solito attacchi mirati e persistenti",
@@ -4350,15 +4338,15 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Sono, di solito, automatizzati e indirizzati verso target multipli",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Una volta infettato un computer tendono a propagarsi all’interno della rete LAN.",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Sono di solito attacchi opportunistici",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Una volta infettato il computer tendono a propagarsi all’esterno attraverso e-mail autogenerate.",
@@ -4374,7 +4362,7 @@ const QUIZ_QUESTIONS = [
     "options": [
       {
         "option_text": "Il modello è stato realizzato negli anni Settanta da OSI (Open Systems Interconnect)",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Il modello è stato realizzato negli anni Settanta da ISO (International Organization for Standardization)",
@@ -4382,38 +4370,38 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Il modello è stato adottato per la prima volta nel 1978. 4. Il modello è stato realizzato per far fronte alla crescente necessità di standardizzazione dei dispositivi in rete 5. È costituito da una “pila” o “stack” di livelli 6. È costituito da una “coda” o “queue” di fasi Mario Testino",
-        "answer": false
+        "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
     "id": 138
   },
   {
-    "code": "M1.3.1.2",
+    "code": "M1.3.1.24.1",
     "question": "Il livello 1 del Modello ISO/OSI",
     "options": [
       {
-        "option_text": "Si occupa della codifica dei bit e dei segnali elettrici di trasmissione",
+        "option_text": "Converte i bit in un pacchetto in un segnale fisico per il mezzo di trasmissione",
+        "answer": true
+      },
+      {
+        "option_text": "Ha tra le funzioni l’adeguamento elettrico degli apparati trasmissivi",
+        "answer": true
+      },
+      {
+        "option_text": "Può utilizzare protocolli Bluetooth",
+        "answer": true
+      },
+      {
+        "option_text": "Può utilizzare il protocollo IP",
         "answer": false
       },
       {
-        "option_text": "Il suo obiettivo è quello di gestire il mezzo trasmissivo (cavo coassiale, fibra ottica, doppini telefonici, ecc.)",
-        "answer": false
+        "option_text": "È l’interfaccia tra software e hardware nello stack ISO/OSI",
+        "answer": true
       },
       {
-        "option_text": "È un livello logico",
-        "answer": false
-      },
-      {
-        "option_text": "Ha la funzione di mettere in comunicazione il sistema di elaborazione al canale di comunicazione",
-        "answer": false
-      },
-      {
-        "option_text": "Genera messaggi non strutturati",
-        "answer": false
-      },
-      {
-        "option_text": "Permette ai livelli superiori l’indipendenza dai mezzi fisici",
+        "option_text": "Vincola i livelli superiori agli specifici mezzi fisici di comunicazione",
         "answer": false
       }
     ],
@@ -4458,15 +4446,15 @@ const QUIZ_QUESTIONS = [
     "options": [
       {
         "option_text": "Definisce le regole per aprire e chiudere una connessione logica",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Coordina il dialogo tra utenti basandosi sul servizio del livello di trasporto",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Permette agli utenti di stabilire dei collegamenti logici o sessioni di lavoro che consentono il corretto trasferimento di informazioni",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Utilizza il protocollo IP per la comunicazione",
@@ -4474,7 +4462,7 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Permette ai processi di dividere (logicamente) il flusso dati in unità più piccole in modo che, in caso di interruzione della sessione, non sia necessario inviare nuovamente tutto il flusso ma solo una parte.",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Gestisce l’instradamento o Routing Mario Testino",
@@ -4494,15 +4482,15 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Avviene solo tra livelli omologhi dello stack ISO/OSI",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Utilizza sempre fisicamente il livello 1",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Percorre gerarchicamente lo stack in discesa e salita rispettivamente dal mittente al destinatario.",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Si realizza anche fisicamente tra livelli omologhi dello stack ISO/OSI",
@@ -4510,38 +4498,38 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Semplifica la comunicazione tra due Host",
-        "answer": false
+        "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
     "id": 142
   },
   {
-    "code": "M1.3.1.10",
+    "code": "M1.3.1.12",
     "question": "L’incapsulamento",
     "options": [
       {
-        "option_text": "È un principio per cui in corrispondenza di ogni livello della struttura che il pacchetto dell'host mittente attraversa, ad esso vengono incorporate delle informazioni che sono proprie e uniche del livello attraversato dal pacchetto",
+        "option_text": "Introduce un “Header” (ov",
+        "answer": true
+      },
+      {
+        "option_text": "Introduce uno stesso “Header” per ogni livello ISO/OSI",
         "answer": false
       },
       {
-        "option_text": "È un principio per cui in corrispondenza di ogni livello della struttura che il pacchetto dell'host mittente e destinatario attraversa, ad esso vengono incorporate delle informazioni che sono proprie e uniche del livello attraversato dal pacchetto",
+        "option_text": "Introduce un “Header” e un “Trailer” (ov",
+        "answer": true
+      },
+      {
+        "option_text": "Il “Trailer” di livello 2 è utilizzato per il controllo degli errori",
         "answer": false
       },
       {
-        "option_text": "È un principio per cui ad ogni livello ISO/OSI il pacchetto assume lo stesso nome identificativo",
+        "option_text": "Non introduce “Header” a nessun livello ISO/OSI",
         "answer": false
       },
       {
-        "option_text": "È un principio per cui in corrispondenza di ogni livello della struttura che il pacchetto dell'host mittente attraversa, ad esso vengono incorporate che poi vengono eliminate man mano che si risalgono i livelli dell’Host destinatario sino ad estrarre il messaggio originario",
-        "answer": false
-      },
-      {
-        "option_text": "Per funzionare necessità che ogni livello ISO/OSI offra il proprio \"servizio\" al livello sottostante (o sovrastante) in maniera corretta.",
-        "answer": false
-      },
-      {
-        "option_text": "Conferisce robustezza e sicurezza delle trasmissioni al modello ISO/OSI Mario Testino",
+        "option_text": "L’Header introduce le informazioni e i riferimenti specifici necessari a ciascuno dei livelli ISO/OSI Mario Testino",
         "answer": false
       }
     ],
@@ -4562,11 +4550,11 @@ const QUIZ_QUESTIONS = [
       },
       {
         "option_text": "Quattro",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Quattro che utilizzano il protocollo IP di livello 3",
-        "answer": false
+        "answer": true
       },
       {
         "option_text": "Cinque",
@@ -4581,31 +4569,31 @@ const QUIZ_QUESTIONS = [
     "id": 144
   },
   {
-    "code": "M1.3.1.10.1",
+    "code": "M1.3.1.12.1",
     "question": "L’incapsulamento ISO/OSI",
     "options": [
       {
-        "option_text": "È un principio per cui in corrispondenza di ogni livello della struttura che il pacchetto dell'Host mittente attraversa, si incorporano le informazioni che sono proprie e uniche del livello attraversato",
+        "option_text": "Introduce un “Header” con le stesse informazioni per ogni livello ISO/OSI",
+        "answer": false
+      },
+      {
+        "option_text": "Introduce un “Trailer” (ov vero una ”coda” aggiunta al pacchetto) specifica per ogni livello ISO/OSI",
+        "answer": false
+      },
+      {
+        "option_text": "Introduce un “Header ” (ov vero un’”intestazione” iniziale aggiunta al pacchetto) specifica per ogni livello ISO/OSI",
         "answer": true
       },
       {
-        "option_text": "È un prin cipio per cui in corrispondenza di ogni livello della struttura che il pacchetto dell'Host mittente e destinatario attraversa, si incorporano le informazioni che sono proprie e uniche del livello attraversato",
-        "answer": false
-      },
-      {
-        "option_text": "È un principio per cui in corrispondenza di ogni livello della struttura che il pacchetto dell'Host Mittente attraversa si incorporano le informazioni che poi vengono eliminate man mano che si risalgono i livelli dell’Host Destinatario sino ad estrarre il messaggio originario",
+        "option_text": "Introduce un “Header” per ogni livello e un “Trailer” ( una “coda ” informativa aggiunta al pacchetto) solo a livello 2",
         "answer": true
       },
       {
-        "option_text": "È un principio per cui ad ogni livello ISO/OSI viene effettuato un controllo di congruenze attraverso un CRC",
-        "answer": false
+        "option_text": "Il “Trailer” di livello 2 è util izzato per il controllo degli errori",
+        "answer": true
       },
       {
-        "option_text": "Per funzionare necessità che ogni livello ISO/OSI offra il proprio \"servizio\" solamente al livello sottostante in maniera corretta",
-        "answer": false
-      },
-      {
-        "option_text": "Conferisce robustez za e sicurezza delle trasmissioni al modello ISO/OSI",
+        "option_text": "L’Header introduce le informazioni e i riferimenti necessari a ciascuno dei livelli ISO/OSI",
         "answer": true
       }
     ],
@@ -5529,32 +5517,32 @@ const QUIZ_QUESTIONS = [
     "id": 174
   },
   {
-    "code": "M4.1.1.8",
+    "code": "M4.1.1.3",
     "question": "Il Controllo di Gestione",
     "options": [
       {
-        "option_text": "È il meccanismo operativo volto a guidare il management verso il conseguimento degli obiettivi stabiliti in sede di pianificazione operativa",
+        "option_text": "E' il meccanismo operativo volto a guidare la gestione verso il conseguimento degli obiettivi stabiliti in sede di pianificazione operativa",
         "answer": true
       },
       {
-        "option_text": "Si utilizza unicamente nelle aziende pubbliche",
+        "option_text": "Rileva, attraverso la misurazione di appositi indicatori, lo scostamento tra obiettivi pianificati e risultati conseguiti",
+        "answer": true
+      },
+      {
+        "option_text": "Informa degli scostamenti dagli obiettivi gli uffici e le persone che non stanno raggiungendo i risultati desiderati",
         "answer": false
       },
       {
-        "option_text": "Rileva, attraverso la misurazione di appositi indicatori, lo scostamento tra obiettivi pianificati e risultati conseguiti e informando di tali scostamenti gli organi responsabili",
+        "option_text": "E' un processo aziendale che usa la raccolta e l'analisi di dati economico-finanziari e operativi",
         "answer": true
       },
       {
-        "option_text": "Rileva, grazie alle fluttuazioni della pianificazione operativa, gli elementi di scostamento con gli obiettivi ipotizzati",
+        "option_text": "Può contribuire a prevenire e gestire i rischi operativi e finanziari",
+        "answer": true
+      },
+      {
+        "option_text": "Non si occupa di valutare la redditività di progetti, prodotti o settori di vendita",
         "answer": false
-      },
-      {
-        "option_text": "Permette che gli organi responsabili possano decidere e attuare le a zioni correttive ove necessario",
-        "answer": true
-      },
-      {
-        "option_text": "Può essere utilizzato nelle aziende pubbliche e nelle aziende private",
-        "answer": true
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
@@ -9069,32 +9057,32 @@ const QUIZ_QUESTIONS = [
     "id": 285
   },
   {
-    "code": "M2.2.2.5",
+    "code": "M2.2.2.6",
     "question": "Il vettore di attacco",
     "options": [
       {
-        "option_text": "Sfrutta debolezze o vulnerabilità solamente tecnologiche",
+        "option_text": "Sfrutta debolezze informatiche e umane",
+        "answer": true
+      },
+      {
+        "option_text": "Nella stragrande maggioranza dei casi è frontale, diretto verso i firewall perimetrali",
         "answer": false
       },
       {
-        "option_text": "È la tecnica di attacco unicamente diretta e frontale verso un firewall perimetrale",
+        "option_text": "È il veicolo che trasporta gli strumenti per l’attacco",
+        "answer": true
+      },
+      {
+        "option_text": "Tipicamente sfrutta e-mail di phishing, app malevole o chiavette USB infette",
+        "answer": true
+      },
+      {
+        "option_text": "Non è quasi mai legato alla disattenzione delle persone",
         "answer": false
       },
       {
-        "option_text": "Per esteso può essere la tecnica utilizzata per l'accesso non autorizzato da parte di un malintenzionato ad un dispositivo o una rete per scopi nefasti",
-        "answer": true
-      },
-      {
-        "option_text": "Può sfruttare meccanismi di autenticazione deboli",
-        "answer": true
-      },
-      {
-        "option_text": "Può sfruttare debolezze umane come mancanza di conoscenza o attenzione",
-        "answer": true
-      },
-      {
-        "option_text": "Può utilizzare e-mail di phishing, app malevole, chiavette USB infette, botnet, ecc.",
-        "answer": true
+        "option_text": "È la tecnologia che realizza l’attacco stesso all’interno di una organizzazione",
+        "answer": false
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
@@ -10337,35 +10325,27 @@ const QUIZ_QUESTIONS = [
     "id": 326
   },
   {
-    "code": "M3.2.3.10",
+    "code": "M1.1.6.4",
     "question": "T1",
     "options": [
       {
-        "option_text": "Perché all’interno di un’organizzazione esistono una molteplicità di sistemi intelligenti (dotati di CPU), rilevanti per la continuità del business, oltre ai comuni computer",
-        "answer": true
-      },
-      {
-        "option_text": "Per avere solamente uno standard di sicurezza informatica all’interno delle aziende industriali",
+        "option_text": "Il forte radicamento dei fenomeni cyber criminosi con il loro territorio d’origine",
         "answer": false
       },
       {
-        "option_text": "Formalmente per realizzare un sistema di gestione in grado di affrontare e mitigare le vulnerabilità di sicurezza nei sistemi di controllo e automazione industriale (IACS)",
+        "option_text": "La transnazionalità di fenomeni criminosi e la difformità degli strumenti normativi nei vari stati",
         "answer": true
       },
       {
-        "option_text": "Perché gli standard di sicurezza informatica più diffusi non riescono a rispondere a tutti i paradigmi di funzionamento dei sistemi all’interno di un’organizzazione",
+        "option_text": "La transizione del reato da un ambiente tangibile e materiale verso un ambiente intangibile e dematerializzato",
         "answer": true
       },
       {
-        "option_text": "Per avere uno standard con requisiti applicabili solamente nei reparti produttivi",
+        "option_text": "La transizione del reato da un ambiente intangibile e dematerializzato verso un ambiente tangibile e materiale",
         "answer": false
-      },
-      {
-        "option_text": "Per avere uno standard che permetta di proteggere i reparti produttivi da vettori d’attacco provenienti anche dalla rete office",
-        "answer": true
       }
     ],
-    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "category": "Reti, Internet e Cyber Security (M1)",
     "id": 327
   },
   {
@@ -11357,7 +11337,7 @@ const QUIZ_QUESTIONS = [
     "question": "La serie ISA/IEC 62443",
     "options": [
       {
-        "option_text": "Fornisce un quadro flessibile per affrontare e mitigare le vulnerabilità di sicurezza attuali e future nei sistemi di control lo e automazione industriale (IACS)",
+        "option_text": "Fornisce un quadro di norme per affrontare e mitigare le vulnerabilità di sicurezza nei sistemi di controllo e automazione industriale (IACS)",
         "answer": true
       },
       {
