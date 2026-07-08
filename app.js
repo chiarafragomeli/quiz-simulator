@@ -1190,7 +1190,7 @@ class CyberQuestApp {
     
     // Call Gemini API
     async callGeminiAPI() {
-        const url = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=${this.geminiApiKey}`;
+        const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${this.geminiApiKey}`;
         
         try {
             const response = await fetch(url, {
