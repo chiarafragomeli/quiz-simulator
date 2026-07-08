@@ -162,7 +162,7 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M1.1.5.3",
-    "question": "“Morris Worm”",
+    "question": "\"Morris Worm\"",
     "options": [
       {
         "option_text": "È stato uno dei primi worm distribuiti via Internet",
@@ -226,10 +226,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M1.3.1.3",
-    "question": "Il livello 2 del Modello ISO/OSI",
+    "question": "Il livello 2 del",
     "options": [
       {
-        "option_text": "Utilizza indirizzamento MAC Address",
+        "option_text": "Modello ISO/OSI Utilizza indirizzamento MAC Address",
         "answer": true
       },
       {
@@ -418,10 +418,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M1.3.4.11",
-    "question": "La Tipologia di Rete",
+    "question": "La Tipologia di Rete MAN (Metropolitan Area Network)",
     "options": [
       {
-        "option_text": "MAN (Metropolitan Area Network) è una rete di telecomunicazione a banda larga, che collega più LAN geograficamente vicine",
+        "option_text": "È una rete di telecomunicazione a banda larga, che collega più LAN geograficamente vicine",
         "answer": true
       },
       {
@@ -738,10 +738,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.2.1_2.11",
-    "question": "",
+    "question": "Il controllo ISO/IEC 27001:",
     "options": [
       {
-        "option_text": "Il controllo ISO/IEC 27001: 2022 \"Information security during disruption\" ov",
+        "option_text": "2022 \"Information security during disruption\" ov",
         "answer": true
       },
       {
@@ -774,10 +774,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.2.1_2.19",
-    "question": "Il controllo ISO/IEC 27001: 2022 \"Remote working\" per l'implementazione di misure di sicurezza quando si lavora da remoto",
+    "question": "Il controllo ISO/IEC 27001:",
     "options": [
       {
-        "option_text": "Indica che, per il lavoro da remoto, devono essere implementate misure di sicurezza per proteggere le informazioni a cui si accede, che vengono elaborate o che vengono archiviate dal di fuori dei locali dell’organizzazione.",
+        "option_text": "2022 \"Remote working\" per l'implementazione di misure di sicurezza quando si lavora da remoto Indica che, per il lavoro da remoto, devono essere implementate misure di sicurezza per proteggere le informazioni a cui si accede, che vengono elaborate o che vengono archiviate dal di fuori dei locali dell’organizzazione.",
         "answer": true
       },
       {
@@ -809,7 +809,7 @@ const QUIZ_QUESTIONS = [
     "question": "Lo SCADA",
     "options": [
       {
-        "option_text": "È l’acronimo di Supervisory Control and Data Acquisition",
+        "option_text": "È l'acronimo di Supervisory Control and Data Acquisition",
         "answer": true
       },
       {
@@ -1062,10 +1062,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M1.3.1.7",
-    "question": "Il livello 6 del Modello ISO/OSI",
+    "question": "Il livello 6 del",
     "options": [
       {
-        "option_text": "Trasforma i dati forniti dalle applicazioni in un formato standardizzato",
+        "option_text": "Modello ISO/OSI Trasforma i dati forniti dalle applicazioni in un formato standardizzato",
         "answer": true
       },
       {
@@ -1161,27 +1161,27 @@ const QUIZ_QUESTIONS = [
     "question": "Nella comunicazione con il protocollo Ethernet in caso di avvenuta collisione:",
     "options": [
       {
-        "option_text": "La stazione trasmittente sospende la trasmissione e trasmette una sequenza di jamming La stazione trasmittente sospende la trasmissione e trasmette una sequenza composta dalla parte",
+        "option_text": "La stazione trasmittente sospende la trasmissione e trasmette una sequenza di jamming",
         "answer": true
       },
       {
-        "option_text": "di pacchetto già trasmessa e un codice identificativo in coda al pacchetto La stazione trasmittente sospende la trasmissione e trasmette e un codice identificativo in testa e la",
+        "option_text": "La stazione trasmittente sospende la trasmissione e trasmette una sequenza composta dalla parte di pacchetto già trasmessa e un codice identificativo in coda al pacchetto",
         "answer": true
       },
       {
-        "option_text": "parte di pacchetto già trasmessa in coda al pacchetto La stazione di trasmissione, dopo l’invio della sequenza di jamming, ripete il tentativo di",
+        "option_text": "La stazione trasmittente sospende la trasmissione e trasmette e un codice identificativo in testa e la parte di pacchetto già trasmessa in coda al pacchetto",
         "answer": false
       },
       {
-        "option_text": "trasmissione dopo un tempo pseudocasuale La stazione di trasmissione, dopo l’invio della sequenza di jamming, ripete il tentativo di",
+        "option_text": "La stazione di trasmissione, dopo l’invio della sequenza di jamming, ripete il tentativo di trasmissione dopo un tempo pseudocasuale",
         "answer": true
       },
       {
-        "option_text": "trasmissione con una frequenza fissa La stazione trasmittente interrompe le trasmissioni e attende sino a che tutte le trasmissioni sul bus",
+        "option_text": "La stazione di trasmissione, dopo l’invio della sequenza di jamming, ripete il tentativo di trasmissione con una frequenza fissa",
         "answer": false
       },
       {
-        "option_text": "siano ultimate",
+        "option_text": "La stazione trasmittente interrompe le trasmissioni e attende sino a che tutte le trasmissioni sul bus siano ultimate",
         "answer": false
       }
     ],
@@ -1261,7 +1261,7 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "Permette di rispondere all’esigenza di individuare gli attacchi e mitigare il danno",
+        "option_text": "Permette di rispondere all’esigenza di individuare incidenti o attacchi e mitigarne il danno",
         "answer": true
       },
       {
@@ -1286,7 +1286,7 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.1.1.4",
-    "question": "Quali dei seguenti sono Processi di Cyber Security",
+    "question": "Quali dei seguenti sono Processi di Cyber Security?",
     "options": [
       {
         "option_text": "Il monitoraggio degli Incidenti Informatici",
@@ -1301,7 +1301,7 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "la gestione delle vulnerabilità",
+        "option_text": "La gestione delle vulnerabilità",
         "answer": true
       },
       {
@@ -1318,22 +1318,22 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.2.1_1.4",
-    "question": "L'area tematica dei requisiti ISO/IEC 27001 \"Supporto\" definisce che: L'organizzazione abbia le persone, le competenze, le infrastrutture e l'ambiente di lavoro necessari",
+    "question": "L'area tematica dei requisiti ISO/IEC 27001 \"Supporto\" definisce che:",
     "options": [
       {
-        "option_text": "per supportare il SGSI Siano identificati i requisiti di competenza per il personale coinvolto nella gestione della sicurezza",
+        "option_text": "L'organizzazione abbia le persone, le competenze, le infrastrutture e l'ambiente di lavoro necessari per supportare il SGSI",
         "answer": true
       },
       {
-        "option_text": "delle informazioni e assicurare che siano soddisfatti Il personale sia sesnibilizzato sulla politica di sicurezza delle informazioni, i contributi individuali alla",
+        "option_text": "Siano identificati i requisiti di competenza per il personale coinvolto nella gestione della sicurezza delle informazioni e assicurare che siano soddisfatti",
         "answer": true
       },
       {
-        "option_text": "sicurezza delle informazioni, e le implicazioni della mancata conformità ai requisiti del SGSI Siano stabiliti processi di comunicazione efficaci per garantire che le informazioni rilevanti sulla",
+        "option_text": "Il personale sia sesnibilizzato sulla politica di sicurezza delle informazioni, i contributi individuali alla sicurezza delle informazioni, e le implicazioni della mancata conformità ai requisiti del SGSI",
         "answer": true
       },
       {
-        "option_text": "sicurezza siano condivise internamente ed esternamente",
+        "option_text": "Siano stabiliti processi di comunicazione efficaci per garantire che le informazioni rilevanti sulla sicurezza siano condivise internamente ed esternamente",
         "answer": true
       },
       {
@@ -1353,11 +1353,11 @@ const QUIZ_QUESTIONS = [
     "question": "I Riferimenti Informativi nel Framework Core del NIST CSF",
     "options": [
       {
-        "option_text": "Sono esaustivi, ov Sono collegamenti a fonti esterne che forniscono ulteriori dettagli e orientamenti su come",
+        "option_text": "Sono esaustivi, ov",
         "answer": true
       },
       {
-        "option_text": "implementare le attività di sicurezza descritte nelle sottocategorie",
+        "option_text": "Sono collegamenti a fonti esterne che forniscono ulteriori dettagli e orientamenti su come implementare le attività di sicurezza descritte nelle sottocategorie",
         "answer": true
       },
       {
@@ -1369,11 +1369,11 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Sono obbligatori Forniscono un ponte tra le sottocategorie del framework e le pratiche di sicurezza specifiche del",
+        "option_text": "Sono obbligatori",
         "answer": false
       },
       {
-        "option_text": "settore o della regolamentazione",
+        "option_text": "Forniscono un ponte tra le sottocategorie del framework e le pratiche di sicurezza specifiche del settore o della regolamentazione",
         "answer": true
       }
     ],
@@ -1382,30 +1382,30 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.2.6.25",
-    "question": "Zone e conduit secondo ISA/IEC 62443 Sono elementi chiave per la segmentazione della rete e la gestione della sicurezza negli ambienti di",
+    "question": "Zone e conduit secondo ISA/IEC 62443",
     "options": [
       {
-        "option_text": "controllo industriale Sono elementi chiave per la segmentazione della rete e la gestione della sicurezza anche fuori dagli",
+        "option_text": "Sono elementi chiave per la segmentazione della rete e la gestione della sicurezza negli ambienti di controllo industriale",
         "answer": true
       },
       {
-        "option_text": "ambiti industriali Aiutano a ridurre l'impatto di eventuali violazioni della sicurezza, limitando la propagazione di",
+        "option_text": "Sono elementi chiave per la segmentazione della rete e la gestione della sicurezza anche fuori dagli ambiti industriali",
         "answer": true
       },
       {
-        "option_text": "attacchi. Sono definiti mediante un approccio basato sul rischio, valutando cioè le minacce e i potenziali",
+        "option_text": "Aiutano a ridurre l'impatto di eventuali violazioni della sicurezza, limitando la propagazione di attacchi.",
         "answer": true
       },
       {
-        "option_text": "impatti di ogni area",
+        "option_text": "Sono definiti mediante un approccio basato sul rischio, valutando cioè le minacce e i potenziali impatti di ogni area",
         "answer": true
       },
       {
-        "option_text": "Sono definiti mediante un approccio basato unicamente sul rischio di perdita dei dati sensibili Sono definiti indipendentemente dall' inventario degli asset e dei loro ruoli all'interno delle rete",
+        "option_text": "Sono definiti mediante un approccio basato unicamente sul rischio di perdita dei dati sensibili",
         "answer": false
       },
       {
-        "option_text": "industriale.",
+        "option_text": "Sono definiti indipendentemente dall' inventario degli asset e dei loro ruoli all'interno delle rete industriale.",
         "answer": false
       }
     ],
@@ -1414,30 +1414,30 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.2.6.26",
-    "question": "Per cosa differiscono i sistemi di controllo e automazione industriale (IACS) rispetto ai sistemi IT? I sistemi IACS mirano a controllare e automatizzare processi fisici, i sistemi IT, invece, si",
+    "question": "Per cosa differiscono i sistemi di controllo e automazione industriale (IACS) rispetto ai sistemi IT?",
     "options": [
       {
-        "option_text": "concentrano sulla gestione dell'informazione e della comunicazione I sistemi IACS hanno un funzionamento real time e deterministico, quasi mai i sistemi IT hanno",
+        "option_text": "I sistemi IACS mirano a controllare e automatizzare processi fisici, i sistemi IT, invece, si concentrano sulla gestione dell'informazione e della comunicazione",
         "answer": true
       },
       {
-        "option_text": "caratteristiche così stringenti. I sistemi IACS hanno sistemi operativi standard MS Windows o Linux i sistemi IT solamente MS",
+        "option_text": "I sistemi IACS hanno un funzionamento real time e deterministico, quasi mai i sistemi IT hanno caratteristiche così stringenti.",
         "answer": true
       },
       {
-        "option_text": "Windows I rischi di Cybersecurity relativi agli IACS possono riguardare la business continuity e la safety, i",
+        "option_text": "I sistemi IACS hanno sistemi operativi standard MS Windows o Linux i sistemi IT solamente MS Windows",
         "answer": false
       },
       {
-        "option_text": "sistemi IT hanno come rischi primari la perdita della triade CIA I sistemi IACS necessitano di hardware industriale dedicato e specifico, almento per la parte di",
+        "option_text": "I rischi di Cybersecurity relativi agli IACS possono riguardare la business continuity e la safety, i sistemi IT hanno come rischi primari la perdita della triade CIA",
         "answer": true
       },
       {
-        "option_text": "controllo, i sistemi di IT utilizzano prevalentemente hardware di mercato Gli ambienti di configurazione e i linguaggi di programmazione per entrambe le tipologie dei",
+        "option_text": "I sistemi IACS necessitano di hardware industriale dedicato e specifico, almento per la parte di controllo, i sistemi di IT utilizzano prevalentemente hardware di mercato",
         "answer": true
       },
       {
-        "option_text": "sistemi sono identici.",
+        "option_text": "Gli ambienti di configurazione e i linguaggi di programmazione per entrambe le tipologie dei sistemi sono identici.",
         "answer": false
       }
     ],
@@ -1478,30 +1478,30 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.3.4.2",
-    "question": "Le fasi dell'Informatica Forense",
+    "question": "Le fasi dell'Informatica",
     "options": [
       {
-        "option_text": "Nella fase Identificazione si identificano i dati digitali rilevanti, operando sui dispositivi di memorizzazione dei dati digitali Nella fase di Raccolta si acquisicono i sistemi che contengono i dati e si procede alla messa in sicurezza dei supporti di",
+        "option_text": "Forense Nella fase Identificazione si identificano i dati digitali rilevanti, operando sui dispositivi di memorizzazione dei dati digitali",
         "answer": true
       },
       {
-        "option_text": "memorizzazione. Nella fase di Acquisizione si realizza una copia di tutti i dati, tramite appositi strumenti è possibile produrre una copia \"legale\"",
+        "option_text": "Nella fase di Raccolta si acquisicono i sistemi che contengono i dati e si procede alla messa in sicurezza dei supporti di memorizzazione.",
         "answer": true
       },
       {
-        "option_text": "dei dati digitali che si intende utilizzare come prova Nella fase di Analisi si estraggono da tutti dati acquisiti solo quelli rilevanti, aggregandoli e valutando le strategie a sostegno di",
+        "option_text": "Nella fase di Acquisizione si realizza una copia di tutti i dati, tramite appositi strumenti è possibile produrre una copia \"legale\" dei dati digitali che si intende utilizzare come prova",
         "answer": true
       },
       {
-        "option_text": "un’ipotesi accusatoria o di una strategia difensiva",
+        "option_text": "Nella fase di Analisi si estraggono da tutti dati acquisiti solo quelli rilevanti, aggregandoli e valutando le strategie a sostegno di un’ipotesi accusatoria o di una strategia difensiva",
         "answer": true
       },
       {
-        "option_text": "Nella fase di Elaborazione si estraggono le informazioni dai dati \"grezzi\" come completamento della fase di analisi Nella fase di Presentazione si produce una relazione tecnica per presentare ciò che è emerso nel corso dell’attività tecnica in",
+        "option_text": "Nella fase di Elaborazione si estraggono le informazioni dai dati \"grezzi\" come completamento della fase di analisi",
         "answer": false
       },
       {
-        "option_text": "formato \"legale\"",
+        "option_text": "Nella fase di Presentazione si produce una relazione tecnica per presentare ciò che è emerso nel corso dell’attività tecnica in formato \"legale\"",
         "answer": true
       }
     ],
@@ -1521,19 +1521,19 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "(ad esempio mediante la raccolta di varie informazioni che possano identificarla) Dati personali particolari, come l'origine razziale o etnica, le opinioni politiche, le convinzioni",
+        "option_text": "(ad esempio mediante la raccolta di varie informazioni che possano identificarla)",
         "answer": true
       },
       {
-        "option_text": "religiose o filosofiche e altro Dati personali particolari (o sensibili secondo il codice italiano), come i riferimenti dei dati bancari o",
+        "option_text": "Dati personali particolari, come l'origine razziale o etnica, le opinioni politiche, le convinzioni religiose o filosofiche e altro",
         "answer": true
       },
       {
-        "option_text": "i dati finanziari in genere Dati personali relativi a condanne penali o reati, con il controllo dell'Autorità Pubblica o autorizzato",
+        "option_text": "Dati personali particolari (o sensibili secondo il codice italiano), come i riferimenti dei dati bancari o i dati finanziari in genere",
         "answer": false
       },
       {
-        "option_text": "dal Diritto dell'UE",
+        "option_text": "Dati personali relativi a condanne penali o reati, con il controllo dell'Autorità Pubblica o autorizzato dal Diritto dell'UE",
         "answer": true
       },
       {
@@ -1597,11 +1597,11 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Non è responsabile delle misure di sicurezza per proteggere i dati È il titolare che stabilisce le finalità del trattamento, cioè per quale scopo vengono raccolti e",
+        "option_text": "Non è responsabile delle misure di sicurezza per proteggere i dati",
         "answer": false
       },
       {
-        "option_text": "utilizzati i dati",
+        "option_text": "È il titolare che stabilisce le finalità del trattamento, cioè per quale scopo vengono raccolti e utilizzati i dati",
         "answer": true
       }
     ],
@@ -1610,10 +1610,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.4.3.9",
-    "question": "La valutazione del Rischio",
+    "question": "La valutazione del",
     "options": [
       {
-        "option_text": "Viene effettuata facendo riferimento a classi omogenee per tipologia",
+        "option_text": "Rischio Viene effettuata facendo riferimento a classi omogenee per tipologia",
         "answer": true
       },
       {
@@ -1629,11 +1629,11 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "Si effettua solamente nell'ambito della sicurezza informatica Viene rappresentata graficamente con un diagramma multidimensionale (X,Y,Z) con gradazioni di",
+        "option_text": "Si effettua solamente nell'ambito della sicurezza informatica",
         "answer": false
       },
       {
-        "option_text": "colori differenti",
+        "option_text": "Viene rappresentata graficamente con un diagramma multidimensionale (X,Y,Z) con gradazioni di colori differenti",
         "answer": false
       }
     ],
@@ -1642,30 +1642,30 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.4.4.3",
-    "question": "Perché il modello RID (Riservatezza-Integrità-Disponibilità) non va bene per i sistemi operazionali OT?",
+    "question": "I sistemi IT e OT differiscono (dal punto di vista dei fattori critici per la Cyber Security) per:",
     "options": [
       {
-        "option_text": "Perché la Riservatezza è parzialmente rilevante*",
+        "option_text": "Perdita o manomissione di dati e informazioni per IT e business continuity e sicurezza fisica per l'OT",
         "answer": true
       },
       {
-        "option_text": "Perché la Riservatezza non è assolutamente rilevante*",
+        "option_text": "Per le possibilità di intervento: senza grossi vincoli temporali per l'IT con grossi vincoli legati al continuità del processo per l'OT",
+        "answer": true
+      },
+      {
+        "option_text": "Per le modalità e i tempi di risposta: non deterministiche-non real time per l'IT, deterministiche- real time per l'OT",
+        "answer": true
+      },
+      {
+        "option_text": "Per la tipologia dei sistemi operativi: standard di mercato per l'IT e prevalentemente non standard e real time per l'OT",
+        "answer": true
+      },
+      {
+        "option_text": "Per le possibili conseguenze in caso di incidenti che nel caso dell'OT può portare, nel caso peggiore, alla perdita di dati",
         "answer": false
       },
       {
-        "option_text": "L’integrità è significativa* se è associata alla capacità di mantenere attivo il controllo sul processo",
-        "answer": true
-      },
-      {
-        "option_text": "Perché la disponibilità* è un fattore rilevante se la si considera dal punto di vista dell’impatto sulla business continuty",
-        "answer": true
-      },
-      {
-        "option_text": "Perché esistono parametri più rilevanti*, quali il Safety (Sicurezza Fisica) o la Reliability (Affidabilità)",
-        "answer": true
-      },
-      {
-        "option_text": "Perché esistono parametri più rilevanti*, quali l’Accountability",
+        "option_text": "Per il livello di disponibilità necessario: molto elevato per l'IT, più contenuto per l'OT",
         "answer": false
       }
     ],
@@ -1674,14 +1674,14 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.4.4.5",
-    "question": "Si parla di Convergenza IT-OT",
+    "question": "Si parla di",
     "options": [
       {
-        "option_text": "Per identificare il tentativo di ridurre il GAP organizzativo, tecnologico e culturale tra l'IT e l'OT. Nelle organizzazioni in cui è necessaria una integrazione informatica tra il governo dell''azienda e la",
+        "option_text": "Convergenza IT-OT Per identificare il tentativo di ridurre il GAP organizzativo, tecnologico e culturale tra l'IT e l'OT.",
         "answer": true
       },
       {
-        "option_text": "produzione",
+        "option_text": "Nelle organizzazioni in cui è necessaria una integrazione informatica tra il governo dell''azienda e la produzione",
         "answer": true
       },
       {
@@ -1706,10 +1706,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.4.5.4",
-    "question": "L’Endpoint protection",
+    "question": "L’Endpoint",
     "options": [
       {
-        "option_text": "Realizza il tunneling nella comunicazione dall’interno all’esterno dell’azienda",
+        "option_text": "Protection Realizza il tunneling nella comunicazione dall’interno all’esterno dell’azienda",
         "answer": false
       },
       {
@@ -1717,7 +1717,7 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Può utilizzare tecniche di Machine learning per rilevare le minacce zero -day",
+        "option_text": "Può utilizzare tecniche di Machine learning per rilevare le minacce zero-day",
         "answer": true
       },
       {
@@ -1729,7 +1729,7 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "Può realizzare la Mobile security (cellulari, tablet e laptop)",
+        "option_text": "Può realizzare la security dei dispositivi Mobile",
         "answer": true
       }
     ],
@@ -1738,31 +1738,31 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M4.1.2.2",
-    "question": "Quali sono le ragioni per cui il reparto di Information Technology può essere considerato come un centro di costo?",
+    "question": "Perché è necessario mantenere allineati gli obiettivi IT e il business aziendale?",
     "options": [
       {
-        "option_text": "Scarsa sensibilità e skill digitali del top management",
+        "option_text": "Per massimizzare gli effetti degli investimenti nel reparto e le infrastrutture IT",
         "answer": true
       },
       {
-        "option_text": "Scarse risorse da dedicare ai progetti digitali",
+        "option_text": "Perché il processo di digitalizzazione può diventare un vantaggio competitivo per le organizzazioni",
+        "answer": true
+      },
+      {
+        "option_text": "Perché lo impongono le normative europee",
         "answer": false
       },
       {
-        "option_text": "Scarsa capacità di ideare e portare a termine i progetti",
+        "option_text": "Perché è necessario aggiornare costantemente l'impatto che può avere l'IT con la business continuity",
         "answer": true
       },
       {
-        "option_text": "Scarso o nessun impatto della digitalizzazione sul business dell’azienda",
+        "option_text": "Perché il budget di spesa IT deriva dal valore che l'IT riesce esprimere nel Piano Strategico aziendale",
+        "answer": true
+      },
+      {
+        "option_text": "Perché il Portfolio IT (insieme degli asset IT) deve allineare la strategia ICT",
         "answer": false
-      },
-      {
-        "option_text": "Scarsa propensione allo sviluppo commerciale globale, azienda fortemente locale",
-        "answer": true
-      },
-      {
-        "option_text": "Scarsa competitività dell’azienda (possibile azienda in regime di monopolio)",
-        "answer": true
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
@@ -1802,31 +1802,31 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M4.2.2.3",
-    "question": "Quali dei seguenti elementi possono migliorare la percezione del rischio cyber da parte dei dipendenti aziendali",
+    "question": "Perché è importante formare i dipendenti di un'azienda sul rischio di cybersecurity?",
     "options": [
       {
-        "option_text": "La formazione e sensibilizzazione continua dei dipendenti per renderli consapevoli delle minacce cyber",
+        "option_text": "Perché renderli consapevoli dei rischi degli incidenti e attacchi informatici è la principale arma di difesa che può essere messa in campo",
         "answer": true
       },
       {
-        "option_text": "L’educazione dei dipendenti in merito alle policy e procedure già definite dall’organizzazione ma che non vengono rispettate adeguatamente",
+        "option_text": "Perché le tecnologie di protezione informatica non sono strumenti isolati ma devono essere di supporto alle persone che devono imparare a conoscerli",
         "answer": true
       },
       {
-        "option_text": "La maggiore dotazione di dispositivi elettronici per semplificare le operazioni dei dipendenti",
+        "option_text": "Perché le minacce evolvono costantemente e le vulnerabilità non sono solo tecnologiche",
+        "answer": true
+      },
+      {
+        "option_text": "Perché permette di ridurre drasticamente gli investimenti nelle tecnologie di protezione",
         "answer": false
       },
       {
-        "option_text": "L’innalzamento del livello di sicurezza e di notifica dei dispositivi informatici in dotazione",
+        "option_text": "Perché la sicurezza informatica non è appannaggio del solo ufficio IT: ogni funzione o reparto devono essere coivolti",
         "answer": true
       },
       {
-        "option_text": "Il maggior uso di sistemi as a service che utilizzano programmi in Cloud",
+        "option_text": "Perché permette all'organizzazione di ridurre il personale nel reparto IT",
         "answer": false
-      },
-      {
-        "option_text": "Cercare di limitare le azioni ripetitive e automatiche sulle interfacce informatiche attraverso l’introduzione di blocchi che permettano una maggiore consapevolezza dell’azione che si sta realizzando",
-        "answer": true
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
@@ -1834,7 +1834,7 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M4.2.3.10",
-    "question": "Per ridurre i dati archiviati in cloud un'azienda riduce la frequenza di archiviazione di 10.000 registri (da 32 byte) da 1 sec a 1 minuto quanto spazio di archiviazione risparmia in un mese (30 gg)?",
+    "question": "Per ridurre i dati archiviati in cloud un'azienda riduce la frequenza di archiviazione da 1 secondo a 2 minuti. Quanti dati trasmetterà rispetto a prima?",
     "options": [
       {
         "option_text": "Meno del 30% dei dati trasmessi prima della riduzione",
@@ -1962,10 +1962,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M1.1.3.2.1",
-    "question": "Il Routing",
+    "question": "Il Routing Statico",
     "options": [
       {
-        "option_text": "Statico, prevede che le rotte debbano essere configurate manualmente e non si aggiornino automaticamente in caso di guasto",
+        "option_text": ", prevede che le rotte debbano essere configurate manualmente e non si aggiornino automaticamente in caso di guasto",
         "answer": true
       },
       {
@@ -2206,10 +2206,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M2.1.3.6",
-    "question": "Quale dei seguenti servizi può erogare un’azienda di tipo Utility",
+    "question": "Quale dei seguenti servizi può erogare un’azienda di tipo",
     "options": [
       {
-        "option_text": "Fornitura di acqua e smaltimento acque reflue",
+        "option_text": "Utility Fornitura di acqua e smaltimento acque reflue",
         "answer": true
       },
       {
@@ -2366,10 +2366,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.2.1_2.20",
-    "question": "Il controllo ISO/IEC 27001: 2022 \"Data Masking\" per l'implementazione del mascheramento dei dati",
+    "question": "Il controllo ISO/IEC 27001:",
     "options": [
       {
-        "option_text": "Indica che Il mascheramento dei dati ha come unico vincolo la legislazione internazionale applicabile",
+        "option_text": "2022 \"Data Masking\" per l'implementazione del mascheramento dei dati Indica che Il mascheramento dei dati ha come unico vincolo la legislazione internazionale applicabile",
         "answer": false
       },
       {
@@ -2430,10 +2430,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.2.3.2.2",
-    "question": "Il Framework Core del NIST CSF",
+    "question": "Il Framework Core del NIST CSF E' organizzato in cinque Funzioni principali:",
     "options": [
       {
-        "option_text": "E' organizzato in cinque Funzioni principali: Identify, Protect, Detect, Respond, Recover.",
+        "option_text": "Identify, Protect, Detect, Respond, Recover.",
         "answer": true
       },
       {
@@ -2582,10 +2582,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.3.5_1.7",
-    "question": "La nuova direttiva NIS 2",
+    "question": "La nuova direttiva",
     "options": [
       {
-        "option_text": "Deve essere recepita da ciascun membro dell'unione",
+        "option_text": "NIS 2 Deve essere recepita da ciascun membro dell'unione",
         "answer": true
       },
       {
@@ -2614,10 +2614,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.3.6.7",
-    "question": "Il regolamento GDPR (General Data Protection Regulation)",
+    "question": "Il regolamento",
     "options": [
       {
-        "option_text": "Disciplina solamente le persone fisiche",
+        "option_text": "GDPR (General Data Protection Regulation) Disciplina solamente le persone fisiche",
         "answer": true
       },
       {
@@ -2646,10 +2646,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.3.7.3",
-    "question": "",
+    "question": "Il Titolo II del Regolamento Europeo 2019/881 (Cybersecurity Act)",
     "options": [
       {
-        "option_text": "Il Titolo II del Regolamento Europeo 2019/881 (Cybersecurity Act) definisce il ruolo di ENISA ov",
+        "option_text": "Definisce il ruolo di ENISA ovvero l'Agenzia dell'Unione europea per la cibersicurezza",
         "answer": true
       },
       {
@@ -2714,10 +2714,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M4.1.1.18",
-    "question": "La Struttura Organizzativa permette di",
+    "question": "La Struttura Organizzativa",
     "options": [
       {
-        "option_text": "Costruire una \"spina dorsale\" dell’impresa attraverso la sola analisi delle attività attuali dell'organizzazione",
+        "option_text": "Permette di costruire una \"spina dorsale\" dell'impresa attraverso la sola analisi delle attività attuali dell'organizzazione",
         "answer": false
       },
       {
@@ -3002,10 +3002,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M1.3.1.4",
-    "question": "Il livello 3 del Modello ISO/OSI",
+    "question": "Il livello 3 del",
     "options": [
       {
-        "option_text": "Rende i livelli superiori (4,5...) indipendenti dai mezzi fisici",
+        "option_text": "Modello ISO/OSI Rende i livelli superiori (4,5...) indipendenti dai mezzi fisici",
         "answer": true
       },
       {
@@ -3162,10 +3162,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M1.3.2_2.16",
-    "question": "L'indirizzo di Broadcast",
+    "question": "L'indirizzo di",
     "options": [
       {
-        "option_text": "Serve per inviare un messaggio a tutti gli host di una stessa rete",
+        "option_text": "Broadcast Serve per inviare un messaggio a tutti gli host di una stessa rete",
         "answer": true
       },
       {
@@ -3350,10 +3350,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.1.1.8",
-    "question": "Quali sono le possibili cause di un Incidente Informatico",
+    "question": "Quali sono le possibili cause di un",
     "options": [
       {
-        "option_text": "Vulnerabilità informatiche",
+        "option_text": "Incidente Informatico Vulnerabilità informatiche",
         "answer": true
       },
       {
@@ -3446,10 +3446,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.2.1_2.14",
-    "question": "",
+    "question": "Il controllo ISO/IEC 27001:",
     "options": [
       {
-        "option_text": "Il controllo ISO/IEC 27001: 2022 “Data leakage prevention” ov",
+        "option_text": "2022 “Data leakage prevention” ov",
         "answer": true
       },
       {
@@ -3482,10 +3482,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.2.4.1",
-    "question": "I Documenti NIST Special Publications sono raggruppati nelle serie",
+    "question": "I Documenti",
     "options": [
       {
-        "option_text": "SP 800 Computer security",
+        "option_text": "NIST Special Publications sono raggruppati nelle serie SP 800 Computer security",
         "answer": true
       },
       {
@@ -3642,10 +3642,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M4.3.1.2",
-    "question": "Una grande Azienda Multiutility",
+    "question": "Una grande",
     "options": [
       {
-        "option_text": "Si occupa di fornire un solo servizio essenziale, ad esempio solo elettricità, in maniera monopolistica",
+        "option_text": "Azienda Multiutility Si occupa di fornire un solo servizio essenziale, ad esempio solo elettricità, in maniera monopolistica",
         "answer": false
       },
       {
@@ -3834,7 +3834,7 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M1.1.1.6",
-    "question": "Avendo a disposizioni 5 rotori e dovendone selezionare 3 per il corretto funzionamento della macchina Enigma quant’è il numero massimo delle combinazioni possibili dei rotori?",
+    "question": "Avendo a disposizioni 5 rotori e dovendone selezionare 3 per il corretto funzionamento della macchina Enigma, quante sono le possibili combinazioni?",
     "options": [
       {
         "option_text": "26",
@@ -4133,11 +4133,11 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "È un’azienda appartenente al terziario in genere In europa rientra verosimilmente nella tassonomia dei soggetti altamente critici e critici presente nella normativa NIS 2VERO",
+        "option_text": "È un’azienda appartenente al terziario in genere",
         "answer": false
       },
       {
-        "option_text": "Italiana, per tipologia, è sicuramente critica anche in un paese extra-europeo",
+        "option_text": "In europa rientra verosimilmente nella tassonomia dei soggetti altamente critici e critici presente nella normativa NIS 2VERO Italiana, per tipologia, è sicuramente critica anche in un paese extra-europeo",
         "answer": false
       }
     ],
@@ -5786,10 +5786,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M3.4.5.3",
-    "question": "VPN",
+    "question": "È l’acronimo di",
     "options": [
       {
-        "option_text": "È l’acronimo di Virtual Private Network",
+        "option_text": "Virtual Private Network",
         "answer": true
       },
       {
@@ -6557,7 +6557,7 @@ const QUIZ_QUESTIONS = [
     "question": "Le organizzazioni Cyber «Criminali»",
     "options": [
       {
-        "option_text": "Possono essere tre tipologie di organizzazioni: sovvenzionate da Governi (più o meno «canaglia»), a scopo di Lucro oppure organizzazioni “hacktiviste”",
+        "option_text": "Possono essere tre tipologie di organizzazioni: sovvenzionate da Governi (più o meno «canaglia»), a scopo di Lucro oppure organizzazioni \"hacktiviste\"",
         "answer": true
       },
       {
@@ -7826,10 +7826,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M1.1.2.9",
-    "question": "La banda di trasmissione SHF",
+    "question": "La banda di trasmissione SHF 1",
     "options": [
       {
-        "option_text": "1 Identifica una banda di frequenze dove si trovano anche le microonde",
+        "option_text": "Identifica una banda di frequenze dove si trovano anche le microonde",
         "answer": true
       },
       {
@@ -8082,7 +8082,7 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M2.2.1.3",
-    "question": "Quali strategie posso utilizzare per mitigare i possibili danni da un attacco cyber ad una linea produttiva (al momento l’unica che produce un determinato bene)? T1",
+    "question": "Quali strategie posso utilizzare per mitigare i possibili danni da un attacco cyber ad una linea produttiva?",
     "options": [
       {
         "option_text": "Ridondare e rendere indipendenti le architetture di rete e i dispositivi informatici che gestiscono le macchine di produzione",
@@ -10229,30 +10229,6 @@ const QUIZ_QUESTIONS = [
     "id": 322
   },
   {
-    "code": "1.048.576",
-    "question": "",
-    "options": [
-      {
-        "option_text": "indirizzamenti possibili",
-        "answer": false
-      },
-      {
-        "option_text": "Ha un numero di indirizzamenti possibili maggiore della subnet 60.12.32.128/19",
-        "answer": false
-      },
-      {
-        "option_text": "Ha una maschera di rete composta da 20 bit, i più significativi, a 1",
-        "answer": true
-      },
-      {
-        "option_text": "Ha una maschera di rete composta da 12 bit, i più significativi, a 1",
-        "answer": false
-      }
-    ],
-    "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 323
-  },
-  {
     "code": "M1.3.2.15.1",
     "question": "Lo standard elettrico RJ45",
     "options": [
@@ -10282,7 +10258,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 324
+    "id": 323
   },
   {
     "code": "M1.3.2.17",
@@ -10314,7 +10290,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 325
+    "id": 324
   },
   {
     "code": "M1.3.4.8",
@@ -10346,7 +10322,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 326
+    "id": 325
   },
   {
     "code": "M2.3.2.5/23",
@@ -10378,7 +10354,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 327
+    "id": 326
   },
   {
     "code": "M3.1.1.2.2",
@@ -10410,7 +10386,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 328
+    "id": 327
   },
   {
     "code": "M3.2.1.18/23",
@@ -10442,7 +10418,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 329
+    "id": 328
   },
   {
     "code": "M3.2.1_2.5",
@@ -10474,7 +10450,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 330
+    "id": 329
   },
   {
     "code": "M3.2.1_2.6",
@@ -10506,7 +10482,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 331
+    "id": 330
   },
   {
     "code": "M3.2.1_2.7",
@@ -10526,7 +10502,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 332
+    "id": 331
   },
   {
     "code": "M4.3.2.2",
@@ -10558,7 +10534,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 333
+    "id": 332
   },
   {
     "code": "M1.1.3.1.1",
@@ -10590,7 +10566,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 334
+    "id": 333
   },
   {
     "code": "M1.2.4.9.1",
@@ -10622,7 +10598,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 335
+    "id": 334
   },
   {
     "code": "M1.3.1.24.1",
@@ -10654,7 +10630,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 336
+    "id": 335
   },
   {
     "code": "M1.3.2_2.6",
@@ -10678,7 +10654,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 337
+    "id": 336
   },
   {
     "code": "M1.1.1.8",
@@ -10710,7 +10686,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 338
+    "id": 337
   },
   {
     "code": "M1.1.6.4",
@@ -10742,7 +10718,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 339
+    "id": 338
   },
   {
     "code": "M1.2.1.5",
@@ -10774,7 +10750,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 340
+    "id": 339
   },
   {
     "code": "M1.2.4.10",
@@ -10806,7 +10782,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 341
+    "id": 340
   },
   {
     "code": "M1.2.4.11",
@@ -10838,7 +10814,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 342
+    "id": 341
   },
   {
     "code": "M1.3.1.27",
@@ -10870,7 +10846,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 343
+    "id": 342
   },
   {
     "code": "M1.3.1.28",
@@ -10902,7 +10878,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 344
+    "id": 343
   },
   {
     "code": "M1.3.2.18",
@@ -10934,7 +10910,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 345
+    "id": 344
   },
   {
     "code": "M1.3.2.19",
@@ -10958,7 +10934,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 346
+    "id": 345
   },
   {
     "code": "M1.3.2.20",
@@ -10990,7 +10966,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 347
+    "id": 346
   },
   {
     "code": "M1.3.2.21",
@@ -11022,11 +10998,11 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 348
+    "id": 347
   },
   {
     "code": "M1.3.2_2.8",
-    "question": "T1",
+    "question": "F V F F F F T1 4.",
     "options": [
       {
         "option_text": "Fornitura energia (elettricità, gas)",
@@ -11042,7 +11018,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 349
+    "id": 348
   },
   {
     "code": "M2.2.1.6",
@@ -11074,7 +11050,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 350
+    "id": 349
   },
   {
     "code": "M2.2.2.6",
@@ -11106,7 +11082,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 351
+    "id": 350
   },
   {
     "code": "M2.3.1.7",
@@ -11138,7 +11114,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 352
+    "id": 351
   },
   {
     "code": "3.1.1.8",
@@ -11170,7 +11146,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 353
+    "id": 352
   },
   {
     "code": "3.1.3.6",
@@ -11202,7 +11178,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 354
+    "id": 353
   },
   {
     "code": "3.2.1.20",
@@ -11234,7 +11210,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 355
+    "id": 354
   },
   {
     "code": "3.2.3.10",
@@ -11266,7 +11242,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 356
+    "id": 355
   },
   {
     "code": "3.3.6.7",
@@ -11298,7 +11274,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 357
+    "id": 356
   },
   {
     "code": "M1.3.2.1/24",
@@ -11330,7 +11306,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 358
+    "id": 357
   },
   {
     "code": "M1.3.2.4/24",
@@ -11362,7 +11338,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 359
+    "id": 358
   },
   {
     "code": "M1.3.2.7",
@@ -11394,7 +11370,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 360
+    "id": 359
   },
   {
     "code": "M1.3.2.10",
@@ -11426,7 +11402,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 361
+    "id": 360
   },
   {
     "code": "M1.3.3.4",
@@ -11458,7 +11434,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 362
+    "id": 361
   },
   {
     "code": "M2.1.1.6",
@@ -11490,7 +11466,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 363
+    "id": 362
   },
   {
     "code": "M2.1.2.2",
@@ -11510,7 +11486,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 364
+    "id": 363
   },
   {
     "code": "M2.1.3.1",
@@ -11542,7 +11518,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 365
+    "id": 364
   },
   {
     "code": "M2.3.1.2",
@@ -11574,7 +11550,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 366
+    "id": 365
   },
   {
     "code": "M3.2.1.1",
@@ -11606,7 +11582,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 367
+    "id": 366
   },
   {
     "code": "M3.2.1.21",
@@ -11638,7 +11614,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 368
+    "id": 367
   },
   {
     "code": "M3.2.1.4",
@@ -11670,7 +11646,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 369
+    "id": 368
   },
   {
     "code": "M3.2.1.7",
@@ -11702,7 +11678,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 370
+    "id": 369
   },
   {
     "code": "M3.2.3.4",
@@ -11734,7 +11710,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 371
+    "id": 370
   },
   {
     "code": "M3.2.3.7",
@@ -11766,7 +11742,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 372
+    "id": 371
   },
   {
     "code": "M3.2.6.1",
@@ -11798,7 +11774,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 373
+    "id": 372
   },
   {
     "code": "M3.3.1.1",
@@ -11830,7 +11806,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 374
+    "id": 373
   },
   {
     "code": "M3.3.3.1",
@@ -11862,7 +11838,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 375
+    "id": 374
   },
   {
     "code": "M3.3.5.1",
@@ -11894,7 +11870,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 376
+    "id": 375
   },
   {
     "code": "M3.3.6.1/24",
@@ -11926,7 +11902,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 377
+    "id": 376
   },
   {
     "code": "M3.3.6.4",
@@ -11950,7 +11926,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 378
+    "id": 377
   },
   {
     "code": "M3.3.7.2",
@@ -11982,7 +11958,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 379
+    "id": 378
   },
   {
     "code": "M3.4.3.3",
@@ -12014,7 +11990,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 380
+    "id": 379
   },
   {
     "code": "M1.2.4.39",
@@ -12046,7 +12022,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 381
+    "id": 380
   },
   {
     "code": "M1.2.3.5",
@@ -12078,7 +12054,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 382
+    "id": 381
   },
   {
     "code": "M3.2.6.14",
@@ -12110,7 +12086,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 383
+    "id": 382
   },
   {
     "code": "M.3.3.2.4",
@@ -12142,7 +12118,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 384
+    "id": 383
   },
   {
     "code": "M.3.3.2.5",
@@ -12174,7 +12150,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 385
+    "id": 384
   },
   {
     "code": "M.3.3.3.3",
@@ -12206,7 +12182,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 386
+    "id": 385
   },
   {
     "code": "M3.3.5.2",
@@ -12234,7 +12210,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 387
+    "id": 386
   },
   {
     "code": "M3.3.5.3",
@@ -12266,7 +12242,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 388
+    "id": 387
   },
   {
     "code": "M3.3.6.8",
@@ -12298,7 +12274,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 389
+    "id": 388
   },
   {
     "code": "M3.4.1.3",
@@ -12330,7 +12306,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 390
+    "id": 389
   },
   {
     "code": "M3.4.3.4",
@@ -12362,7 +12338,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 391
+    "id": 390
   },
   {
     "code": "M4.1.2.3",
@@ -12394,7 +12370,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 392
+    "id": 391
   },
   {
     "code": "M4.1.4.1",
@@ -12426,7 +12402,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 393
+    "id": 392
   },
   {
     "code": "M4.2.1.2",
@@ -12458,7 +12434,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 394
+    "id": 393
   },
   {
     "code": "M4.1.3.7",
@@ -12490,43 +12466,43 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 395
+    "id": 394
   },
   {
     "code": "M1.1.2.12",
-    "question": "Il cavo di fibra ottica:",
+    "question": "La trasmissione telefonica su rete cablata 1",
     "options": [
       {
-        "option_text": "È composto, in sezione da: core, buffer, cludding e jacket dall’interno verso l’esterno",
+        "option_text": "È tecnicamente più complessa rispetto alla trasmissione telegrafica perché deve trasmettere la voce umana",
+        "answer": true
+      },
+      {
+        "option_text": "2 Necessita della modulazione (trasformazione) del segnale da trasmettere",
+        "answer": true
+      },
+      {
+        "option_text": "3 Attraverso la modulazione in frequenza si adatta alla banda di frequenze che possono essere trasmesse sul canale",
+        "answer": true
+      },
+      {
+        "option_text": "4 Dall’inizio ha permesso il collegamento di tutti gli utenti in rete senza l’intervento umano",
         "answer": false
       },
       {
-        "option_text": "È composto, in sezione da: core, cludding, buffer e jacket dall’interno verso l’esterno",
-        "answer": true
-      },
-      {
-        "option_text": "Permette la trasmissione del raggio luminoso attraverso il core confinato dal cladding",
-        "answer": true
-      },
-      {
-        "option_text": "Utilizza raggi di luce sempre dello stesso colore",
+        "option_text": "5 Ha utilizzato dall’inizio un sistema di commutazione automatica che permetteva di collegare gli utenti componendo un numero su un selettore a disco",
         "answer": false
       },
       {
-        "option_text": "Può avere una frequenza di trasmissione da 300 a 107 GHz",
-        "answer": true
-      },
-      {
-        "option_text": "Ha il Cladding con un indice di rifrazione inferiore rispetto al Core, che ha un indice superiore",
+        "option_text": "6 Ha utilizzato dapprima la commutazione automatica solamente per le chiamate locali",
         "answer": true
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 396
+    "id": 395
   },
   {
     "code": "M2.2.1.3.1",
-    "question": "Quali strategie posso utilizzare per mitigare i possibili danni da un attacco cyber ai sistemi che gestiscono una linea produttiva (l’unica che produce un determinato prodotto molto costoso)?",
+    "question": "Quali strategie posso utilizzare per mitigare i possibili danni da un attacco cyber alle linee di produzione?",
     "options": [
       {
         "option_text": "Ridondare e rendere indipendenti le architetture di rete e i dispositivi informatici che gestiscono le linee di produzione",
@@ -12554,7 +12530,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 397
+    "id": 396
   },
   {
     "code": "M3.2.1_2.9",
@@ -12586,7 +12562,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 398
+    "id": 397
   },
   {
     "code": "M3.2.1_2.8",
@@ -12618,7 +12594,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 399
+    "id": 398
   },
   {
     "code": "M3.3.1.2.1",
@@ -12650,7 +12626,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 400
+    "id": 399
   },
   {
     "code": "M3.3.1.3.1",
@@ -12682,7 +12658,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 401
+    "id": 400
   },
   {
     "code": "M3.3.5.7",
@@ -12714,22 +12690,22 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 402
+    "id": 401
   },
   {
     "code": "M3.2.1_1.2",
-    "question": "L'area tematica dei requisiti ISO/IEC 27001 \"Attività Operative\" definisce che: L'organizzazione deve pianificare, implementare e controllare i processi necessari per soddisfare i requisiti e implementare le",
+    "question": "L'area tematica dei requisiti ISO/IEC 27001 \"Attività Operative\" definisce che:",
     "options": [
       {
-        "option_text": "azioni predeterminate",
+        "option_text": "L'organizzazione deve pianificare, implementare e controllare i processi necessari per soddisfare i requisiti e implementare le azioni predeterminate",
         "answer": true
       },
       {
-        "option_text": "L'organizzazione deve esaminare anche le conseguenze dei cambiamenti non voluti L'organizzazione deve eseguire valutazioni periodiche del rischio per la sicurezza delle informazioni o quando si verificano",
+        "option_text": "L'organizzazione deve esaminare anche le conseguenze dei cambiamenti non voluti",
         "answer": true
       },
       {
-        "option_text": "cambiamenti significativi",
+        "option_text": "L'organizzazione deve eseguire valutazioni periodiche del rischio per la sicurezza delle informazioni o quando si verificano cambiamenti significativi",
         "answer": true
       },
       {
@@ -12746,7 +12722,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 403
+    "id": 402
   },
   {
     "code": "M3.2.3_1.1",
@@ -12757,51 +12733,51 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Ha di fatto cambiato completamente la logica delle funzioni previste dal NIST CSF 1.1 Attraverso la funzione Governo sottolinea che la sicurezza informatica è una delle principali fonti di rischio aziendale come",
+        "option_text": "Ha di fatto cambiato completamente la logica delle funzioni previste dal NIST CSF 1.1",
         "answer": false
       },
       {
-        "option_text": "indicazione fondamentale per la leadership Introduce la nuova funzione \"Governo\" che, diversamente dalle altre funzioni, non mantiene la struttura con Categorie e",
+        "option_text": "Attraverso la funzione Governo sottolinea che la sicurezza informatica è una delle principali fonti di rischio aziendale come indicazione fondamentale per la leadership",
         "answer": true
       },
       {
-        "option_text": "Sottocategorie Mediante la nuova funzione Governo fornisce i risultati per informare ciò che un’organizzazione può fare per raggiungere e dare",
+        "option_text": "Introduce la nuova funzione \"Governo\" che, diversamente dalle altre funzioni, non mantiene la struttura con Categorie e Sottocategorie",
         "answer": false
       },
       {
-        "option_text": "priorità ai risultati delle altre cinque funzioni Enfatizza che le attività di governance sono fondamentali per incorporare la cyber security nella più ampia strategia di gestione",
+        "option_text": "Mediante la nuova funzione Governo fornisce i risultati per informare ciò che un’organizzazione può fare per raggiungere e dare priorità ai risultati delle altre cinque funzioni",
         "answer": true
       },
       {
-        "option_text": "del rischio aziendale di un’organizzazione",
+        "option_text": "Enfatizza che le attività di governance sono fondamentali per incorporare la cyber security nella più ampia strategia di gestione del rischio aziendale di un’organizzazione",
         "answer": true
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 404
+    "id": 403
   },
   {
     "code": "M2.2.1.7",
     "question": "Quali strategie posso utilizzare per proteggere da un possibile attacco cyber ad una linea produttiva (l’unica che produce uno specifico prodotto)?",
     "options": [
       {
-        "option_text": "Identificare e proteggere (o eliminare) eventuali connessioni dirette alla rete pubblica (internet) Realizzare un adeguato sistema di segmentazione e segregazione delle reti e degli apparati di",
+        "option_text": "Identificare e proteggere (o eliminare) eventuali connessioni dirette alla rete pubblica (internet)",
         "answer": true
       },
       {
-        "option_text": "controllo Gestire gli accessi remoti ai sistemi informatici di linea con opportune procedure, autorizzazioni,",
+        "option_text": "Realizzare un adeguato sistema di segmentazione e segregazione delle reti e degli apparati di controllo",
         "answer": true
       },
       {
-        "option_text": "tecnologie",
+        "option_text": "Gestire gli accessi remoti ai sistemi informatici di linea con opportune procedure, autorizzazioni, tecnologie",
         "answer": true
       },
       {
-        "option_text": "Valutare la realizzazione di una linea produttiva parallela analoga alla prima che utilizza la stessa Identificare eventuali obsolescenze software e hardware e vulnerabilità standardizzate (CVE) nei",
+        "option_text": "Valutare la realizzazione di una linea produttiva parallela analoga alla prima che utilizza la stessa",
         "answer": false
       },
       {
-        "option_text": "sistemi industriali",
+        "option_text": "Identificare eventuali obsolescenze software e hardware e vulnerabilità standardizzate (CVE) nei sistemi industriali",
         "answer": true
       },
       {
@@ -12810,18 +12786,18 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 405
+    "id": 404
   },
   {
     "code": "M3.2.1_2.13",
-    "question": "",
+    "question": "Il controllo ISO/IEC 27001: 2022 \"Information security for use of cloud services\"",
     "options": [
       {
-        "option_text": "Il controllo ISO/IEC 27001: 2022 \"Information security for use of cloud services\" ov processi relativi ai servizi cloud devono essere conformi con i requisiti di sicurezza delle informazioni dell'organizzazione",
+        "option_text": "Richiede che l'acquisizione, l'uso, la gestione e l'uscita dai servizi cloud siano conformi ai requisiti di sicurezza",
         "answer": true
       },
       {
-        "option_text": "E' un controllo solo Preventivo",
+        "option_text": "I processi relativi ai servizi cloud devono essere conformi con i requisiti di sicurezza delle informazioni dell'organizzazione",
         "answer": true
       },
       {
@@ -12846,30 +12822,30 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 406
+    "id": 405
   },
   {
     "code": "M3.2.6.5",
-    "question": "Le zone secondo ISA/IEC 62443 Dividono un sistema in zone omogenee raggruppando le risorse (logiche o fisiche) con requisiti di",
+    "question": "Le zone secondo ISA/IEC 62443",
     "options": [
       {
-        "option_text": "sicurezza comuni Dividono una architettura fisica (dispositivi di rete e connessioni) in zone omogenee",
+        "option_text": "Dividono un sistema in zone omogenee raggruppando le risorse (logiche o fisiche) con requisiti di sicurezza comuni",
         "answer": true
       },
       {
-        "option_text": "raggruppando i dispositivi HW con requisiti di sicurezza comuni Hanno requisiti di sicurezza definiti da Security Level (SL), il livello richiesto per una zona è",
+        "option_text": "Dividono una architettura fisica (dispositivi di rete e connessioni) in zone omogenee raggruppando i dispositivi HW con requisiti di sicurezza comuni",
         "answer": false
       },
       {
-        "option_text": "determinato dall'analisi del rischio Sono connesse attraverso i conduits che raggruppano gli elementi che ne consentono la",
+        "option_text": "Hanno requisiti di sicurezza definiti da Security Level (SL), il livello richiesto per una zona è determinato dall'analisi del rischio",
         "answer": true
       },
       {
-        "option_text": "comunicazione Possono essere suddivise in sottozone con livelli di sicurezza differenti consentendo una difesa in",
+        "option_text": "Sono connesse attraverso i conduits che raggruppano gli elementi che ne consentono la comunicazione",
         "answer": true
       },
       {
-        "option_text": "profondità",
+        "option_text": "Possono essere suddivise in sottozone con livelli di sicurezza differenti consentendo una difesa in profondità",
         "answer": true
       },
       {
@@ -12878,7 +12854,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 407
+    "id": 406
   },
   {
     "code": "M3.2.6.6",
@@ -12893,11 +12869,11 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "Forniscono funzioni di sicurezza che permettono la coesistenza di zone con diversi livelli di Consistono nel raggruppamento di cyber asset, dedicati solamente alla comunicazione, e che",
+        "option_text": "Forniscono funzioni di sicurezza che permettono la coesistenza di zone con diversi livelli di",
         "answer": true
       },
       {
-        "option_text": "condividono gli stessi requisiti di cybersecurity",
+        "option_text": "Consistono nel raggruppamento di cyber asset, dedicati solamente alla comunicazione, e che condividono gli stessi requisiti di cybersecurity",
         "answer": true
       },
       {
@@ -12910,26 +12886,26 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 408
+    "id": 407
   },
   {
     "code": "M3.4.1.4",
     "question": "Perché la leadership aziendale è fondamentale per la definizione di un SGSI (Sistema di Gestione della Sicurezza Informatica)?",
     "options": [
       {
-        "option_text": "Perché altrimenti possono non essere garantiti gli investimenti necessari per la sua realizzazione Perché senza il benestare chiaro, motivato e comunicato della leadership aziendale non si riuscirà",
+        "option_text": "Perché altrimenti possono non essere garantiti gli investimenti necessari per la sua realizzazione",
         "answer": true
       },
       {
-        "option_text": "a coinvolgere efficacemente tutto il personale aziendale Perché altrimenti non si riusciranno a portare a termine i cambiamenti nelle politiche, nei processi",
+        "option_text": "Perché senza il benestare chiaro, motivato e comunicato della leadership aziendale non si riuscirà a coinvolgere efficacemente tutto il personale aziendale",
         "answer": true
       },
       {
-        "option_text": "e nelle procedure necessari Perché solo una leadership consapevole può capire sino in fondo l’impatto possibile della",
+        "option_text": "Perché altrimenti non si riusciranno a portare a termine i cambiamenti nelle politiche, nei processi e nelle procedure necessari",
         "answer": true
       },
       {
-        "option_text": "sicurezza informatica con il funzionamento dell’organizzazione",
+        "option_text": "Perché solo una leadership consapevole può capire sino in fondo l’impatto possibile della sicurezza informatica con il funzionamento dell’organizzazione",
         "answer": true
       },
       {
@@ -12942,14 +12918,14 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 409
+    "id": 408
   },
   {
     "code": "M3.4.1.5",
-    "question": "Requisiti ISO 27001 e ciclo PDCA",
+    "question": "Si associano per costruire un sistema di gestione adattabile, in grado di proteggere le informazioni aziendali ai cambiamenti.",
     "options": [
       {
-        "option_text": "Possono essere associati per creare un ciclo virtuoso di miglioramento continuo dell'ISMS",
+        "option_text": "Requisiti ISO 27001 e ciclo PDCA Possono essere associati per creare un ciclo virtuoso di miglioramento continuo dell'ISMS",
         "answer": true
       },
       {
@@ -12957,11 +12933,11 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "Permettono di raggruppare ed associare le aree tematiche dei requisiti a fasi specifiche e definite Si associano per costruire un sistema di gestione adattabile, in grado di proteggere le informazioni aziendali ai cambiamenti.VERO Associano alla fase Plan la comprensione del contesto dell'organizzazione, della leadership, la",
+        "option_text": "Permettono di raggruppare ed associare le aree tematiche dei requisiti a fasi specifiche e definite",
         "answer": true
       },
       {
-        "option_text": "pianificazione e gli elementi di supporto",
+        "option_text": "Associano alla fase Plan la comprensione del contesto dell'organizzazione, della leadership, la pianificazione e gli elementi di supporto",
         "answer": true
       },
       {
@@ -12970,14 +12946,14 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 410
+    "id": 409
   },
   {
     "code": "M3.4.4.4",
-    "question": "L’Assessment del Rischio Prevede una fase di identificazione che mira ad individuare le minacce esistenti e a stabilirne le",
+    "question": "L’Assessment del Rischio",
     "options": [
       {
-        "option_text": "caratteristiche",
+        "option_text": "Prevede una fase di identificazione che mira ad individuare le minacce esistenti e a stabilirne le caratteristiche",
         "answer": true
       },
       {
@@ -12989,35 +12965,35 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Può realizzare l’identificazione con un approccio probabilità -> impatto Prevede una fase di valutazione che mira alla determinazione dell’entità del rischio (probabilità-",
+        "option_text": "Può realizzare l’identificazione con un approccio probabilità -> impatto",
         "answer": false
       },
       {
-        "option_text": "impatto) Prevede una fase di valutazione che viene espressa di solito in forma complessa utilizzabile",
+        "option_text": "Prevede una fase di valutazione che mira alla determinazione dell’entità del rischio (probabilità- impatto)",
         "answer": true
       },
       {
-        "option_text": "mediante appositi strumenti",
+        "option_text": "Prevede una fase di valutazione che viene espressa di solito in forma complessa utilizzabile mediante appositi strumenti",
         "answer": false
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 411
+    "id": 410
   },
   {
     "code": "M3.4.5.7",
-    "question": "La VPN (Virtual Private Network) Si realizza attraverso un canale di comunicazione criptato creato per gestire la privacy nelle",
+    "question": "La VPN (Virtual Private Network)",
     "options": [
       {
-        "option_text": "comunicazioni Si realizza attraverso un canale di comunicazione criptato che può essere creato anche sopra una",
+        "option_text": "Si realizza attraverso un canale di comunicazione criptato creato per gestire la privacy nelle comunicazioni",
         "answer": true
       },
       {
-        "option_text": "LAN aziendale La criptazione fornisce garanzie che i pacchetti non contengano potenziali minacce rendendo il",
+        "option_text": "Si realizza attraverso un canale di comunicazione criptato che può essere creato anche sopra una LAN aziendale",
         "answer": true
       },
       {
-        "option_text": "sistema intrinsecamente sicuro",
+        "option_text": "La criptazione fornisce garanzie che i pacchetti non contengano potenziali minacce rendendo il sistema intrinsecamente sicuro",
         "answer": false
       },
       {
@@ -13034,18 +13010,18 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 412
+    "id": 411
   },
   {
     "code": "M1.3.3.1",
     "question": "La convergenza funzionale nei dispositivi di rete",
     "options": [
       {
-        "option_text": "È la tendenza ad aumentare le funzionalità dei dispostivi di rete «inglobando» funzionalità di altre tipologie di dispositivi È un fenomeno causato dalla forte concorrenza sul mercato dei dispositivi di rete e dall’aumento delle prestazioni delle",
+        "option_text": "È la tendenza ad aumentare le funzionalità dei dispostivi di rete «inglobando» funzionalità di altre tipologie di dispositivi",
         "answer": true
       },
       {
-        "option_text": "piattaforme di elaborazione",
+        "option_text": "È un fenomeno causato dalla forte concorrenza sul mercato dei dispositivi di rete e dall’aumento delle prestazioni delle piattaforme di elaborazione",
         "answer": true
       },
       {
@@ -13066,26 +13042,26 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 413
+    "id": 412
   },
   {
     "code": "M3.2.6.7",
-    "question": "I Livelli di Sicurezza secondo ISA/IEC 62443-3-3 Sono quattro: Da SL1= Protezione contro violazioni casuali a SL4=Protezione contro violazioni con mezzi sofisticati, risorse",
+    "question": "I Livelli di Sicurezza secondo ISA/IEC 62443-3-3 Sono quattro:",
     "options": [
       {
-        "option_text": "estese, skill specifici e alta motivazione",
+        "option_text": "Da SL1= Protezione contro violazioni casuali a SL4=Protezione contro violazioni con mezzi sofisticati, risorse estese, skill specifici e alta motivazione",
         "answer": true
       },
       {
-        "option_text": "Rappresentano un metodo qualitativo per identificare la sicurezza in ciascuna zona Sono tre: da SL1= Protezione contro violazioni casuali a SL3=Protezione contro violazioni con mezzi sofisticati, risorse estese,",
+        "option_text": "Rappresentano un metodo qualitativo per identificare la sicurezza in ciascuna zona",
         "answer": false
       },
       {
-        "option_text": "skill specifici e alta motivazione Per la corretta definizione dei requisiti di sicurezza vengono declinati per ciascuno dei requisiti derivati dai requisiti di base o",
+        "option_text": "Sono tre: da SL1= Protezione contro violazioni casuali a SL3=Protezione contro violazioni con mezzi sofisticati, risorse estese, skill specifici e alta motivazione",
         "answer": false
       },
       {
-        "option_text": "fondazionali",
+        "option_text": "Per la corretta definizione dei requisiti di sicurezza vengono declinati per ciascuno dei requisiti derivati dai requisiti di base o fondazionali",
         "answer": true
       },
       {
@@ -13098,7 +13074,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 414
+    "id": 413
   },
   {
     "code": "M3.3.3.2",
@@ -13130,14 +13106,14 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 415
+    "id": 414
   },
   {
     "code": "M3.3.5.10",
-    "question": "In cosa la normativa GDPR differisce dalla NIS 2",
+    "question": "In cosa la normativa",
     "options": [
       {
-        "option_text": "GDPR è orientato primariamente alla Privacy e alla protezione del dato dall'origine, NIS 2 alla continuità del servizio",
+        "option_text": "GDPR differisce dalla NIS 2 GDPR è orientato primariamente alla Privacy e alla protezione del dato dall'origine, NIS 2 alla continuità del servizio",
         "answer": true
       },
       {
@@ -13162,7 +13138,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 416
+    "id": 415
   },
   {
     "code": "M3.4.3.8",
@@ -13194,7 +13170,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 417
+    "id": 416
   },
   {
     "code": "M4.2.1.3",
@@ -13226,7 +13202,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 418
+    "id": 417
   },
   {
     "code": "M1.1.3.1.2",
@@ -13258,7 +13234,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 419
+    "id": 418
   },
   {
     "code": "M1.3.3.13",
@@ -13290,7 +13266,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 420
+    "id": 419
   },
   {
     "code": "M2.1.2.13",
@@ -13322,14 +13298,14 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 421
+    "id": 420
   },
   {
     "code": "M2.2.2.5.1",
-    "question": "Quali dei seguenti elementi possono essere considerati Vettori di Attacco",
+    "question": "Quali dei seguenti elementi possono essere considerati",
     "options": [
       {
-        "option_text": "Politiche di sicurezza non aggiornate",
+        "option_text": "Vettori di Attacco Politiche di sicurezza non aggiornate",
         "answer": false
       },
       {
@@ -13354,7 +13330,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 422
+    "id": 421
   },
   {
     "code": "M3.2.1.22",
@@ -13386,7 +13362,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 423
+    "id": 422
   },
   {
     "code": "M3.2.1_1.3",
@@ -13418,14 +13394,14 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 424
+    "id": 423
   },
   {
     "code": "M3.2.1_2.17",
-    "question": "",
+    "question": "Il controllo ISO/IEC 27001:",
     "options": [
       {
-        "option_text": "Il controllo ISO/IEC 27001: 2022 “Privileged access rights” ov",
+        "option_text": "2022 “Privileged access rights” ov",
         "answer": true
       },
       {
@@ -13454,14 +13430,14 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 425
+    "id": 424
   },
   {
     "code": "M3.2.1_2.18",
-    "question": "L'attributo dei controlli ISO/IEC 27001:2022 Cybersecurity Concepts",
+    "question": "L'attributo dei controlli",
     "options": [
       {
-        "option_text": "Permettono di associare, e quindi etichettare, un controllo ad una funzione del NIST CSF Core",
+        "option_text": "ISO/IEC 27001:2022 Cybersecurity Concepts Permettono di associare, e quindi etichettare, un controllo ad una funzione del NIST CSF Core",
         "answer": true
       },
       {
@@ -13486,7 +13462,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 426
+    "id": 425
   },
   {
     "code": "M3.2.3_1.2",
@@ -13518,14 +13494,14 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 427
+    "id": 426
   },
   {
     "code": "M3.2.3_1.3",
-    "question": "I Framework Profile del NIST CSF",
+    "question": "I Framework",
     "options": [
       {
-        "option_text": "Possono essere visti come una fotografia dello stato corrente di implementazione del Framework Core all'interno dell'organizzazione",
+        "option_text": "Profile del NIST CSF Possono essere visti come una fotografia dello stato corrente di implementazione del Framework Core all'interno dell'organizzazione",
         "answer": true
       },
       {
@@ -13550,14 +13526,14 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 428
+    "id": 427
   },
   {
     "code": "M3.2.3_1.4",
-    "question": "Il risultato atteso NIST CSF ID.AM-08: Sistemi, hardware, software, servizi e dati vengono gestiti durante tutto il loro ciclo di vita vuole significare",
+    "question": "Il risultato atteso NIST CSF ID.AM-08:",
     "options": [
       {
-        "option_text": "Che per tutti i sistemi, gli hardware i software i sevizi e i dati è necessario gestire la configurazione e identificare la durata del ciclo di vita",
+        "option_text": "Sistemi, hardware, software, servizi e dati vengono gestiti durante tutto il loro ciclo di vita vuole significare Che per tutti i sistemi, gli hardware i software i sevizi e i dati è necessario gestire la configurazione e identificare la durata del ciclo di vita",
         "answer": true
       },
       {
@@ -13582,7 +13558,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 429
+    "id": 428
   },
   {
     "code": "M3.2.4.3.2",
@@ -13614,7 +13590,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 430
+    "id": 429
   },
   {
     "code": "M3.2.6.21",
@@ -13646,7 +13622,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 431
+    "id": 430
   },
   {
     "code": "M3.2.6.19",
@@ -13678,14 +13654,14 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 432
+    "id": 431
   },
   {
     "code": "M3.2.6.20",
-    "question": "Come si può migliorare i livello di sicurezza di un Conduit secondo ISO/IEC 62443",
+    "question": "Come si può migliorare il livello di sicurezza di un Conduit secondo ISO/IEC 62443?",
     "options": [
       {
-        "option_text": "Migliorando l'Access Control: restingendo l'accesso al Conduit in base al ruolo dell'utente e i suoi relativi privilegi",
+        "option_text": "Migliorando l'Access Control: restringendo l'accesso al Conduit in base al ruolo dell'utente e i suoi relativi privilegi",
         "answer": true
       },
       {
@@ -13710,7 +13686,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 433
+    "id": 432
   },
   {
     "code": "M3.3.5_1.1",
@@ -13742,14 +13718,14 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 434
+    "id": 433
   },
   {
     "code": "M3.3.5_1.2",
-    "question": "I principali elementi che differenziano la prima edizione della NIS e NIS2 sono",
+    "question": "I principali elementi che differenziano la prima edizione della",
     "options": [
       {
-        "option_text": "Viene eliminata la distinzione tra fornitori di servizi essenziali e fornitori di servizi digitali",
+        "option_text": "NIS e NIS2 sono Viene eliminata la distinzione tra fornitori di servizi essenziali e fornitori di servizi digitali",
         "answer": true
       },
       {
@@ -13774,7 +13750,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 435
+    "id": 434
   },
   {
     "code": "M3.3.5_1.3",
@@ -13806,7 +13782,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 436
+    "id": 435
   },
   {
     "code": "M3.3.5_1.4",
@@ -13838,14 +13814,14 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 437
+    "id": 436
   },
   {
     "code": "M3.3.5_1.5",
-    "question": "Qual è il punto di contatto unico competente NIS relativamente alla direttiva (UE) 2022/2555",
+    "question": "Qual è il punto di contatto unico competente",
     "options": [
       {
-        "option_text": "CERT-UE",
+        "option_text": "NIS relativamente alla direttiva (UE) 2022/2555 CERT-UE",
         "answer": false
       },
       {
@@ -13870,7 +13846,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 438
+    "id": 437
   },
   {
     "code": "M4.1.2.5",
@@ -13902,7 +13878,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 439
+    "id": 438
   },
   {
     "code": "M4.1.5.7",
@@ -13934,7 +13910,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 440
+    "id": 439
   },
   {
     "code": "M4.2.1.4",
@@ -13961,11 +13937,11 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "Secondo le normative deve prevedere un sistema di gestione Nello topografia indicata nello schema sopra sono rappresentate Zone (con differenti colori in base alla specifica funzione) e dispositivi di rete numerati progressivamente.",
+        "option_text": "Secondo le normative deve prevedere un sistema di gestione",
         "answer": true
       },
       {
-        "option_text": "Indicare quali dei segmenti di rete (indicati con l'insieme dei dispositivi) sono Conduit secondo ISA-IEC 62443 selezionando",
+        "option_text": "Nello topografia indicata nello schema sopra sono rappresentate Zone (con differenti colori in base alla specifica funzione) e dispositivi di rete numerati progressivamente. Indicare quali dei segmenti di rete (indicati con l'insieme dei dispositivi) sono Conduit secondo ISA-IEC 62443 selezionando",
         "answer": true
       },
       {
@@ -14033,11 +14009,11 @@ const QUIZ_QUESTIONS = [
         "answer": true
       },
       {
-        "option_text": "46-47-48 Un'azienda di produzione ha necessità di aumentare il livello di sicurezza degli accessi esterni da parte di fornitori di servizi di assistenza e manutenzione. Per fare questo è stato deciso di migliorare il sistema di gestione esistente utilizzando alcuni controlli ISO/IEC 27001: 2022 e IEC",
+        "option_text": "46-47-48",
         "answer": true
       },
       {
-        "option_text": "Indicare",
+        "option_text": "Un'azienda di produzione ha necessità di aumentare il livello di sicurezza degli accessi esterni da parte di fornitori di servizi di assistenza e manutenzione. Per fare questo è stato deciso di migliorare il sistema di gestione esistente utilizzando alcuni controlli ISO/IEC 27001: 2022 e IEC 62443. Indicare",
         "answer": true
       },
       {
@@ -14090,7 +14066,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 441
+    "id": 440
   },
   {
     "code": "M1.2.3.6",
@@ -14122,7 +14098,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 442
+    "id": 441
   },
   {
     "code": "M1.3.3.16",
@@ -14154,14 +14130,14 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 443
+    "id": 442
   },
   {
     "code": "M2.2.2.7",
-    "question": "Quali delle seguenti Debolezze Tecnologiche possono essere sfruttate da un Vettore d'attacco",
+    "question": "Quali delle seguenti",
     "options": [
       {
-        "option_text": "Vulnerabilità informatiche e mancato aggiornamento del software",
+        "option_text": "Debolezze Tecnologiche possono essere sfruttate da un Vettore d'attacco Vulnerabilità informatiche e mancato aggiornamento del software",
         "answer": true
       },
       {
@@ -14186,7 +14162,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 444
+    "id": 443
   },
   {
     "code": "M2.2.2.8",
@@ -14218,7 +14194,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 445
+    "id": 444
   },
   {
     "code": "M2.3.1.8",
@@ -14250,7 +14226,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 446
+    "id": 445
   },
   {
     "code": "M2.3.2.8",
@@ -14282,7 +14258,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 447
+    "id": 446
   },
   {
     "code": "M3.2.1.24",
@@ -14314,7 +14290,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 448
+    "id": 447
   },
   {
     "code": "M3.2.1_1.6",
@@ -14346,7 +14322,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 449
+    "id": 448
   },
   {
     "code": "M3.2.3_1.5",
@@ -14378,7 +14354,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 450
+    "id": 449
   },
   {
     "code": "M3.2.6.34",
@@ -14410,7 +14386,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 451
+    "id": 450
   },
   {
     "code": "M4.1.1.19",
@@ -14442,7 +14418,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 452
+    "id": 451
   },
   {
     "code": "M4.2.3.11",
@@ -14474,7 +14450,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 453
+    "id": 452
   },
   {
     "code": "M3.4.6.3",
@@ -14506,6 +14482,6 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 454
+    "id": 453
   }
 ];
