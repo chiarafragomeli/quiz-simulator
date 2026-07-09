@@ -3770,30 +3770,38 @@ const QUIZ_QUESTIONS = [
   },
   {
     "code": "M4.3.1.2",
-    "question": "Una grande",
+    "question": "Una grande Azienda Multiutility Si occupa di fornire un solo servizio essenziale, ad esempio solo elettricità, in maniera monopolistica  Opera spesso in regime regolamentato, con tariffe stabilite o controllate da autorità pubbliche  Agisce principalmente nei settori di energia, acqua e gestione dei rifiuti  Non ha alcun ruolo nella transizione energetica e ambientale  Può nascere dall’aggregazione di più aziende locali che gestiscono singoli servizi  E' sempre un'azienda privata senza alcuna partecipazione pubblica  Esercizio 1 Considerando la rappresentazione dei seguenti Incidenti di Cybersecurity: Configurare la seguente tabella del rischio (Probabilità-Impatto) posizionando gli incidenti in base alla valutazione effettuata mediante la loro descrizione, utilizzando le scala di valori indicata nella tabella (La probabilità di verificarsi dell'incidente e la gravità dell'impatto sono espressi in una scala da 1-5, 1 basso, 5 alto). Configurare tutte le 25 celle inserendo --- nelle celle vuote (quelle non utilizzate per inserire l'incidente). Esercizio 2 Data la seguente rete LAN con 254 hosts",
     "options": [
       {
-        "option_text": "Azienda Multiutility Si occupa di fornire un solo servizio essenziale, ad esempio solo elettricità, in maniera monopolistica",
+        "option_text": "Qual è l'indirizzo di rete con notazione dei bit di maschera 15.128.21.0/24",
         "answer": false
       },
       {
-        "option_text": "Opera spesso in regime regolamentato, con tariffe stabilite o controllate da autorità pubbliche",
-        "answer": true
-      },
-      {
-        "option_text": "Agisce principalmente nei settori di energia, acqua e gestione dei rifiuti",
-        "answer": true
-      },
-      {
-        "option_text": "Non ha alcun ruolo nella transizione energetica e ambientale",
+        "option_text": "Qual è l'indirizzo di Broadcast 15.128.21.255",
         "answer": false
       },
       {
-        "option_text": "Può nascere dall’aggregazione di più aziende locali che gestiscono singoli servizi",
-        "answer": true
+        "option_text": "Qual è l'indirizzo di Maschera di Rete 255.255.255.0",
+        "answer": false
       },
       {
-        "option_text": "E' sempre un'azienda privata senza alcuna partecipazione pubblica",
+        "option_text": "Qual è l'indirizzo Subnet 1 15.128.21.0/26",
+        "answer": false
+      },
+      {
+        "option_text": "Qual è l'indizizzo Subnet 2 15.128.21.65/26",
+        "answer": false
+      },
+      {
+        "option_text": "Qual è l'indirizzo Subnet 3 15.128.21.129/27",
+        "answer": false
+      },
+      {
+        "option_text": "Qual è l'indirizzo Subnet 4 15.128.21.160/27",
+        "answer": false
+      },
+      {
+        "option_text": "Attraverso quale dispositivo riesco a configurare la comunicazione dalla Subnet 1 alla 3? A Mario Testino",
         "answer": false
       }
     ],
@@ -5765,6 +5773,38 @@ const QUIZ_QUESTIONS = [
     "id": 181
   },
   {
+    "code": "M2.1.2.2.1",
+    "question": "Il Soggetto Giuridico",
+    "options": [
+      {
+        "option_text": "È il soggetto giuridicamente responsabile dell'attività svolta",
+        "answer": true
+      },
+      {
+        "option_text": "È la persona alla quale sono riferiti i diritti e gli obblighi che nascono dalla costituzione dell’azienda e dal suo esercizio",
+        "answer": true
+      },
+      {
+        "option_text": "È la persona che investe nel capitale privato dell’azienda",
+        "answer": false
+      },
+      {
+        "option_text": "Può essere una Persona Giuridica ovvero un ente, un’azienda o una società",
+        "answer": true
+      },
+      {
+        "option_text": "Può essere indifferentemente la Persona Fisic a o Giuridica, entrambe hanno capacità giuridica",
+        "answer": true
+      },
+      {
+        "option_text": "Può essere solo una Persona Fisica nel cui nome l’attività aziendale è esercitata",
+        "answer": false
+      }
+    ],
+    "category": "Organizzazione e Gestione Aziendale (M2)",
+    "id": 182
+  },
+  {
     "code": "M3.2.1.3.1",
     "question": "Quale di queste aree non è un requisito di un ISMS ISO 27001",
     "options": [
@@ -5794,7 +5834,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 182
+    "id": 183
   },
   {
     "code": "M3.2.1.10",
@@ -5826,7 +5866,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 183
+    "id": 184
   },
   {
     "code": "M3.2.6.4.1",
@@ -5858,7 +5898,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 184
+    "id": 185
   },
   {
     "code": "M3.3.3.1.1",
@@ -5890,7 +5930,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 185
+    "id": 186
   },
   {
     "code": "M3.4.5.1.1",
@@ -5910,7 +5950,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 186
+    "id": 187
   },
   {
     "code": "M3.4.5.3",
@@ -5942,7 +5982,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 187
+    "id": 188
   },
   {
     "code": "M3.4.5.5",
@@ -5974,7 +6014,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 188
+    "id": 189
   },
   {
     "code": "M4.1.1.2",
@@ -6006,7 +6046,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 189
+    "id": 190
   },
   {
     "code": "M4.1.1.4",
@@ -6038,7 +6078,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 190
+    "id": 191
   },
   {
     "code": "M4.1.1.6",
@@ -6070,7 +6110,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 191
+    "id": 192
   },
   {
     "code": "M4.1.1.8",
@@ -6102,7 +6142,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 192
+    "id": 193
   },
   {
     "code": "M4.1.1.10",
@@ -6134,7 +6174,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 193
+    "id": 194
   },
   {
     "code": "M4.1.1.16",
@@ -6166,7 +6206,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 194
+    "id": 195
   },
   {
     "code": "M4.1.3.1",
@@ -6198,7 +6238,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 195
+    "id": 196
   },
   {
     "code": "M4.1.3.3",
@@ -6230,7 +6270,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 196
+    "id": 197
   },
   {
     "code": "M4.1.3.5",
@@ -6262,7 +6302,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 197
+    "id": 198
   },
   {
     "code": "M4.1.5.3",
@@ -6294,7 +6334,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 198
+    "id": 199
   },
   {
     "code": "M4.2.2.1",
@@ -6326,7 +6366,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 199
+    "id": 200
   },
   {
     "code": "M4.2.3.1",
@@ -6358,7 +6398,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 200
+    "id": 201
   },
   {
     "code": "M4.2.3.3",
@@ -6390,7 +6430,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 201
+    "id": 202
   },
   {
     "code": "M4.2.3.7",
@@ -6422,7 +6462,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 202
+    "id": 203
   },
   {
     "code": "M4.2.3.9",
@@ -6454,7 +6494,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 203
+    "id": 204
   },
   {
     "code": "M1.1.3.1",
@@ -6486,7 +6526,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 204
+    "id": 205
   },
   {
     "code": "M1.1.3.3",
@@ -6518,7 +6558,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 205
+    "id": 206
   },
   {
     "code": "M1.1.3.4",
@@ -6550,7 +6590,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 206
+    "id": 207
   },
   {
     "code": "M1.1.4.3",
@@ -6582,7 +6622,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 207
+    "id": 208
   },
   {
     "code": "M1.1.4.4",
@@ -6614,7 +6654,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 208
+    "id": 209
   },
   {
     "code": "M1.1.5.1",
@@ -6646,7 +6686,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 209
+    "id": 210
   },
   {
     "code": "M1.2.1.4",
@@ -6678,7 +6718,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 210
+    "id": 211
   },
   {
     "code": "M1.2.2.2",
@@ -6710,7 +6750,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 211
+    "id": 212
   },
   {
     "code": "M1.3.1.14",
@@ -6742,7 +6782,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 212
+    "id": 213
   },
   {
     "code": "M1.3.1.17",
@@ -6774,7 +6814,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 213
+    "id": 214
   },
   {
     "code": "M1.3.1.20",
@@ -6806,7 +6846,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 214
+    "id": 215
   },
   {
     "code": "M1.3.2.13",
@@ -6838,7 +6878,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 215
+    "id": 216
   },
   {
     "code": "M1.3.4.1",
@@ -6870,7 +6910,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 216
+    "id": 217
   },
   {
     "code": "M1.3.4.3",
@@ -6902,7 +6942,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 217
+    "id": 218
   },
   {
     "code": "M1.3.4.4",
@@ -6934,7 +6974,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 218
+    "id": 219
   },
   {
     "code": "M2.1.1.4",
@@ -6953,12 +6993,20 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "È organizzata dall’imprenditore per l’",
+        "option_text": "È organizzata dall’imprenditore per l’esercizio delle funzioni aziendali che permettono sempre di massimizzare il profitto",
         "answer": false
+      },
+      {
+        "option_text": "Ha al suo interno anche beni strumentali, ad esempio: attrezzature, impianti, marchi, brevetti",
+        "answer": true
+      },
+      {
+        "option_text": "Realizza la sua attività grazie alle funzioni aziendali ed è parte integrante della supply-chain",
+        "answer": true
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 219
+    "id": 220
   },
   {
     "code": "M2.1.2.5",
@@ -6990,7 +7038,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 220
+    "id": 221
   },
   {
     "code": "M2.1.2.6",
@@ -7022,7 +7070,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 221
+    "id": 222
   },
   {
     "code": "M2.1.2.7",
@@ -7054,7 +7102,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 222
+    "id": 223
   },
   {
     "code": "M2.2.1.2",
@@ -7086,7 +7134,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 223
+    "id": 224
   },
   {
     "code": "M3.4.2.1",
@@ -7118,7 +7166,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 224
+    "id": 225
   },
   {
     "code": "M3.4.4.2",
@@ -7150,7 +7198,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 225
+    "id": 226
   },
   {
     "code": "M4.2.1.1",
@@ -7182,7 +7230,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 226
+    "id": 227
   },
   {
     "code": "M1.3.1.21",
@@ -7214,7 +7262,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 227
+    "id": 228
   },
   {
     "code": "M1.3.1.22",
@@ -7246,7 +7294,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 228
+    "id": 229
   },
   {
     "code": "M1.3.1.23",
@@ -7278,7 +7326,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 229
+    "id": 230
   },
   {
     "code": "M4.1.1.17",
@@ -7310,7 +7358,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 230
+    "id": 231
   },
   {
     "code": "M2.1.2.8",
@@ -7342,7 +7390,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 231
+    "id": 232
   },
   {
     "code": "M2.1.2.9",
@@ -7374,7 +7422,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 232
+    "id": 233
   },
   {
     "code": "M2.1.3.5",
@@ -7406,7 +7454,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 233
+    "id": 234
   },
   {
     "code": "M2.2.1.4",
@@ -7438,7 +7486,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 234
+    "id": 235
   },
   {
     "code": "M2.2.2.3",
@@ -7470,7 +7518,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 235
+    "id": 236
   },
   {
     "code": "M3.1.1.7",
@@ -7502,7 +7550,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 236
+    "id": 237
   },
   {
     "code": "M3.1.2.4",
@@ -7534,7 +7582,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 237
+    "id": 238
   },
   {
     "code": "M3.1.3.5",
@@ -7566,7 +7614,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 238
+    "id": 239
   },
   {
     "code": "M3.2.1.12",
@@ -7598,7 +7646,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 239
+    "id": 240
   },
   {
     "code": "M3.2.1.13",
@@ -7630,7 +7678,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 240
+    "id": 241
   },
   {
     "code": "M3.2.1.14",
@@ -7662,7 +7710,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 241
+    "id": 242
   },
   {
     "code": "M3.2.1.15",
@@ -7694,7 +7742,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 242
+    "id": 243
   },
   {
     "code": "M3.2.1.17",
@@ -7726,7 +7774,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 243
+    "id": 244
   },
   {
     "code": "M3.2.1.16",
@@ -7758,7 +7806,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 244
+    "id": 245
   },
   {
     "code": "M3.2.2.1",
@@ -7790,7 +7838,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 245
+    "id": 246
   },
   {
     "code": "M3.2.2.2",
@@ -7822,7 +7870,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 246
+    "id": 247
   },
   {
     "code": "M3.2.3.8",
@@ -7854,7 +7902,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 247
+    "id": 248
   },
   {
     "code": "M3.2.3.9",
@@ -7886,7 +7934,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 248
+    "id": 249
   },
   {
     "code": "M3.2.6.10",
@@ -7918,7 +7966,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 249
+    "id": 250
   },
   {
     "code": "M3.2.6.11",
@@ -7950,7 +7998,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 250
+    "id": 251
   },
   {
     "code": "M1.1.2.9",
@@ -7982,7 +8030,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 251
+    "id": 252
   },
   {
     "code": "M1.1.3.2",
@@ -8014,7 +8062,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 252
+    "id": 253
   },
   {
     "code": "M1.1.3.5",
@@ -8046,7 +8094,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 253
+    "id": 254
   },
   {
     "code": "M1.1.4.2",
@@ -8078,7 +8126,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 254
+    "id": 255
   },
   {
     "code": "M1.1.6.1",
@@ -8110,7 +8158,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 255
+    "id": 256
   },
   {
     "code": "M1.3.1.18",
@@ -8142,7 +8190,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 256
+    "id": 257
   },
   {
     "code": "M1.3.1.19",
@@ -8174,7 +8222,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 257
+    "id": 258
   },
   {
     "code": "M1.3.4.2",
@@ -8206,7 +8254,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 258
+    "id": 259
   },
   {
     "code": "M2.2.1.3",
@@ -8238,7 +8286,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 259
+    "id": 260
   },
   {
     "code": "M2.3.1.4",
@@ -8270,7 +8318,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 260
+    "id": 261
   },
   {
     "code": "M2.3.1.5",
@@ -8302,7 +8350,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 261
+    "id": 262
   },
   {
     "code": "M2.3.2.3",
@@ -8334,7 +8382,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 262
+    "id": 263
   },
   {
     "code": "M2.3.2.4",
@@ -8366,7 +8414,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 263
+    "id": 264
   },
   {
     "code": "M3.1.1.5",
@@ -8398,7 +8446,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 264
+    "id": 265
   },
   {
     "code": "M3.1.1.6",
@@ -8430,7 +8478,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 265
+    "id": 266
   },
   {
     "code": "M3.1.2.3",
@@ -8462,7 +8510,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 266
+    "id": 267
   },
   {
     "code": "M3.1.3.4",
@@ -8494,7 +8542,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 267
+    "id": 268
   },
   {
     "code": "M3.2.1.11",
@@ -8526,7 +8574,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 268
+    "id": 269
   },
   {
     "code": "M3.2.5.1",
@@ -8558,7 +8606,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 269
+    "id": 270
   },
   {
     "code": "M3.3.1.2",
@@ -8590,7 +8638,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 270
+    "id": 271
   },
   {
     "code": "M3.3.1.3",
@@ -8622,7 +8670,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 271
+    "id": 272
   },
   {
     "code": "M3.3.2.3",
@@ -8654,7 +8702,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 272
+    "id": 273
   },
   {
     "code": "M3.3.5.4",
@@ -8686,7 +8734,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 273
+    "id": 274
   },
   {
     "code": "M3.3.5.5",
@@ -8718,7 +8766,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 274
+    "id": 275
   },
   {
     "code": "M3.3.5.6",
@@ -8750,7 +8798,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 275
+    "id": 276
   },
   {
     "code": "M3.3.6.6",
@@ -8782,7 +8830,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 276
+    "id": 277
   },
   {
     "code": "M3.4.1.1",
@@ -8814,7 +8862,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 277
+    "id": 278
   },
   {
     "code": "M1.1.2.3.1",
@@ -8846,7 +8894,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 278
+    "id": 279
   },
   {
     "code": "M1.1.2.4.1",
@@ -8878,7 +8926,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 279
+    "id": 280
   },
   {
     "code": "M1.2.4.3.1",
@@ -8910,7 +8958,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 280
+    "id": 281
   },
   {
     "code": "M1.2.4.8",
@@ -8938,7 +8986,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 281
+    "id": 282
   },
   {
     "code": "M1.2.4.9",
@@ -8970,7 +9018,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 282
+    "id": 283
   },
   {
     "code": "M1.3.1.24",
@@ -9002,7 +9050,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 283
+    "id": 284
   },
   {
     "code": "M1.3.1.25",
@@ -9034,7 +9082,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 284
+    "id": 285
   },
   {
     "code": "M1.3.1.26",
@@ -9066,7 +9114,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 285
+    "id": 286
   },
   {
     "code": "M1.3.2.14",
@@ -9098,7 +9146,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 286
+    "id": 287
   },
   {
     "code": "M1.3.2.15",
@@ -9130,7 +9178,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 287
+    "id": 288
   },
   {
     "code": "M1.3.2.16",
@@ -9162,7 +9210,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 288
+    "id": 289
   },
   {
     "code": "M1.3.3.6",
@@ -9194,7 +9242,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 289
+    "id": 290
   },
   {
     "code": "M1.3.3.7",
@@ -9226,7 +9274,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 290
+    "id": 291
   },
   {
     "code": "M1.3.4.6",
@@ -9254,7 +9302,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 291
+    "id": 292
   },
   {
     "code": "M1.3.4.7",
@@ -9282,7 +9330,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 292
+    "id": 293
   },
   {
     "code": "M2.1.2.10",
@@ -9314,7 +9362,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 293
+    "id": 294
   },
   {
     "code": "M2.2.2.4",
@@ -9346,7 +9394,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 294
+    "id": 295
   },
   {
     "code": "M2.3.2.5",
@@ -9378,7 +9426,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 295
+    "id": 296
   },
   {
     "code": "M3.1.1.2.1",
@@ -9410,7 +9458,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 296
+    "id": 297
   },
   {
     "code": "M3.2.1.11.1",
@@ -9442,7 +9490,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 297
+    "id": 298
   },
   {
     "code": "M3.2.1.18",
@@ -9474,7 +9522,39 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 298
+    "id": 299
+  },
+  {
+    "code": "M3.2.2.3",
+    "question": "L’Area di Controllo 6 dell’ISO 27001 2013 Annex A “Organizzazione della Sicurezza delle Informazioni”",
+    "options": [
+      {
+        "option_text": "Ha tra gli obiettivi lo stabilire un quadro di riferimento per intraprendere e controllare l’attuazione e l’esercizio della sicurezza delle informazioni all’interno dell’organizzazione",
+        "answer": true
+      },
+      {
+        "option_text": "Ha tra gli obiettivi l’assicurare la sicurezza del telelavoro e dell’uso di dispositivi portatili",
+        "answer": true
+      },
+      {
+        "option_text": "È composta da quattro gruppi di controlli",
+        "answer": false
+      },
+      {
+        "option_text": "È composta da due gruppi di controlli",
+        "answer": true
+      },
+      {
+        "option_text": "Ha tra i controlli la separazione dei compiti e le aree di responsabilità",
+        "answer": true
+      },
+      {
+        "option_text": "Ha tra i controlli la condivisione dei compiti e le aree di responsabilità",
+        "answer": false
+      }
+    ],
+    "category": "Crittografia e Sicurezza dei Dati (M3)",
+    "id": 300
   },
   {
     "code": "M3.2.2.4",
@@ -9506,7 +9586,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 299
+    "id": 301
   },
   {
     "code": "M3.2.3.2.1",
@@ -9538,7 +9618,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 300
+    "id": 302
   },
   {
     "code": "M3.2.4.3",
@@ -9566,7 +9646,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 301
+    "id": 303
   },
   {
     "code": "M1.1.4.5",
@@ -9598,7 +9678,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 302
+    "id": 304
   },
   {
     "code": "M1.3.2.9-23",
@@ -9630,7 +9710,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 303
+    "id": 305
   },
   {
     "code": "M1.3.2.12-23",
@@ -9662,7 +9742,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 304
+    "id": 306
   },
   {
     "code": "M1.3.3.10",
@@ -9694,7 +9774,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 305
+    "id": 307
   },
   {
     "code": "M2.1.1.1-23",
@@ -9726,7 +9806,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 306
+    "id": 308
   },
   {
     "code": "M2.1.2.4-23",
@@ -9758,7 +9838,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 307
+    "id": 309
   },
   {
     "code": "M2.2.2.5",
@@ -9790,7 +9870,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 308
+    "id": 310
   },
   {
     "code": "M2.3.1.1-23",
@@ -9822,7 +9902,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 309
+    "id": 311
   },
   {
     "code": "M2.3.2.1-23",
@@ -9854,7 +9934,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 310
+    "id": 312
   },
   {
     "code": "M3.1.2.1-23",
@@ -9886,7 +9966,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 311
+    "id": 313
   },
   {
     "code": "M3.1.3.3",
@@ -9918,7 +9998,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 312
+    "id": 314
   },
   {
     "code": "M3.2.1.6-23",
@@ -9950,7 +10030,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 313
+    "id": 315
   },
   {
     "code": "M3.2.1.9-23",
@@ -9982,7 +10062,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 314
+    "id": 316
   },
   {
     "code": "M3.2.3.3",
@@ -10014,7 +10094,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 315
+    "id": 317
   },
   {
     "code": "M3.2.4.2",
@@ -10046,7 +10126,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 316
+    "id": 318
   },
   {
     "code": "M3.2.6.3",
@@ -10078,7 +10158,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 317
+    "id": 319
   },
   {
     "code": "M3.2.6.6-23",
@@ -10110,7 +10190,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 318
+    "id": 320
   },
   {
     "code": "M3.2.6.13",
@@ -10142,7 +10222,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 319
+    "id": 321
   },
   {
     "code": "M3.4.3.2-23",
@@ -10174,7 +10254,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 320
+    "id": 322
   },
   {
     "code": "M3.4.1.2",
@@ -10206,7 +10286,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 321
+    "id": 323
   },
   {
     "code": "M4.3.3.1",
@@ -10238,7 +10318,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 322
+    "id": 324
   },
   {
     "code": "M1.1.4.1/23",
@@ -10270,7 +10350,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 323
+    "id": 325
   },
   {
     "code": "M1.2.3.3.1",
@@ -10302,7 +10382,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 324
+    "id": 326
   },
   {
     "code": "M1.3.2.14.1",
@@ -10334,7 +10414,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 325
+    "id": 327
   },
   {
     "code": "M1.3.2_2.5",
@@ -10366,7 +10446,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 326
+    "id": 328
   },
   {
     "code": "M1.3.2_2.6*",
@@ -10398,7 +10478,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 327
+    "id": 329
   },
   {
     "code": "M1.3.2_2.7",
@@ -10430,7 +10510,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 328
+    "id": 330
   },
   {
     "code": "M1.3.2.15.1",
@@ -10462,7 +10542,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 329
+    "id": 331
   },
   {
     "code": "M1.3.2.17",
@@ -10494,7 +10574,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 330
+    "id": 332
   },
   {
     "code": "M1.3.4.6.1*",
@@ -10526,7 +10606,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 331
+    "id": 333
   },
   {
     "code": "M1.3.4.8",
@@ -10558,7 +10638,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 332
+    "id": 334
   },
   {
     "code": "M2.3.2.5/23",
@@ -10590,7 +10670,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 333
+    "id": 335
   },
   {
     "code": "M3.1.1.2.2",
@@ -10622,7 +10702,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 334
+    "id": 336
   },
   {
     "code": "M3.2.1.18/23",
@@ -10654,7 +10734,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 335
+    "id": 337
   },
   {
     "code": "M3.2.1_2.5",
@@ -10686,7 +10766,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 336
+    "id": 338
   },
   {
     "code": "M3.2.1_2.6",
@@ -10718,7 +10798,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 337
+    "id": 339
   },
   {
     "code": "M3.2.1_2.7",
@@ -10738,7 +10818,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 338
+    "id": 340
   },
   {
     "code": "M4.3.2.2",
@@ -10770,7 +10850,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 339
+    "id": 341
   },
   {
     "code": "M1.1.3.1.1",
@@ -10802,7 +10882,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 340
+    "id": 342
   },
   {
     "code": "M1.2.4.9.1",
@@ -10834,7 +10914,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 341
+    "id": 343
   },
   {
     "code": "M1.3.1.24.1",
@@ -10866,7 +10946,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 342
+    "id": 344
   },
   {
     "code": "M1.3.2_2.6",
@@ -10898,7 +10978,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 343
+    "id": 345
   },
   {
     "code": "M1.1.1.8",
@@ -10930,7 +11010,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 344
+    "id": 346
   },
   {
     "code": "M1.1.6.4",
@@ -10962,7 +11042,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 345
+    "id": 347
   },
   {
     "code": "M1.2.1.5",
@@ -10994,7 +11074,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 346
+    "id": 348
   },
   {
     "code": "M1.2.4.10",
@@ -11026,7 +11106,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 347
+    "id": 349
   },
   {
     "code": "M1.2.4.11",
@@ -11058,7 +11138,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 348
+    "id": 350
   },
   {
     "code": "M1.3.1.27",
@@ -11090,7 +11170,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 349
+    "id": 351
   },
   {
     "code": "M1.3.1.28",
@@ -11122,7 +11202,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 350
+    "id": 352
   },
   {
     "code": "M1.3.2.18",
@@ -11154,7 +11234,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 351
+    "id": 353
   },
   {
     "code": "M1.3.2.19",
@@ -11178,7 +11258,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 352
+    "id": 354
   },
   {
     "code": "M1.3.2.20",
@@ -11210,7 +11290,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 353
+    "id": 355
   },
   {
     "code": "M1.3.2.21",
@@ -11242,7 +11322,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 354
+    "id": 356
   },
   {
     "code": "M1.3.2_2.8",
@@ -11274,7 +11354,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 355
+    "id": 357
   },
   {
     "code": "M2.2.1.6",
@@ -11306,7 +11386,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 356
+    "id": 358
   },
   {
     "code": "M2.2.2.6",
@@ -11338,7 +11418,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 357
+    "id": 359
   },
   {
     "code": "M2.3.1.7",
@@ -11370,7 +11450,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 358
+    "id": 360
   },
   {
     "code": "3.1.1.8",
@@ -11402,7 +11482,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 359
+    "id": 361
   },
   {
     "code": "3.1.3.6",
@@ -11434,7 +11514,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 360
+    "id": 362
   },
   {
     "code": "3.2.1.20",
@@ -11466,7 +11546,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 361
+    "id": 363
   },
   {
     "code": "3.2.3.10",
@@ -11498,7 +11578,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 362
+    "id": 364
   },
   {
     "code": "3.3.6.7",
@@ -11530,7 +11610,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 363
+    "id": 365
   },
   {
     "code": "M1.3.2.1/24",
@@ -11562,7 +11642,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 364
+    "id": 366
   },
   {
     "code": "M1.3.2.4/24",
@@ -11594,7 +11674,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 365
+    "id": 367
   },
   {
     "code": "M1.3.2.7",
@@ -11626,7 +11706,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 366
+    "id": 368
   },
   {
     "code": "M1.3.2.10",
@@ -11658,7 +11738,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 367
+    "id": 369
   },
   {
     "code": "M1.3.3.4",
@@ -11690,7 +11770,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 368
+    "id": 370
   },
   {
     "code": "M2.1.1.6",
@@ -11722,7 +11802,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 369
+    "id": 371
   },
   {
     "code": "M2.1.2.2",
@@ -11737,12 +11817,24 @@ const QUIZ_QUESTIONS = [
         "answer": false
       },
       {
-        "option_text": "È la persona alla quale sono riferiti i diritti e gli obblighi che nascono dalla costituzione dell’azienda e dal suo",
+        "option_text": "È la persona alla quale sono riferiti i diritti e gli obblighi che nascono dalla costituzione dell’azienda e dal suo esercizio",
+        "answer": true
+      },
+      {
+        "option_text": "Può essere una Persona Giuridica ovvero un ente, un’azienda o una società",
+        "answer": true
+      },
+      {
+        "option_text": "Può essere solo la Persona Fisica nel cui nome l’attività aziendale è esercitata",
         "answer": false
+      },
+      {
+        "option_text": "Può essere indifferentemente la Persona Fisica o Giuridica, entrambe hanno capacità giuridica",
+        "answer": true
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 370
+    "id": 372
   },
   {
     "code": "M2.1.3.1",
@@ -11774,7 +11866,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 371
+    "id": 373
   },
   {
     "code": "M2.3.1.2",
@@ -11806,7 +11898,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 372
+    "id": 374
   },
   {
     "code": "M3.2.1.1",
@@ -11838,7 +11930,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 373
+    "id": 375
   },
   {
     "code": "M3.2.1.21",
@@ -11870,7 +11962,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 374
+    "id": 376
   },
   {
     "code": "M3.2.1.4",
@@ -11902,7 +11994,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 375
+    "id": 377
   },
   {
     "code": "M3.2.1.7",
@@ -11934,7 +12026,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 376
+    "id": 378
   },
   {
     "code": "M3.2.3.4",
@@ -11966,7 +12058,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 377
+    "id": 379
   },
   {
     "code": "M3.2.3.7",
@@ -11998,7 +12090,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 378
+    "id": 380
   },
   {
     "code": "M3.2.6.1",
@@ -12030,7 +12122,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 379
+    "id": 381
   },
   {
     "code": "M3.3.1.1",
@@ -12062,7 +12154,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 380
+    "id": 382
   },
   {
     "code": "M3.3.3.1",
@@ -12094,7 +12186,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 381
+    "id": 383
   },
   {
     "code": "M3.3.5.1",
@@ -12126,7 +12218,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 382
+    "id": 384
   },
   {
     "code": "M3.3.6.1/24",
@@ -12158,7 +12250,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 383
+    "id": 385
   },
   {
     "code": "M3.3.6.4",
@@ -12182,7 +12274,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 384
+    "id": 386
   },
   {
     "code": "M3.3.7.2",
@@ -12214,7 +12306,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 385
+    "id": 387
   },
   {
     "code": "M3.4.3.3",
@@ -12246,7 +12338,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 386
+    "id": 388
   },
   {
     "code": "M1.2.4.39",
@@ -12278,7 +12370,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 387
+    "id": 389
   },
   {
     "code": "M1.2.3.5",
@@ -12310,7 +12402,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 388
+    "id": 390
   },
   {
     "code": "M3.2.6.14",
@@ -12342,7 +12434,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 389
+    "id": 391
   },
   {
     "code": "M.3.3.2.4",
@@ -12374,7 +12466,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 390
+    "id": 392
   },
   {
     "code": "M.3.3.2.5",
@@ -12406,7 +12498,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 391
+    "id": 393
   },
   {
     "code": "M.3.3.3.3",
@@ -12438,7 +12530,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 392
+    "id": 394
   },
   {
     "code": "M3.3.5.2",
@@ -12470,7 +12562,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 393
+    "id": 395
   },
   {
     "code": "M3.3.5.3",
@@ -12502,7 +12594,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 394
+    "id": 396
   },
   {
     "code": "M3.3.6.8",
@@ -12534,7 +12626,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 395
+    "id": 397
   },
   {
     "code": "M3.4.1.3",
@@ -12566,7 +12658,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 396
+    "id": 398
   },
   {
     "code": "M3.4.3.4",
@@ -12598,7 +12690,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 397
+    "id": 399
   },
   {
     "code": "M4.1.2.3",
@@ -12630,7 +12722,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 398
+    "id": 400
   },
   {
     "code": "M4.1.4.1",
@@ -12662,7 +12754,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 399
+    "id": 401
   },
   {
     "code": "M4.2.1.2",
@@ -12694,7 +12786,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 400
+    "id": 402
   },
   {
     "code": "M4.1.3.7",
@@ -12726,7 +12818,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 401
+    "id": 403
   },
   {
     "code": "M1.1.2.12",
@@ -12758,7 +12850,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 402
+    "id": 404
   },
   {
     "code": "M2.2.1.3.1",
@@ -12790,7 +12882,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 403
+    "id": 405
   },
   {
     "code": "M3.2.1_2.9",
@@ -12822,7 +12914,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 404
+    "id": 406
   },
   {
     "code": "M3.2.1_2.8",
@@ -12854,7 +12946,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 405
+    "id": 407
   },
   {
     "code": "M3.3.1.2.1",
@@ -12886,7 +12978,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 406
+    "id": 408
   },
   {
     "code": "M3.3.1.3.1",
@@ -12918,7 +13010,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 407
+    "id": 409
   },
   {
     "code": "M3.3.5.7",
@@ -12950,7 +13042,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 408
+    "id": 410
   },
   {
     "code": "M3.2.1_1.2",
@@ -12982,7 +13074,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 409
+    "id": 411
   },
   {
     "code": "M3.2.3_1.1",
@@ -13014,7 +13106,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 410
+    "id": 412
   },
   {
     "code": "M2.2.1.7",
@@ -13046,7 +13138,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 411
+    "id": 413
   },
   {
     "code": "M3.2.1_2.13",
@@ -13078,7 +13170,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 412
+    "id": 414
   },
   {
     "code": "M3.2.6.5",
@@ -13110,7 +13202,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 413
+    "id": 415
   },
   {
     "code": "M3.2.6.6",
@@ -13142,7 +13234,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 414
+    "id": 416
   },
   {
     "code": "M3.4.1.4",
@@ -13174,7 +13266,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 415
+    "id": 417
   },
   {
     "code": "M3.4.1.5",
@@ -13202,7 +13294,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 416
+    "id": 418
   },
   {
     "code": "M3.4.4.4",
@@ -13234,7 +13326,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 417
+    "id": 419
   },
   {
     "code": "M3.4.5.7",
@@ -13266,7 +13358,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 418
+    "id": 420
   },
   {
     "code": "M1.3.3.1",
@@ -13298,7 +13390,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 419
+    "id": 421
   },
   {
     "code": "M3.2.6.7",
@@ -13330,7 +13422,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 420
+    "id": 422
   },
   {
     "code": "M3.3.3.2",
@@ -13362,7 +13454,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 421
+    "id": 423
   },
   {
     "code": "M3.3.5.10",
@@ -13394,7 +13486,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 422
+    "id": 424
   },
   {
     "code": "M3.4.3.8",
@@ -13426,39 +13518,47 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 423
+    "id": 425
   },
   {
     "code": "M4.2.1.3",
-    "question": "Quali dei seguenti sono i maggiori rischi di cyber security nelle aziende industriali di produzione di beni?",
+    "question": "Quali dei seguenti sono i maggiori rischi di cyber security nelle aziende industriali di produzione di beni? Rischio reputazionale  Rischio sulla continuità operativa o del business  Rischio finanziario  Rischio di perdita di dati sensibili  Rischio di compliance  Rischio di service continuity  Esercizio 1 Data la seguente topologia di rete con una LAN costituita da 2048 indirizzi rispondete alle domante selezionando adeguatamente le opzioni indicate.",
     "options": [
       {
-        "option_text": "Rischio reputazionale",
-        "answer": true
-      },
-      {
-        "option_text": "Rischio sulla continuità operativa o del business",
-        "answer": true
-      },
-      {
-        "option_text": "Rischio finanziario",
+        "option_text": "Qual è l'indirizzo di rete con notazione dei bit di maschera 223.128.8.0/21",
         "answer": false
       },
       {
-        "option_text": "Rischio di perdita di dati sensibili",
+        "option_text": "Qual è l'indirizzo di Broadcast 223.128.15.255",
         "answer": false
       },
       {
-        "option_text": "Rischio di compliance",
-        "answer": true
+        "option_text": "Qual è l'indirizzo di Maschera di Rete 255.255.248.0",
+        "answer": false
       },
       {
-        "option_text": "Rischio di service continuity",
+        "option_text": "Qual è l'indirizzo Subnet 1 223.128.8.0/25",
+        "answer": false
+      },
+      {
+        "option_text": "Qual è l'indizizzo Subnet 2 223.128.8.128/25",
+        "answer": false
+      },
+      {
+        "option_text": "Qual è l'indirizzo Subnet 3 223.128.9.0/24",
+        "answer": false
+      },
+      {
+        "option_text": "Qual è l'indirizzo Subnet 4 223.128.10.0/23",
+        "answer": false
+      },
+      {
+        "option_text": "L’indirizzo 223.128.8.5 può comunicare con l’indirizzo 223.128.8.131?Se il router ha una regola che lo permette e il firewall lo consente Esercizio 2 Il controllo ISO/IEC 27001: 2022 \"Configuration management\". Indica che le configurazioni, comprese le configurazioni di sicurezza, di hardware, software, servizi e reti devono essere stabilite, documentate, implementate monitorate e revisionate. Tale Controllo appartiene al seguente gruppo di controlli: Technological (Inerente gli aspetti Tecnologici) Tale Controllo è di tipo: Preventivo Considerando il paradigma CIA (o RID) quali delle proprietà elencate possono essere implementare con il controllo?Confidentiality, Integrity e Availability Quali Concetti del NIST Cyber Security Framework possono essere associati al controllo? Protect Il Controllo è stato concepito primariamente per:Reagire tempestivamente ad un possibile disastro Quali delle seguenti procedure possono essere implementate per realizzare il Controllo?Gestire l'inventario degli asset informatici e le relative configurazioni in maniera centralizzata",
         "answer": false
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 424
+    "id": 426
   },
   {
     "code": "M1.1.3.1.2",
@@ -13490,7 +13590,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 425
+    "id": 427
   },
   {
     "code": "M1.3.3.6.3",
@@ -13522,7 +13622,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 426
+    "id": 428
   },
   {
     "code": "M1.3.3.13",
@@ -13554,7 +13654,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 427
+    "id": 429
   },
   {
     "code": "M2.1.2.13",
@@ -13586,7 +13686,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 428
+    "id": 430
   },
   {
     "code": "M2.2.2.5.1",
@@ -13618,7 +13718,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 429
+    "id": 431
   },
   {
     "code": "M3.2.1.22",
@@ -13650,7 +13750,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 430
+    "id": 432
   },
   {
     "code": "M3.2.1_1.3",
@@ -13682,7 +13782,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 431
+    "id": 433
   },
   {
     "code": "M3.2.1_2.17",
@@ -13714,7 +13814,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 432
+    "id": 434
   },
   {
     "code": "M3.2.1_2.18",
@@ -13746,7 +13846,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 433
+    "id": 435
   },
   {
     "code": "M3.2.3_1.2",
@@ -13778,7 +13878,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 434
+    "id": 436
   },
   {
     "code": "M3.2.3_1.3",
@@ -13810,7 +13910,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 435
+    "id": 437
   },
   {
     "code": "M3.2.3_1.4",
@@ -13842,7 +13942,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 436
+    "id": 438
   },
   {
     "code": "M3.2.4.3.2",
@@ -13874,7 +13974,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 437
+    "id": 439
   },
   {
     "code": "M3.2.6.21",
@@ -13906,7 +14006,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 438
+    "id": 440
   },
   {
     "code": "M3.2.6.19",
@@ -13938,7 +14038,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 439
+    "id": 441
   },
   {
     "code": "M3.2.6.20",
@@ -13970,7 +14070,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 440
+    "id": 442
   },
   {
     "code": "M3.3.5_1.1",
@@ -14002,7 +14102,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 441
+    "id": 443
   },
   {
     "code": "M3.3.5_1.2",
@@ -14034,7 +14134,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 442
+    "id": 444
   },
   {
     "code": "M3.3.5_1.3",
@@ -14066,7 +14166,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 443
+    "id": 445
   },
   {
     "code": "M3.3.5_1.4",
@@ -14098,7 +14198,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 444
+    "id": 446
   },
   {
     "code": "M3.3.5_1.5",
@@ -14130,7 +14230,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 445
+    "id": 447
   },
   {
     "code": "M4.1.2.5",
@@ -14162,7 +14262,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 446
+    "id": 448
   },
   {
     "code": "M4.1.5.7",
@@ -14194,7 +14294,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 447
+    "id": 449
   },
   {
     "code": "M4.2.1.4",
@@ -14350,7 +14450,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 448
+    "id": 450
   },
   {
     "code": "M1.2.3.6",
@@ -14382,7 +14482,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 449
+    "id": 451
   },
   {
     "code": "M1.3.3.16",
@@ -14414,7 +14514,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Reti, Internet e Cyber Security (M1)",
-    "id": 450
+    "id": 452
   },
   {
     "code": "M2.2.2.7",
@@ -14446,7 +14546,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 451
+    "id": 453
   },
   {
     "code": "M2.2.2.8",
@@ -14478,7 +14578,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 452
+    "id": 454
   },
   {
     "code": "M2.3.1.8",
@@ -14510,7 +14610,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 453
+    "id": 455
   },
   {
     "code": "M2.3.2.8",
@@ -14542,7 +14642,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Organizzazione e Gestione Aziendale (M2)",
-    "id": 454
+    "id": 456
   },
   {
     "code": "M3.2.1.24",
@@ -14574,7 +14674,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 455
+    "id": 457
   },
   {
     "code": "M3.2.1_1.6",
@@ -14606,7 +14706,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 456
+    "id": 458
   },
   {
     "code": "M3.2.3_1.5",
@@ -14638,7 +14738,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 457
+    "id": 459
   },
   {
     "code": "M3.2.6.34",
@@ -14670,7 +14770,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 458
+    "id": 460
   },
   {
     "code": "M4.1.1.19",
@@ -14702,7 +14802,7 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 459
+    "id": 461
   },
   {
     "code": "M4.2.3.11",
@@ -14734,38 +14834,26 @@ const QUIZ_QUESTIONS = [
       }
     ],
     "category": "Risk Management, Legal & Compliance (M4)",
-    "id": 460
+    "id": 462
   },
   {
     "code": "M3.4.6.3",
-    "question": "Cos'è una rete neurale artificiale?",
+    "question": "Cos'è una rete neurale artificiale? Sono strati di \"neuroni\" artificiali interconnessi  Sono modelli computazionali di intelligenza artificiale (IA) ispirati alla struttura del cervello umano  Sono reti di neuroni artificiali che per la natura della funzione che esercitano non richiedono grandi capacità di elaborazione  Sono una copia esatta del cervello umano  Sono modelli matematici che elaborano in maniera ponderata i vari input che rivevono  Sono reti di neuroni artificiali addestrate mediante la taratura dei parametri che propagano o meno il segnale (spike) ai neuroni successivi.  Esercizio 1",
     "options": [
       {
-        "option_text": "Sono strati di \"neuroni\" artificiali interconnessi",
-        "answer": true
-      },
-      {
-        "option_text": "Sono modelli computazionali di intelligenza artificiale (IA) ispirati alla struttura del cervello umano",
-        "answer": true
-      },
-      {
-        "option_text": "Sono reti di neuroni artificiali che per la natura della funzione che esercitano non richiedono grandi capacità di elaborazione",
+        "option_text": "Identificare correttamente, nello schema topologico in figura, i dispositivi rappresentati con le lettere: A. Router B. Firewall C. VPN D. Router E.Anomaly Detection F. Switch G. Switch H. Switch",
         "answer": false
       },
       {
-        "option_text": "Sono una copia esatta del cervello umano",
+        "option_text": "Qual è il nome dei segmenti di rete con collegamenti colorati in verde e arancione? VLAN",
         "answer": false
       },
       {
-        "option_text": "Sono modelli matematici che elaborano in maniera ponderata i vari input che rivevono",
-        "answer": true
-      },
-      {
-        "option_text": "Sono reti di neuroni artificiali addestrate mediante la taratura dei parametri che propagano o meno il segnale (spike) ai neuroni successivi.",
-        "answer": true
+        "option_text": "La presenza di due CED invece di uno Elimina il \"Single Point of Failure\" VERO Aiuta a gestire il Disaster Recovery e protegge meglio i dati VERO Aumenta la capacità di elaborazione complessiva senza aumentare troppo i costi FALSO Permette una ridondanza fisica se i due CED sono vicini tra di loro FALSO Esercizio 2 Un'azienda di produzione intende implementare alcuni System Requirement (SR) ANSI/ISA-62443 per innalzare la postura di sicurezza. Indicare quale delle seguenti affermazioni associate ai requisiti sono VERE o FALSE: L'identificatore (es. un nome utente, un ID di processo o un certificato digitale assegnato a un'entità) deve rimanere sempre associato all'entità fisica per tracciare le azioni; FALSO Il sistema di controllo deve fornire la capacità di supportare la gestione degli identificatori per utente, gruppo, ruolo o interfaccia del sistema di controllo.VERO Il sistema deve fornire la capacità di identificare in modo univoco non solo gli utenti umani, ma anche i processi software e i dispositivi.VEROSR 1.4 – Identifier management Indica che non è consentito un riutilizzo immediato dell'Identificatore subito dopo la disattivazione per evitare rischi di confusione o furto di identità all'interno dell'impianto industriale.FALSO Indica che le credenziali per l'accesso wireless possono essere condivise tra più utenti e dispositivi generici per velocizzare la manutenzione FALSO Indica che il sistema di controllo deve essere in grado di identificare e autenticare tutti gli utenti (persone, processi software o dispositivi) coinvolti nella comunicazione wireless.VERO Definisce che l'ambito di applicazione non è solo l'Wi-Fi aziendale, ma qualsiasi mezzo di comunicazione wireless industriale (es. Bluetooth, ZigBee, packet radio)VERO Indica che, poiché si tratta di reti senza fili, lo standard permette che i dispositivi e i processi software possano non essere autenticati quando si collegano in wireless FALSO Indica che il sistema di controllo, dopo aver verificato l'identità di un utente (persona, processo software o dispositivo), deve anche verificare che l'operazione richiesta sia effettivamente consentita in base alle policy e procedure di sicurezza definite VERO Prevede che il sistema di controllo debba fornire la capacità di applicare le autorizzazioni assegnate a tutti gli utenti umani per controllare l'uso del sistema di controllo, al fine di supportare la separazione dei doveri e il privilegio minimo VERO Prevede che i privilegi amministrativi completi (di default) non siano consentiti; le autorizzazioni concesse devono essere limitate a quelle necessarie per lo svolgimento della specifica mansione VERO Prevede che Il controllo delle autorizzazioni deve essere applicato su tutte le interfacce del sistema di controllo, non solo su quelle principali o dell'operatore. VERO Assicura che sia sempre possibile capire chi o cosa ha eseguito un'azione (es. l'utente specifico, il software o il dispositivo che l'ha originata)VERO Prevede che il sistema di controllo deve essere in grado di generare record di audit rilevanti per la sicurezza VERO Prevede che i singoli record di audit devono includere timestamp, origine (dispositivo di origine, processo software o account utente umano), categoria, tipo, ID evento e risultato dell'evento VERO Prevede registrazioni di audit per le seguenti categorie: controllo degli accessi, errori di richiesta, eventi del sistema operativo, eventi del sistema di controllo, eventi di backup e ripristino, modifiche alla configurazione, potenziali attività di ricognizione ed eventi del registro di audit VERO Richiede che il sistema di controllo fornisca data e ora esatte per l'uso nella generazione dei record di audit VERO Non richiede particolare accuratezza del dato, l'accuratezza dei timestamp è infatti irrilevante per le analisi di sicurezza FALSO Non richiede che i timestamp siano protetti se il file di log è archiviato in locale FALSO Può prevedere il requisito di miglioramento RE 1 \"Internal time synchronisation\" per mantenere allineati gli orari tra i diversi dispositivi del sistema.VERO Il requisito si concentra sulla protezione dell'integrità del firmware, del codice applicativo e dei dati sensibili del sistema VERO Il requisito si applica esclusivamente al firmware del dispositivo e non ai dati di configurazione FALSO Indica che l'utilizzo di firme digitali crittografiche sui pacchetti di aggiornamento è un metodo valido per soddisfare questo requisito VERO Indica il divieto categorico dell'utilizzo di software Open Source all'interno dei componenti industriali VERO Garantisce che le funzioni di sicurezza fisica o di controllo critico mantengano tempi di risposta prevedibili anche durante un attacco informatico VERO Indica che il requisito sia applicabile a tutti i componenti software aziendali (come i sistemi ERP)FALSO Stabilisce un tempo di risposta universale (es. inferiore a 10 millisecondi) che tutti i dispositivi industriali certificati devono rispettare",
+        "answer": false
       }
     ],
     "category": "Crittografia e Sicurezza dei Dati (M3)",
-    "id": 461
+    "id": 463
   }
 ];
