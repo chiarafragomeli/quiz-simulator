@@ -12445,7 +12445,11 @@ const QUIZ_QUESTIONS = [
     "question": "Secondo la direttiva NIS (Network and Information Security) il CSIRT Nazionale include i seguenti compiti:",
     "options": [
       {
-        "option_text": "Il monitoraggio degli incidenti a livello nazionale Vero 1. L’emissione di preallarmi, allerte, annunci e divulgazione di informazioni alle parti interessate in merito a rischi e incidenti",
+        "option_text": "Il monitoraggio degli incidenti a livello nazionale",
+        "answer": true
+      },
+      {
+        "option_text": "L’emissione di preallarmi, allerte, annunci e divulgazione di informazioni alle parti interessate in merito a rischi e incidenti",
         "answer": true
       },
       {
