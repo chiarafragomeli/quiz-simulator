@@ -481,9 +481,29 @@ class CyberQuestApp {
             return;
         }
         
-        // Draw random questions
-        available.sort(() => Math.random() - 0.5);
+        // Ensure seen tracking exists
+        if (!this.progress.seenInExam) {
+            this.progress.seenInExam = {};
+        }
+
+        // Sort prioritizing unseen questions, then randomize
+        available.sort((a, b) => {
+            const seenA = this.progress.seenInExam[a.id] ? 1 : 0;
+            const seenB = this.progress.seenInExam[b.id] ? 1 : 0;
+            if (seenA !== seenB) {
+                return seenA - seenB; // 0 (unseen) comes before 1 (seen)
+            }
+            return Math.random() - 0.5; // Randomize among ties
+        });
+        
         this.exam.questions = available.slice(0, count);
+        
+        // Mark selected questions as seen
+        this.exam.questions.forEach(q => {
+            this.progress.seenInExam[q.id] = true;
+        });
+        this.saveProgress();
+        
         this.exam.index = 0;
         this.exam.answers = {};
         
@@ -832,15 +852,25 @@ class CyberQuestApp {
             const userAns = this.exam.answers[q.id] || {};
             const qEl = document.createElement('div');
             
-            // Check if user got any wrong in this question (excluding blanks/non-rispondo)
+            // Calculate score for this question and check for errors
             let hasError = false;
+            let questionCorrectOpts = 0;
+            let questionWrongOpts = 0;
+            
             q.options.forEach((opt, optIdx) => {
                 const userVal = userAns[optIdx];
                 const correctVal = opt.answer ? 'VERO' : 'FALSO';
-                if (userVal !== undefined && userVal !== 'NON_RISPONDO' && userVal !== correctVal) {
+                if (userVal === correctVal) {
+                    questionCorrectOpts++;
+                } else if (userVal !== undefined && userVal !== 'NON_RISPONDO') {
                     hasError = true;
+                    questionWrongOpts++;
                 }
             });
+            
+            // Calculate points for this question based on current rules (+0.15 correct, -0.05 wrong)
+            let qPoints = (questionCorrectOpts * 0.15) - (questionWrongOpts * 0.05);
+            qPoints = Math.max(0, Math.min(1, qPoints));
             
             qEl.className = `review-q-item ${hasError ? 'has-error' : ''}`;
             
@@ -855,6 +885,9 @@ class CyberQuestApp {
             header.innerHTML = `
                 <span class="category-badge ${catClass}">${q.category.split(' ')[0]}</span>
                 <span class="question-code">${q.code}</span>
+                <span class="question-score" style="margin-left: 10px; font-weight: bold; color: var(--accent); background: rgba(0, 240, 255, 0.1); padding: 4px 8px; border-radius: 6px; font-size: 0.85rem; border: 1px solid rgba(0, 240, 255, 0.2);">
+                    Punti: ${qPoints.toFixed(2)} / 1.00
+                </span>
                 <button class="btn btn-secondary-outline btn-review-ai" style="margin-left: auto;" onclick="app.askGeminiExplanation(${q.id})">
                     <i class="fa-solid fa-wand-magic-sparkles"></i> Spiegazione AI ✨
                 </button>
