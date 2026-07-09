@@ -737,14 +737,15 @@ class CyberQuestApp {
         
         // Calculate points
         // Rule: each QUESTION is worth max 1 point.
-        // Within each question: +0.15 per correct option, -0.05 per wrong option, 0 for blank.
-        // Question score is clamped to [0, 1].
-        // Final grade = (totalPoints / numQuestions) * 30
+        // Official Exam Rules:
+        // +0.15 per correct option, -0.05 per wrong option, 0 for blank.
+        // No per-question clamping to 1. Total max for 30 questions (180 options) is 27 points.
         let totalPoints = 0;
         let correctCount = 0;
         let wrongCount = 0;
         let blankCount = 0;
         let totalOptionsChecked = 0;
+        let maxPossiblePoints = 0;
         
         this.exam.questions.forEach(q => {
             const userAns = this.exam.answers[q.id] || {};
@@ -754,7 +755,7 @@ class CyberQuestApp {
             let questionBlankOpts = 0;
             
             q.options.forEach((opt, optIdx) => {
-                const userVal = userAns[optIdx]; // 'VERO', 'FALSO' or undefined
+                const userVal = userAns[optIdx];
                 const correctVal = opt.answer ? 'VERO' : 'FALSO';
                 
                 if (userVal === undefined || userVal === 'NON_RISPONDO') {
@@ -771,20 +772,22 @@ class CyberQuestApp {
             });
             
             // Points for this question
-            let qPoints = 0;
-            qPoints += (questionCorrectOpts * 0.15);  // +0.15 per correct
-            qPoints -= (questionWrongOpts * 0.05);     // -0.05 per wrong
-            // blank = 0 (no change)
+            let qPoints = (questionCorrectOpts * 0.15) - (questionWrongOpts * 0.05);
             
-            // Clamp question score to [0, 1]
-            qPoints = Math.max(0, Math.min(1, qPoints));
+            // "la negatività è indicativamente di 0,05 ma viene ricalibrata in funzione del massimo qualificato"
+            // Usually this means a question cannot give a negative total. Let's clamp question score to 0.
+            qPoints = Math.max(0, qPoints);
+            
             totalPoints += qPoints;
+            maxPossiblePoints += (optCount * 0.15);
         });
         
-        // Final grade out of 30
-        // With 30 questions, totalPoints directly equals the grade
-        const numQuestions = this.exam.questions.length;
-        let rawGrade = (totalPoints / numQuestions) * 30;
+        // Final grade out of 30 calculation
+        // The real exam has 32 max points (27 from multiple choice + 5 from open questions).
+        // Since we only simulate the multiple choice part, we will scale the score to a /30 grade 
+        // proportionally to how well they did, so a perfect multiple choice (27/27) gives a 30/30 simulation grade.
+        let rawGrade = (totalPoints / maxPossiblePoints) * 30;
+        
         // Round to nearest 0.5
         rawGrade = Math.max(0, Math.round(rawGrade * 2) / 2);
         
@@ -795,6 +798,8 @@ class CyberQuestApp {
         const examSession = {
             date: new Date().toLocaleDateString('it-IT'),
             score: rawGrade,
+            rawPoints: totalPoints.toFixed(2),
+            maxRawPoints: maxPossiblePoints.toFixed(2),
             totalQuestions: this.exam.questions.length,
             correctCount: correctCount,
             wrongCount: wrongCount,
@@ -835,7 +840,7 @@ class CyberQuestApp {
         }
         
         // Stats grid
-        document.getElementById('res-score-val').textContent = `${examSession.score.toFixed(1)} / 30`;
+        document.getElementById('res-score-val').innerHTML = `${examSession.score.toFixed(1)} / 30 <br><small style="font-size: 0.65em; opacity: 0.7; font-weight: normal; margin-top: 4px; display: block;">Punti reali: ${examSession.rawPoints} / ${examSession.maxRawPoints}</small>`;
         document.getElementById('res-correct-options-val').textContent = examSession.correctCount;
         document.getElementById('res-wrong-options-val').textContent = examSession.wrongCount;
         document.getElementById('res-blank-options-val').textContent = examSession.blankCount;
@@ -870,7 +875,8 @@ class CyberQuestApp {
             
             // Calculate points for this question based on current rules (+0.15 correct, -0.05 wrong)
             let qPoints = (questionCorrectOpts * 0.15) - (questionWrongOpts * 0.05);
-            qPoints = Math.max(0, Math.min(1, qPoints));
+            qPoints = Math.max(0, qPoints); // Only clamp to 0 to prevent negative points
+            let maxQPoints = q.options.length * 0.15;
             
             qEl.className = `review-q-item ${hasError ? 'has-error' : ''}`;
             
@@ -886,7 +892,7 @@ class CyberQuestApp {
                 <span class="category-badge ${catClass}">${q.category.split(' ')[0]}</span>
                 <span class="question-code">${q.code}</span>
                 <span class="question-score" style="margin-left: 10px; font-weight: bold; color: var(--accent); background: rgba(0, 240, 255, 0.1); padding: 4px 8px; border-radius: 6px; font-size: 0.85rem; border: 1px solid rgba(0, 240, 255, 0.2);">
-                    Punti: ${qPoints.toFixed(2)} / 1.00
+                    Punti: ${qPoints.toFixed(2)} / ${maxQPoints.toFixed(2)}
                 </span>
                 <button class="btn btn-secondary-outline btn-review-ai" style="margin-left: auto;" onclick="app.askGeminiExplanation(${q.id})">
                     <i class="fa-solid fa-wand-magic-sparkles"></i> Spiegazione AI ✨
